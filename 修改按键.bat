@@ -1,0 +1,1 @@
+start notepad .\config\key.ini
