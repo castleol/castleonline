@@ -4,27 +4,27 @@
 		<Act Name="站立" Fly="1">
 			<Act Name="身体" Group="1" Fps="0" Swing_y="2" Speed="1.000"/>
 			<Act Name="右臂" Group="3" Begin="1" End="1" Loop="1" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
-			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
+			<Act Name="尾巴" Group="10" End="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
 			<Act Name="毛发" Group="7" Fps="5" Offs_x="-24" Offs_y="124" Swing_y="2" Speed="1.000"/>
 			<Act Name="狼头后" Group="5" Begin="2" Fps="0" Offs_x="68" Offs_y="104" Swing_x="2" Speed="0.800"/>
 			<Act Name="狼头中" Group="6" Offs_x="56" Offs_y="65" Swing_x="2" Speed="0.900"/>
 			<Act Name="狼头前" Group="5" Offs_x="3" Offs_y="85" Swing_x="2" Speed="1.000"/>
-			<Act Name="蛇身后" Group="8" End="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
-			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
-			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
+			<Act Name="蛇身后" Group="8" Begin="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" End="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" Begin="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
 		</Act>
-		<Act Name="死亡" Next="站立" Effect="海妖死亡" Time="3000" Start="-1" ColorEnd="0x10FFFFFF" Sound="6" Fly="1">
+		<Act Name="死亡" Next="站立" Effect="海妖死亡" State="14" Time="3000" Start="-1" ColorEnd="0x10FFFFFF" Sound="6" Fly="1">
 			<Act Name="身体" Group="2" Fps="0" Swing_y="1" Speed="10.000"/>
-			<Act Name="尾巴" Group="10" End="2" Loop="-1" Fps="20" Offs_x="-87" Offs_y="92"/>
+			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="20" Offs_x="-87" Offs_y="92"/>
 			<Act Name="毛发" Group="7" End="1" Fps="20" Offs_x="-24" Offs_y="124" Speed="1.000"/>
 			<Act Name="狼头后" Group="5" Begin="3" Fps="0" Offs_x="68" Offs_y="104" Swing_x="1" Swing_y="1" Speed="10.000"/>
 			<Act Name="狼头中" Group="6" Begin="1" Fps="0" Offs_x="56" Offs_y="65" Swing_y="1" Speed="10.000"/>
 			<Act Name="狼头前" Group="5" Begin="1" Fps="0" Offs_x="3" Offs_y="85" Swing_x="1" Speed="10.000"/>
-			<Act Name="蛇身后" Group="8" End="2" Loop="-1" Fps="20" Offs_x="205" Offs_y="283"/>
-			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="20" Offs_x="199" Offs_y="280"/>
-			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="20" Offs_x="29" Offs_y="264"/>
+			<Act Name="蛇身后" Group="8" Begin="2" Loop="-1" Fps="20" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" End="2" Loop="-1" Fps="20" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" Begin="2" Loop="-1" Fps="20" Offs_x="29" Offs_y="264"/>
 		</Act>
-		<Act Name="收招" Next="站立" Time="200" Fly="1">
+		<Act Name="收招" Next="站立" State="4" Time="200" Fly="1">
 			<Act Name="身体" Group="1" Begin="2" End="1" Loop="1" Swing_y="2" Speed="1.000"/>
 			<Act Name="右臂" Group="3" Begin="3" End="2" Loop="2" Offs_x="-4" Offs_y="-64" Swing_y="2" Speed="1.000"/>
 			<Act Name="尾巴" Group="10" End="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
@@ -36,7 +36,7 @@
 			<Act Name="蛇身中" Group="9" End="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
 			<Act Name="蛇身前" Group="11" Begin="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
 		</Act>
-		<Act Name="攻击1" Next="收招" Effect="海妖水泡升起" Time="1000" Sound="1" Fly="1">
+		<Act Name="攻击1" Next="收招" Effect="海妖水泡升起" State="4" Time="1000" Sound="1" Fly="1">
 			<Act Name="身体" Group="1" Begin="1" End="3" Loop="1" Swing_y="2" Speed="1.000"/>
 			<Act Name="右臂" Group="3" Begin="1" End="4" Loop="4" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
 			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
@@ -48,7 +48,7 @@
 			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
 			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
 		</Act>
-		<Act Name="攻击2" Next="攻击3" Effect="海妖水球聚气" Time="1000" Sound="1" Fly="1">
+		<Act Name="攻击2" Next="攻击3" Effect="海妖水球聚气" State="4" Time="1000" Sound="1" Fly="1">
 			<Act Name="身体" Group="1" Begin="1" End="3" Loop="1" Swing_y="2" Speed="1.000"/>
 			<Act Name="右臂" Group="3" Begin="5" End="7" Loop="7" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
 			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
@@ -60,7 +60,7 @@
 			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
 			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
 		</Act>
-		<Act Name="攻击3" Next="收招" Time="1000" Sound="2" Fly="1">
+		<Act Name="攻击3" Next="收招" State="4" Time="1000" Sound="2" Fly="1">
 			<Act Name="左臂" Group="4" End="2" Loop="2" Offs_x="6" Offs_y="-66" Swing_y="2" Speed="1.000"/>
 			<Act Name="身体" Group="1" Begin="5" End="1" Loop="-1" Swing_y="2" Speed="1.000"/>
 			<Act Name="右臂" Group="3" Begin="2" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
@@ -73,7 +73,7 @@
 			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
 			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
 		</Act>
-		<Act Name="攻击4" Next="站立" Effect="海妖落石攻击" Fps="5" Time="2000" Sound="5" Fly="1">
+		<Act Name="攻击4" Next="站立" Effect="海妖落石攻击" State="4" Fps="5" Time="2000" Sound="5" Fly="1">
 			<Act Name="左臂" Group="4" End="2" Loop="2" Offs_x="6" Offs_y="-66" Swing_y="2" Speed="1.000"/>
 			<Act Name="身体" Group="1" Begin="1" End="5" Loop="-1" Swing_y="2" Speed="1.000"/>
 			<Act Name="右臂" Group="3" Begin="2" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
@@ -86,7 +86,7 @@
 			<Act Name="蛇身中" Group="9" End="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
 			<Act Name="蛇身前" Group="11" Begin="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
 		</Act>
-		<Act Name="攻击5" Next="站立" Effect="海妖狗头攻击" Time="1000" Sound="4" Fly="1">
+		<Act Name="攻击5" Next="站立" Effect="海妖狗头攻击" State="4" Time="1000" Sound="4" Fly="1">
 			<Act Name="身体" Group="1" Fps="0" Swing_y="2" Speed="1.000"/>
 			<Act Name="右臂" Group="3" Begin="1" End="1" Loop="1" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
 			<Act Name="尾巴" Group="10" End="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
@@ -98,7 +98,7 @@
 			<Act Name="蛇身中" Group="9" End="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
 			<Act Name="蛇身前" Group="11" Begin="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
 		</Act>
-		<Act Name="攻击6" Next="站立" Effect="海妖狗头攻击" Time="1000" Sound="4" Fly="1">
+		<Act Name="攻击6" Next="站立" Effect="海妖狗头攻击" State="4" Time="1000" Sound="4" Fly="1">
 			<Act Name="身体" Group="1" Fps="0" Swing_y="2" Speed="1.000"/>
 			<Act Name="右臂" Group="3" Begin="1" End="1" Loop="1" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
 			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
