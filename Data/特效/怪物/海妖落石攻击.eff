@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="165" Pos_y="1" Size_x="603" Size_y="35" Random="1" EmitInter="1000" EmitTime="2000" Pic="海妖" Group="15" Filter="0x0" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="1" ItemLife="2000" ItemScale="1.500" AddSpeedY="1000.000" Follow="3" HitType="2" Destroy="1" Magic="1" TrailColor="0xFF8080FF"/>
+	<Item Pos_x="166" Pos_y="1" Size_x="608" Size_y="35" Random="1" EmitInter="500" EmitTime="2000" Pic="海妖" Group="15" Frame="1" Filter="0x0" ItemSize_x="16" ItemSize_y="16" ItemHot_x="8" ItemHot_y="8" ItemFrame="1" ItemLife="2000" ItemScale="2.000" AddSpeedY="1000.000" Follow="3" HitType="2" Destroy="1" Magic="1" TrailColor="0xFF8080FF"/>
+	<Item Pos_x="163" Size_x="609" Size_y="35" Random="1" EmitInter="300" EmitTime="1500" Pic="海妖" Group="15" Frame="2" Filter="0x0" ItemSize_x="16" ItemSize_y="16" ItemHot_x="8" ItemHot_y="8" ItemFrame="1" ItemLife="2000" ItemScale="2.000" AddSpeedY="1000.000" Follow="3" HitType="2" Destroy="1" Magic="1" TrailColor="0xFF8080FF"/>
+	<Item Pos_x="164" Size_x="605" Size_y="35" Random="1" EmitInter="800" EmitTime="2000" Pic="海妖" Group="15" Frame="3" Filter="0x0" ItemSize_x="32" ItemSize_y="16" ItemHot_x="16" ItemHot_y="8" ItemFrame="1" ItemLife="2000" ItemScale="2.000" AddSpeedY="1000.000" Follow="3" HitType="2" Destroy="1" Magic="1" TrailColor="0xFF8080FF"/>
+</Effect>

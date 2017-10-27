@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="2925">
+	<Tile>
+		<Item Size_x="800" Size_y="1400" Pic="\Image\地图\焉道\焉道04-6.bmp" Pic_right="224" Pic_bottom="531" ColorKey="0xFF800000" DeltaY="0.300"/>
+		<Item Size_x="800" Size_y="621" Pic="\Image\地图\焉道\焉道04-1.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+		<Item Pos_y="621" Size_x="800" Size_y="621" Pic="\Image\地图\焉道\焉道04-2.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+		<Item Pos_y="1242" Size_x="800" Size_y="621" Pic="\Image\地图\焉道\焉道04-3.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+		<Item Pos_y="1863" Size_x="800" Size_y="621" Pic="\Image\地图\焉道\焉道04-4.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+		<Item Pos_y="2484" Size_x="800" Size_y="441" Pic="\Image\地图\焉道\焉道04-5.bmp" Pic_right="256" Pic_bottom="147" ColorKey="0xFF800000"/>
+		<Item Pos_x="324" Pos_y="1848" Size_x="326" Size_y="240" Pic="\Image\地图\焉道\焉道04-8.bmp" Pic_right="128" Pic_bottom="80" ColorKey="0xFF800000"/>
+		<Item Pos_x="503" Pos_y="613" Size_x="45" Size_y="48" Pic="\Image\地图\焉道\焉道10-6.bmp" Pic_right="16" Pic_bottom="16" ColorKey="0xFF800000" Flip="1" Obst="1"/>
+		<Item Pos_x="223" Pos_y="2244" Size_x="58" Size_y="48" Pic="\Image\地图\焉道\焉道10-6.bmp" Pic_right="16" Pic_bottom="16" ColorKey="0xFF800000" Flip="1" Obst="1"/>
+		<Item Pos_x="293" Pos_y="2509" Size_x="58" Size_y="48" Pic="\Image\地图\焉道\焉道10-6.bmp" Pic_right="16" Pic_bottom="16" ColorKey="0xFF800000" Flip="1" Obst="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="657" Pos_y="216" Size_x="143" Size_y="192" Pic="\image\地图\焉道\物件.bmp" Pic_left="208" Pic_top="192" Pic_right="256" Pic_bottom="256" ColorKey="0x80" Obst="1" Id="1" Type="3" Time="3000" Sound="\sound\场景\机关02.wav" EndPos_x="850" EndPos_y="216"/>
+		<Item Pos_x="684" Pos_y="50" Size_x="35" Size_y="47" Pic="\image\地图\焉道\物件.bmp" Pic_left="160" Pic_top="9" Pic_right="171" Pic_bottom="24" ColorKey="0x80" Obst="1" Fps="10" Id="2" Type="4" Damage="1" Effect="\data\特效\爆炸\003.eff" Sound="\sound\场景\机关03.wav" Script="\data\脚本\地图机关\焉道04.lua" TaskId="1"/>
+	</Anim>
+	<Obst>
+		<Item Size_x="100" Size_y="216" Obst="1"/>
+		<Item Pos_x="71" Pos_y="61" Size_x="355" Size_y="58" Obst="1"/>
+		<Item Pos_x="444" Pos_y="135" Size_x="356" Size_y="81" Obst="1"/>
+		<Item Pos_y="408" Size_x="150" Size_y="58" Obst="1"/>
+		<Item Pos_x="600" Pos_y="408" Size_x="200" Size_y="97" Obst="1"/>
+		<Item Pos_x="408" Pos_y="108" Size_x="64" Size_y="78" Obst="1"/>
+		<Item Pos_x="372" Pos_y="97" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="64" Pos_y="90" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="148" Pos_y="454" Size_x="251" Size_y="109" Obst="4"/>
+		<Item Pos_x="294" Pos_y="564" Size_x="106" Size_y="84" Obst="1"/>
+		<Item Pos_y="537" Size_x="50" Size_y="655" Obst="1"/>
+		<Item Pos_x="36" Pos_y="543" Size_x="64" Size_y="172" Obst="1"/>
+		<Item Pos_x="83" Pos_y="541" Size_x="228" Size_y="58" Obst="1"/>
+		<Item Pos_x="65" Pos_y="571" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="268" Pos_y="571" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="700" Pos_y="456" Size_x="64" Size_y="165" Obst="1"/>
+		<Item Pos_x="750" Pos_y="589" Size_x="50" Size_y="283" Obst="1"/>
+		<Item Pos_x="676" Pos_y="477" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="625" Pos_y="792" Size_x="127" Size_y="58" Obst="1"/>
+		<Item Pos_x="426" Pos_y="792" Size_x="201" Size_y="96" Obst="5"/>
+		<Item Pos_x="300" Pos_y="885" Size_x="132" Size_y="63" Obst="5"/>
+		<Item Pos_x="300" Pos_y="948" Size_x="63" Size_y="84" Obst="1"/>
+		<Item Pos_x="385" Pos_y="924" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="359" Pos_y="943" Size_x="36" Size_y="58" Obst="1"/>
+		<Item Pos_x="445" Pos_y="885" Size_x="108" Size_y="51" Obst="1"/>
+		<Item Pos_x="626" Pos_y="829" Size_x="110" Size_y="58" Obst="1"/>
+		<Item Pos_x="700" Pos_y="861" Size_x="100" Size_y="369" Obst="1"/>
+		<Item Pos_x="522" Pos_y="852" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="662" Pos_y="861" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="750" Pos_y="1188" Size_x="51" Size_y="450" Obst="1"/>
+		<Item Pos_x="650" Pos_y="1560" Size_x="111" Size_y="120" Obst="1"/>
+		<Item Pos_x="700" Pos_y="1672" Size_x="101" Size_y="1093" Obst="1"/>
+		<Item Pos_x="550" Pos_y="1944" Size_x="157" Size_y="58" Obst="1"/>
+		<Item Pos_x="594" Pos_y="1981" Size_x="138" Size_y="58" Obst="1"/>
+		<Item Pos_x="650" Pos_y="2388" Size_x="64" Size_y="57" Obst="1"/>
+		<Item Pos_x="675" Pos_y="2376" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="386" Pos_y="2064" Size_x="64" Size_y="70" Obst="1"/>
+		<Item Pos_x="324" Pos_y="2031" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="324" Pos_y="1848" Size_x="327" Size_y="181" Obst="5"/>
+		<Item Pos_x="650" Pos_y="2757" Size_x="64" Size_y="139" Obst="1"/>
+		<Item Pos_x="650" Pos_y="2698" Size_x="64" Size_y="58" Obst="5"/>
+		<Item Pos_x="500" Pos_y="2856" Size_x="50" Size_y="46" Obst="5"/>
+		<Item Pos_x="500" Pos_y="2904" Size_x="64" Size_y="21" Obst="1"/>
+		<Item Pos_x="551" Pos_y="2856" Size_x="116" Size_y="58" Obst="1"/>
+		<Item Pos_y="1627" Size_x="50" Size_y="1182" Obst="1"/>
+		<Item Pos_x="86" Pos_y="1140" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="41" Pos_y="1128" Size_x="84" Size_y="58" Obst="1"/>
+		<Item Pos_x="149" Pos_y="1176" Size_x="350" Size_y="157" Obst="4"/>
+		<Item Pos_x="86" Pos_y="1297" Size_x="64" Size_y="363" Obst="1"/>
+		<Item Pos_x="436" Pos_y="1333" Size_x="64" Size_y="82" Obst="1"/>
+		<Item Pos_x="27" Pos_y="1605" Size_x="64" Size_y="120" Obst="1"/>
+		<Item Pos_x="58" Pos_y="1633" Size_x="64" Size_y="58" Obst="1"/>
+		<Item Pos_x="49" Pos_y="2278" Size_x="51" Size_y="16" Obst="4"/>
+		<Item Pos_x="36" Pos_y="2296" Size_x="64" Size_y="93" Obst="1"/>
+		<Item Pos_x="172" Pos_y="2712" Size_x="128" Size_y="64" Obst="4"/>
+		<Item Pos_x="41" Pos_y="2712" Size_x="132" Size_y="58" Obst="1"/>
+		<Item Pos_x="236" Pos_y="2776" Size_x="64" Size_y="148" Obst="1"/>
+		<Item Pos_x="350" Pos_y="2425" Size_x="100" Size_y="42" Obst="5"/>
+		<Item Pos_x="350" Pos_y="2467" Size_x="87" Size_y="43" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-47" Pos_y="220" Size_x="54" Size_y="184" Id="1" Map="焉道03" MapPos_x="1600" MapPos_y="394"/>
+		<Item Pos_x="794" Pos_y="219" Size_x="57" Size_y="186" Id="2" Map="焉道05" MapPos_y="394"/>
+		<Item Pos_x="300" Pos_y="2903" Size_x="200" Size_y="51" Id="3" Map="焉道08" MapPos_x="1060" MapPos_y="50"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="158" Pos_y="738" Size_x="84" Size_y="110" Id="1" Char="瑟兰祭祀"/>
+		<Item Pos_x="257" Pos_y="1657" Size_x="84" Size_y="110" Id="2" Char="瑟兰祭祀"/>
+		<Item Pos_x="513" Pos_y="2257" Size_x="84" Size_y="110" Id="3" Char="瑟兰祭祀" Left="1"/>
+		<Item Pos_x="513" Pos_y="1085" Size_x="84" Size_y="110" Id="4" Char="瑟兰祭祀" Left="1"/>
+	</Char>
+</Map>

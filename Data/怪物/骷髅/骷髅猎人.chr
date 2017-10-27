@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\骷髅\骷髅猎人.bmp" ColorKey="0xFF008000" Size_x="32" Size_y="80" Scale="2.000" Flip="1" Shadow="1" HitEffect="闪光01">
+	<Action Num="6">
+		<Act Name="站立" Group="4" End="5"/>
+		<Act Name="转身" Group="4" Next="站立" Flip="1"/>
+		<Act Name="移动" State="1" Group="4" End="5" Speed_x="50"/>
+		<Act Name="攻击" State="4" Group="6" End="3" Fps="15" Start="2" Sound="1" Next="站立" Speed_x="200" AddSpeed_x="400"/>
+		<Act Name="死亡" State="14" Time="100" Effect="骷髅猎人死亡"/>
+		<Act Name="摇鞭" State="4" Group="5" End="3" Fps="15" Time="500" Sound="2" Next="攻击"/>
+	</Action>
+	<Rect Num="8">
+		<Rect Name="摇鞭" Rect_left="-66" Rect_top="-97" Rect_right="-25" Rect_bottom="-66"/>
+		<Rect Name="摇鞭" Frame="1" Rect_left="-34" Rect_top="-76" Rect_right="37" Rect_bottom="-50"/>
+		<Rect Name="摇鞭" Frame="2" Rect_left="12" Rect_top="-106" Rect_right="49" Rect_bottom="-62"/>
+		<Rect Name="摇鞭" Frame="3" Rect_left="-58" Rect_top="-110" Rect_right="17" Rect_bottom="-84"/>
+		<Rect Name="攻击" Rect_left="-68" Rect_top="-99" Rect_right="-12" Rect_bottom="-56"/>
+		<Rect Name="攻击" Frame="1" Rect_left="29" Rect_top="-113" Rect_right="107" Rect_bottom="-27"/>
+		<Rect Name="攻击" Frame="2" Rect_left="41" Rect_top="-43" Rect_right="133" Rect_bottom="-1"/>
+		<Rect Name="攻击" Frame="3" Rect_left="44" Rect_top="-31" Rect_right="150" Rect_bottom="1"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\角色\里希特\武器1.wav"/>
+		<Snd Id="2" File="\sound\角色\里希特\摇鞭1.wav"/>
+	</Sound>
+	<Image Num="30">
+		<Img Group="1" Pos_x="1" Pos_y="3" Size_x="40" Size_y="24" Hot_x="20" Hot_y="24"/>
+		<Img Group="1" Frame="1" Pos_x="41" Pos_y="3" Size_x="45" Size_y="24" Hot_x="20" Hot_y="24"/>
+		<Img Group="1" Frame="2" Pos_x="86" Pos_y="3" Size_x="43" Size_y="24" Hot_x="20" Hot_y="24"/>
+		<Img Group="2" Pos_x="135" Pos_y="3" Size_x="43" Size_y="24" Hot_x="22" Hot_y="24"/>
+		<Img Group="2" Frame="1" Pos_x="182" Pos_y="3" Size_x="41" Size_y="24" Hot_x="22" Hot_y="24"/>
+		<Img Group="3" Pos_x="1" Pos_y="30" Size_x="44" Size_y="27" Hot_x="21" Hot_y="27"/>
+		<Img Group="3" Frame="1" Pos_x="45" Pos_y="30" Size_x="49" Size_y="27" Hot_x="21" Hot_y="27"/>
+		<Img Group="3" Frame="2" Pos_x="94" Pos_y="30" Size_x="43" Size_y="27" Hot_x="21" Hot_y="27"/>
+		<Img Group="3" Frame="3" Pos_x="137" Pos_y="30" Size_x="46" Size_y="27" Hot_x="21" Hot_y="27"/>
+		<Img Group="3" Frame="4" Pos_x="183" Pos_y="30" Size_x="46" Size_y="27" Hot_x="21" Hot_y="27"/>
+		<Img Group="4" Pos_y="63" Size_x="31" Size_y="42" Hot_x="16" Hot_y="41"/>
+		<Img Group="4" Frame="1" Pos_x="31" Pos_y="63" Size_x="31" Size_y="42" Hot_x="17" Hot_y="41"/>
+		<Img Group="4" Frame="2" Pos_x="62" Pos_y="63" Size_x="31" Size_y="43" Hot_x="17" Hot_y="41"/>
+		<Img Group="4" Frame="3" Pos_x="93" Pos_y="63" Size_x="33" Size_y="43" Hot_x="17" Hot_y="41"/>
+		<Img Group="4" Frame="4" Pos_x="126" Pos_y="63" Size_x="33" Size_y="43" Hot_x="17" Hot_y="41"/>
+		<Img Group="4" Frame="5" Pos_x="159" Pos_y="63" Size_x="33" Size_y="44" Hot_x="17" Hot_y="41"/>
+		<Img Group="5" Pos_x="1" Pos_y="114" Size_x="54" Size_y="52" Hot_x="20" Hot_y="52"/>
+		<Img Group="5" Frame="1" Pos_x="55" Pos_y="114" Size_x="48" Size_y="52" Hot_x="25" Hot_y="52"/>
+		<Img Group="5" Frame="2" Pos_x="103" Pos_y="114" Size_x="42" Size_y="52" Hot_x="26" Hot_y="52"/>
+		<Img Group="5" Frame="3" Pos_x="147" Pos_y="111" Size_x="54" Size_y="55" Hot_x="24" Hot_y="55"/>
+		<Img Group="6" Pos_y="175" Size_x="67" Size_y="52" Hot_x="22" Hot_y="52"/>
+		<Img Group="6" Frame="1" Pos_x="67" Pos_y="170" Size_x="69" Size_y="57" Hot_x="56" Hot_y="57"/>
+		<Img Group="6" Frame="2" Pos_x="142" Pos_y="170" Size_x="80" Size_y="57" Hot_x="67" Hot_y="57"/>
+		<Img Group="6" Frame="3" Time="300" Pos_y="231" Size_x="89" Size_y="41" Hot_x="75" Hot_y="41"/>
+		<Img Group="7" Pos_x="205" Pos_y="61" Size_x="14" Size_y="13" Hot_x="6" Hot_y="6"/>
+		<Img Group="7" Frame="1" Pos_x="193" Pos_y="78" Size_x="18" Size_y="10" Hot_x="9" Hot_y="5"/>
+		<Img Group="7" Frame="2" Pos_x="226" Pos_y="64" Size_x="12" Size_y="18" Hot_x="6" Hot_y="9"/>
+		<Img Group="7" Frame="3" Pos_x="212" Pos_y="74" Size_x="14" Size_y="14" Hot_x="7" Hot_y="7"/>
+		<Img Group="7" Frame="4" Pos_x="205" Pos_y="91" Size_x="16" Size_y="15" Hot_x="8" Hot_y="7"/>
+		<Img Group="7" Frame="5" Pos_x="223" Pos_y="90" Size_x="12" Size_y="18" Hot_x="5" Hot_y="6"/>
+	</Image>
+</Char>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\地下水脉\水脉房间06.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFFFF00FF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="273" Pos_y="261" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="1" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="477" Pos_y="267" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="153" Pos_y="318" Size_x="22" Size_y="56" Pic="\Image\地图\地下水脉\水脉物件开关.bmp" Pic_right="22" Pic_bottom="56" ColorKey="0xFFFF00FF" Obst="1" Id="3" Type="5" Time="1000" Sound="\sound\场景\机关02.wav" Script="\data\脚本\地图机关\水脉房间06.lua" EndSize_y="56"/>
+		<Item Pos_x="153" Pos_y="395" Size_x="497" Size_y="39" Pic="\Image\地图\地下水脉\水脉物件木板.bmp" Pic_right="160" Pic_bottom="16" ColorKey="0xFFFF00FF" Obst="1" Id="4" Damage="100" Script="\data\脚本\破坏墙壁\水脉房间06.lua" TaskId="1"/>
+		<Item Pos_x="384" Pos_y="454" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="5" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" TaskId="12" Item="生命上限"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="153" Pos_y="443" Size_x="53" Size_y="44" Obst="4"/>
+		<Item Pos_x="114" Pos_y="174" Size_x="686" Size_y="49" Obst="1"/>
+		<Item Pos_x="115" Pos_y="225" Size_x="38" Size_y="279" Obst="1"/>
+		<Item Pos_x="154" Pos_y="487" Size_x="149" Size_y="43" Obst="1"/>
+		<Item Pos_x="301" Pos_y="487" Size_x="57" Size_y="46" Obst="4"/>
+		<Item Pos_x="277" Pos_y="533" Size_x="286" Size_y="43" Obst="1"/>
+		<Item Pos_x="359" Pos_y="487" Size_x="83" Size_y="47" Obst="2"/>
+		<Item Pos_x="497" Pos_y="487" Size_x="53" Size_y="46" Obst="5"/>
+		<Item Pos_x="550" Pos_y="487" Size_x="100" Size_y="43" Obst="1"/>
+		<Item Pos_x="650" Pos_y="395" Size_x="150" Size_y="93" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="796" Pos_y="270" Size_x="43" Size_y="125" Id="1" Map="水脉通道09" MapPos_y="272"/>
+	</Trap>
+	<Char/>
+</Map>

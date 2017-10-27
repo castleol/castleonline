@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\焉道\焉道11.bmp" Pic_right="255" Pic_bottom="207" ColorKey="0xFF800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="183" Pos_y="222" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="1" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" TaskId="3" Item="生命上限"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="596" Pos_y="83" Size_x="204" Size_y="126" Obst="1"/>
+		<Item Pos_x="445" Pos_y="35" Size_x="188" Size_y="127" Obst="1"/>
+		<Item Pos_x="29" Pos_y="38" Size_x="460" Size_y="32" Obst="1"/>
+		<Item Pos_x="42" Pos_y="32" Size_x="58" Size_y="317" Obst="1"/>
+		<Item Pos_x="209" Pos_y="301" Size_x="193" Size_y="53" Obst="1"/>
+		<Item Pos_x="653" Pos_y="394" Size_x="147" Size_y="142" Obst="1"/>
+		<Item Pos_x="207" Pos_y="487" Size_x="474" Size_y="32" Obst="1"/>
+		<Item Pos_x="243" Pos_y="344" Size_x="58" Size_y="178" Obst="1"/>
+		<Item Pos_x="57" Pos_y="255" Size_x="200" Size_y="66" Obst="1"/>
+		<Item Pos_x="137" Pos_y="61" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="94" Pos_y="80" Size_x="67" Size_y="32" Obst="1"/>
+		<Item Pos_x="85" Pos_y="105" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="360" Pos_y="63" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="393" Pos_y="85" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="411" Pos_y="116" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="559" Pos_y="157" Size_x="57" Size_y="39" Obst="1"/>
+		<Item Pos_x="99" Pos_y="207" Size_x="58" Size_y="48" Obst="4"/>
+		<Item Pos_x="257" Pos_y="262" Size_x="46" Size_y="39" Obst="4"/>
+		<Item Pos_x="333" Pos_y="336" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="308" Pos_y="355" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="291" Pos_y="379" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="261" Pos_y="400" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="597" Pos_y="440" Size_x="56" Size_y="47" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="795" Pos_y="211" Size_x="52" Size_y="180" Id="1" Map="焉道10" MapPos_y="2712"/>
+	</Trap>
+	<Char/>
+</Map>

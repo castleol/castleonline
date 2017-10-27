@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\角色\玛丽亚\maria.bmp" ColorKey="0xFF" Size_x="32" Size_y="90" Scale="2.000" TrailTime="5" TrailFade="10" TrailColor="0xFF4040FF" Shadow="1" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="45">
+		<Act Name="站立" Next="休闲站立" Group="4" End="9" Time="3000"/>
+		<Act Name="休闲站立" Group="4" End="9"/>
+		<Act Name="转身" Next="站立" Group="1" Flip="1"/>
+		<Act Name="蹲下" Next="蹲地" State="2" Group="2" Fps="15" Size_x="32" Size_y="50"/>
+		<Act Name="站起" Next="站立" Group="2" Fps="15" Size_x="32" Size_y="50"/>
+		<Act Name="蹲地" State="2" Group="2" Begin="1" End="3" Loop="3" Start="1" Size_x="32" Size_y="50"/>
+		<Act Name="蹲地转身" Next="蹲地" State="2" Group="2" Begin="1" End="1" Size_x="32" Size_y="50" Flip="1"/>
+		<Act Name="缓移" State="1" Group="3" End="19" Loop="5" Fps="20" Speed_x="100"/>
+		<Act Name="移动" State="1" Group="3" End="19" Loop="4" Fps="40" Speed_x="200"/>
+		<Act Name="急停" Next="站住" State="1" Group="6" End="5" Loop="5" Fps="20" Speed_x="200" AddSpeed_x="1200"/>
+		<Act Name="站住" Next="站立" Group="5" End="3"/>
+		<Act Name="后退" Next="下落" State="3" Group="25" End="10" Loop="10" Fps="20" Time="500" Sound="3" Speed_x="-400" Speed_y="-400" AddSpeed_x="400" AddSpeed_y="1200"/>
+		<Act Name="起跳" Next="跳跃" Group="2" Fps="20" Speed_x="-1" Speed_y="-1"/>
+		<Act Name="跳跃" State="3" Group="7" End="2" Loop="2" Fps="15" Speed_x="-1" Speed_y="-600" AddSpeed_x="1000" AddSpeed_y="1200"/>
+		<Act Name="下落" State="3" Group="9" End="7" Loop="4" Fps="15" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
+		<Act Name="落地" Next="蹲下" Group="2" Fps="15" Sound="5" Size_x="32" Size_y="50"/>
+		<Act Name="向前跳跃" State="3" Group="8" End="3" Loop="3" Fps="15" Speed_x="-1" Speed_y="-1" AddSpeed_x="500" AddSpeed_y="1200"/>
+		<Act Name="向前下落" State="3" Group="9" End="7" Loop="4" Fps="15" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
+		<Act Name="空中跳跃" State="3" Group="21" End="10" Loop="3" Fps="20" Speed_x="-1" Speed_y="-500" AddSpeed_x="-1" AddSpeed_y="1200"/>
+		<Act Name="受伤落地" Next="站起" State="12" Group="2" Fps="20" Time="300" Sound="5"/>
+		<Act Name="站立受伤前" Next="站立" State="10" Group="14" End="3" Loop="3" Fps="20" Time="500" Sound="1" Speed_x="-400" AddSpeed_x="1000"/>
+		<Act Name="站立受伤后" Next="站立" State="10" Group="14" End="3" Loop="3" Fps="20" Time="500" Sound="1" Speed_x="400" AddSpeed_x="1000"/>
+		<Act Name="蹲地受伤前" Next="蹲地" State="11" Group="15" End="3" Loop="3" Fps="20" Time="500" Sound="1" Speed_x="-400" AddSpeed_x="1000" Size_x="32" Size_y="50"/>
+		<Act Name="蹲地受伤后" Next="蹲地" State="11" Group="15" End="3" Loop="3" Fps="20" Time="500" Sound="1" Speed_x="400" AddSpeed_x="1000" Size_x="32" Size_y="50"/>
+		<Act Name="空中受伤前" State="12" Group="16" End="1" Loop="1" Fps="20" Sound="1" Speed_x="-400" Speed_y="-400" AddSpeed_x="400" AddSpeed_y="1200"/>
+		<Act Name="空中受伤后" State="12" Group="16" End="1" Loop="1" Fps="20" Sound="1" Speed_x="400" Speed_y="-400" AddSpeed_x="400" AddSpeed_y="1200"/>
+		<Act Name="死亡" Next="消失" Effect="玛丽亚死亡" State="13" Group="20" End="2" Loop="2" Time="1000" Sound="6" Speed_x="-400" Speed_y="-500" AddSpeed_x="400" AddSpeed_y="1200"/>
+		<Act Name="站立攻击" Next="站立" Effect="玛丽亚火球" State="4" Group="11" End="3" Fps="12" Start="2" Sound="3" Speed_x="-1" AddSpeed_x="1000"/>
+		<Act Name="蹲地攻击" Next="蹲地" Effect="玛丽亚火球" State="5" Group="12" End="2" Start="1" Sound="3" Size_x="32" Size_y="50"/>
+		<Act Name="空中攻击" Next="下落" Effect="玛丽亚火球" State="6" Group="13" End="2" Start="1" Sound="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
+		<Act Name="站立投掷" Next="站立" State="4" Group="11" End="3" Fps="12" Start="2" Sound="3"/>
+		<Act Name="蹲地投掷" Next="蹲地" State="5" Group="12" End="2" Start="1" Sound="3" Size_x="32" Size_y="50"/>
+		<Act Name="空中投掷" Next="下落" State="6" Group="13" End="2" Start="1" Sound="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
+		<Act Name="滑铲" Next="蹲地" Effect="滑铲01" State="5" Group="10" End="1" Loop="1" Time="500" Speed_x="500" AddSpeed_x="500" Size_x="32" Size_y="50"/>
+		<Act Name="空中急冲" Next="下落" State="3" Group="22" End="3" Fps="20" Time="500" Start="-1" Sound="3" Speed_x="600" AddSpeed_x="500" AddSpeed_y="1"/>
+		<Act Name="空中滑翔" Next="下落" State="3" Group="24" End="4" Fps="20" Time="500" Speed_x="200" Speed_y="50" AddSpeed_y="1"/>
+		<Act Name="空中下落攻击" Next="下落" Effect="玛丽亚火球" State="6" Group="13" End="2" Start="1" Sound="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
+		<Act Name="空中斜下攻击" Next="下落" Effect="玛丽亚火球斜下" State="6" Group="13" End="2" Start="1" Sound="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
+		<Act Name="高空落地" Effect="落地01" State="2" Group="2" End="3" Loop="3" Fps="20" Time="200" Sound="5" Speed_x="-1" AddSpeed_x="1000" Size_x="32" Size_y="50"/>
+		<Act Name="消失" State="14" Group="20" Begin="2" End="2" Loop="2" Time="1000" Start="2"/>
+		<Act Name="空中下踢" State="6" Group="17" Fps="20" Time="500" Sound="3" Speed_y="600" AddSpeed_y="1200"/>
+		<Act Name="空中侧踢" State="6" Group="17" Fps="20" Time="500" Sound="3" Speed_x="300" Speed_y="600" AddSpeed_y="1200"/>
+		<Act Name="三倍跳跃" Effect="大跳光柱" State="3" Group="7" End="2" Loop="2" Fps="15" Speed_y="-1000" AddSpeed_y="1200"/>
+		<Act Name="五倍跳跃" State="3" Group="7" End="2" Loop="2" Fps="15" Speed_y="-1400" AddSpeed_y="1200"/>
+		<Act Name="蹲地斜下攻击" Next="蹲地" Effect="玛丽亚火球" State="5" Group="12" End="2" Start="1" Sound="3" Size_x="32" Size_y="50"/>
+	</Action>
+	<Rect Num="2">
+		<Rect Name="空中侧踢" Rect_left="-4" Rect_top="-34" Rect_right="24"/>
+		<Rect Name="空中下踢" Rect_left="-2" Rect_top="-30" Rect_right="22"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="11">
+		<Snd Id="1" File="\Sound\角色\玛丽亚\受伤1.wav"/>
+		<Snd Id="1" File="\Sound\角色\玛丽亚\受伤2.wav"/>
+		<Snd Id="2" File="\Sound\角色\玛丽亚\武器1.wav"/>
+		<Snd Id="2" File="\Sound\角色\玛丽亚\武器2.wav"/>
+		<Snd Id="3" File="\Sound\角色\玛丽亚\攻击1.wav"/>
+		<Snd Id="3" File="\Sound\角色\玛丽亚\攻击2.wav"/>
+		<Snd Id="3" File="\Sound\角色\玛丽亚\攻击3.wav"/>
+		<Snd Id="3" File="\Sound\角色\玛丽亚\攻击4.wav"/>
+		<Snd Id="5" File="\Sound\角色\玛丽亚\落地1.wav"/>
+		<Snd Id="6" File="\Sound\角色\玛丽亚\死亡1.wav"/>
+		<Snd Id="7" File="\Sound\角色\玛丽亚\滑铲1.wav"/>
+	</Sound>
+	<Image Num="125">
+		<Img Size_x="21" Size_y="52" Hot_x="9" Hot_y="52"/>
+		<Img Frame="1" Pos_x="21" Size_x="21" Size_y="52" Hot_x="10" Hot_y="52"/>
+		<Img Group="1" Pos_x="49" Size_x="21" Size_y="52" Hot_x="9" Hot_y="52"/>
+		<Img Group="1" Frame="1" Pos_x="73" Size_x="19" Size_y="52" Hot_x="10" Hot_y="52"/>
+		<Img Group="2" Pos_x="100" Pos_y="18" Size_x="25" Size_y="34" Hot_x="11" Hot_y="34"/>
+		<Img Group="2" Frame="1" Pos_x="125" Pos_y="18" Size_x="24" Size_y="34" Hot_x="13" Hot_y="34"/>
+		<Img Group="2" Frame="2" Pos_x="149" Pos_y="18" Size_x="23" Size_y="34" Hot_x="11" Hot_y="34"/>
+		<Img Group="2" Frame="3" Pos_x="172" Pos_y="18" Size_x="23" Size_y="34" Hot_x="11" Hot_y="34"/>
+		<Img Group="3" Pos_x="202" Pos_y="4" Size_x="17" Size_y="48" Hot_x="9" Hot_y="48"/>
+		<Img Group="3" Frame="1" Pos_x="219" Pos_y="4" Size_x="17" Size_y="48" Hot_x="9" Hot_y="48"/>
+		<Img Group="3" Frame="2" Pos_x="236" Pos_y="4" Size_x="17" Size_y="48" Hot_x="7" Hot_y="48"/>
+		<Img Group="3" Frame="3" Pos_x="253" Pos_y="4" Size_x="23" Size_y="48" Hot_x="10" Hot_y="48"/>
+		<Img Group="3" Frame="4" Pos_x="276" Pos_y="4" Size_x="31" Size_y="48" Hot_x="17" Hot_y="50"/>
+		<Img Group="3" Frame="5" Pos_x="307" Pos_y="4" Size_x="24" Size_y="48" Hot_x="11" Hot_y="49"/>
+		<Img Group="3" Frame="6" Pos_x="331" Pos_y="4" Size_x="26" Size_y="48" Hot_x="11" Hot_y="48"/>
+		<Img Group="3" Frame="7" Pos_x="357" Pos_y="4" Size_x="29" Size_y="48" Hot_x="16" Hot_y="48"/>
+		<Img Group="3" Frame="8" Pos_x="386" Pos_y="4" Size_x="29" Size_y="48" Hot_x="17" Hot_y="48"/>
+		<Img Group="3" Frame="9" Pos_x="415" Pos_y="4" Size_x="28" Size_y="48" Hot_x="15" Hot_y="48"/>
+		<Img Group="3" Frame="10" Pos_x="443" Pos_y="4" Size_x="28" Size_y="48" Hot_x="15" Hot_y="48"/>
+		<Img Group="3" Frame="11" Pos_x="471" Pos_y="4" Size_x="30" Size_y="48" Hot_x="15" Hot_y="50"/>
+		<Img Group="3" Frame="12" Pos_x="501" Pos_y="4" Size_x="33" Size_y="48" Hot_x="17" Hot_y="49"/>
+		<Img Group="3" Frame="13" Pos_x="534" Pos_y="4" Size_x="30" Size_y="48" Hot_x="16" Hot_y="48"/>
+		<Img Group="3" Frame="14" Pos_x="564" Pos_y="4" Size_x="32" Size_y="48" Hot_x="19" Hot_y="48"/>
+		<Img Group="3" Frame="15" Pos_x="596" Pos_y="4" Size_x="24" Size_y="48" Hot_x="11" Hot_y="48"/>
+		<Img Group="3" Frame="16" Pos_x="620" Pos_y="4" Size_x="23" Size_y="48" Hot_x="10" Hot_y="48"/>
+		<Img Group="3" Frame="17" Pos_x="643" Pos_y="4" Size_x="21" Size_y="48" Hot_x="7" Hot_y="48"/>
+		<Img Group="3" Frame="18" Pos_x="664" Pos_y="4" Size_x="21" Size_y="48" Hot_x="8" Hot_y="48"/>
+		<Img Group="3" Frame="19" Pos_x="685" Pos_y="4" Size_x="29" Size_y="48" Hot_x="15" Hot_y="50"/>
+		<Img Group="4" Pos_x="430" Pos_y="115" Size_x="20" Size_y="48" Hot_x="10" Hot_y="48"/>
+		<Img Group="4" Frame="1" Pos_x="450" Pos_y="115" Size_x="19" Size_y="48" Hot_x="10" Hot_y="48"/>
+		<Img Group="4" Frame="2" Pos_x="469" Pos_y="115" Size_x="19" Size_y="48" Hot_x="8" Hot_y="48"/>
+		<Img Group="4" Frame="3" Pos_x="488" Pos_y="115" Size_x="19" Size_y="48" Hot_x="10" Hot_y="48"/>
+		<Img Group="4" Frame="4" Pos_x="507" Pos_y="115" Size_x="22" Size_y="48" Hot_x="12" Hot_y="48"/>
+		<Img Group="4" Frame="5" Pos_x="529" Pos_y="115" Size_x="20" Size_y="48" Hot_x="11" Hot_y="48"/>
+		<Img Group="4" Frame="6" Pos_x="549" Pos_y="115" Size_x="20" Size_y="48" Hot_x="11" Hot_y="48"/>
+		<Img Group="4" Frame="7" Pos_x="569" Pos_y="115" Size_x="18" Size_y="48" Hot_x="8" Hot_y="48"/>
+		<Img Group="4" Frame="8" Pos_x="587" Pos_y="115" Size_x="20" Size_y="48" Hot_x="11" Hot_y="48"/>
+		<Img Group="4" Frame="9" Pos_x="607" Pos_y="115" Size_x="20" Size_y="48" Hot_x="10" Hot_y="48"/>
+		<Img Group="5" Pos_y="62" Size_x="18" Size_y="50" Hot_x="8" Hot_y="50"/>
+		<Img Group="5" Frame="1" Pos_x="18" Pos_y="62" Size_x="18" Size_y="50" Hot_x="8" Hot_y="50"/>
+		<Img Group="5" Frame="2" Pos_x="36" Pos_y="62" Size_x="18" Size_y="50" Hot_x="9" Hot_y="50"/>
+		<Img Group="5" Frame="3" Pos_x="54" Pos_y="62" Size_x="18" Size_y="50" Hot_x="8" Hot_y="50"/>
+		<Img Group="6" Pos_x="79" Pos_y="62" Size_x="32" Size_y="50" Hot_x="11" Hot_y="50"/>
+		<Img Group="6" Frame="1" Pos_x="111" Pos_y="62" Size_x="30" Size_y="50" Hot_x="11" Hot_y="50"/>
+		<Img Group="6" Frame="2" Pos_x="141" Pos_y="62" Size_x="30" Size_y="50" Hot_x="11" Hot_y="50"/>
+		<Img Group="6" Frame="3" Pos_x="171" Pos_y="62" Size_x="29" Size_y="50" Hot_x="11" Hot_y="50"/>
+		<Img Group="6" Frame="4" Pos_x="200" Pos_y="62" Size_x="27" Size_y="50" Hot_x="11" Hot_y="50"/>
+		<Img Group="6" Frame="5" Pos_x="227" Pos_y="62" Size_x="26" Size_y="50" Hot_x="11" Hot_y="50"/>
+		<Img Group="7" Pos_x="321" Pos_y="62" Size_x="32" Size_y="50" Hot_x="21" Hot_y="50"/>
+		<Img Group="7" Frame="1" Pos_x="290" Pos_y="62" Size_x="31" Size_y="50" Hot_x="19" Hot_y="50"/>
+		<Img Group="7" Frame="2" Pos_x="264" Pos_y="62" Size_x="24" Size_y="50" Hot_x="11" Hot_y="50"/>
+		<Img Group="8" Pos_x="363" Pos_y="62" Size_x="25" Size_y="50" Hot_x="12" Hot_y="50"/>
+		<Img Group="8" Frame="1" Pos_x="388" Pos_y="62" Size_x="27" Size_y="50" Hot_x="14" Hot_y="50"/>
+		<Img Group="8" Frame="2" Pos_x="415" Pos_y="62" Size_x="31" Size_y="50" Hot_x="18" Hot_y="50"/>
+		<Img Group="8" Frame="3" Pos_x="446" Pos_y="62" Size_x="31" Size_y="50" Hot_x="18" Hot_y="50"/>
+		<Img Group="9" Pos_x="486" Pos_y="55" Size_x="32" Size_y="57" Hot_x="19" Hot_y="57"/>
+		<Img Group="9" Frame="1" Pos_x="518" Pos_y="55" Size_x="32" Size_y="57" Hot_x="19" Hot_y="57"/>
+		<Img Group="9" Frame="2" Pos_x="550" Pos_y="55" Size_x="31" Size_y="57" Hot_x="19" Hot_y="57"/>
+		<Img Group="9" Frame="3" Pos_x="581" Pos_y="55" Size_x="31" Size_y="57" Hot_x="18" Hot_y="57"/>
+		<Img Group="9" Frame="4" Pos_x="612" Pos_y="52" Size_x="23" Size_y="60" Hot_x="10" Hot_y="60"/>
+		<Img Group="9" Frame="5" Pos_x="635" Pos_y="56" Size_x="26" Size_y="56" Hot_x="13" Hot_y="56"/>
+		<Img Group="9" Frame="6" Pos_x="661" Pos_y="56" Size_x="24" Size_y="56" Hot_x="12" Hot_y="56"/>
+		<Img Group="9" Frame="7" Pos_x="685" Pos_y="56" Size_x="24" Size_y="56" Hot_x="11" Hot_y="56"/>
+		<Img Group="10" Pos_y="129" Size_x="54" Size_y="34" Hot_x="27" Hot_y="32"/>
+		<Img Group="10" Frame="1" Pos_x="54" Pos_y="129" Size_x="54" Size_y="34" Hot_x="27" Hot_y="32"/>
+		<Img Group="11" Pos_x="114" Pos_y="117" Size_x="21" Size_y="46" Hot_x="10" Hot_y="46"/>
+		<Img Group="11" Frame="1" Pos_x="138" Pos_y="117" Size_x="24" Size_y="46" Hot_x="11" Hot_y="46"/>
+		<Img Group="11" Frame="2" Pos_x="162" Pos_y="117" Size_x="30" Size_y="46" Hot_x="11" Hot_y="46"/>
+		<Img Group="11" Frame="3" Pos_x="192" Pos_y="117" Size_x="27" Size_y="46" Hot_x="11" Hot_y="46"/>
+		<Img Group="12" Pos_x="223" Pos_y="131" Size_x="22" Size_y="32" Hot_x="10" Hot_y="32"/>
+		<Img Group="12" Frame="1" Pos_x="245" Pos_y="131" Size_x="29" Size_y="32" Hot_x="9" Hot_y="32"/>
+		<Img Group="12" Frame="2" Pos_x="274" Pos_y="131" Size_x="26" Size_y="32" Hot_x="9" Hot_y="32"/>
+		<Img Group="13" Pos_x="306" Pos_y="118" Size_x="32" Size_y="45" Hot_x="15" Hot_y="45"/>
+		<Img Group="13" Frame="1" Pos_x="338" Pos_y="118" Size_x="41" Size_y="45" Hot_x="15" Hot_y="46"/>
+		<Img Group="13" Frame="2" Pos_x="379" Pos_y="118" Size_x="37" Size_y="45" Hot_x="15" Hot_y="46"/>
+		<Img Group="14" Pos_x="118" Pos_y="179" Size_x="24" Size_y="47" Hot_x="12" Hot_y="47"/>
+		<Img Group="14" Frame="1" Pos_x="144" Pos_y="179" Size_x="27" Size_y="47" Hot_x="15" Hot_y="47"/>
+		<Img Group="14" Frame="2" Pos_x="171" Pos_y="179" Size_x="26" Size_y="47" Hot_x="13" Hot_y="47"/>
+		<Img Group="14" Frame="3" Pos_x="197" Pos_y="179" Size_x="26" Size_y="47" Hot_x="13" Hot_y="47"/>
+		<Img Group="15" Pos_x="226" Pos_y="192" Size_x="26" Size_y="34" Hot_x="13" Hot_y="34"/>
+		<Img Group="15" Frame="1" Pos_x="252" Pos_y="192" Size_x="26" Size_y="34" Hot_x="13" Hot_y="34"/>
+		<Img Group="15" Frame="2" Pos_x="278" Pos_y="192" Size_x="25" Size_y="34" Hot_x="13" Hot_y="34"/>
+		<Img Group="15" Frame="3" Pos_x="303" Pos_y="192" Size_x="25" Size_y="34" Hot_x="13" Hot_y="34"/>
+		<Img Group="16" Pos_x="334" Pos_y="179" Size_x="28" Size_y="47" Hot_x="14" Hot_y="47"/>
+		<Img Group="16" Frame="1" Pos_x="362" Pos_y="179" Size_x="28" Size_y="47" Hot_x="13" Hot_y="47"/>
+		<Img Group="17" Pos_x="390" Pos_y="164" Size_x="28" Size_y="62" Hot_x="13" Hot_y="62"/>
+		<Img Group="18" Pos_x="422" Pos_y="181" Size_x="26" Size_y="45" Hot_x="13" Hot_y="45"/>
+		<Img Group="19" Pos_x="448" Pos_y="181" Size_x="26" Size_y="45" Hot_x="13" Hot_y="45"/>
+		<Img Group="20" Pos_x="481" Pos_y="181" Size_x="32" Size_y="45" Hot_x="16" Hot_y="45"/>
+		<Img Group="20" Frame="1" Pos_x="513" Pos_y="181" Size_x="32" Size_y="45" Hot_x="16" Hot_y="41"/>
+		<Img Group="20" Frame="2" Pos_x="545" Pos_y="181" Size_x="49" Size_y="45" Hot_x="24" Hot_y="34"/>
+		<Img Group="21" Pos_x="3" Pos_y="232" Size_x="31" Size_y="45" Hot_x="19" Hot_y="45"/>
+		<Img Group="21" Frame="1" Pos_x="34" Pos_y="232" Size_x="31" Size_y="45" Hot_x="20" Hot_y="45"/>
+		<Img Group="21" Frame="2" Pos_x="65" Pos_y="232" Size_x="27" Size_y="45" Hot_x="18" Hot_y="48"/>
+		<Img Group="21" Frame="3" Pos_x="92" Pos_y="232" Size_x="27" Size_y="45" Hot_x="14" Hot_y="54"/>
+		<Img Group="21" Frame="4" Pos_x="119" Pos_y="232" Size_x="36" Size_y="45" Hot_x="18" Hot_y="58"/>
+		<Img Group="21" Frame="5" Pos_x="155" Pos_y="232" Size_x="36" Size_y="45" Hot_x="20" Hot_y="58"/>
+		<Img Group="21" Frame="6" Pos_x="191" Pos_y="232" Size_x="29" Size_y="45" Hot_x="14" Hot_y="53"/>
+		<Img Group="21" Frame="7" Pos_x="220" Pos_y="232" Size_x="28" Size_y="45" Hot_x="11" Hot_y="55"/>
+		<Img Group="21" Frame="8" Pos_x="248" Pos_y="232" Size_x="35" Size_y="45" Hot_x="16" Hot_y="53"/>
+		<Img Group="21" Frame="9" Pos_x="283" Pos_y="232" Size_x="37" Size_y="45" Hot_x="16" Hot_y="53"/>
+		<Img Group="21" Frame="10" Pos_x="320" Pos_y="232" Size_x="33" Size_y="45" Hot_x="19" Hot_y="56"/>
+		<Img Group="22" Pos_x="361" Pos_y="232" Size_x="38" Size_y="45" Hot_x="24" Hot_y="45"/>
+		<Img Group="22" Frame="1" Pos_x="400" Pos_y="232" Size_x="38" Size_y="45" Hot_x="23" Hot_y="45"/>
+		<Img Group="22" Frame="2" Pos_x="439" Pos_y="232" Size_x="33" Size_y="45" Hot_x="18" Hot_y="45"/>
+		<Img Group="22" Frame="3" Pos_x="472" Pos_y="232" Size_x="36" Size_y="45" Hot_x="21" Hot_y="45"/>
+		<Img Group="23" Pos_x="511" Pos_y="232" Size_x="31" Size_y="45" Hot_x="13" Hot_y="44"/>
+		<Img Group="23" Frame="1" Pos_x="542" Pos_y="232" Size_x="44" Size_y="45" Hot_x="14" Hot_y="44"/>
+		<Img Group="23" Frame="2" Pos_x="586" Pos_y="232" Size_x="49" Size_y="45" Hot_x="13" Hot_y="44"/>
+		<Img Group="24" Pos_x="4" Pos_y="163" Size_x="22" Size_y="68" Hot_x="12" Hot_y="68"/>
+		<Img Group="24" Frame="1" Pos_x="26" Pos_y="163" Size_x="21" Size_y="68" Hot_x="11" Hot_y="68"/>
+		<Img Group="24" Frame="2" Pos_x="47" Pos_y="163" Size_x="19" Size_y="68" Hot_x="9" Hot_y="68"/>
+		<Img Group="24" Frame="3" Pos_x="66" Pos_y="163" Size_x="21" Size_y="68" Hot_x="10" Hot_y="68"/>
+		<Img Group="24" Frame="4" Pos_x="87" Pos_y="163" Size_x="23" Size_y="68" Hot_x="12" Hot_y="68"/>
+		<Img Group="25" Pos_x="320" Pos_y="232" Size_x="33" Size_y="45" Hot_x="19" Hot_y="56"/>
+		<Img Group="25" Frame="1" Pos_x="283" Pos_y="232" Size_x="37" Size_y="45" Hot_x="16" Hot_y="53"/>
+		<Img Group="25" Frame="2" Pos_x="248" Pos_y="232" Size_x="35" Size_y="45" Hot_x="16" Hot_y="53"/>
+		<Img Group="25" Frame="3" Pos_x="220" Pos_y="232" Size_x="28" Size_y="45" Hot_x="11" Hot_y="55"/>
+		<Img Group="25" Frame="4" Pos_x="191" Pos_y="232" Size_x="29" Size_y="45" Hot_x="14" Hot_y="53"/>
+		<Img Group="25" Frame="5" Pos_x="155" Pos_y="232" Size_x="36" Size_y="45" Hot_x="20" Hot_y="58"/>
+		<Img Group="25" Frame="6" Pos_x="119" Pos_y="232" Size_x="36" Size_y="45" Hot_x="18" Hot_y="58"/>
+		<Img Group="25" Frame="7" Pos_x="92" Pos_y="232" Size_x="27" Size_y="45" Hot_x="14" Hot_y="54"/>
+		<Img Group="25" Frame="8" Pos_x="65" Pos_y="232" Size_x="27" Size_y="45" Hot_x="18" Hot_y="48"/>
+		<Img Group="25" Frame="9" Pos_x="34" Pos_y="232" Size_x="31" Size_y="45" Hot_x="20" Hot_y="45"/>
+		<Img Group="25" Frame="10" Pos_x="3" Pos_y="232" Size_x="31" Size_y="45" Hot_x="19" Hot_y="45"/>
+	</Image>
+</Char>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\地下通道\房间07-1.bmp" Pic_right="256" Pic_bottom="216" ColorKey="0x800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="525" Pos_y="278" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="1" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="224" Pos_y="277" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="133" Pos_y="286" Size_x="32" Size_y="32" Pic="\image\图标\材料.bmp" Pic_left="64" Pic_right="96" Pic_bottom="32" Id="3" Type="7" Effect="法力上限" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\魔魂.lua" Item="蓝色魔魂" TaskId="4" Swing_y="6"/>
+		<Item Pos_x="686" Pos_y="358" Size_x="32" Size_y="64" Pic="\Image\地图\动画\瓶子01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFFFFFFFF" Flip="1" Frames="1" Id="4" Damage="1" Effect="灯台02" Sound="\sound\物件\瓶子.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="钱袋100"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="651" Pos_y="1" Size_x="149" Size_y="199" Obst="1"/>
+		<Item Pos_x="651" Pos_y="422" Size_x="149" Size_y="178" Obst="1"/>
+		<Item Pos_y="421" Size_x="248" Size_y="179" Obst="1"/>
+		<Item Size_x="149" Size_y="201" Obst="1"/>
+		<Item Pos_x="149" Pos_y="1" Size_x="502" Size_y="65" Obst="1"/>
+		<Item Pos_x="248" Pos_y="556" Size_x="250" Size_y="43" Obst="1"/>
+		<Item Pos_x="100" Pos_y="333" Size_x="100" Size_y="88" Obst="2"/>
+		<Item Pos_x="750" Pos_y="199" Size_x="49" Size_y="224" Obst="1"/>
+		<Item Pos_y="201" Size_x="49" Size_y="220" Obst="1"/>
+		<Item Pos_x="248" Pos_y="421" Size_x="148" Size_y="135" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="500" Pos_y="593" Size_x="150" Size_y="27" Id="1" Map="地下通道竖井03" MapPos_x="500" MapPos_y="50"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="380" Pos_y="192" Size_x="44" Size_y="66" Id="1" Char="鬼魂" Left="1" Action="隐藏"/>
+	</Char>
+</Map>

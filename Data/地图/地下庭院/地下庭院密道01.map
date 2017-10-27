@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="2048">
+	<Tile>
+		<Item Pos_x="608" Size_x="192" Size_y="2048" Color0="0xFF201020" Color1="0xFF201020" Color2="0xFF201020" Color3="0xFF201020"/>
+		<Item Pos_x="96" Size_x="512" Size_y="512" Pic="\image\地图\地下庭院\密道01.bmp" Pic_right="256" Pic_bottom="256"/>
+		<Item Pos_x="96" Pos_y="512" Size_x="512" Size_y="512" Pic="\image\地图\地下庭院\密道02.bmp" Pic_right="256" Pic_bottom="256"/>
+		<Item Pos_x="96" Pos_y="1024" Size_x="512" Size_y="512" Pic="\image\地图\地下庭院\密道03.bmp" Pic_right="256" Pic_bottom="256"/>
+		<Item Pos_x="96" Pos_y="1536" Size_x="512" Size_y="512" Pic="\image\地图\地下庭院\密道04.bmp" Pic_right="256" Pic_bottom="256"/>
+		<Item Pos_x="608" Pos_y="1630" Size_x="96" Size_y="256" Pic="\image\地图\地下庭院\密道05.bmp" Pic_right="48" Pic_bottom="128"/>
+		<Item Pos_x="704" Pos_y="1630" Size_x="96" Size_y="256" Pic="\image\地图\地下庭院\密道05.bmp" Pic_right="48" Pic_bottom="128"/>
+		<Item Size_x="96" Size_y="2048" Color0="0xFF201020" Color1="0xFF201020" Color2="0xFF201020" Color3="0xFF201020"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="212" Pos_y="826" Size_x="48" Size_y="104" Pic="\image\地图\地下庭院\灯火02.bmp" Pic_right="24" Pic_bottom="52" ColorKey="0xFF008000" Frames="4" Fps="10" Id="1" Damage="1" Effect="灯台06" Script="\data\脚本\破坏物品\地下庭院.lua"/>
+		<Item Pos_x="478" Pos_y="1240" Size_x="48" Size_y="104" Pic="\image\地图\地下庭院\灯火02.bmp" Pic_right="24" Pic_bottom="52" ColorKey="0xFF008000" Frames="4" Fps="10" Id="2" Damage="1" Effect="灯台06" Script="\data\脚本\破坏物品\地下庭院.lua"/>
+		<Item Pos_x="212" Pos_y="1848" Size_x="48" Size_y="104" Pic="\image\地图\地下庭院\灯火02.bmp" Pic_right="24" Pic_bottom="52" ColorKey="0xFF008000" Frames="4" Fps="10" Id="3" Damage="1" Effect="灯台06" Script="\data\脚本\破坏物品\地下庭院.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="351" Pos_y="95" Size_x="33" Size_y="17" Obst="2"/>
+		<Item Pos_x="287" Pos_y="544" Size_x="33" Size_y="17" Obst="2"/>
+		<Item Pos_x="287" Pos_y="767" Size_x="33" Size_y="17" Obst="2"/>
+		<Item Pos_x="320" Pos_y="1119" Size_x="33" Size_y="17" Obst="2"/>
+		<Item Pos_x="319" Pos_y="1343" Size_x="33" Size_y="17" Obst="2"/>
+		<Item Pos_x="288" Pos_y="1568" Size_x="33" Size_y="17" Obst="2"/>
+		<Item Pos_x="287" Pos_y="1791" Size_x="33" Size_y="17" Obst="2"/>
+		<Item Pos_x="385" Size_x="127" Size_y="351" Obst="1"/>
+		<Item Pos_x="193" Size_x="126" Size_y="217" Obst="1"/>
+		<Item Pos_x="145" Pos_y="216" Size_x="141" Size_y="393" Obst="1"/>
+		<Item Pos_x="353" Pos_y="351" Size_x="195" Size_y="384" Obst="1"/>
+		<Item Pos_x="145" Pos_y="608" Size_x="110" Size_y="128" Obst="1"/>
+		<Item Pos_x="142" Pos_y="736" Size_x="51" Size_y="223" Obst="1"/>
+		<Item Pos_x="321" Pos_y="734" Size_x="177" Size_y="62" Obst="1"/>
+		<Item Pos_x="193" Pos_y="928" Size_x="99" Size_y="32" Obst="1"/>
+		<Item Pos_x="198" Pos_y="959" Size_x="120" Size_y="222" Obst="1"/>
+		<Item Pos_x="385" Pos_y="796" Size_x="163" Size_y="355" Obst="1"/>
+		<Item Pos_x="414" Pos_y="1151" Size_x="226" Size_y="33" Obst="1"/>
+		<Item Pos_x="577" Pos_y="1183" Size_x="88" Size_y="192" Obst="1"/>
+		<Item Pos_x="445" Pos_y="1344" Size_x="133" Size_y="131" Obst="1"/>
+		<Item Pos_x="175" Pos_y="1181" Size_x="80" Size_y="325" Obst="1"/>
+		<Item Pos_x="354" Pos_y="1475" Size_x="125" Size_y="255" Obst="1"/>
+		<Item Pos_x="174" Pos_y="1505" Size_x="112" Size_y="127" Obst="1"/>
+		<Item Pos_x="147" Pos_y="1631" Size_x="108" Size_y="127" Obst="1"/>
+		<Item Pos_x="76" Pos_y="1758" Size_x="116" Size_y="224" Obst="1"/>
+		<Item Pos_x="191" Pos_y="1952" Size_x="318" Size_y="68" Obst="1"/>
+		<Item Pos_x="480" Pos_y="1615" Size_x="320" Size_y="83" Obst="1"/>
+		<Item Pos_x="508" Pos_y="1824" Size_x="292" Size_y="134" Obst="1"/>
+		<Item Pos_x="288" Pos_y="1840" Size_x="219" Size_y="112" Obst="5"/>
+		<Item Pos_x="376" Pos_y="1729" Size_x="76" Size_y="30" Obst="1"/>
+		<Item Pos_x="354" Pos_y="1344" Size_x="91" Size_y="130" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="795" Pos_y="1699" Size_x="48" Size_y="125" Id="1" Map="地下庭院通道01" MapPos_y="407"/>
+		<Item Pos_x="320" Pos_y="-21" Size_x="64" Size_y="22" Id="2" Map="入口城门" MapPos_x="364" MapPos_y="1500"/>
+	</Trap>
+	<Char/>
+</Map>

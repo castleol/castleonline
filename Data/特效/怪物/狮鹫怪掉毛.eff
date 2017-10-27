@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="287" Pos_y="426" Size_x="100" Size_y="60" Random="1" EmitInter="20" EmitTime="200" Pic="\Image\怪物\BOSS\狮鹫怪.bmp" Pic_right="16" Pic_bottom="16" ColorKey="0xFF00FF" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="10" ItemFps="20" ItemLife="1500" ItemQuality="1.000" MaxSpeedY="50.000" AddSpeedY="50.000"/>
+</Effect>

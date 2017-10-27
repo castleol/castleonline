@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\崖侧外壁\横廊04.bmp" Pic_right="255" Pic_bottom="207" Filter="0x1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="151" Pos_y="394" Size_x="100" Size_y="92" Obst="4"/>
+		<Item Pos_y="394" Size_x="150" Size_y="206" Obst="1"/>
+		<Item Size_x="154" Size_y="210" Obst="1"/>
+		<Item Pos_x="648" Size_x="152" Size_y="210" Obst="1"/>
+		<Item Pos_x="652" Pos_y="394" Size_x="148" Size_y="206" Obst="1"/>
+		<Item Pos_x="149" Pos_y="486" Size_x="504" Size_y="114" Obst="1"/>
+		<Item Pos_x="153" Size_x="496" Size_y="116" Obst="1"/>
+		<Item Pos_x="551" Pos_y="394" Size_x="100" Size_y="92" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-31" Pos_y="230" Size_x="38" Size_y="160" Id="1" Map="外壁横廊03" MapPos_x="1600" MapPos_y="394"/>
+		<Item Pos_x="796" Pos_y="267" Size_x="38" Size_y="125" Id="2" Map="外壁竖塔03" MapPos_y="4368"/>
+	</Trap>
+	<Char/>
+</Map>

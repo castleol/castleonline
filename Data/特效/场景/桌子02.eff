@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="340" Pos_y="459" Size_x="183" Size_y="29" EmitInter="1" EmitTime="1" Pic="奥洛克房间物件" Group="4" Frame="1" ColorKey="0x800000" EndColor="0xFFFFFF" BeginTime="9000" Sound="\sound\特效\破裂05.wav" ItemSize_x="28" ItemSize_y="28" ItemHot_x="14" ItemHot_y="14" ItemLife="10000" ItemScale="2.000" ItemQuality="1.000"/>
+	<Item Pos_x="304" Pos_y="457" Size_x="256" Size_y="32" Random="1" EmitInter="50" EmitTime="1000" Pic="\Image\特效\爆炸\004.bmp" Pic_right="32" Pic_bottom="32" Blend="0x2" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="7" ItemFps="15" ItemScale="1.500" MinSpeedY="-50.000" MaxSpeedY="-50.000"/>
+</Effect>

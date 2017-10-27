@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\怪人\瑟兰祭祀.bmp" ColorKey="0xFF00FF" Size_x="24" Size_y="90" Scale="2.000" TrailTime="10" TrailFade="10" TrailColor="0xFF606060" Effect="\data\怪物\怪人\瑟兰祭祀光环.eff" HitEffect="闪光01">
+	<Action Num="12">
+		<Act Name="站立" Group="1" End="1" Fps="3" Swing_y="10" Fly="1" MoveType="3"/>
+		<Act Name="转身" Next="站立" Group="3" End="1" Flip="1" Fly="1"/>
+		<Act Name="死亡" Effect="\data\怪物\怪人\瑟兰祭祀死亡.eff" State="14" Group="4" Time="1000" Sound="3" Speed_x="-100" AddSpeed_x="200" Fly="1"/>
+		<Act Name="前进" Next="站立" State="3" Group="2" Time="1000" Speed_x="200" AddSpeed_x="200" Swing_y="10" Fly="1" MoveType="3"/>
+		<Act Name="后退" Next="站立" State="3" Group="3" End="1" Loop="1" Time="1000" Speed_x="-200" AddSpeed_x="200" Swing_y="10" Fly="1" MoveType="3"/>
+		<Act Name="受伤" Next="站立" State="10" Group="4" Time="500" Sound="4" Speed_x="-100" AddSpeed_x="100" Fly="1" MoveType="3"/>
+		<Act Name="攻击1" Next="发招" Effect="\data\怪物\怪人\瑟兰祭祀聚气.eff" State="4" Group="5" End="6" Loop="6" Fps="15" Time="2000" Start="6" Sound="1" Swing_y="8" Fly="1"/>
+		<Act Name="攻击2" Next="发咒" State="4" Group="6" Begin="10" End="23" Loop="23" Fps="15" Time="1000" Start="10" Sound="2" Swing_y="8" Fly="1">
+			<Act Name="光效" Group="8" End="7" TimeBegin="1000" TimeEnd="3000" Offs_x="-31" Offs_y="-94"/>
+		</Act>
+		<Act Name="收招" Next="站立" State="4" Group="5" Begin="6" End="4" Start="6" Fly="1"/>
+		<Act Name="聚气" Group="9" End="3" Blend="0x1" Fly="1"/>
+		<Act Name="发咒" Next="站立" Effect="\data\怪物\怪人\瑟兰祭祀符咒.eff" State="4" Group="6" Begin="24" End="29" Loop="29" Fps="15" Time="1000" Start="24" Fly="1"/>
+		<Act Name="发招" Next="站立" Effect="\data\怪物\怪人\瑟兰祭祀火球.eff" State="4" Group="6" Begin="23" End="27" Loop="27" Fps="15" Time="1500" Start="25" Fly="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="4">
+		<Snd Id="1" File="\sound\怪物\瑟兰祭祀攻击1.wav"/>
+		<Snd Id="2" File="\sound\怪物\瑟兰祭祀攻击2.wav"/>
+		<Snd Id="3" File="\sound\怪物\瑟兰祭祀死亡.wav"/>
+		<Snd Id="4" File="\sound\怪物\瑟兰祭祀受伤.wav"/>
+	</Sound>
+	<Image Num="71">
+		<Img Group="1" Pos_x="5" Size_x="20" Size_y="49" Hot_x="10" Hot_y="46"/>
+		<Img Group="1" Frame="1" Pos_x="29" Size_x="20" Size_y="49" Hot_x="10" Hot_y="46"/>
+		<Img Group="2" Pos_x="53" Size_x="23" Size_y="49" Hot_x="10" Hot_y="46"/>
+		<Img Group="3" Pos_x="84" Size_x="23" Size_y="49" Hot_x="10" Hot_y="46"/>
+		<Img Group="3" Frame="1" Pos_x="114" Size_x="26" Size_y="49" Hot_x="13" Hot_y="46"/>
+		<Img Group="4" Pos_x="145" Size_x="30" Size_y="49" Hot_x="13" Hot_y="46"/>
+		<Img Group="5" Pos_x="124" Pos_y="153" Size_x="34" Size_y="48" Hot_x="20" Hot_y="45"/>
+		<Img Group="5" Frame="1" Pos_x="160" Pos_y="153" Size_x="37" Size_y="48" Hot_x="17" Hot_y="45"/>
+		<Img Group="5" Frame="2" Pos_x="200" Pos_y="153" Size_x="37" Size_y="48" Hot_x="17" Hot_y="47"/>
+		<Img Group="5" Frame="3" Pos_y="153" Size_x="20" Size_y="49" Hot_x="8" Hot_y="46"/>
+		<Img Group="5" Frame="4" Pos_x="23" Pos_y="153" Size_x="21" Size_y="49" Hot_x="9" Hot_y="46"/>
+		<Img Group="5" Frame="5" Pos_x="47" Pos_y="153" Size_x="21" Size_y="49" Hot_x="9" Hot_y="46"/>
+		<Img Group="5" Frame="5" Pos_x="71" Pos_y="144" Size_x="20" Size_y="58" Hot_x="9" Hot_y="55"/>
+		<Img Group="5" Frame="6" Pos_x="95" Pos_y="144" Size_x="20" Size_y="58" Hot_x="9" Hot_y="53"/>
+		<Img Group="6" Pos_x="5" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="1" Pos_x="37" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="2" Pos_x="69" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="3" Pos_x="100" Pos_y="209" Size_x="24" Size_y="48" Hot_x="14" Hot_y="46"/>
+		<Img Group="6" Frame="4" Pos_x="133" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="5" Pos_x="165" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="6" Pos_x="196" Pos_y="209" Size_x="33" Size_y="48" Hot_x="22" Hot_y="46"/>
+		<Img Group="6" Frame="7" Pos_x="235" Pos_y="209" Size_x="33" Size_y="48" Hot_x="23" Hot_y="46"/>
+		<Img Group="6" Frame="8" Pos_x="277" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="9" Pos_x="309" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="10" Pos_x="341" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="11" Pos_x="373" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="12" Pos_x="405" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="13" Pos_x="437" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="14" Pos_x="469" Pos_y="209" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="15" Pos_x="5" Pos_y="257" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="16" Pos_x="37" Pos_y="257" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="17" Pos_x="69" Pos_y="257" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="18" Pos_x="100" Pos_y="257" Size_x="24" Size_y="48" Hot_x="14" Hot_y="46"/>
+		<Img Group="6" Frame="19" Pos_x="133" Pos_y="257" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="20" Pos_x="165" Pos_y="257" Size_x="32" Size_y="48" Hot_x="21" Hot_y="46"/>
+		<Img Group="6" Frame="21" Pos_x="204" Pos_y="257" Size_x="32" Size_y="48" Hot_x="22" Hot_y="46"/>
+		<Img Group="6" Frame="22" Time="800" Pos_x="244" Pos_y="257" Size_x="32" Size_y="48" Hot_x="22" Hot_y="46"/>
+		<Img Group="6" Frame="23" Pos_x="284" Pos_y="257" Size_x="32" Size_y="48" Hot_x="22" Hot_y="46"/>
+		<Img Group="6" Frame="24" Pos_x="326" Pos_y="257" Size_x="22" Size_y="48" Hot_x="12" Hot_y="46"/>
+		<Img Group="6" Frame="25" Pos_x="356" Pos_y="257" Size_x="31" Size_y="48" Hot_x="14" Hot_y="46"/>
+		<Img Group="6" Frame="26" Time="500" Pos_x="395" Pos_y="257" Size_x="33" Size_y="48" Hot_x="15" Hot_y="46"/>
+		<Img Group="6" Frame="27" Pos_x="435" Pos_y="257" Size_x="33" Size_y="48" Hot_x="15" Hot_y="46"/>
+		<Img Group="6" Frame="28" Pos_x="5" Pos_y="305" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="6" Frame="29" Pos_x="37" Pos_y="305" Size_x="24" Size_y="48" Hot_x="13" Hot_y="46"/>
+		<Img Group="7" Pos_x="392" Pos_y="105" Size_x="98" Size_y="98" Hot_x="49" Hot_y="49"/>
+		<Img Group="8" Pos_x="251" Pos_y="107" Size_x="26" Size_y="29" Hot_x="13" Hot_y="13"/>
+		<Img Group="8" Frame="1" Pos_x="251" Pos_y="139" Size_x="26" Size_y="28" Hot_x="13" Hot_y="13"/>
+		<Img Group="8" Frame="2" Pos_x="285" Pos_y="106" Size_x="26" Size_y="29" Hot_x="13" Hot_y="14"/>
+		<Img Group="8" Frame="3" Pos_x="285" Pos_y="138" Size_x="26" Size_y="29" Hot_x="13" Hot_y="14"/>
+		<Img Group="8" Frame="4" Pos_x="315" Pos_y="106" Size_x="28" Size_y="30" Hot_x="13" Hot_y="14"/>
+		<Img Group="8" Frame="5" Pos_x="315" Pos_y="138" Size_x="28" Size_y="30" Hot_x="13" Hot_y="14"/>
+		<Img Group="8" Frame="6" Pos_x="348" Pos_y="106" Size_x="26" Size_y="30" Hot_x="13" Hot_y="13"/>
+		<Img Group="8" Frame="7" Pos_x="348" Pos_y="138" Size_x="26" Size_y="30" Hot_x="13" Hot_y="13"/>
+		<Img Group="9" Pos_x="2" Pos_y="368" Size_x="29" Size_y="31" Hot_x="14" Hot_y="14"/>
+		<Img Group="9" Frame="1" Pos_x="31" Pos_y="353" Size_x="65" Size_y="63" Hot_x="33" Hot_y="30"/>
+		<Img Group="9" Frame="3" Pos_x="96" Pos_y="355" Size_x="53" Size_y="59" Hot_x="26" Hot_y="27"/>
+		<Img Group="9" Frame="2" Pos_x="152" Pos_y="354" Size_x="63" Size_y="61" Hot_x="31" Hot_y="28"/>
+		<Img Group="10" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="1" Pos_x="32" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="2" Pos_x="64" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="3" Pos_x="96" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="4" Pos_x="128" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="5" Pos_x="160" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="6" Pos_x="192" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="7" Pos_x="224" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="8" Pos_x="256" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="9" Pos_x="288" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="10" Pos_x="320" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="11" Pos_x="352" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="12" Pos_x="384" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+		<Img Group="10" Frame="13" Pos_x="416" Pos_y="416" Size_x="32" Size_y="32" Hot_x="16" Hot_y="16"/>
+	</Image>
+</Char>

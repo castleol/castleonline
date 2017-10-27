@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1600" Size_y="600">
+	<Tile>
+		<Item Pos_y="108" Size_x="1600" Size_y="352" Pic="\Image\地图\计时塔\红砖塔\背景01-1.bmp" Pic_right="256" Pic_bottom="512" ColorKey="0xFF00FF" Tile="1" DeltaX="0.500"/>
+		<Item Pos_x="346" Pos_y="-639" Size_x="236" Size_y="384" Color0="0xFF000000" Color1="0xFF000000" Color2="0xFF000000" Color3="0xFF000000"/>
+		<Item Pos_x="768" Pos_y="108" Size_x="320" Size_y="192" Pic="\Image\地图\计时塔\红砖塔\背景03-6.bmp" Pic_right="128" Pic_bottom="96" ColorKey="0xFF00FF"/>
+		<Item Pos_x="264" Pos_y="76" Size_x="120" Size_y="160" Pic="\Image\地图\计时塔\红砖塔\背景02-1.bmp" Pic_right="60" Pic_bottom="80" ColorKey="0xFF00FF"/>
+		<Item Pos_y="236" Size_x="96" Size_y="128" Pic="\Image\地图\计时塔\红砖塔\背景03-4.bmp" Pic_right="48" Pic_bottom="64" ColorKey="0xFF00FF"/>
+		<Item Pos_x="64" Pos_y="108" Size_x="128" Size_y="96" Pic="\Image\地图\计时塔\红砖塔\背景03-2.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF"/>
+		<Item Pos_x="860" Pos_y="366" Size_x="88" Size_y="94" Pic="\Image\地图\计时塔\红砖塔\斜梯01-7.bmp" Pic_right="88" Pic_bottom="94" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="448" Pos_y="108" Size_x="320" Size_y="256" Pic="\Image\地图\计时塔\红砖塔\背景03-5.bmp" Pic_right="128" Pic_bottom="128" ColorKey="0xFF00FF"/>
+		<Item Pos_x="1480" Pos_y="204" Size_x="120" Size_y="160" Pic="\Image\地图\计时塔\红砖塔\背景02-1.bmp" Pic_right="60" Pic_bottom="80" ColorKey="0xFF00FF"/>
+		<Item Pos_x="1377" Pos_y="428" Size_x="124" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\斜梯01-6.bmp" Pic_right="124" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="49" Pos_y="428" Size_x="48" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\斜梯01-6.bmp" Pic_right="124" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="1536" Pos_y="364" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Flip="2" Obst="1"/>
+		<Item Pos_y="396" Size_x="64" Size_y="128" Pic="\Image\地图\计时塔\红砖塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_x="1536" Pos_y="204" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="1536" Pos_y="396" Size_x="64" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_y="54" Size_x="1536" Size_y="54" Pic="\Image\地图\计时塔\红砖塔\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_y="76" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="3"/>
+		<Item Pos_y="108" Size_x="64" Size_y="96" Pic="\Image\地图\计时塔\红砖塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_y="204" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Flip="1" Obst="1"/>
+		<Item Pos_x="320" Pos_y="236" Size_x="128" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="448" Pos_y="236" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\墙面02-3.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="384" Pos_y="108" Size_x="64" Size_y="128" Pic="\Image\地图\计时塔\红砖塔\墙面03-5.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF"/>
+		<Item Pos_y="364" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Flip="3" Obst="1"/>
+		<Item Pos_x="32" Pos_y="460" Size_x="1504" Size_y="54" Pic="\Image\地图\计时塔\红砖塔\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="460" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="1088" Pos_y="108" Size_x="64" Size_y="128" Pic="\Image\地图\计时塔\红砖塔\墙面03-5.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF"/>
+		<Item Pos_x="1375" Pos_y="460" Size_x="128" Size_y="46" Pic="\Image\地图\计时塔\红砖塔\斜梯01-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1536" Pos_y="460" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="384" Pos_y="236" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="416" Pos_y="236" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="927" Pos_y="460" Size_x="128" Size_y="46" Pic="\Image\地图\计时塔\红砖塔\斜梯01-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="658" Pos_y="220" Size_x="30" Size_y="130" Pic="\Image\地图\计时塔\红砖塔\斜梯01-4.bmp" Pic_right="78" Pic_bottom="130" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="288" Pos_y="236" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\墙面02-2.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="672" Pos_y="268" Size_x="160" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="656" Pos_y="268" Size_x="48" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\斜梯01-1.bmp" Pic_right="48" Pic_bottom="114" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="626" Pos_y="236" Size_x="46" Size_y="130" Pic="\Image\地图\计时塔\红砖塔\斜梯01-4.bmp" Pic_right="78" Pic_bottom="130" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="480" Pos_y="394" Size_x="134" Size_y="66" Pic="\Image\地图\计时塔\红砖塔\斜梯01-5.bmp" Pic_right="134" Pic_bottom="66" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="480" Pos_y="460" Size_x="128" Size_y="46" Pic="\Image\地图\计时塔\红砖塔\斜梯01-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1504" Pos_y="364" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="1456" Pos_y="364" Size_x="48" Size_y="96" Pic="\Image\地图\计时塔\红砖塔\斜梯01-1.bmp" Pic_right="48" Pic_bottom="114" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1360" Pos_y="380" Size_x="96" Size_y="80" Pic="\Image\地图\计时塔\红砖塔\斜梯01-2.bmp" Pic_right="96" Pic_bottom="194" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="832" Pos_y="268" Size_x="48" Size_y="114" Pic="\Image\地图\计时塔\红砖塔\斜梯01-1.bmp" Pic_right="48" Pic_bottom="114" ColorKey="0xFF00FF" Tile="1" Flip="1" Group="2"/>
+		<Item Pos_x="880" Pos_y="284" Size_x="96" Size_y="176" Pic="\Image\地图\计时塔\红砖塔\斜梯01-2.bmp" Pic_right="96" Pic_bottom="194" ColorKey="0xFF00FF" Tile="1" Flip="1" Group="2"/>
+		<Item Pos_x="976" Pos_y="380" Size_x="96" Size_y="80" Pic="\Image\地图\计时塔\红砖塔\斜梯01-2.bmp" Pic_right="96" Pic_bottom="194" ColorKey="0xFF00FF" Tile="1" Flip="1" Group="2"/>
+		<Item Pos_x="1184" Pos_y="236" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\墙面02-3.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1" Group="3"/>
+		<Item Pos_x="1056" Pos_y="236" Size_x="128" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1" Group="3"/>
+		<Item Pos_x="1024" Pos_y="236" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\红砖塔\墙面02-2.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1" Group="3"/>
+		<Item Pos_x="1056" Pos_y="300" Size_x="128" Size_y="160" Pic="\Image\地图\计时塔\红砖塔\背景02-3.bmp" Pic_right="64" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="192" Pos_y="188" Size_x="96" Size_y="144" Pic="\Image\地图\计时塔\红砖塔\铜像01-3.bmp" Pic_right="48" Pic_bottom="77" ColorKey="0xFF00FF"/>
+		<Item Size_x="1600" Size_y="77" Pic="\Image\地图\计时塔\红砖塔\背景04-1.bmp" Pic_right="32" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="64" Pos_y="364" Size_x="48" Size_y="96" Pic="\Image\地图\计时塔\红砖塔\斜梯01-1.bmp" Pic_right="48" Pic_bottom="114" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="112" Pos_y="380" Size_x="96" Size_y="80" Pic="\Image\地图\计时塔\红砖塔\斜梯01-2.bmp" Pic_right="96" Pic_bottom="194" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="62" Pos_y="460" Size_x="128" Size_y="46" Pic="\Image\地图\计时塔\红砖塔\斜梯01-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="768" Pos_y="460" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="736" Pos_y="460" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1088" Pos_y="236" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1120" Pos_y="236" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="1536" Pos_y="108" Size_x="64" Size_y="96" Pic="\Image\地图\计时塔\红砖塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1536" Pos_y="76" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\红砖塔\墙面01-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_y="492" Size_x="1600" Size_y="108" Pic="\Image\地图\计时塔\红砖塔\背景04-1.bmp" Pic_right="32" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="195" Pos_y="364" Size_x="56" Size_y="96" Pic="\Image\地图\计时塔\天空塔\背景03-2.bmp" Pic_right="56" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="191" Pos_y="332" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\天空塔\背景03-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="2"/>
+		<Item Pos_x="703" Pos_y="108" Size_x="128" Size_y="160" Pic="\Image\地图\计时塔\红砖塔\背景02-3.bmp" Pic_right="64" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1152" Pos_y="108" Size_x="384" Size_y="256" Pic="\Image\地图\计时塔\红砖塔\背景03-7.bmp" Pic_right="160" Pic_bottom="128" ColorKey="0xFF00FF"/>
+		<Item Pos_x="640" Pos_y="300" Size_x="96" Size_y="160" Pic="\Image\地图\计时塔\红砖塔\背景03-8.bmp" Pic_right="48" Pic_bottom="80" ColorKey="0xFF00FF"/>
+		<Item Pos_x="736" Pos_y="332" Size_x="64" Size_y="128" Pic="\Image\地图\计时塔\红砖塔\墙面03-5.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="720" Pos_y="132" Size_x="32" Size_y="40" Pic="\Image\地图\炼金研究所\动画04.bmp" Pic_right="16" Pic_bottom="20" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="1" ChildId="2" Damage="1" Effect="爆炸04" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\计时塔.lua"/>
+		<Item Pos_x="685" Pos_y="104" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="2" Type="9" Damage="1"/>
+		<Item Pos_x="784" Pos_y="133" Size_x="32" Size_y="40" Pic="\Image\地图\炼金研究所\动画04.bmp" Pic_right="16" Pic_bottom="20" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="3" ChildId="4" Damage="1" Effect="爆炸04" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\计时塔.lua"/>
+		<Item Pos_x="752" Pos_y="105" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="4" Type="9" Damage="1"/>
+		<Item Pos_x="1072" Pos_y="324" Size_x="32" Size_y="40" Pic="\Image\地图\炼金研究所\动画04.bmp" Pic_right="16" Pic_bottom="20" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="5" ChildId="6" Damage="1" Effect="爆炸04" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\计时塔.lua"/>
+		<Item Pos_x="1036" Pos_y="299" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="6" Type="9" Damage="1"/>
+		<Item Pos_x="1136" Pos_y="326" Size_x="32" Size_y="40" Pic="\Image\地图\炼金研究所\动画04.bmp" Pic_right="16" Pic_bottom="20" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="7" ChildId="8" Damage="1" Effect="爆炸04" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\计时塔.lua"/>
+		<Item Pos_x="1101" Pos_y="300" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="8" Type="9" Damage="1"/>
+		<Item Pos_x="384" Pos_y="108" Size_x="32" Size_y="128" Pic="\Image\地图\计时塔\红砖塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1" Id="9" Damage="1" Effect="墙壁破裂05" Script="\data\脚本\破坏物品\计时塔.lua" Item="大红心"/>
+		<Item Pos_x="1088" Pos_y="108" Size_x="32" Size_y="128" Pic="\Image\地图\计时塔\红砖塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1" Id="10" Damage="1" Effect="墙壁破裂05" Script="\data\脚本\破坏物品\计时塔.lua" Item="大红心"/>
+		<Item Pos_x="736" Pos_y="332" Size_x="32" Size_y="128" Pic="\Image\地图\计时塔\红砖塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1" Id="11" Damage="1" Effect="墙壁破裂05" Script="\data\脚本\破坏物品\计时塔.lua" Item="大红心"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="1473" Pos_y="364" Size_x="64" Size_y="64" Obst="1"/>
+		<Item Pos_x="1377" Pos_y="364" Size_x="96" Size_y="96" Obst="5"/>
+		<Item Pos_x="864" Pos_y="268" Size_x="192" Size_y="192" Obst="4"/>
+		<Item Pos_x="96" Pos_y="364" Size_x="96" Size_y="96" Obst="4"/>
+		<Item Pos_x="64" Pos_y="364" Size_x="32" Size_y="64" Obst="1"/>
+		<Item Pos_x="480" Pos_y="428" Size_x="32" Size_y="32" Obst="5"/>
+		<Item Pos_x="625" Pos_y="268" Size_x="46" Size_y="46" Obst="5"/>
+		<Item Pos_x="580" Pos_y="433" Size_x="32" Size_y="27" Obst="1"/>
+		<Item Pos_x="832" Pos_y="268" Size_x="32" Size_y="64" Obst="1"/>
+		<Item Pos_x="513" Pos_y="428" Size_x="67" Size_y="32" Obst="1"/>
+		<Item Pos_x="416" Pos_y="108" Size_x="32" Size_y="128" Obst="1"/>
+		<Item Pos_x="768" Pos_y="332" Size_x="32" Size_y="128" Obst="1"/>
+		<Item Pos_x="1120" Pos_y="108" Size_x="32" Size_y="128" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-48" Pos_y="236" Size_x="52" Size_y="128" Id="1" Map="红砖塔03" MapPos_x="1600" MapPos_y="368"/>
+		<Item Pos_x="1594" Pos_y="236" Size_x="52" Size_y="128" Id="2" Map="红砖塔01" MapPos_y="272"/>
+	</Trap>
+	<Char/>
+</Map>

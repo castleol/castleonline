@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="336" Pos_y="349" Size_x="68" Size_y="59" EmitInter="1" EmitTime="1" Pic="\Image\怪物\植物\妖草乌奈.bmp" Pic_left="128" Pic_top="96" Pic_right="144" Pic_bottom="128" ColorKey="0xFF00FF" Blend="0x1" Sound="\sound\物件\香蕉皮.wav" ItemSize_x="32" ItemSize_y="64" ItemHot_x="16" ItemHot_y="64" ItemFrame="4" ItemFps="10"/>
+</Effect>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="347" Pos_y="216" Size_x="40" Size_y="80" Offs_x="10" Offs_y="-75" EmitInter="100" EmitTime="1200" Pic="魅魔" Group="11" ColorKey="0xFF00" Filter="0x0" Sound="\sound\怪物\魅魔飞花.wav" ItemSize_x="16" ItemSize_y="16" ItemHot_x="8" ItemHot_y="8" ItemLife="1500" ItemScale="2.000" ItemQuality="1.000" MinSpeedX="300.000" MaxSpeedX="400.000" MaxSpeedY="400.000" AngleSpeed="12.000" Follow="1" HitType="2" HitOnce="1" Destroy="1" Magic="1" TrailTime="5" TrailFade="20" TrailColor="0xFF8080FF"/>
+	<Item Pos_x="347" Pos_y="216" Size_x="40" Size_y="80" Offs_x="10" Offs_y="-75" EmitInter="100" EmitTime="1200" Pic="魅魔" Group="11" Frame="1" ColorKey="0xFF00" Filter="0x0" Blend="0x1" EndColor="0xFFFFFF" Sound="\sound\怪物\魅魔飞花.wav" ItemSize_x="16" ItemSize_y="16" ItemHot_x="8" ItemHot_y="8" ItemLife="1500" ItemScale="2.000" ItemQuality="1.000" MinSpeedX="300.000" MaxSpeedX="400.000" MaxSpeedY="400.000" AngleSpeed="9.000" Follow="1" HitType="2" HitOnce="1" Destroy="1" Magic="1" TrailTime="5" TrailFade="20" TrailColor="0xFF8080FF"/>
+</Effect>

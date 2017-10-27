@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_y="202" Size_x="565" Size_y="99" Pic="\Image\地图\恶魔城入口\入口水道\水中墙壁.bmp" Color0="0xFF000000" Color1="0xFF000000" Tile="1"/>
+		<Item Pos_x="379" Pos_y="556" Size_x="158" Size_y="44" Pic="\Image\地图\恶魔城入口\水道出口\山洞背景.bmp" Pic_right="16" Pic_bottom="16" Tile="1"/>
+		<Item Pos_y="297" Size_x="800" Size_y="175" Pic="\Image\地图\恶魔城入口\水道出口\墙壁2.bmp" Pic_right="160" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="80" Pos_y="174" Size_x="432" Size_y="40" Pic="\Image\地图\恶魔城入口\水道出口\山洞4.bmp" Pic_right="80" Pic_bottom="40" ColorKey="0xFF" Tile="1" Obst="1"/>
+		<Item Pos_y="470" Size_x="800" Size_y="77" Pic="\Image\地图\恶魔城入口\入口水道\水中墙壁.bmp" Color2="0xFF000000" Color3="0xFF000000" Tile="1"/>
+		<Item Size_x="596" Size_y="175" Pic="\Image\地图\恶魔城入口\水道出口\山洞背景.bmp" Pic_right="16" Pic_bottom="16" Tile="1"/>
+		<Item Pos_y="170" Size_x="80" Size_y="140" Pic="\Image\地图\恶魔城入口\水道出口\山洞3.bmp" ColorKey="0xFF"/>
+		<Item Pos_x="590" Pos_y="272" Size_x="210" Size_y="40" Pic="\Image\地图\恶魔城入口\水道出口\山洞4.bmp" Pic_right="80" Pic_bottom="40" ColorKey="0xFF" Tile="1" Obst="1"/>
+		<Item Pos_x="511" Pos_y="170" Size_x="80" Size_y="140" Pic="\Image\地图\恶魔城入口\水道出口\山洞3.bmp" ColorKey="0xFF" Flip="1"/>
+		<Item Pos_x="590" Size_x="210" Size_y="273" Pic="\Image\地图\恶魔城入口\水道出口\山洞背景.bmp" Pic_right="16" Pic_bottom="16" Tile="1"/>
+		<Item Pos_x="535" Pos_y="503" Size_x="265" Size_y="97" Pic="\Image\地图\恶魔城入口\水道出口\山洞背景.bmp" Pic_right="16" Pic_bottom="16" Tile="1"/>
+		<Item Pos_x="615" Pos_y="446" Size_x="185" Size_y="60" Pic="\Image\地图\恶魔城入口\水道出口\山洞1.bmp" Pic_right="80" Pic_bottom="60" ColorKey="0xFF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="536" Pos_y="446" Size_x="80" Size_y="80" Pic="\Image\地图\恶魔城入口\水道出口\山洞2.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFF" Flip="2"/>
+		<Item Pos_x="458" Pos_y="477" Size_x="80" Size_y="80" Pic="\Image\地图\恶魔城入口\水道出口\山洞2.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFF" Flip="2"/>
+		<Item Pos_x="379" Pos_y="509" Size_x="80" Size_y="80" Pic="\Image\地图\恶魔城入口\水道出口\山洞2.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFF" Flip="2"/>
+		<Item Pos_x="79" Pos_y="540" Size_x="301" Size_y="60" Pic="\Image\地图\恶魔城入口\水道出口\山洞1.bmp" Pic_right="80" Pic_bottom="60" ColorKey="0xFF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_y="443" Size_x="80" Size_y="140" Pic="\Image\地图\恶魔城入口\水道出口\山洞3.bmp" ColorKey="0xFF" Flip="2"/>
+		<Item Pos_y="578" Size_x="80" Size_y="22" Pic="\Image\地图\恶魔城入口\水道出口\山洞背景.bmp" Pic_right="16" Pic_bottom="16" Tile="1"/>
+		<Item Pos_x="186" Pos_y="476" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\藏宝石台.bmp" Color0="0xFF8080FF" Color1="0xFF8080FF" Color2="0xFF8080FF" Color3="0xFF8080FF" Obst="2"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="211" Pos_y="443" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="1" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" Item="生命上限" TaskId="5"/>
+		<Item Pos_y="502" Size_x="800" Size_y="98" Color0="0x600000FF" Color1="0x600000FF" Color2="0x6000F0FF" Color3="0x6000F0FF" Mask="1" Id="2" Type="11"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="446" Size_x="39" Size_y="99" Obst="1"/>
+		<Item Pos_x="675" Pos_y="214" Size_x="39" Size_y="98" Obst="1"/>
+		<Item Pos_x="574" Pos_y="446" Size_x="41" Size_y="58" Obst="1"/>
+		<Item Pos_x="495" Pos_y="478" Size_x="45" Size_y="58" Obst="1"/>
+		<Item Pos_x="417" Pos_y="510" Size_x="45" Size_y="58" Obst="1"/>
+		<Item Pos_x="549" Pos_y="203" Size_x="40" Size_y="109" Obst="1"/>
+		<Item Pos_x="1" Pos_y="190" Size_x="38" Size_y="121" Obst="1"/>
+		<Item Pos_x="39" Pos_y="504" Size_x="40" Size_y="36" Obst="4"/>
+		<Item Pos_x="539" Pos_y="446" Size_x="34" Size_y="32" Obst="5"/>
+		<Item Pos_x="461" Pos_y="478" Size_x="34" Size_y="32" Obst="5"/>
+		<Item Pos_x="379" Pos_y="510" Size_x="37" Size_y="30" Obst="5"/>
+		<Item Pos_x="-33" Pos_y="311" Size_x="40" Size_y="134" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="788" Pos_y="325" Size_x="36" Size_y="120" Id="1" Map="入口水道" MapPos_y="840"/>
+	</Trap>
+	<Char/>
+</Map>

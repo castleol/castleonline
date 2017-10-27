@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1400" Size_y="600">
+	<Tile>
+		<Item Size_x="1400" Size_y="600" Pic="\Image\地图\地下通道\房间01-1.bmp" Pic_right="512" Pic_bottom="207" ColorKey="0x800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="346" Pos_y="350" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="1" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="674" Pos_y="350" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="954" Pos_y="349" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="3" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+	</Anim>
+	<Obst>
+		<Item Size_x="130" Size_y="209" Obst="1"/>
+		<Item Pos_y="394" Size_x="217" Size_y="205" Obst="1"/>
+		<Item Pos_x="131" Pos_y="1" Size_x="1269" Size_y="70" Obst="1"/>
+		<Item Pos_x="570" Pos_y="71" Size_x="261" Size_y="140" Obst="1"/>
+		<Item Pos_x="1270" Pos_y="71" Size_x="130" Size_y="139" Obst="1"/>
+		<Item Pos_x="1183" Pos_y="394" Size_x="217" Size_y="205" Obst="1"/>
+		<Item Pos_x="217" Pos_y="533" Size_x="178" Size_y="66" Obst="1"/>
+		<Item Pos_x="566" Pos_y="533" Size_x="615" Size_y="67" Obst="1"/>
+		<Item Pos_x="1051" Pos_y="394" Size_x="131" Size_y="139" Obst="5"/>
+		<Item Pos_x="218" Pos_y="394" Size_x="131" Size_y="139" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="1396" Pos_y="213" Size_x="50" Size_y="180" Id="1" Map="地下通道竖井01" MapPos_y="1150"/>
+		<Item Pos_x="-47" Pos_y="212" Size_x="50" Size_y="180" Id="2" Map="地下通道房间02" MapPos_x="800" MapPos_y="394"/>
+		<Item Pos_x="395" Pos_y="595" Size_x="170" Size_y="34" Id="3" Map="地下通道房间04" MapPos_x="465" MapPos_y="50"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="819" Pos_y="467" Size_x="44" Size_y="66" Id="1" Char="长枪守卫"/>
+		<Item Pos_x="602" Pos_y="276" Size_x="44" Size_y="66" Id="2" Char="鬼魂" Action="隐藏"/>
+	</Char>
+</Map>

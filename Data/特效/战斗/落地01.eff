@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="366" Pos_y="484" Size_x="64" Size_y="5" Random="1" EmitInter="10" EmitTime="100" Pic="\Image\特效\场景\灰尘02.bmp" Pic_right="24" Pic_bottom="24" ColorKey="0x800000" Blend="0x2" Sound="\sound\角色\里希特\落地2.wav" ItemSize_x="24" ItemSize_y="24" ItemHot_x="12" ItemHot_y="12" ItemFrame="13" ItemFps="30" ItemScale="1.200" MinSpeedY="-50.000" MaxSpeedY="-50.000" Follow="2"/>
+</Effect>

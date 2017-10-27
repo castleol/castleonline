@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\角色\阿鲁卡多\Weapon.bmp" ColorKey="0xFF800000" Size_x="32" Size_y="90" Scale="2.000" TrailTime="5" TrailFade="10" TrailColor="0xFF4040FF" Shadow="1" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="5">
+		<Act Name="站立武器" Group="30" End="8" Fps="30" Blend="0x1" Sound="2"/>
+		<Act Name="蹲地武器" Group="30" End="8" Fps="30" Blend="0x1" Sound="2" Offs_y="34"/>
+		<Act Name="空中武器" Group="30" End="8" Fps="32" Blend="0x1" Sound="2"/>
+		<Act Name="蹲地武器斜下" Group="33" End="8" Fps="30" Blend="0x1" Sound="2"/>
+		<Act Name="空中武器斜下" Group="33" End="8" Fps="30" Blend="0x1" Sound="2"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="0"/>
+	<Image Num="36">
+		<Img Group="30" Pos_x="3" Pos_y="1" Size_x="20" Size_y="25" Hot_x="15" Hot_y="58"/>
+		<Img Group="30" Frame="1" Pos_x="23" Pos_y="7" Size_x="76" Size_y="19" Hot_x="15" Hot_y="54"/>
+		<Img Group="30" Frame="2" Pos_x="102" Pos_y="5" Size_x="71" Size_y="22" Hot_x="9" Hot_y="56"/>
+		<Img Group="30" Frame="3" Pos_x="176" Pos_y="5" Size_x="66" Size_y="22" Hot_x="6" Hot_y="56"/>
+		<Img Group="30" Frame="4" Pos_x="242" Pos_y="5" Size_x="57" Size_y="22" Hot_x="-4" Hot_y="56"/>
+		<Img Group="30" Frame="5" Pos_x="299" Pos_y="9" Size_x="39" Size_y="18" Hot_x="-19" Hot_y="50"/>
+		<Img Group="30" Frame="6" Pos_x="339" Pos_y="9" Size_x="37" Size_y="18" Hot_x="-20" Hot_y="50"/>
+		<Img Group="30" Frame="7" Pos_x="380" Pos_y="9" Size_x="40" Size_y="18" Hot_x="-18" Hot_y="50"/>
+		<Img Group="30" Frame="8" Pos_x="426" Pos_y="9" Size_x="37" Size_y="18" Hot_x="-19" Hot_y="50"/>
+		<Img Group="31" Pos_x="3" Pos_y="37" Size_x="18" Size_y="21" Hot_x="15" Hot_y="54"/>
+		<Img Group="31" Frame="1" Pos_x="21" Pos_y="37" Size_x="76" Size_y="21" Hot_x="17" Hot_y="55"/>
+		<Img Group="31" Frame="2" Pos_x="97" Pos_y="37" Size_x="76" Size_y="21" Hot_x="12" Hot_y="55"/>
+		<Img Group="31" Frame="3" Pos_x="173" Pos_y="37" Size_x="70" Size_y="21" Hot_x="9" Hot_y="55"/>
+		<Img Group="31" Frame="4" Pos_x="243" Pos_y="37" Size_x="55" Size_y="21" Hot_x="-5" Hot_y="55"/>
+		<Img Group="31" Frame="5" Pos_x="298" Pos_y="37" Size_x="40" Size_y="21" Hot_x="-19" Hot_y="54"/>
+		<Img Group="31" Frame="6" Pos_x="338" Pos_y="37" Size_x="40" Size_y="21" Hot_x="-21" Hot_y="54"/>
+		<Img Group="31" Frame="7" Pos_x="380" Pos_y="37" Size_x="40" Size_y="21" Hot_x="-20" Hot_y="54"/>
+		<Img Group="31" Frame="8" Pos_x="423" Pos_y="37" Size_x="40" Size_y="21" Hot_x="-19" Hot_y="54"/>
+		<Img Group="32" Pos_x="4" Pos_y="65" Size_x="17" Size_y="25" Hot_x="14" Hot_y="57"/>
+		<Img Group="32" Frame="1" Pos_x="21" Pos_y="65" Size_x="77" Size_y="25" Hot_x="17" Hot_y="59"/>
+		<Img Group="32" Frame="2" Pos_x="98" Pos_y="65" Size_x="76" Size_y="25" Hot_x="11" Hot_y="59"/>
+		<Img Group="32" Frame="3" Pos_x="174" Pos_y="65" Size_x="68" Size_y="25" Hot_x="8" Hot_y="59"/>
+		<Img Group="32" Frame="4" Pos_x="242" Pos_y="65" Size_x="56" Size_y="25" Hot_x="-4" Hot_y="59"/>
+		<Img Group="32" Frame="5" Pos_x="298" Pos_y="65" Size_x="40" Size_y="25" Hot_x="-20" Hot_y="58"/>
+		<Img Group="32" Frame="6" Pos_x="338" Pos_y="65" Size_x="40" Size_y="25" Hot_x="-22" Hot_y="58"/>
+		<Img Group="32" Frame="7" Pos_x="380" Pos_y="65" Size_x="38" Size_y="25" Hot_x="-21" Hot_y="58"/>
+		<Img Group="32" Frame="8" Pos_x="425" Pos_y="65" Size_x="39" Size_y="25" Hot_x="-23" Hot_y="58"/>
+		<Img Group="33" Pos_x="3" Pos_y="1" Size_x="20" Size_y="25" Hot_x="33" Hot_y="50" Angle="0.600"/>
+		<Img Group="33" Frame="1" Pos_x="23" Pos_y="7" Size_x="76" Size_y="19" Hot_x="32" Hot_y="48" Angle="0.600"/>
+		<Img Group="33" Frame="2" Pos_x="102" Pos_y="5" Size_x="71" Size_y="22" Hot_x="26" Hot_y="50" Angle="0.600"/>
+		<Img Group="33" Frame="3" Pos_x="176" Pos_y="5" Size_x="66" Size_y="22" Hot_x="23" Hot_y="50" Angle="0.600"/>
+		<Img Group="33" Frame="4" Pos_x="242" Pos_y="5" Size_x="57" Size_y="22" Hot_x="13" Hot_y="50" Angle="0.600"/>
+		<Img Group="33" Frame="5" Pos_x="299" Pos_y="9" Size_x="39" Size_y="18" Hot_x="-3" Hot_y="44" Angle="0.600"/>
+		<Img Group="33" Frame="6" Pos_x="339" Pos_y="9" Size_x="37" Size_y="18" Hot_x="-2" Hot_y="44" Angle="0.600"/>
+		<Img Group="33" Frame="7" Pos_x="380" Pos_y="9" Size_x="40" Size_y="18" Hot_x="-1" Hot_y="44" Angle="0.600"/>
+		<Img Group="33" Frame="8" Pos_x="426" Pos_y="9" Size_x="37" Size_y="18" Hot_y="44" Angle="0.600"/>
+	</Image>
+</Char>

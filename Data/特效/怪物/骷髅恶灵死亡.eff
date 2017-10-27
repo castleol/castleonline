@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect Center_x="370" Center_y="461">
+	<Item Pos_x="306" Pos_y="281" Size_x="128" Size_y="180" Offs_y="-110" EmitInter="1" EmitTime="1" Pic="\Image\怪物\鬼怪\骷髅恶灵.bmp" Pic_top="93" Pic_right="64" Pic_bottom="163" ColorKey="0xFF00" Filter="0x2" Blend="0x1" EndColor="0x20FFFFFF" ItemSize_x="64" ItemSize_y="68" ItemHot_x="32" ItemHot_y="34" ItemFrame="3" ItemFps="10" ItemLife="2000" ItemScale="4.000" ScaleSpeed="-2.000"/>
+	<Item Pos_x="353" Pos_y="347" Size_x="32" Size_y="32" EmitInter="50" EmitTime="200" Pic="\Image\怪物\鬼怪\骷髅恶灵.bmp" Pic_left="195" Pic_top="129" Pic_right="201" Pic_bottom="135" ColorKey="0xFF00" ItemSize_x="12" ItemSize_y="12" ItemHot_x="6" ItemHot_y="6" ItemLife="1000" MinSpeedX="-200.000" MaxSpeedX="200.000" AddSpeedY="800.000" AngleSpeed="6.000"/>
+	<Item Pos_x="354" Pos_y="347" Size_x="32" Size_y="32" EmitInter="50" EmitTime="200" Pic="\Image\怪物\鬼怪\骷髅恶灵.bmp" Pic_left="195" Pic_top="138" Pic_right="201" Pic_bottom="147" ColorKey="0xFF00" ItemSize_x="12" ItemSize_y="12" ItemHot_x="6" ItemHot_y="6" ItemLife="1000" MinSpeedX="-200.000" MaxSpeedX="200.000" AddSpeedY="800.000" AngleSpeed="6.000"/>
+	<Item Pos_x="356" Pos_y="347" Size_x="32" Size_y="32" EmitInter="50" EmitTime="200" Pic="\Image\怪物\鬼怪\骷髅恶灵.bmp" Pic_left="202" Pic_top="129" Pic_right="211" Pic_bottom="135" ColorKey="0xFF00" ItemSize_x="12" ItemSize_y="12" ItemHot_x="6" ItemHot_y="6" ItemLife="1000" MinSpeedX="-200.000" MaxSpeedX="200.000" AddSpeedY="800.000" AngleSpeed="6.000"/>
+</Effect>

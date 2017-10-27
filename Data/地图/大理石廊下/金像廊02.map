@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1600" Size_y="1805">
+	<Tile>
+		<Item Size_x="670" Size_y="1120" Pic="\Image\地图\大理石廊下\金像廊\背景01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="1440" Size_x="128" Size_y="130" Pic="\Image\地图\大理石廊下\金像廊\背景04.bmp"/>
+		<Item Pos_x="656" Pos_y="235" Size_x="14" Size_y="757" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Tile="1"/>
+		<Item Pos_x="128" Pos_y="365" Size_x="545" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="670" Size_x="258" Size_y="1634" Pic="\Image\地图\大理石廊下\金像廊\背景04.bmp"/>
+		<Item Pos_x="928" Size_x="542" Size_y="1805" Pic="\Image\地图\大理石廊下\金像廊\背景01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1456" Pos_y="237" Size_x="14" Size_y="115" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Tile="1"/>
+		<Item Pos_y="624" Size_x="284" Size_y="16" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="927" Pos_y="976" Size_x="545" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="1382" Pos_y="336" Size_x="218" Size_y="16" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="928" Pos_y="1469" Size_x="14" Size_y="165" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Tile="1" Flip="1"/>
+		<Item Pos_x="613" Pos_y="336" Size_x="374" Size_y="16" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="928" Pos_y="235" Size_x="14" Size_y="757" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Tile="1" Flip="1"/>
+		<Item Pos_x="1470" Pos_y="192" Size_x="130" Size_y="194" Pic="\Image\地图\大理石廊下\金像廊\背景04.bmp"/>
+		<Item Pos_x="127" Pos_y="1205" Size_x="543" Size_y="600" Pic="\Image\地图\大理石廊下\金像廊\背景01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="656" Pos_y="1469" Size_x="14" Size_y="165" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Tile="1"/>
+		<Item Pos_x="1025" Pos_y="400" Size_x="318" Size_y="16" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="526" Pos_y="944" Size_x="397" Size_y="16" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="1318" Pos_y="1234" Size_x="282" Size_y="16" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="1" Pos_y="1554" Size_x="218" Size_y="16" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="251" Pos_y="1618" Size_x="714" Size_y="16" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="127" Pos_y="1476" Size_x="14" Size_y="94" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Tile="1" Flip="1"/>
+		<Item Pos_x="1172" Pos_y="1554" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_y="1634" Size_x="1600" Size_y="171" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="736" Size_x="128" Size_y="1634" Pic="\Image\地图\大理石廊下\金像廊\背景06.bmp" Pic_right="64" Pic_bottom="32" Tile="1"/>
+		<Item Size_x="1600" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\背景02-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="648" Pos_y="1313" Size_x="112" Size_y="163" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="984" Pos_y="1554" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="1360" Pos_y="1554" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="1154" Pos_y="1024" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="1370" Pos_y="1094" Size_x="32" Size_y="460" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_y="59" Size_x="1600" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="1342" Pos_y="1024" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="1182" Pos_y="1094" Size_x="32" Size_y="460" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="966" Pos_y="1024" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="1144" Pos_y="1135" Size_x="75" Size_y="69" Pic="\Image\地图\大理石廊下\彩窗廊\阴影01.bmp" Pic_right="64" Pic_bottom="64"/>
+		<Item Pos_x="668" Pos_y="1398" Size_x="263" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="994" Pos_y="1094" Size_x="32" Size_y="460" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="74" Pos_y="1312" Size_x="112" Size_y="136" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_y="1364" Size_x="167" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_y="1275" Size_x="996" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_y="1312" Size_x="96" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="904" Pos_y="1152" Size_x="112" Size_y="204" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_y="1248" Size_x="960" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="96" Pos_y="1312" Size_x="32" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="1184" Size_x="928" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景02-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="839" Pos_y="1312" Size_x="112" Size_y="163" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_y="1152" Size_x="928" Size_y="61" Pic="\Image\地图\大理石廊下\金像廊\背景02-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="736" Pos_y="1312" Size_x="128" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="704" Pos_y="1312" Size_x="32" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\墙面01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1344" Pos_y="1250" Size_x="256" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\地面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="1634" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="640" Pos_y="1666" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="384" Pos_y="1698" Size_x="128" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="400" Pos_y="1554" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="410" Pos_y="1426" Size_x="32" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="382" Pos_y="1356" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="212" Pos_y="1554" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="222" Pos_y="1426" Size_x="32" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="192" Pos_y="1522" Size_x="92" Size_y="144" Pic="\Image\地图\大理石廊下\金像廊\栏杆02-1.bmp" Pic_right="96" Pic_bottom="208" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_y="1570" Size_x="192" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\地面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="194" Pos_y="1356" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="588" Pos_y="1554" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="598" Pos_y="1426" Size_x="32" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="931" Pos_y="1493" Size_x="32" Size_y="203" Pic="\Image\地图\大理石廊下\金像廊\栏杆03-2.bmp" Pic_right="96" Pic_bottom="234" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="570" Pos_y="1356" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="284" Pos_y="1539" Size_x="96" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\背景03-1.bmp" Pic_right="96" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="960" Pos_y="1464" Size_x="96" Size_y="234" Pic="\Image\地图\大理石廊下\金像廊\栏杆03-6.bmp" Pic_right="96" Pic_bottom="234" ColorKey="0xFF00FF" Tile="1" Flip="1" Mask="1"/>
+		<Item Pos_x="256" Pos_y="1634" Size_x="704" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\地面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="284" Pos_y="1443" Size_x="96" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\背景03-2.bmp" Pic_right="96" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="284" Pos_y="1387" Size_x="96" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\背景03-3.bmp" Pic_right="96" Pic_bottom="56" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="472" Pos_y="1539" Size_x="96" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\背景03-1.bmp" Pic_right="96" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="472" Pos_y="1443" Size_x="96" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\背景03-2.bmp" Pic_right="96" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="472" Pos_y="1387" Size_x="96" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\背景03-3.bmp" Pic_right="96" Pic_bottom="56" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="1344" Pos_y="1202" Size_x="256" Size_y="48" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-1.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="282" Pos_y="1586" Size_x="650" Size_y="48" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-1.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="128" Pos_y="1312" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="640" Pos_y="1312" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="896" Pos_y="992" Size_x="704" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\背景07.bmp" Pic_right="176" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="32" Pos_y="1522" Size_x="160" Size_y="48" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-1.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_y="1516" Size_x="32" Size_y="54" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-2.bmp" Pic_right="32" Pic_bottom="54" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="941" Pos_y="1110" Size_x="259" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="1064" Pos_y="721" Size_x="263" Size_y="84" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Group="3"/>
+		<Item Pos_x="1113" Pos_y="704" Size_x="72" Size_y="288" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Group="3"/>
+		<Item Pos_x="864" Pos_y="1312" Size_x="32" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1207" Pos_y="704" Size_x="72" Size_y="288" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Group="3"/>
+		<Item Pos_x="1015" Pos_y="704" Size_x="72" Size_y="288" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Group="3"/>
+		<Item Pos_x="572" Pos_y="486" Size_x="32" Size_y="468" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="896" Pos_y="1312" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="571" Pos_y="667" Size_x="1029" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64" Group="3"/>
+		<Item Pos_x="928" Pos_y="1152" Size_x="32" Size_y="160" Pic="\Image\地图\大理石廊下\金像廊\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1275" Pos_y="976" Size_x="75" Size_y="75" Pic="\Image\地图\大理石廊下\彩窗廊\阴影01.bmp" Pic_right="64" Pic_bottom="64"/>
+		<Item Pos_x="1303" Pos_y="704" Size_x="72" Size_y="288" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36" Group="3"/>
+		<Item Pos_x="1056" Pos_y="1368" Size_x="96" Size_y="234" Pic="\Image\地图\大理石廊下\金像廊\栏杆03-6.bmp" Pic_right="96" Pic_bottom="234" ColorKey="0xFF00FF" Tile="1" Flip="1" Mask="1"/>
+		<Item Pos_x="1036" Pos_y="960" Size_x="320" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\背景08-1.bmp" Pic_right="320" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="3"/>
+		<Item Pos_x="1296" Pos_y="955" Size_x="178" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="1036" Pos_y="704" Size_x="320" Size_y="160" Pic="\Image\地图\大理石廊下\金像廊\背景08-3.bmp" Pic_right="320" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1" Group="3"/>
+		<Item Pos_x="1036" Pos_y="864" Size_x="320" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\背景08-2.bmp" Pic_right="320" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="3"/>
+		<Item Pos_x="1162" Pos_y="864" Size_x="64" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\金像01-1.bmp" Pic_right="64" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1" Group="3"/>
+		<Item Pos_x="1152" Pos_y="1272" Size_x="96" Size_y="234" Pic="\Image\地图\大理石廊下\金像廊\栏杆03-6.bmp" Pic_right="96" Pic_bottom="234" ColorKey="0xFF00FF" Tile="1" Flip="1" Mask="1"/>
+		<Item Pos_x="1416" Pos_y="704" Size_x="112" Size_y="546" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="1248" Pos_y="1202" Size_x="96" Size_y="208" Pic="\Image\地图\大理石廊下\金像廊\栏杆03-5.bmp" Pic_right="96" Pic_bottom="208" ColorKey="0xFF00FF" Tile="1" Flip="1" Mask="1"/>
+		<Item Pos_x="1504" Pos_y="704" Size_x="96" Size_y="546" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="667" Pos_y="761" Size_x="262" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_y="1120" Size_x="1024" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\地面02-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Mask="1" Obst="1"/>
+		<Item Pos_x="1024" Pos_y="1120" Size_x="176" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\地面02-2.bmp" Pic_right="176" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Mask="1" Obst="1"/>
+		<Item Pos_x="1296" Pos_y="960" Size_x="176" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\地面02-3.bmp" Pic_right="176" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="640" Pos_y="640" Size_x="960" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="648" Pos_y="704" Size_x="112" Size_y="138" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="992" Pos_y="950" Size_x="122" Size_y="170" Pic="\Image\地图\大理石廊下\金像廊\栏杆02-4.bmp" Pic_right="122" Pic_bottom="170" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="837" Pos_y="704" Size_x="112" Size_y="138" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="896" Pos_y="912" Size_x="96" Size_y="208" Pic="\Image\地图\大理石廊下\金像廊\栏杆02-3.bmp" Pic_right="96" Pic_bottom="208" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="736" Pos_y="704" Size_x="128" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="704" Pos_y="704" Size_x="32" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="864" Pos_y="704" Size_x="32" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="562" Pos_y="946" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="70" Pos_y="96" Size_x="112" Size_y="544" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="374" Pos_y="946" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="186" Pos_y="946" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="356" Pos_y="416" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="1472" Pos_y="704" Size_x="32" Size_y="546" Pic="\Image\地图\大理石廊下\金像廊\墙面01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="544" Pos_y="854" Size_x="64" Size_y="170" Pic="\Image\地图\大理石廊下\金像廊\栏杆02-2.bmp" Pic_right="96" Pic_bottom="234" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="576" Pos_y="960" Size_x="320" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\地面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Mask="1" Obst="1"/>
+		<Item Pos_x="544" Pos_y="416" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="384" Pos_y="486" Size_x="32" Size_y="460" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="168" Pos_y="416" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="336" Pos_y="507" Size_x="304" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="196" Pos_y="486" Size_x="32" Size_y="460" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_y="96" Size_x="96" Size_y="544" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="672" Size_x="256" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="552" Pos_y="544" Size_x="112" Size_y="203" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="96" Pos_y="96" Size_x="32" Size_y="544" Pic="\Image\地图\大理石廊下\金像廊\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="448" Pos_y="758" Size_x="96" Size_y="234" Pic="\Image\地图\大理石廊下\金像廊\栏杆02-2.bmp" Pic_right="96" Pic_bottom="234" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="352" Pos_y="662" Size_x="96" Size_y="234" Pic="\Image\地图\大理石廊下\金像廊\栏杆02-2.bmp" Pic_right="96" Pic_bottom="234" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="256" Pos_y="592" Size_x="96" Size_y="208" Pic="\Image\地图\大理石廊下\金像廊\栏杆02-1.bmp" Pic_right="96" Pic_bottom="208" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_y="640" Size_x="256" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\地面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="1056" Size_x="931" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面02-5.bmp" Pic_right="416" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1472" Pos_y="960" Size_x="128" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\地面02-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="604" Pos_y="912" Size_x="292" Size_y="48" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-1.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="608" Pos_y="576" Size_x="32" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\墙面01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="512" Pos_y="512" Size_x="1088" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\地面02-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Mask="1" Obst="1"/>
+		<Item Pos_x="313" Pos_y="524" Size_x="75" Size_y="77" Pic="\Image\地图\大理石廊下\彩窗廊\阴影01.bmp" Pic_right="64" Pic_bottom="64"/>
+		<Item Pos_x="608" Pos_y="544" Size_x="32" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\墙面01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Color0="0xFF000000" Color1="0xFF000000" Tile="1" Obst="1"/>
+		<Item Pos_x="640" Pos_y="576" Size_x="960" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景02-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="640" Pos_y="544" Size_x="960" Size_y="61" Pic="\Image\地图\大理石廊下\金像廊\背景02-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="336" Pos_y="512" Size_x="176" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\地面02-3.bmp" Pic_right="176" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="128" Pos_y="384" Size_x="544" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\背景07.bmp" Pic_right="176" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="128" Pos_y="347" Size_x="172" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="316" Pos_y="96" Size_x="72" Size_y="288" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="219" Pos_y="96" Size_x="72" Size_y="288" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="412" Pos_y="96" Size_x="72" Size_y="288" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="253" Pos_y="363" Size_x="75" Size_y="81" Pic="\Image\地图\大理石廊下\彩窗廊\阴影01.bmp" Pic_right="64" Pic_bottom="64"/>
+		<Item Pos_x="507" Pos_y="96" Size_x="72" Size_y="288" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="1152" Pos_y="1506" Size_x="96" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="269" Pos_y="115" Size_x="263" Size_y="84" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="1216" Pos_y="1410" Size_x="384" Size_y="256" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1056" Pos_y="1570" Size_x="128" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="667" Pos_y="153" Size_x="264" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="648" Pos_y="96" Size_x="112" Size_y="139" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="1344" Pos_y="1314" Size_x="256" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="240" Pos_y="352" Size_x="320" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\背景08-1.bmp" Pic_right="320" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="5"/>
+		<Item Pos_x="240" Pos_y="256" Size_x="320" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\背景08-2.bmp" Pic_right="320" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="5"/>
+		<Item Pos_x="370" Pos_y="256" Size_x="64" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\金像01-1.bmp" Pic_right="64" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="838" Pos_y="96" Size_x="112" Size_y="137" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="128" Pos_y="352" Size_x="176" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\地面02-2.bmp" Pic_right="176" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="240" Pos_y="96" Size_x="320" Size_y="160" Pic="\Image\地图\大理石廊下\金像廊\背景08-3.bmp" Pic_right="320" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1" Group="5"/>
+		<Item Pos_x="424" Pos_y="374" Size_x="120" Size_y="138" Pic="\Image\地图\大理石廊下\金像廊\栏杆03-4.bmp" Pic_right="120" Pic_bottom="138" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="544" Pos_y="304" Size_x="96" Size_y="208" Pic="\Image\地图\大理石廊下\金像廊\栏杆03-3.bmp" Pic_right="96" Pic_bottom="208" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_y="352" Size_x="128" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\地面02-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="32" Size_x="1600" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="640" Pos_y="352" Size_x="320" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\地面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Mask="1" Obst="1"/>
+		<Item Pos_x="736" Pos_y="96" Size_x="128" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="704" Pos_y="96" Size_x="32" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="864" Pos_y="96" Size_x="32" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1174" Pos_y="336" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1312" Pos_y="304" Size_x="96" Size_y="208" Pic="\Image\地图\大理石廊下\金像廊\栏杆03-3.bmp" Pic_right="96" Pic_bottom="208" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="1184" Pos_y="208" Size_x="32" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1156" Pos_y="138" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="986" Pos_y="336" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="996" Pos_y="208" Size_x="32" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="968" Pos_y="138" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1362" Pos_y="336" Size_x="52" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\柱子01-1.bmp" Pic_right="52" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1372" Pos_y="208" Size_x="32" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\柱子01-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1416" Pos_y="96" Size_x="112" Size_y="140" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="1344" Pos_y="138" Size_x="88" Size_y="70" Pic="\Image\地图\大理石廊下\金像廊\柱子01-3.bmp" Pic_right="88" Pic_bottom="70" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1437" Pos_y="153" Size_x="163" Size_y="101" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="1058" Pos_y="321" Size_x="96" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\背景03-1.bmp" Pic_right="96" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1058" Pos_y="225" Size_x="96" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\背景03-2.bmp" Pic_right="96" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1058" Pos_y="169" Size_x="96" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\背景03-3.bmp" Pic_right="96" Pic_bottom="56" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1246" Pos_y="321" Size_x="96" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\背景03-1.bmp" Pic_right="96" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1246" Pos_y="225" Size_x="96" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\背景03-2.bmp" Pic_right="96" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1246" Pos_y="169" Size_x="96" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\背景03-3.bmp" Pic_right="96" Pic_bottom="56" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="608" Pos_y="448" Size_x="992" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面02-5.bmp" Pic_right="416" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="960" Pos_y="304" Size_x="96" Size_y="208" Pic="\Image\地图\大理石廊下\金像廊\栏杆02-3.bmp" Pic_right="96" Pic_bottom="208" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="1024" Pos_y="416" Size_x="320" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\地面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="1504" Pos_y="96" Size_x="96" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1472" Pos_y="96" Size_x="32" Size_y="96" Pic="\Image\地图\大理石廊下\金像廊\墙面01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1408" Pos_y="352" Size_x="192" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\地面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Mask="1" Obst="1"/>
+		<Item Pos_x="640" Pos_y="416" Size_x="960" Size_y="32" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="992" Size_x="896" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="864" Size_x="448" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="736" Size_x="352" Size_y="128" Pic="\Image\地图\大理石廊下\金像廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="592" Size_x="256" Size_y="48" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-1.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="640" Pos_y="304" Size_x="320" Size_y="48" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-1.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="1050" Pos_y="368" Size_x="266" Size_y="48" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-1.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="1408" Pos_y="304" Size_x="192" Size_y="48" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-1.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="1568" Pos_y="298" Size_x="32" Size_y="54" Pic="\Image\地图\大理石廊下\金像廊\栏杆01-2.bmp" Pic_right="32" Pic_bottom="54" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="465" Pos_y="415" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Group="7"/>
+		<Item Pos_x="401" Pos_y="479" Size_x="121" Size_y="33" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Group="7"/>
+		<Item Pos_x="529" Pos_y="351" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Group="7"/>
+		<Item Pos_x="1233" Pos_y="416" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Group="8"/>
+		<Item Pos_x="1297" Pos_y="352" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Group="8"/>
+		<Item Pos_x="1170" Pos_y="1314" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Group="9"/>
+		<Item Pos_x="1106" Pos_y="1378" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Group="9"/>
+		<Item Pos_x="1234" Pos_y="1250" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Group="9"/>
+		<Item Pos_x="978" Pos_y="1506" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Group="9"/>
+		<Item Pos_x="914" Pos_y="1570" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Group="9"/>
+		<Item Pos_x="1042" Pos_y="1442" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Group="9"/>
+		<Item Pos_x="310" Pos_y="704" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1" Group="10"/>
+		<Item Pos_x="374" Pos_y="768" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1" Group="10"/>
+		<Item Pos_x="246" Pos_y="640" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1" Group="10"/>
+		<Item Pos_x="502" Pos_y="896" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1" Group="10"/>
+		<Item Pos_x="566" Pos_y="960" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1" Group="10"/>
+		<Item Pos_x="438" Pos_y="832" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1" Group="10"/>
+		<Item Pos_x="950" Pos_y="1024" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1" Group="11"/>
+		<Item Pos_x="1014" Pos_y="1088" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1" Group="11"/>
+		<Item Pos_x="886" Pos_y="960" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1" Group="11"/>
+		<Item Pos_x="184" Pos_y="1570" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1"/>
+		<Item Pos_x="951" Pos_y="352" Size_x="121" Size_y="64" Pic="\Image\地图\大理石廊下\彩窗廊\阴影04.bmp" Pic_right="121" Pic_bottom="64" Tile="1" Flip="1"/>
+		<Item Pos_x="960" Pos_y="1152" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1408" Pos_y="992" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="1408" Pos_y="704" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="640" Pos_y="704" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="896" Pos_y="704" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="128" Pos_y="384" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="128" Pos_y="96" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="896" Pos_y="96" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="544" Pos_y="544" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="640" Pos_y="96" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="1408" Pos_y="96" Size_x="64" Size_y="64" Pic="\Image\地图\大理石廊下\金像廊\背景05.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="316" Pos_y="1490" Size_x="32" Size_y="26" Pic="\Image\地图\大理石廊下\金像廊\物件01.bmp" Pic_right="32" Pic_bottom="26" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="504" Pos_y="1490" Size_x="32" Size_y="26" Pic="\Image\地图\大理石廊下\金像廊\物件01.bmp" Pic_right="32" Pic_bottom="26" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1089" Pos_y="1320" Size_x="32" Size_y="26" Pic="\Image\地图\大理石廊下\金像廊\物件01.bmp" Pic_right="32" Pic_bottom="26" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1278" Pos_y="1154" Size_x="32" Size_y="26" Pic="\Image\地图\大理石廊下\金像廊\物件01.bmp" Pic_right="32" Pic_bottom="26" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="475" Pos_y="704" Size_x="32" Size_y="26" Pic="\Image\地图\大理石廊下\金像廊\物件01.bmp" Pic_right="32" Pic_bottom="26" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="263" Pos_y="526" Size_x="32" Size_y="26" Pic="\Image\地图\大理石廊下\金像廊\物件01.bmp" Pic_right="32" Pic_bottom="26" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1089" Pos_y="268" Size_x="32" Size_y="26" Pic="\Image\地图\大理石廊下\金像廊\物件01.bmp" Pic_right="32" Pic_bottom="26" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1278" Pos_y="268" Size_x="32" Size_y="26" Pic="\Image\地图\大理石廊下\金像廊\物件01.bmp" Pic_right="32" Pic_bottom="26" ColorKey="0xFF00FF" Tile="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="253" Pos_y="494" Size_x="54" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\壁灯01.bmp" Pic_right="27" Pic_bottom="28" ColorKey="0xFFFF00FF" Frames="2" Fps="10" Id="1" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+		<Item Pos_x="465" Pos_y="672" Size_x="54" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\壁灯01.bmp" Pic_right="27" Pic_bottom="28" ColorKey="0xFFFF00FF" Frames="2" Fps="10" Id="2" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+		<Item Pos_x="1268" Pos_y="1122" Size_x="54" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\壁灯01.bmp" Pic_right="27" Pic_bottom="28" ColorKey="0xFFFF00FF" Frames="2" Fps="10" Id="3" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+		<Item Pos_x="1079" Pos_y="1288" Size_x="54" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\壁灯01.bmp" Pic_right="27" Pic_bottom="28" ColorKey="0xFFFF00FF" Frames="2" Fps="10" Id="4" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+		<Item Pos_x="306" Pos_y="1458" Size_x="54" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\壁灯01.bmp" Pic_right="27" Pic_bottom="28" ColorKey="0xFFFF00FF" Frames="2" Fps="10" Id="5" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+		<Item Pos_x="494" Pos_y="1458" Size_x="54" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\壁灯01.bmp" Pic_right="27" Pic_bottom="28" ColorKey="0xFFFF00FF" Frames="2" Fps="10" Id="6" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+		<Item Pos_x="1079" Pos_y="236" Size_x="54" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\壁灯01.bmp" Pic_right="27" Pic_bottom="28" ColorKey="0xFFFF00FF" Frames="2" Fps="10" Id="7" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+		<Item Pos_x="1268" Pos_y="236" Size_x="54" Size_y="56" Pic="\Image\地图\大理石廊下\金像廊\壁灯01.bmp" Pic_right="27" Pic_bottom="28" ColorKey="0xFFFF00FF" Frames="2" Fps="10" Id="8" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+		<Item Pos_x="1158" Pos_y="866" Size_x="70" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\壁灯02.bmp" Pic_right="35" Pic_bottom="40" ColorKey="0xFFFF00FF" Frames="2" Fps="10" Id="9" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+		<Item Pos_x="368" Pos_y="258" Size_x="70" Size_y="80" Pic="\Image\地图\大理石廊下\金像廊\壁灯02.bmp" Pic_right="35" Pic_bottom="40" ColorKey="0xFFFF00FF" Flip="1" Frames="2" Fps="10" Id="10" Damage="1" Effect="灯台01" Script="\data\脚本\破坏物品\大理石廊下.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="202" Pos_y="1570" Size_x="64" Size_y="64" Obst="4"/>
+		<Item Pos_x="949" Pos_y="1250" Size_x="384" Size_y="384" Obst="5"/>
+		<Item Pos_x="266" Pos_y="640" Size_x="320" Size_y="320" Obst="4"/>
+		<Item Pos_x="906" Pos_y="960" Size_x="160" Size_y="160" Obst="4"/>
+		<Item Pos_x="970" Pos_y="352" Size_x="64" Size_y="64" Obst="4"/>
+		<Item Pos_x="1333" Pos_y="352" Size_x="64" Size_y="64" Obst="5"/>
+		<Item Pos_x="469" Pos_y="352" Size_x="160" Size_y="160" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-37" Pos_y="1440" Size_x="44" Size_y="128" Id="1" Map="金像廊01" MapPos_x="800" MapPos_y="364"/>
+		<Item Pos_x="1595" Pos_y="193" Size_x="44" Size_y="158" Id="2" Map="金像廊03" MapPos_y="443"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="499" Pos_y="1550" Size_x="50" Size_y="84" Id="1" Char="鬼桌子"/>
+		<Item Pos_x="1397" Pos_y="1166" Size_x="50" Size_y="84" Id="2" Char="鬼桌子" Left="1"/>
+		<Item Pos_x="1385" Pos_y="876" Size_x="50" Size_y="84" Id="3" Char="扔骨骷髅" Left="1"/>
+		<Item Pos_x="773" Pos_y="876" Size_x="50" Size_y="84" Id="4" Char="扔骨骷髅"/>
+		<Item Pos_x="407" Pos_y="428" Size_x="50" Size_y="84" Id="5" Char="飞镖骷髅" Left="1"/>
+		<Item Pos_x="163" Pos_y="268" Size_x="50" Size_y="84" Id="6" Char="扔骨骷髅"/>
+		<Item Pos_x="1091" Pos_y="332" Size_x="50" Size_y="84" Id="7" Char="扔骨骷髅" Left="1"/>
+	</Char>
+</Map>

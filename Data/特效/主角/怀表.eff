@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="380" Pos_y="396" Size_x="30" Size_y="58" Offs_y="-50" Pic="\Image\特效\光环\002.bmp" Pic_right="109" Pic_bottom="109" Filter="0x2" Blend="0x1" EndColor="0xFFFFFF" Sound="\sound\物件\时钟.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemSizeAdd_x="4" ItemSizeAdd_y="4" ItemLife="1000" ItemScale="1.200" HitType="1"/>
+</Effect>

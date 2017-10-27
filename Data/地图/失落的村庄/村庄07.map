@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1500" Size_y="800">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\失落的村庄\背景09.bmp" Pic_right="320" Pic_bottom="240" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Size_x="1500" Size_y="800" Pic="\image\地图\失落的村庄\村庄07.bmp" Pic_right="512" Pic_bottom="290" ColorKey="0xFFFFFF"/>
+		<Item Pos_x="200" Pos_y="526" Size_x="996" Size_y="274" Pic="\image\地图\失落的村庄\村庄07桥.bmp" Pic_top="1" Pic_right="340" Pic_bottom="100" ColorKey="0xFFFFFF" Mask="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="91" Pos_y="285" Size_x="80" Size_y="72" Pic="\image\地图\动画\宝箱.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="1" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\普通宝箱.lua" Item="钱袋300" TaskId="8"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="706" Size_x="1500" Size_y="94" Obst="1"/>
+		<Item Pos_y="617" Size_x="100" Size_y="90" Obst="1"/>
+		<Item Size_x="95" Size_y="442" Obst="1"/>
+		<Item Pos_x="100" Pos_y="617" Size_x="183" Size_y="89" Obst="4"/>
+		<Item Pos_x="95" Pos_y="354" Size_x="94" Size_y="88" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-34" Pos_y="479" Size_x="41" Size_y="118" Id="1" Map="失落的村庄06" MapPos_x="3000" MapPos_y="480"/>
+		<Item Pos_x="1489" Pos_y="564" Size_x="60" Size_y="140" Id="2" Map="入口城门" MapPos_y="1342"/>
+	</Trap>
+	<Char/>
+</Map>

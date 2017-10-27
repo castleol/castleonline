@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="500" Pic="\Image\地图\地下水脉\水脉房间03.bmp" Pic_right="256" Pic_bottom="207"/>
+		<Item Pos_y="500" Size_x="800" Size_y="100" Color0="0xFF101000" Color1="0xFF101000" Color2="0xFF101000" Color3="0xFF101000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="201" Pos_y="386" Size_x="500" Size_y="80" Pic="\Image\地图\地下水脉\水脉房间03水.bmp" Pic_right="160" Pic_bottom="32" Color0="0x80FFFFFF" Color1="0x80FFFFFF" Color2="0x80FFFFFF" Color3="0x80FFFFFF" Mask="1" Id="1" Type="11" Damage="5"/>
+		<Item Pos_x="272" Pos_y="206" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="434" Pos_y="368" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_left="224" Pic_right="256" Pic_bottom="32" Id="3" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\圣洁之像.lua" TaskId="13" Item="圣洁之像" Swing_y="5"/>
+	</Anim>
+	<Obst>
+		<Item Size_x="143" Size_y="177" Obst="1"/>
+		<Item Pos_x="228" Size_x="345" Size_y="113" Obst="1"/>
+		<Item Pos_x="573" Pos_y="86" Size_x="75" Size_y="49" Obst="1"/>
+		<Item Pos_y="328" Size_x="199" Size_y="26" Obst="1"/>
+		<Item Pos_x="231" Pos_y="444" Size_x="437" Size_y="55" Obst="1"/>
+		<Item Pos_x="550" Pos_y="368" Size_x="100" Size_y="76" Obst="5"/>
+		<Item Pos_x="611" Pos_y="135" Size_x="75" Size_y="38" Obst="1"/>
+		<Item Pos_x="651" Pos_y="174" Size_x="75" Size_y="270" Obst="1"/>
+		<Item Pos_x="249" Pos_y="409" Size_x="100" Size_y="35" Obst="4"/>
+		<Item Pos_x="176" Pos_y="354" Size_x="74" Size_y="55" Obst="1"/>
+		<Item Pos_x="199" Pos_y="328" Size_x="48" Size_y="26" Obst="4"/>
+		<Item Pos_x="143" Pos_y="136" Size_x="48" Size_y="38" Obst="1"/>
+		<Item Pos_x="153" Pos_y="98" Size_x="75" Size_y="38" Obst="1"/>
+		<Item Pos_x="409" Pos_y="405" Size_x="83" Size_y="38" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-48" Pos_y="188" Size_x="56" Size_y="140" Id="1" Map="水脉通道06" MapPos_x="1024" MapPos_y="329"/>
+	</Trap>
+	<Char/>
+</Map>

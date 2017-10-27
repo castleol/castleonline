@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\崖侧外壁\密室01.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="50" Pos_y="304" Size_x="100" Size_y="202" Pic="\Image\地图\崖侧外壁\密室01-1.bmp" Pic_right="32" Pic_bottom="77" Filter="0x1" Obst="1" Id="1" Damage="3" Effect="墙壁破坏01" Sound="\sound\特效\破裂01.wav" Script="\data\脚本\破坏墙壁\外壁密室01.lua" Item="生命上限"/>
+		<Item Pos_x="379" Pos_y="450" Size_x="32" Size_y="32" Pic="\image\图标\武器.bmp" Pic_left="224" Pic_right="256" Pic_bottom="32" Filter="0x1" Id="2" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\普通物品.lua" Item="短剑04" Swing_y="8"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="487" Size_x="600" Size_y="112" Obst="1"/>
+		<Item Pos_x="600" Pos_y="441" Size_x="50" Size_y="158" Obst="1"/>
+		<Item Pos_x="650" Pos_y="394" Size_x="150" Size_y="206" Obst="1"/>
+		<Item Pos_x="650" Size_x="150" Size_y="210" Obst="1"/>
+		<Item Pos_x="600" Size_x="50" Size_y="162" Obst="1"/>
+		<Item Size_x="600" Size_y="116" Obst="1"/>
+		<Item Pos_y="116" Size_x="150" Size_y="230" Obst="1"/>
+		<Item Pos_x="1" Pos_y="345" Size_x="50" Size_y="142" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="794" Pos_y="268" Size_x="32" Size_y="125" Id="1" Map="外壁竖塔02" MapPos_y="272"/>
+	</Trap>
+	<Char/>
+</Map>

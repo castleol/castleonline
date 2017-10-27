@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2400" Size_y="600">
+	<Tile>
+		<Item Size_x="2400" Size_y="600" Pic="\image\地图\失落的村庄\密道05.bmp" Pic_right="768" Pic_bottom="192"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="1700" Pos_y="429" Size_x="399" Size_y="72" Color0="0x600000FF" Color1="0x600000FF" Color2="0x6000F0F0" Color3="0x6000F0F0" Mask="1" Id="1" Type="11"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="399" Size_x="798" Size_y="41" Obst="1"/>
+		<Item Pos_y="400" Size_x="301" Size_y="199" Obst="1"/>
+		<Item Pos_x="1200" Size_x="501" Size_y="200" Obst="1"/>
+		<Item Pos_x="1200" Pos_y="400" Size_x="501" Size_y="200" Obst="1"/>
+		<Item Pos_x="301" Pos_y="500" Size_x="896" Size_y="99" Obst="1"/>
+		<Item Size_x="399" Size_y="200" Obst="1"/>
+		<Item Pos_x="2100" Size_x="300" Size_y="200" Obst="1"/>
+		<Item Pos_x="2100" Pos_y="400" Size_x="300" Size_y="200" Obst="1"/>
+		<Item Pos_x="1701" Size_x="398" Size_y="100" Obst="1"/>
+		<Item Pos_x="1701" Pos_y="500" Size_x="398" Size_y="100" Obst="1"/>
+		<Item Pos_x="301" Pos_y="400" Size_x="196" Size_y="100" Obst="4"/>
+		<Item Pos_x="1002" Pos_y="400" Size_x="196" Size_y="100" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="2394" Pos_y="206" Size_x="72" Size_y="192" Id="1" Map="失落的村庄密道6" MapPos_y="400"/>
+		<Item Pos_x="-66" Pos_y="230" Size_x="72" Size_y="168" Id="2" Map="失落的村庄密道4" MapPos_x="800" MapPos_y="1108"/>
+	</Trap>
+	<Char/>
+</Map>

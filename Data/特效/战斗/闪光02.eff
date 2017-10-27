@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="367" Pos_y="363" Size_x="36" Size_y="36" Offs_y="-18" Pic="\Image\特效\闪光\002.bmp" Pic_right="16" Pic_bottom="16" Blend="0x1" Sound="\Sound\特效\伤害04.wav" ItemSize_x="36" ItemSize_y="36" ItemHot_x="18" ItemHot_y="18" ItemFrame="4" ItemFps="20" EmitInter="1" EmitTime="1"/>
+</Effect>

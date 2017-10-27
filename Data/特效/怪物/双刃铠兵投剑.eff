@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="330" Pos_y="407" Size_x="32" Size_y="80" Offs_x="80" Offs_y="-90" Pic="双刃铠兵" Group="5" ColorKey="0x8000" Blend="0x1" Sound="\sound\投掷\飞刀.wav" ItemSize_x="60" ItemSize_y="20" ItemHot_x="30" ItemHot_y="10" ItemLife="2000" ItemScale="2.000" ItemQuality="1.000" MinSpeedX="800.000" MaxSpeedX="800.000" HitType="2" HitOnce="1" EndEffect="爆炸01"/>
+</Effect>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1280" Size_y="480">
+	<Tile>
+		<Item Pos_x="156" Pos_y="60" Size_x="1044" Size_y="304" Pic="\image\地图\失落的村庄\室内10背景.bmp" Pic_right="480" Pic_bottom="96" DeltaX="0.800"/>
+		<Item Size_x="1280" Size_y="480" Pic="\image\地图\失落的村庄\室内10.bmp" Pic_right="512" Pic_bottom="192" ColorKey="0xFFFFFFFF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="272" Pos_y="112" Size_x="174" Size_y="256" Pic="\image\地图\失落的村庄\室内10镜子.bmp" Pic_right="64" Pic_bottom="96" ColorKey="0xFFFFFFFF" Id="1"/>
+		<Item Pos_x="873" Pos_y="112" Size_x="174" Size_y="256" Pic="\image\地图\失落的村庄\室内10镜子.bmp" Pic_right="64" Pic_bottom="96" ColorKey="0xFFFFFFFF" Id="2"/>
+		<Item Pos_x="566" Pos_y="260" Size_x="72" Size_y="64" Pic="\image\地图\动画\宝箱.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Frames="4" Fps="10" Id="3" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\普通宝箱.lua" Item="钱袋300" TaskId="20"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="80" Size_x="1199" Size_y="80" Obst="1"/>
+		<Item Size_x="80" Size_y="160" Obst="1"/>
+		<Item Pos_y="320" Size_x="84" Size_y="159" Obst="1"/>
+		<Item Pos_x="1200" Pos_y="80" Size_x="80" Size_y="400" Obst="1"/>
+		<Item Pos_x="85" Pos_y="320" Size_x="87" Size_y="80" Obst="4"/>
+		<Item Pos_x="85" Pos_y="400" Size_x="1115" Size_y="79" Obst="1"/>
+		<Item Pos_x="639" Pos_y="79" Size_x="42" Size_y="240" Obst="1"/>
+		<Item Pos_x="559" Pos_y="319" Size_x="202" Size_y="82" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-41" Pos_y="161" Size_x="51" Size_y="159" Map="失落的村庄室内8" MapPos_x="800" MapPos_y="766"/>
+	</Trap>
+	<Char/>
+</Map>

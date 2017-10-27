@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2048" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\地下庭院\背景01.bmp" Pic_right="256" Pic_bottom="228" ColorKey="0xFF00FF" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Pos_y="152" Size_x="1024" Size_y="448" Pic="\image\地图\地下庭院\走廊01.bmp" Pic_right="512" Pic_bottom="224" ColorKey="0xFF00FF"/>
+		<Item Pos_x="1024" Pos_y="152" Size_x="1024" Size_y="448" Pic="\image\地图\地下庭院\走廊02.bmp" Pic_right="512" Pic_bottom="224" ColorKey="0xFF00FF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="296" Pos_y="311" Size_x="48" Size_y="96" Pic="\image\地图\地下庭院\灯火01.bmp" Pic_right="24" Pic_bottom="48" ColorKey="0xFF008000" Frames="4" Fps="10" Id="1" ChildId="2" Damage="1" Effect="灯火01" Script="\data\脚本\破坏物品\地下庭院.lua"/>
+		<Item Pos_x="292" Pos_y="307" Size_x="52" Size_y="52" Pic="\image\地图\地下庭院\灯光01.bmp" Pic_right="26" Pic_bottom="26" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="2" Type="9"/>
+		<Item Pos_x="535" Pos_y="312" Size_x="48" Size_y="96" Pic="\image\地图\地下庭院\灯火01.bmp" Pic_right="24" Pic_bottom="48" ColorKey="0xFF008000" Frames="4" Fps="10" Id="3" ChildId="4" Damage="1" Effect="灯火01" Script="\data\脚本\破坏物品\地下庭院.lua"/>
+		<Item Pos_x="531" Pos_y="308" Size_x="52" Size_y="52" Pic="\image\地图\地下庭院\灯光01.bmp" Pic_right="26" Pic_bottom="26" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="4" Type="9"/>
+		<Item Pos_x="782" Pos_y="312" Size_x="48" Size_y="96" Pic="\image\地图\地下庭院\灯火01.bmp" Pic_right="24" Pic_bottom="48" ColorKey="0xFF008000" Frames="4" Fps="10" Id="5" ChildId="6" Damage="1" Effect="灯火01" Script="\data\脚本\破坏物品\地下庭院.lua"/>
+		<Item Pos_x="778" Pos_y="308" Size_x="52" Size_y="52" Pic="\image\地图\地下庭院\灯光01.bmp" Pic_right="26" Pic_bottom="26" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="6" Type="9"/>
+		<Item Pos_x="1206" Pos_y="312" Size_x="48" Size_y="96" Pic="\image\地图\地下庭院\灯火01.bmp" Pic_right="24" Pic_bottom="48" ColorKey="0xFF008000" Frames="4" Fps="10" Id="7" ChildId="8" Damage="1" Effect="灯火01" Script="\data\脚本\破坏物品\地下庭院.lua"/>
+		<Item Pos_x="1202" Pos_y="308" Size_x="52" Size_y="52" Pic="\image\地图\地下庭院\灯光01.bmp" Pic_right="26" Pic_bottom="26" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="8" Type="9"/>
+		<Item Pos_x="1446" Pos_y="312" Size_x="48" Size_y="96" Pic="\image\地图\地下庭院\灯火01.bmp" Pic_right="24" Pic_bottom="48" ColorKey="0xFF008000" Frames="4" Fps="10" Id="9" ChildId="10" Damage="1" Effect="灯火01" Script="\data\脚本\破坏物品\地下庭院.lua"/>
+		<Item Pos_x="1442" Pos_y="308" Size_x="52" Size_y="52" Pic="\image\地图\地下庭院\灯光01.bmp" Pic_right="26" Pic_bottom="26" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="10" Type="9"/>
+		<Item Pos_x="1691" Pos_y="312" Size_x="48" Size_y="96" Pic="\image\地图\地下庭院\灯火01.bmp" Pic_right="24" Pic_bottom="48" ColorKey="0xFF008000" Frames="4" Fps="10" Id="11" ChildId="12" Damage="1" Effect="灯火01" Script="\data\脚本\破坏物品\地下庭院.lua"/>
+		<Item Pos_x="1687" Pos_y="308" Size_x="52" Size_y="52" Pic="\image\地图\地下庭院\灯光01.bmp" Pic_right="26" Pic_bottom="26" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="12" Type="9"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="440" Size_x="96" Size_y="96" Obst="1"/>
+		<Item Pos_x="96" Pos_y="440" Size_x="96" Size_y="96" Obst="4"/>
+		<Item Pos_x="1" Pos_y="536" Size_x="2047" Size_y="64" Obst="1"/>
+		<Item Pos_x="1951" Pos_y="440" Size_x="97" Size_y="96" Obst="1"/>
+		<Item Pos_x="1854" Pos_y="440" Size_x="96" Size_y="96" Obst="5"/>
+		<Item Pos_x="960" Pos_y="504" Size_x="128" Size_y="32" Obst="1"/>
+		<Item Pos_x="928" Pos_y="504" Size_x="32" Size_y="32" Obst="5"/>
+		<Item Pos_x="1087" Pos_y="504" Size_x="32" Size_y="32" Obst="4"/>
+		<Item Pos_x="192" Pos_y="151" Size_x="768" Size_y="64" Obst="1"/>
+		<Item Pos_x="1088" Pos_y="152" Size_x="768" Size_y="64" Obst="1"/>
+		<Item Pos_y="248" Size_x="256" Size_y="64" Obst="1"/>
+		<Item Pos_x="896" Pos_y="248" Size_x="256" Size_y="64" Obst="1"/>
+		<Item Pos_x="1792" Pos_y="248" Size_x="256" Size_y="64" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-43" Pos_y="312" Size_x="47" Size_y="128" Id="1" Map="地下庭院大厅" MapPos_x="4608" MapPos_y="290"/>
+		<Item Pos_x="2044" Pos_y="312" Size_x="47" Size_y="128" Id="2" Map="地下庭院走廊02" MapPos_y="440"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="331" Pos_y="504" Size_x="32" Size_y="32" Id="1" Char="地下妖草"/>
+		<Item Pos_x="729" Pos_y="504" Size_x="32" Size_y="32" Id="2" Char="地下妖草"/>
+		<Item Pos_x="1298" Pos_y="504" Size_x="32" Size_y="32" Id="3" Char="地下妖草"/>
+		<Item Pos_x="1664" Pos_y="504" Size_x="32" Size_y="32" Id="4" Char="地下妖草"/>
+		<Item Pos_x="515" Pos_y="463" Size_x="54" Size_y="73" Id="5" Char="剪刀男" Left="1"/>
+		<Item Pos_x="1492" Pos_y="463" Size_x="54" Size_y="73" Id="6" Char="剪刀男" Left="1"/>
+	</Char>
+</Map>

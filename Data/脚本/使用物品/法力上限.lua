@@ -1,0 +1,6 @@
+AddTask("加成","法力",5)
+UpdateState()
+AddMana(GetManaMax())
+AddMapEffect("角色升级")
+AddShaderEffect(4,1000)
+CenterTip("法力上限增加@15@c点",2000)

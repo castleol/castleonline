@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="958">
+	<Tile>
+		<Item Size_x="800" Size_y="958" Color0="0xFF000000" Color1="0xFF000000" Color2="0xFF000000" Color3="0xFF000000"/>
+		<Item Pos_x="304" Pos_y="144" Size_x="192" Size_y="704" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-4.bmp" Pic_right="192" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="336" Size_x="128" Size_y="272" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-6.bmp" Pic_right="128" Pic_bottom="272"/>
+		<Item Pos_x="144" Size_x="224" Size_y="144" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-1.bmp" Pic_right="224" Pic_bottom="144" Obst="1"/>
+		<Item Pos_x="144" Pos_y="144" Size_x="160" Size_y="768" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-2.bmp" Pic_right="160" Pic_bottom="192" Tile="1" Obst="1"/>
+		<Item Pos_x="432" Size_x="224" Size_y="144" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-1.bmp" Pic_right="224" Pic_bottom="144" Flip="1" Obst="1"/>
+		<Item Pos_x="496" Pos_y="144" Size_x="160" Size_y="768" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-2.bmp" Pic_right="160" Pic_bottom="192" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="144" Pos_y="912" Size_x="216" Size_y="46" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-3.bmp" Pic_right="216" Pic_bottom="46" Tile="1"/>
+		<Item Pos_x="304" Pos_y="848" Size_x="192" Size_y="64" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-5.bmp" Pic_right="192" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="440" Pos_y="912" Size_x="216" Size_y="46" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-3.bmp" Pic_right="216" Pic_bottom="46" Tile="1" Flip="1"/>
+		<Item Pos_x="336" Pos_y="272" Size_x="128" Size_y="96" Pic="\Image\地图\大理石廊下\摆钟廊\背景13-7.bmp" Pic_right="128" Pic_bottom="96" ColorKey="0xFF00FF" Obst="1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="149" Pos_y="912" Size_x="189" Size_y="46" Obst="1"/>
+		<Item Pos_x="460" Pos_y="912" Size_x="189" Size_y="46" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="369" Pos_y="-18" Size_x="62" Size_y="24" Id="1" Map="摆钟廊08" MapPos_x="1169" MapPos_y="640"/>
+		<Item Pos_x="339" Pos_y="950" Size_x="120" Size_y="24" Id="2" Map="摆钟廊10" MapPos_x="708" MapPos_y="45"/>
+	</Trap>
+	<Char/>
+</Map>

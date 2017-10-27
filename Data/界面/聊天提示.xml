@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<desktop>
+	<Control Name="ChatTips" Class="Static" Pos_y="584" Size_x="380" Size_y="16" Align="7" Font="1" TextAlign="4" TextRect_left="16" TextRect_right="360" TextRect_bottom="16" TextColor="0xFFCFCF0F" DownColor="0xFFFF0000" PicColor="0x80000000">
+		<Control Name="Show" Class="Button" TopMost="1" Size_x="16" Size_y="16" TextRect_right="16" TextRect_bottom="16" Pic="\image\界面\导航地图\隐藏按钮.bmp" PicRect_right="16" PicRect_bottom="16" PushPic="\image\界面\导航地图\隐藏按钮.bmp" PushPicRect_left="16" PushPicRect_right="32" PushPicRect_bottom="16" PushTextColor="0xFFFFFFFF" MovePic="\image\界面\导航地图\隐藏按钮.bmp" MovePicRect_left="32" MovePicRect_right="48" MovePicRect_bottom="16"/>
+	</Control>
+</desktop>

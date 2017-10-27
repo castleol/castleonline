@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1536" Size_y="600">
+	<Tile>
+		<Item Size_x="768" Size_y="600" Pic="\Image\地图\焉道\焉道09-1.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+		<Item Pos_x="768" Size_x="768" Size_y="600" Pic="\Image\地图\焉道\焉道09-2.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="241" Pos_y="454" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="1" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" TaskId="2" Item="生命上限"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="430" Pos_y="348" Size_x="147" Size_y="94" Obst="1"/>
+		<Item Pos_x="40" Pos_y="487" Size_x="426" Size_y="69" Obst="1"/>
+		<Item Pos_x="336" Pos_y="438" Size_x="117" Size_y="83" Obst="1"/>
+		<Item Pos_x="135" Pos_y="98" Size_x="207" Size_y="64" Obst="1"/>
+		<Item Pos_x="180" Size_x="582" Size_y="23" Obst="1"/>
+		<Item Pos_x="666" Pos_y="110" Size_x="108" Size_y="99" Obst="1"/>
+		<Item Pos_x="906" Pos_y="155" Size_x="108" Size_y="54" Obst="1"/>
+		<Item Pos_x="745" Pos_y="130" Size_x="189" Size_y="32" Obst="1"/>
+		<Item Pos_x="1000" Pos_y="101" Size_x="109" Size_y="61" Obst="1"/>
+		<Item Pos_x="1035" Pos_y="84" Size_x="358" Size_y="32" Obst="1"/>
+		<Item Pos_x="1386" Pos_y="106" Size_x="150" Size_y="103" Obst="1"/>
+		<Item Pos_x="1150" Pos_y="394" Size_x="385" Size_y="129" Obst="1"/>
+		<Item Pos_x="757" Pos_y="487" Size_x="508" Size_y="32" Obst="1"/>
+		<Item Pos_x="694" Pos_y="441" Size_x="171" Size_y="32" Obst="1"/>
+		<Item Pos_x="546" Pos_y="394" Size_x="175" Size_y="32" Obst="1"/>
+		<Item Pos_x="297" Pos_y="11" Size_x="87" Size_y="131" Obst="1"/>
+		<Item Pos_x="337" Pos_y="20" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="531" Pos_y="18" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="570" Pos_y="45" Size_x="87" Size_y="47" Obst="1"/>
+		<Item Pos_x="624" Pos_y="77" Size_x="87" Size_y="106" Obst="1"/>
+		<Item Pos_x="726" Pos_y="157" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="868" Pos_y="156" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="961" Pos_y="153" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="1057" Pos_y="107" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="1345" Pos_y="126" Size_x="87" Size_y="58" Obst="1"/>
+		<Item Pos_x="1305" Pos_y="112" Size_x="87" Size_y="36" Obst="1"/>
+		<Item Pos_x="1051" Pos_y="394" Size_x="99" Size_y="93" Obst="5"/>
+		<Item Pos_x="864" Pos_y="441" Size_x="51" Size_y="46" Obst="4"/>
+		<Item Pos_x="720" Pos_y="394" Size_x="49" Size_y="47" Obst="4"/>
+		<Item Pos_x="576" Pos_y="348" Size_x="49" Size_y="46" Obst="4"/>
+		<Item Pos_x="336" Pos_y="348" Size_x="94" Size_y="91" Obst="5"/>
+		<Item Pos_x="9" Pos_y="236" Size_x="87" Size_y="299" Obst="1"/>
+		<Item Pos_x="94" Pos_y="393" Size_x="100" Size_y="94" Obst="4"/>
+		<Item Pos_x="85" Pos_y="124" Size_x="106" Size_y="147" Obst="1"/>
+		<Item Pos_x="63" Pos_y="240" Size_x="88" Size_y="83" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="1531" Pos_y="210" Size_x="58" Size_y="183" Id="1" Map="焉道08" MapPos_y="394"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="249" Pos_y="229" Size_x="64" Size_y="89" Id="1" Char="点灯魔"/>
+		<Item Pos_x="960" Pos_y="267" Size_x="64" Size_y="89" Id="2" Char="点灯魔"/>
+	</Char>
+</Map>

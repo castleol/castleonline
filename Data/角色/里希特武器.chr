@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\角色\里希特\Weapon.bmp" ColorKey="0xFF008000" Size_x="32" Size_y="90" Scale="2.000" TrailTime="5" TrailFade="10" TrailColor="0xFF4040FF" Shadow="1" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="6">
+		<Act Name="站立武器" Group="20" End="9" Fps="30" Sound="2" Light="站立攻击"/>
+		<Act Name="蹲地武器" Group="20" End="9" Fps="30" Sound="2" Offs_y="32"/>
+		<Act Name="空中武器" Group="20" End="9" Fps="30" Sound="2"/>
+		<Act Name="站立攻击" Image="里希特" Group="7" End="7" Fps="30" Sound="2" Next="站立攻击"/>
+		<Act Name="站立摇鞭" Image="里希特" Group="18" End="2" Fps="15" Next="站立摇鞭"/>
+		<Act Name="摇鞭" Group="21" End="5" Fps="20" Light="站立摇鞭"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="0"/>
+	<Image Num="16">
+		<Img Group="20" Pos_y="10" Size_x="38" Size_y="33" Hot_x="14" Hot_y="37"/>
+		<Img Group="20" Frame="1" Pos_x="38" Pos_y="10" Size_x="26" Size_y="47" Hot_x="38" Hot_y="39"/>
+		<Img Group="20" Frame="2" Pos_x="74" Pos_y="4" Size_x="44" Size_y="27" Hot_x="47" Hot_y="53"/>
+		<Img Group="20" Frame="3" Pos_x="64" Pos_y="37" Size_x="60" Size_y="21" Hot_x="42" Hot_y="61"/>
+		<Img Group="20" Frame="4" Pos_x="128" Size_x="64" Size_y="15" Hot_x="-21" Hot_y="39"/>
+		<Img Group="20" Frame="5" Pos_x="128" Pos_y="18" Size_x="64" Size_y="12" Hot_x="-23" Hot_y="36"/>
+		<Img Group="20" Frame="6" Pos_x="128" Pos_y="30" Size_x="64" Size_y="10" Hot_x="-23" Hot_y="35"/>
+		<Img Group="20" Frame="7" Pos_x="128" Pos_y="40" Size_x="64" Size_y="8" Hot_x="-23" Hot_y="33"/>
+		<Img Group="20" Frame="8" Pos_x="128" Pos_y="48" Size_x="64" Size_y="8" Hot_x="-23" Hot_y="33"/>
+		<Img Group="20" Frame="9" Pos_x="128" Pos_y="56" Size_x="64" Size_y="8" Hot_x="-23" Hot_y="34"/>
+		<Img Group="21" Pos_x="3" Pos_y="71" Size_x="57" Size_y="50" Hot_x="28" Hot_y="26"/>
+		<Img Group="21" Frame="1" Pos_x="3" Pos_y="71" Size_x="57" Size_y="50" Hot_x="28" Hot_y="26" Angle="0.500"/>
+		<Img Group="21" Frame="2" Pos_x="3" Pos_y="71" Size_x="57" Size_y="50" Hot_x="28" Hot_y="26" Angle="1.000"/>
+		<Img Group="21" Frame="3" Pos_x="3" Pos_y="71" Size_x="57" Size_y="50" Hot_x="28" Hot_y="26" Angle="1.500"/>
+		<Img Group="21" Frame="4" Pos_x="3" Pos_y="71" Size_x="57" Size_y="50" Hot_x="28" Hot_y="26" Angle="2.000"/>
+		<Img Group="21" Frame="5" Pos_x="3" Pos_y="71" Size_x="57" Size_y="50" Hot_x="28" Hot_y="26" Angle="2.500"/>
+	</Image>
+</Char>

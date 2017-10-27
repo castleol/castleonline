@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2304" Size_y="600">
+	<Tile>
+		<Item Size_x="768" Size_y="600" Pic="\Image\地图\焉道\焉道08-1.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+		<Item Pos_x="768" Size_x="768" Size_y="600" Pic="\Image\地图\焉道\焉道08-2.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+		<Item Pos_x="1536" Size_x="768" Size_y="600" Pic="\Image\地图\焉道\焉道08-3.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_y="394" Size_x="445" Size_y="73" Obst="1"/>
+		<Item Pos_x="430" Pos_y="348" Size_x="147" Size_y="110" Obst="1"/>
+		<Item Pos_x="814" Pos_y="394" Size_x="99" Size_y="156" Obst="1"/>
+		<Item Pos_y="42" Size_x="192" Size_y="167" Obst="1"/>
+		<Item Pos_x="132" Pos_y="38" Size_x="546" Size_y="32" Obst="1"/>
+		<Item Pos_x="618" Pos_y="55" Size_x="195" Size_y="61" Obst="1"/>
+		<Item Pos_x="762" Pos_y="40" Size_x="150" Size_y="122" Obst="1"/>
+		<Item Pos_x="877" Size_x="178" Size_y="70" Obst="1"/>
+		<Item Pos_x="159" Pos_y="68" Size_x="87" Size_y="69" Obst="1"/>
+		<Item Pos_x="195" Pos_y="60" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="582" Pos_y="65" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="723" Pos_y="113" Size_x="87" Size_y="35" Obst="1"/>
+		<Item Pos_x="865" Pos_y="68" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="1150" Pos_y="209" Size_x="130" Size_y="37" Obst="1"/>
+		<Item Pos_x="1248" Pos_y="115" Size_x="87" Size_y="96" Obst="1"/>
+		<Item Pos_x="1296" Pos_y="21" Size_x="87" Size_y="105" Obst="1"/>
+		<Item Pos_x="1248" Size_x="87" Size_y="31" Obst="1"/>
+		<Item Pos_x="1266" Pos_y="23" Size_x="76" Size_y="27" Obst="1"/>
+		<Item Pos_x="1197" Pos_y="162" Size_x="51" Size_y="47" Obst="5"/>
+		<Item Pos_x="1104" Pos_y="209" Size_x="46" Size_y="41" Obst="5"/>
+		<Item Pos_x="1104" Pos_y="250" Size_x="198" Size_y="51" Obst="1"/>
+		<Item Pos_x="1257" Pos_y="200" Size_x="87" Size_y="74" Obst="1"/>
+		<Item Pos_x="1323" Pos_y="116" Size_x="123" Size_y="93" Obst="1"/>
+		<Item Pos_x="1423" Pos_y="123" Size_x="313" Size_y="39" Obst="1"/>
+		<Item Pos_x="1396" Pos_y="154" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="1674" Pos_y="110" Size_x="108" Size_y="99" Obst="1"/>
+		<Item Pos_x="1641" Pos_y="160" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="1759" Pos_y="68" Size_x="118" Size_y="94" Obst="1"/>
+		<Item Pos_x="1734" Pos_y="153" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="1864" Pos_y="84" Size_x="265" Size_y="32" Obst="1"/>
+		<Item Pos_x="1825" Pos_y="106" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="2112" Pos_y="74" Size_x="192" Size_y="135" Obst="1"/>
+		<Item Pos_x="2071" Pos_y="110" Size_x="87" Size_y="39" Obst="1"/>
+		<Item Pos_x="379" Pos_y="348" Size_x="51" Size_y="46" Obst="5"/>
+		<Item Pos_x="576" Pos_y="348" Size_x="99" Size_y="93" Obst="4"/>
+		<Item Pos_x="618" Pos_y="441" Size_x="223" Size_y="32" Obst="1"/>
+		<Item Pos_x="766" Pos_y="394" Size_x="48" Size_y="47" Obst="5"/>
+		<Item Pos_x="873" Pos_y="437" Size_x="87" Size_y="119" Obst="1"/>
+		<Item Pos_x="912" Pos_y="394" Size_x="46" Size_y="43" Obst="4"/>
+		<Item Pos_x="958" Pos_y="487" Size_x="97" Size_y="92" Obst="4"/>
+		<Item Pos_x="969" Pos_y="579" Size_x="87" Size_y="21" Obst="1"/>
+		<Item Pos_x="1392" Pos_y="441" Size_x="243" Size_y="107" Obst="1"/>
+		<Item Pos_x="1342" Pos_y="487" Size_x="87" Size_y="32" Obst="1"/>
+		<Item Pos_x="1248" Pos_y="487" Size_x="96" Size_y="88" Obst="5"/>
+		<Item Pos_x="1248" Pos_y="575" Size_x="87" Size_y="25" Obst="1"/>
+		<Item Pos_x="1572" Pos_y="487" Size_x="292" Size_y="32" Obst="1"/>
+		<Item Pos_x="1633" Pos_y="441" Size_x="48" Size_y="46" Obst="4"/>
+		<Item Pos_x="1821" Pos_y="394" Size_x="97" Size_y="93" Obst="5"/>
+		<Item Pos_x="1918" Pos_y="394" Size_x="385" Size_y="82" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="1056" Pos_y="-34" Size_x="191" Size_y="37" Id="1" Map="焉道04" MapPos_x="300" MapPos_y="2930"/>
+		<Item Pos_x="-34" Pos_y="211" Size_x="47" Size_y="182" Id="2" Map="焉道09" MapPos_x="1536" MapPos_y="394"/>
+		<Item Pos_x="2300" Pos_y="210" Size_x="70" Size_y="184" Id="3" Map="焉道至传送" MapPos_y="407"/>
+		<Item Pos_x="1060" Pos_y="580" Size_x="187" Size_y="67" Id="4" Map="焉道10" MapPos_x="298" MapPos_y="50"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="283" Pos_y="243" Size_x="64" Size_y="89" Id="1" Char="点灯魔"/>
+		<Item Pos_x="1715" Pos_y="266" Size_x="70" Size_y="91" Id="2" Char="点灯魔" Left="1"/>
+		<Item Pos_x="974" Pos_y="253" Size_x="64" Size_y="89" Id="3" Char="点灯魔"/>
+	</Char>
+</Map>

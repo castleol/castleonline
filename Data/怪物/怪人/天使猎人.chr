@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\怪人\天使猎人.bmp" ColorKey="0xFF00FF" Size_x="32" Size_y="150" Scale="2.000" HitEffect="闪光01">
+	<Action Num="6">
+		<Act Name="站立" Group="1" Blend="0x1" Fly="1">
+			<Act Name="武器" Group="6"/>
+		</Act>
+		<Act Name="转身" Next="站立" Group="1" Blend="0x1" Flip="1" Fly="1">
+			<Act Name="武器" Group="6"/>
+		</Act>
+		<Act Name="移动" State="1" Group="2" Blend="0x1" Speed_x="50" Fly="1">
+			<Act Name="武器" Group="7" Offs_y="-72" Swing_y="2" Speed="1.000"/>
+		</Act>
+		<Act Name="攻击" Next="站立" State="4" Group="3" Time="800" Blend="0x1" Sound="1" Speed_x="200" AddSpeed_x="500" Fly="1">
+			<Act Name="武器" Group="8" Offs_x="60" Offs_y="-120" Speed="-0.200" Motion="5"/>
+		</Act>
+		<Act Name="受伤" Next="站立" State="7" Group="4" Time="800" Blend="0x1" Sound="2" Speed_x="-300" Speed_y="-200" AddSpeed_x="300" AddSpeed_y="500" Fly="1">
+			<Act Name="武器" Group="9" Offs_y="-100"/>
+		</Act>
+		<Act Name="死亡" Effect="天使猎人死亡" State="14" Group="5" Time="1000" Blend="0x1" Sound="3" Speed_x="-300" Speed_y="-300" AddSpeed_x="300" AddSpeed_y="500" Fly="1"/>
+	</Action>
+	<Rect Num="1">
+		<Rect Name="攻击" Rect_left="47" Rect_top="-142" Rect_right="136" Rect_bottom="-50"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="3">
+		<Snd Id="1" File="\sound\怪物\骷髅骑士攻击.wav"/>
+		<Snd Id="2" File="\Sound\怪物\天使猎人受伤.wav"/>
+		<Snd Id="3" File="\Sound\怪物\天使猎人死亡.wav"/>
+	</Sound>
+	<Image Num="9">
+		<Img Group="1" Pos_x="47" Pos_y="1" Size_x="33" Size_y="79" Hot_x="15" Hot_y="77"/>
+		<Img Group="2" Pos_x="18" Pos_y="1" Size_x="25" Size_y="79" Hot_x="12" Hot_y="77"/>
+		<Img Group="3" Pos_x="80" Pos_y="1" Size_x="48" Size_y="55" Hot_x="16" Hot_y="74"/>
+		<Img Group="4" Pos_x="80" Pos_y="56" Size_x="48" Size_y="70" Hot_x="23" Hot_y="68"/>
+		<Img Group="5" Pos_x="22" Pos_y="82" Size_x="58" Size_y="43" Hot_x="28" Hot_y="41"/>
+		<Img Group="6" Pos_x="2" Size_x="13" Size_y="56" Hot_x="-9" Hot_y="55"/>
+		<Img Group="7" Pos_x="2" Size_x="13" Size_y="56" Hot_x="6" Hot_y="15" Angle="-0.500"/>
+		<Img Group="8" Pos_x="2" Size_x="13" Size_y="56" Hot_x="6" Hot_y="15" Angle="-0.500"/>
+		<Img Group="9" Pos_x="2" Size_x="13" Size_y="56" Hot_x="6" Hot_y="15" Angle="-1.000"/>
+	</Image>
+</Char>

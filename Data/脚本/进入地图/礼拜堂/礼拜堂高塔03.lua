@@ -1,0 +1,3 @@
+if GetTaskBit(" ∞»°ŒÔ∆∑","¿Ò∞›Ã√",4)~=0 then
+HideAnimItem(5,1)
+end

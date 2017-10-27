@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="229" Pos_y="316" Size_x="40" Size_y="78" Offs_x="30" Offs_y="-150" Pic="\Image\怪物\植物\妖草乌奈.bmp" Pic_left="160" Pic_top="64" Pic_right="174" Pic_bottom="78" ColorKey="0xFF00FF" Sound="\Sound\投掷\骨头.wav" ItemSize_x="24" ItemSize_y="24" ItemHot_x="12" ItemHot_y="24" ItemFrame="2" ItemFps="10" ItemLife="2000" ItemQuality="1.000" MinSpeedX="100.000" MaxSpeedX="300.000" AddSpeedY="1000.000" HitType="2" HitOnce="1" Rebound="1" EndEffect="妖草口水落地"/>
+</Effect>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<desktop>
+	<Control Name="Emote" Class="Window" Pos_x="280" Pos_y="215" Size_x="240" Size_y="170" Align="1" TextRect_right="247" TextRect_bottom="294" PicRect_right="36" PicRect_bottom="36" CloseButton="Patch\Close" PopupEffect="2" CloseEffect="2" Effect_x="120" Effect_y="85" EscClose="1">
+		<Control Name="Patch" Class="Patch" MoveFather="1" Size_x="240" Size_y="170" Align="16" Text="表情" Font="5" TextAlign="2" TextRect_top="7" TextRect_right="240" TextRect_bottom="170" TextColor="0xFFD0C080" PicRect_right="36" PicRect_bottom="36" LeftTopPic="\image\界面\物品信息\Patch1.bmp" LeftPic="\image\界面\物品信息\Patch2.bmp" LeftDownPic="\image\界面\物品信息\Patch3.bmp" MidTopPic="\image\界面\物品信息\Patch4.bmp" MidPic="\image\界面\物品信息\Patch5.bmp" MidDownPic="\image\界面\物品信息\Patch6.bmp" RightTopPic="\image\界面\物品信息\Patch7.bmp" RightPic="\image\界面\物品信息\Patch8.bmp" RightDownPic="\image\界面\物品信息\Patch9.bmp">
+			<Control Name="Close" Class="Button" Pos_x="217" Pos_y="6" Size_x="16" Size_y="16" TextRect_right="16" TextRect_bottom="16" Pic="\image\界面\标准控件\CloseBtn.bmp" PicRect_right="16" PicRect_bottom="16" PushPic="\image\界面\标准控件\CloseBtn.bmp" PushPicRect_left="16" PushPicRect_right="32" PushPicRect_bottom="16" PushTextColor="0xFFFFFFFF" MovePic="\image\界面\标准控件\CloseBtn.bmp" MovePicRect_left="32" MovePicRect_right="48" MovePicRect_bottom="16"/>
+			<Control Name="Icon" Class="Emote" Pos_x="10" Pos_y="28" Size_x="220" Size_y="132" Align="10" Font="5" TextRect_right="156" TextRect_bottom="142" Pic="\image\图标\表情.bmp" PicRect_right="220" PicRect_bottom="132" IconSize_x="22" IconSize_y="22"/>
+		</Control>
+	</Control>
+</desktop>

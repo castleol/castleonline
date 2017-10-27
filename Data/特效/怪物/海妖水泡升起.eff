@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="240" Pos_y="537" Size_x="420" Size_y="7" Offs_y="-5" Random="1" EmitInter="100" EmitTime="1000" Pic="海妖" Group="12" Frame="4" Filter="0x0" Blend="0x1" BeginTime="400" EmitSound="\sound\怪物\海妖攻击2.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="7" ItemFps="10" ItemLife="3000" ItemScale="2.000" AddSpeedY="-100.000" Follow="3" Destroy="1" Magic="1" TrailColor="0xFF8080FF" EndEffect="海妖水泡攻击"/>
+</Effect>

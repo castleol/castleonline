@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="329" Pos_y="308" Size_x="40" Size_y="100" Offs_x="20" Offs_y="-80" Pic="\data\怪物\怪人\瑟兰祭祀.chr" Group="8" ColorKey="0xFFFF00FF" Filter="0x2" Blend="0x1" ItemSize_x="64" ItemSize_y="64" ItemHot_x="32" ItemHot_y="32" ItemFrame="8" ItemFps="10" ItemLife="1500" ItemScale="2.000" ItemQuality="1.000" MinSpeedX="500.000" MaxSpeedX="500.000" AngleSpeed="6.000" HitType="2" AddEffect="发光01" EndEffect="爆炸07"/>
+</Effect>

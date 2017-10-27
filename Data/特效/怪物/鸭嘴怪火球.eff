@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="299" Pos_y="308" Size_x="40" Size_y="78" Offs_x="100" Offs_y="-75" Pic="\Image\特效\怪物\火球.bmp" Pic_top="20" Pic_right="32" Pic_bottom="36" ColorKey="0xFF00FF00" Blend="0x1" Sound="\sound\怪物\人鱼火球.wav" ItemSize_x="32" ItemSize_y="16" ItemHot_x="16" ItemHot_y="8" ItemFrame="8" ItemFps="20" ItemLife="2500" ItemScale="1.500" ItemQuality="1.000" MinSpeedX="400.000" MaxSpeedX="400.000" HitType="2" HitOnce="1" Rebound="1" Destroy="1" Magic="1" EndEffect="爆炸01"/>
+</Effect>

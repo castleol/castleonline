@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="500">
+	<Tile>
+		<Item Size_x="800" Size_y="500" Pic="\image\地图\藏书库\横廊02.bmp" Pic_right="256" Pic_bottom="207"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="250" Pos_y="366" Size_x="550" Size_y="133" Obst="1"/>
+		<Item Size_x="150" Size_y="175" Obst="1"/>
+		<Item Pos_x="752" Size_x="48" Size_y="175" Obst="1"/>
+		<Item Pos_y="328" Size_x="250" Size_y="171" Obst="1"/>
+		<Item Pos_x="698" Pos_y="328" Size_x="102" Size_y="38" Obst="1"/>
+		<Item Pos_x="350" Pos_y="173" Size_x="300" Size_y="40" Obst="1"/>
+		<Item Pos_x="449" Pos_y="134" Size_x="304" Size_y="40" Obst="1"/>
+		<Item Pos_x="548" Pos_y="-24" Size_x="204" Size_y="158" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="794" Pos_y="177" Size_x="54" Size_y="150" Id="1" Map="书库横廊01" MapPos_y="328"/>
+		<Item Pos_x="-49" Pos_y="176" Size_x="54" Size_y="150" Id="2" Map="书库横廊03" MapPos_x="1300" MapPos_y="328"/>
+		<Item Pos_x="300" Pos_y="-54" Size_x="400" Size_y="58" Id="3" Map="书库大厅01" MapPos_x="1260" MapPos_y="1600"/>
+	</Trap>
+	<Char/>
+</Map>

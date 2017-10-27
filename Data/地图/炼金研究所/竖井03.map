@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1400">
+	<Tile>
+		<Item Pos_x="205" Pos_y="1255" Size_x="417" Size_y="145" Pic="\Image\地图\炼金研究所\背景05.bmp" Pic_right="384" Pic_bottom="128" Tile="1"/>
+		<Item Pos_y="103" Size_x="205" Size_y="1297" Pic="\Image\地图\炼金研究所\背景02.bmp" Pic_right="384" Pic_bottom="256" Tile="1" Flip="1"/>
+		<Item Pos_x="622" Pos_y="140" Size_x="178" Size_y="1260" Pic="\Image\地图\炼金研究所\背景02.bmp" Pic_right="384" Pic_bottom="256" Tile="1"/>
+		<Item Pos_x="205" Pos_y="999" Size_x="417" Size_y="256" Pic="\Image\地图\炼金研究所\背景02.bmp" Pic_right="384" Pic_bottom="256" Tile="1" Group="3"/>
+		<Item Pos_y="1239" Size_x="210" Size_y="161" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Obst="1"/>
+		<Item Pos_x="590" Pos_y="1239" Size_x="210" Size_y="161" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Obst="1"/>
+		<Item Pos_x="210" Pos_y="1319" Size_x="380" Size_y="81" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Obst="1"/>
+		<Item Pos_x="686" Size_x="114" Size_y="1063" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Obst="1"/>
+		<Item Pos_y="331" Size_x="114" Size_y="864" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Obst="1"/>
+		<Item Pos_x="590" Pos_y="1217" Size_x="210" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Obst="1"/>
+		<Item Pos_x="686" Pos_y="1063" Size_x="114" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_y="1195" Size_x="114" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="210" Pos_y="1297" Size_x="380" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Obst="1"/>
+		<Item Pos_x="205" Pos_y="743" Size_x="417" Size_y="256" Pic="\Image\地图\炼金研究所\背景03.bmp" Pic_right="384" Pic_bottom="256" Tile="1" Group="3"/>
+		<Item Pos_x="205" Pos_y="487" Size_x="417" Size_y="256" Pic="\Image\地图\炼金研究所\背景02.bmp" Pic_right="384" Pic_bottom="256" Tile="1" Group="4"/>
+		<Item Pos_x="205" Pos_y="231" Size_x="417" Size_y="256" Pic="\Image\地图\炼金研究所\背景03.bmp" Pic_right="384" Pic_bottom="256" Tile="1" Group="4"/>
+		<Item Pos_x="205" Pos_y="-24" Size_x="417" Size_y="256" Pic="\Image\地图\炼金研究所\背景02.bmp" Pic_right="384" Pic_bottom="256" Tile="1"/>
+		<Item Pos_y="310" Size_x="114" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Obst="1" Group="2"/>
+		<Item Pos_y="156" Size_x="114" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1" Group="2"/>
+		<Item Pos_y="1" Size_x="114" Size_y="155" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Flip="2" Obst="1" Group="2"/>
+		<Item Pos_x="114" Pos_y="42" Size_x="572" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1" Group="2"/>
+		<Item Pos_x="114" Pos_y="64" Size_x="91" Size_y="60" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Flip="2" Obst="1" Group="2"/>
+		<Item Pos_x="114" Pos_y="124" Size_x="91" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1" Group="2"/>
+		<Item Pos_x="593" Pos_y="64" Size_x="93" Size_y="60" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Flip="2" Obst="1" Group="2"/>
+		<Item Pos_x="593" Pos_y="124" Size_x="93" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1" Group="2"/>
+		<Item Pos_x="114" Pos_y="1" Size_x="572" Size_y="41" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Flip="2" Obst="1" Group="2"/>
+		<Item Pos_x="686" Pos_y="1085" Size_x="114" Size_y="132" Pic="\Image\地图\炼金研究所\墙壁05.bmp" Pic_right="64" Pic_bottom="128" Tile="1"/>
+		<Item Pos_y="1217" Size_x="210" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Obst="1"/>
+		<Item Pos_x="178" Pos_y="310" Size_x="32" Size_y="32" Pic="\Image\地图\炼金研究所\平台02.bmp" Pic_right="32" Pic_bottom="32" Obst="1" Group="2"/>
+		<Item Pos_x="114" Pos_y="310" Size_x="64" Size_y="32" Pic="\Image\地图\炼金研究所\平台01.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Obst="1" Group="2"/>
+		<Item Pos_x="333" Pos_y="325" Size_x="128" Size_y="32" Pic="\Image\地图\炼金研究所\平台04.bmp" Pic_right="64" Pic_bottom="32" Obst="1"/>
+		<Item Pos_x="331" Pos_y="581" Size_x="128" Size_y="32" Pic="\Image\地图\炼金研究所\平台04.bmp" Pic_right="64" Pic_bottom="32" Obst="1"/>
+		<Item Pos_x="334" Pos_y="837" Size_x="128" Size_y="32" Pic="\Image\地图\炼金研究所\平台04.bmp" Pic_right="64" Pic_bottom="32" Obst="1"/>
+		<Item Pos_x="332" Pos_y="1093" Size_x="128" Size_y="32" Pic="\Image\地图\炼金研究所\平台04.bmp" Pic_right="64" Pic_bottom="32" Obst="1"/>
+		<Item Pos_x="590" Pos_y="972" Size_x="32" Size_y="32" Pic="\Image\地图\炼金研究所\平台02.bmp" Pic_right="32" Pic_bottom="32" Flip="1" Obst="1" Group="5"/>
+		<Item Pos_x="622" Pos_y="972" Size_x="64" Size_y="32" Pic="\Image\地图\炼金研究所\平台01.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Obst="1" Group="5"/>
+		<Item Pos_x="590" Pos_y="460" Size_x="32" Size_y="32" Pic="\Image\地图\炼金研究所\平台02.bmp" Pic_right="32" Pic_bottom="32" Flip="1" Obst="1" Group="6"/>
+		<Item Pos_x="622" Pos_y="460" Size_x="64" Size_y="32" Pic="\Image\地图\炼金研究所\平台01.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Obst="1" Group="6"/>
+		<Item Pos_x="178" Pos_y="715" Size_x="32" Size_y="32" Pic="\Image\地图\炼金研究所\平台02.bmp" Pic_right="32" Pic_bottom="32" Obst="1" Group="8"/>
+		<Item Pos_x="114" Pos_y="715" Size_x="64" Size_y="32" Pic="\Image\地图\炼金研究所\平台01.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Obst="1" Group="8"/>
+		<Item Pos_x="365" Pos_y="144" Size_x="64" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="365" Pos_y="64" Size_x="64" Size_y="81" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_y="177" Size_x="114" Size_y="132" Pic="\Image\地图\炼金研究所\墙壁05.bmp" Pic_right="64" Pic_bottom="128" Tile="1"/>
+		<Item Pos_x="284" Pos_y="1209" Size_x="100" Size_y="88" Pic="\Image\地图\炼金研究所\物件03.bmp" Pic_right="100" Pic_bottom="88" ColorKey="0x800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="302" Pos_y="1150" Size_x="32" Size_y="64" Pic="\Image\地图\炼金研究所\动画01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0x800000" Frames="8" Fps="10" Id="1" Damage="1" Effect="火焰01" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\炼金研究所.lua" Item="盔甲02" TaskId="9"/>
+		<Item Pos_x="381" Pos_y="191" Size_x="32" Size_y="40" Pic="\Image\地图\炼金研究所\动画04.bmp" Pic_right="16" Pic_bottom="20" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="2" ChildId="3" Damage="1" Effect="爆炸04" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\炼金研究所.lua"/>
+		<Item Pos_x="348" Pos_y="167" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="3" Type="9" Damage="1"/>
+		<Item Pos_x="381" Pos_y="448" Size_x="32" Size_y="40" Pic="\Image\地图\炼金研究所\动画04.bmp" Pic_right="16" Pic_bottom="20" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="4" ChildId="5" Damage="1" Effect="爆炸04" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\炼金研究所.lua"/>
+		<Item Pos_x="348" Pos_y="424" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="5" Type="9" Damage="1"/>
+		<Item Pos_x="382" Pos_y="702" Size_x="32" Size_y="40" Pic="\Image\地图\炼金研究所\动画04.bmp" Pic_right="16" Pic_bottom="20" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="6" ChildId="7" Damage="1" Effect="爆炸04" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\炼金研究所.lua"/>
+		<Item Pos_x="349" Pos_y="678" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="7" Type="9" Damage="1"/>
+		<Item Pos_x="381" Pos_y="958" Size_x="32" Size_y="40" Pic="\Image\地图\炼金研究所\动画04.bmp" Pic_right="16" Pic_bottom="20" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="8" ChildId="9" Damage="1" Effect="爆炸04" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\炼金研究所.lua"/>
+		<Item Pos_x="348" Pos_y="934" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="9" Type="9" Damage="1"/>
+	</Anim>
+	<Obst/>
+	<Trap>
+		<Item Pos_x="-50" Pos_y="181" Size_x="64" Size_y="125" Id="1" Map="炼金房间04" MapPos_x="1600" MapPos_y="1044"/>
+		<Item Pos_x="788" Pos_y="1089" Size_x="64" Size_y="125" Id="2" Map="炼金竖井01" MapPos_y="309"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="375" Pos_y="1205" Size_x="48" Size_y="92" Id="1" Char="扔骨骷髅"/>
+	</Char>
+</Map>

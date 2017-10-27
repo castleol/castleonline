@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\失落的村庄\密道03.bmp" Pic_right="256" Pic_bottom="192"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="101" Pos_y="429" Size_x="400" Size_y="72" Color0="0x600000FF" Color1="0x600000FF" Color2="0x6000F0F0" Color3="0x6000F0F0" Mask="1" Id="1" Type="11" Damage="5"/>
+		<Item Pos_x="558" Pos_y="384" Size_x="34" Size_y="16" Pic="\Image\地图\恶魔城入口\入口终点\地上机关.bmp" Pic_right="34" Pic_bottom="16" Tile="1" Obst="2" Id="2" Type="5" Time="200" Sound="\sound\场景\开关01.wav" Script="\data\脚本\地图机关\村庄密道3.lua" TaskId="3" EndPos_x="558" EndPos_y="400" EndSize_x="34"/>
+		<Item Pos_x="655" Pos_y="200" Size_x="40" Size_y="200" Pic="\Image\地图\恶魔城入口\入口终点\大门.bmp" Pic_right="40" Pic_bottom="256" Tile="1" Obst="1" Id="3" Type="3" Time="2000" Sound="\sound\场景\机关01.wav" Item="机关" EndPos_x="655" EndPos_y="400" EndSize_x="40"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="100" Size_x="400" Size_y="101" Obst="1"/>
+		<Item Pos_y="400" Size_x="101" Size_y="199" Obst="1"/>
+		<Item Pos_x="500" Size_x="300" Size_y="200" Obst="1"/>
+		<Item Pos_x="500" Pos_y="400" Size_x="300" Size_y="200" Obst="1"/>
+		<Item Pos_x="100" Pos_y="500" Size_x="400" Size_y="99" Obst="1"/>
+		<Item Size_x="101" Size_y="200" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="793" Pos_y="204" Size_x="60" Size_y="192" Map="失落的村庄密道4" MapPos_y="1015"/>
+		<Item Pos_x="-55" Pos_y="202" Size_x="60" Size_y="196" Id="2" Map="失落的村庄密道2" MapPos_x="1500" MapPos_y="400"/>
+	</Trap>
+	<Char/>
+</Map>

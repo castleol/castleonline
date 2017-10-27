@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1024" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\地下庭院\背景01.bmp" Pic_right="256" Pic_bottom="228" ColorKey="0xFF00FF" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Pos_x="229" Pos_y="72" Size_x="562" Size_y="456" Pic="\image\地图\地下庭院\亭子01.bmp" Pic_right="160" Pic_bottom="153" ColorKey="0xFF00FF"/>
+		<Item Pos_y="528" Size_x="512" Size_y="72" Pic="\image\地图\地下庭院\地面01.bmp" Pic_right="256" Pic_bottom="36" ColorKey="0xFF00FF"/>
+		<Item Pos_x="512" Pos_y="528" Size_x="512" Size_y="72" Pic="\image\地图\地下庭院\地面01.bmp" Pic_right="256" Pic_bottom="36" ColorKey="0xFF00FF"/>
+		<Item Pos_y="432" Size_x="64" Size_y="96" Pic="\image\地图\地下庭院\墙壁04.bmp" Pic_right="32" Pic_bottom="48" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_y="304" Size_x="32" Size_y="128" Pic="\image\地图\地下庭院\墙壁02.bmp" Pic_right="16" Pic_bottom="64" ColorKey="0xFF00FF"/>
+		<Item Pos_y="176" Size_x="64" Size_y="128" Pic="\image\地图\地下庭院\墙壁01.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Flip="1" Obst="1"/>
+		<Item Pos_x="96" Size_x="832" Size_y="78" Pic="\image\地图\地下庭院\屋顶01.bmp" Pic_right="96" Pic_bottom="78" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="48" Size_x="64" Size_y="128" Pic="\image\地图\地下庭院\墙壁01.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Flip="1" Obst="1"/>
+		<Item Size_x="96" Size_y="96" Pic="\image\地图\地下庭院\墙壁03.bmp" Pic_right="48" Pic_bottom="48" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="928" Size_x="96" Size_y="96" Pic="\image\地图\地下庭院\墙壁03.bmp" Pic_right="48" Pic_bottom="48" ColorKey="0xFF00FF" Flip="1" Obst="1"/>
+		<Item Pos_x="960" Pos_y="96" Size_x="64" Size_y="128" Pic="\image\地图\地下庭院\墙壁01.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="960" Pos_y="223" Size_x="64" Size_y="128" Pic="\image\地图\地下庭院\墙壁01.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Flip="2" Obst="1"/>
+		<Item Pos_x="960" Pos_y="351" Size_x="64" Size_y="128" Pic="\image\地图\地下庭院\墙壁01.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="960" Pos_y="432" Size_x="64" Size_y="96" Pic="\image\地图\地下庭院\墙壁04.bmp" Pic_right="32" Pic_bottom="48" ColorKey="0xFF00FF" Flip="1" Obst="1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="1" Pos_y="528" Size_x="1024" Size_y="72" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-45" Pos_y="304" Size_x="47" Size_y="128" Id="1" Map="地下庭院走廊02" MapPos_x="2048" MapPos_y="440"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="482" Pos_y="436" Size_x="56" Size_y="92" Id="1" Char="骷髅统领" Left="1"/>
+	</Char>
+</Map>

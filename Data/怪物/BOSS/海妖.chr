@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\BOSS\海妖.bmp" ColorKey="0xFF00FF" Size_x="32" Size_y="90" Scale="2.000" Flip="1" HitEffect="闪光01" HurtEffect="冒血02">
+	<Action Num="9">
+		<Act Name="站立" Fly="1">
+			<Act Name="身体" Group="1" Fps="0" Swing_y="2" Speed="1.000"/>
+			<Act Name="右臂" Group="3" Begin="1" End="1" Loop="1" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
+			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
+			<Act Name="毛发" Group="7" Fps="5" Offs_x="-24" Offs_y="124" Swing_y="2" Speed="1.000"/>
+			<Act Name="狼头后" Group="5" Begin="2" Fps="0" Offs_x="68" Offs_y="104" Swing_x="2" Speed="0.800"/>
+			<Act Name="狼头中" Group="6" Offs_x="56" Offs_y="65" Swing_x="2" Speed="0.900"/>
+			<Act Name="狼头前" Group="5" Offs_x="3" Offs_y="85" Swing_x="2" Speed="1.000"/>
+			<Act Name="蛇身后" Group="8" End="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
+		</Act>
+		<Act Name="死亡" Next="站立" Effect="海妖死亡" Time="3000" Start="-1" ColorEnd="0x10FFFFFF" Sound="6" Fly="1">
+			<Act Name="身体" Group="2" Fps="0" Swing_y="1" Speed="10.000"/>
+			<Act Name="尾巴" Group="10" End="2" Loop="-1" Fps="20" Offs_x="-87" Offs_y="92"/>
+			<Act Name="毛发" Group="7" End="1" Fps="20" Offs_x="-24" Offs_y="124" Speed="1.000"/>
+			<Act Name="狼头后" Group="5" Begin="3" Fps="0" Offs_x="68" Offs_y="104" Swing_x="1" Swing_y="1" Speed="10.000"/>
+			<Act Name="狼头中" Group="6" Begin="1" Fps="0" Offs_x="56" Offs_y="65" Swing_y="1" Speed="10.000"/>
+			<Act Name="狼头前" Group="5" Begin="1" Fps="0" Offs_x="3" Offs_y="85" Swing_x="1" Speed="10.000"/>
+			<Act Name="蛇身后" Group="8" End="2" Loop="-1" Fps="20" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="20" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="20" Offs_x="29" Offs_y="264"/>
+		</Act>
+		<Act Name="收招" Next="站立" Time="200" Fly="1">
+			<Act Name="身体" Group="1" Begin="2" End="1" Loop="1" Swing_y="2" Speed="1.000"/>
+			<Act Name="右臂" Group="3" Begin="3" End="2" Loop="2" Offs_x="-4" Offs_y="-64" Swing_y="2" Speed="1.000"/>
+			<Act Name="尾巴" Group="10" End="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
+			<Act Name="毛发" Group="7" Fps="5" Offs_x="-24" Offs_y="124" Swing_y="2" Speed="1.000"/>
+			<Act Name="狼头后" Group="5" Begin="2" Fps="0" Offs_x="68" Offs_y="104" Swing_x="2" Swing_y="2" Speed="0.800"/>
+			<Act Name="狼头中" Group="6" Offs_x="56" Offs_y="65" Swing_x="2" Speed="0.900"/>
+			<Act Name="狼头前" Group="5" Offs_x="3" Offs_y="85" Swing_x="2" Speed="1.000"/>
+			<Act Name="蛇身后" Group="8" Begin="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" End="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" Begin="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
+		</Act>
+		<Act Name="攻击1" Next="收招" Effect="海妖水泡升起" Time="1000" Sound="1" Fly="1">
+			<Act Name="身体" Group="1" Begin="1" End="3" Loop="1" Swing_y="2" Speed="1.000"/>
+			<Act Name="右臂" Group="3" Begin="1" End="4" Loop="4" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
+			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
+			<Act Name="毛发" Group="7" Fps="5" Offs_x="-24" Offs_y="124" Swing_y="2" Speed="1.000"/>
+			<Act Name="狼头后" Group="5" Begin="2" Fps="0" Offs_x="68" Offs_y="104" Swing_x="2" Speed="0.800"/>
+			<Act Name="狼头中" Group="6" Offs_x="56" Offs_y="65" Swing_x="2" Speed="0.900"/>
+			<Act Name="狼头前" Group="5" Offs_x="3" Offs_y="85" Swing_x="2" Speed="1.000"/>
+			<Act Name="蛇身后" Group="8" End="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
+		</Act>
+		<Act Name="攻击2" Next="攻击3" Effect="海妖水球聚气" Time="1000" Sound="1" Fly="1">
+			<Act Name="身体" Group="1" Begin="1" End="3" Loop="1" Swing_y="2" Speed="1.000"/>
+			<Act Name="右臂" Group="3" Begin="5" End="7" Loop="7" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
+			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
+			<Act Name="毛发" Group="7" Fps="5" Offs_x="-24" Offs_y="124" Swing_y="2" Speed="1.000"/>
+			<Act Name="狼头后" Group="5" Begin="2" Fps="0" Offs_x="68" Offs_y="104" Swing_x="2" Speed="0.800"/>
+			<Act Name="狼头中" Group="6" Offs_x="56" Offs_y="65" Swing_x="2" Speed="0.900"/>
+			<Act Name="狼头前" Group="5" Offs_x="3" Offs_y="85" Swing_x="2" Speed="1.000"/>
+			<Act Name="蛇身后" Group="8" End="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
+		</Act>
+		<Act Name="攻击3" Next="收招" Time="1000" Sound="2" Fly="1">
+			<Act Name="左臂" Group="4" End="2" Loop="2" Offs_x="6" Offs_y="-66" Swing_y="2" Speed="1.000"/>
+			<Act Name="身体" Group="1" Begin="5" End="1" Loop="-1" Swing_y="2" Speed="1.000"/>
+			<Act Name="右臂" Group="3" Begin="2" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
+			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
+			<Act Name="毛发" Group="7" Fps="5" Offs_x="-24" Offs_y="124" Swing_y="2" Speed="1.000"/>
+			<Act Name="狼头后" Group="5" Begin="2" Fps="0" Offs_x="68" Offs_y="104" Swing_x="2" Speed="0.800"/>
+			<Act Name="狼头中" Group="6" Offs_x="56" Offs_y="65" Swing_x="2" Speed="0.900"/>
+			<Act Name="狼头前" Group="5" Offs_x="3" Offs_y="85" Swing_x="2" Speed="1.000"/>
+			<Act Name="蛇身后" Group="8" End="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
+		</Act>
+		<Act Name="攻击4" Next="站立" Effect="海妖落石攻击" Fps="5" Time="2000" Sound="5" Fly="1">
+			<Act Name="左臂" Group="4" End="2" Loop="2" Offs_x="6" Offs_y="-66" Swing_y="2" Speed="1.000"/>
+			<Act Name="身体" Group="1" Begin="1" End="5" Loop="-1" Swing_y="2" Speed="1.000"/>
+			<Act Name="右臂" Group="3" Begin="2" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
+			<Act Name="尾巴" Group="10" End="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
+			<Act Name="毛发" Group="7" Fps="5" Offs_x="-24" Offs_y="124" Swing_y="2" Speed="1.000"/>
+			<Act Name="狼头后" Group="5" Begin="10" End="15" Loop="15" Offs_x="68" Offs_y="104" Swing_x="2" Speed="0.800"/>
+			<Act Name="狼头中" Group="6" Begin="2" End="7" Loop="7" Offs_x="56" Offs_y="65" Swing_x="2" Speed="0.900"/>
+			<Act Name="狼头前" Group="5" Begin="4" End="9" Loop="9" Offs_x="3" Offs_y="85" Swing_x="2" Speed="1.000"/>
+			<Act Name="蛇身后" Group="8" Begin="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" End="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" Begin="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
+		</Act>
+		<Act Name="攻击5" Next="站立" Effect="海妖狗头攻击" Time="1000" Sound="4" Fly="1">
+			<Act Name="身体" Group="1" Fps="0" Swing_y="2" Speed="1.000"/>
+			<Act Name="右臂" Group="3" Begin="1" End="1" Loop="1" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
+			<Act Name="尾巴" Group="10" End="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
+			<Act Name="毛发" Group="7" Fps="5" Offs_x="-24" Offs_y="124" Swing_y="2" Speed="1.000"/>
+			<Act Name="狼头后" Group="5" Begin="2" Fps="0" Offs_x="68" Offs_y="104" Swing_x="2" Speed="0.800"/>
+			<Act Name="狼头中" Group="6" Begin="1" Fps="0" Offs_x="56" Offs_y="65" Swing_x="20" Speed="1.000"/>
+			<Act Name="狼头前" Group="5" Offs_x="3" Offs_y="85" Swing_x="2" Speed="1.000"/>
+			<Act Name="蛇身后" Group="8" Begin="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" End="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" Begin="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
+		</Act>
+		<Act Name="攻击6" Next="站立" Effect="海妖狗头攻击" Time="1000" Sound="4" Fly="1">
+			<Act Name="身体" Group="1" Fps="0" Swing_y="2" Speed="1.000"/>
+			<Act Name="右臂" Group="3" Begin="1" End="1" Loop="1" Offs_x="-3" Offs_y="-66" Swing_y="2" Speed="1.000"/>
+			<Act Name="尾巴" Group="10" Begin="2" Loop="-1" Fps="5" Offs_x="-87" Offs_y="92"/>
+			<Act Name="毛发" Group="7" Fps="5" Offs_x="-24" Offs_y="124" Swing_y="2" Speed="1.000"/>
+			<Act Name="狼头后" Group="5" Begin="2" Fps="0" Offs_x="68" Offs_y="104" Swing_x="2" Speed="0.800"/>
+			<Act Name="狼头中" Group="6" Fps="0" Offs_x="56" Offs_y="65" Swing_x="1" Speed="1.000"/>
+			<Act Name="狼头前" Group="5" Begin="1" Fps="0" Offs_x="3" Offs_y="85" Swing_x="20" Speed="1.000"/>
+			<Act Name="蛇身后" Group="8" End="2" Loop="-1" Fps="5" Offs_x="205" Offs_y="283"/>
+			<Act Name="蛇身中" Group="9" Begin="2" Loop="-1" Fps="5" Offs_x="199" Offs_y="280"/>
+			<Act Name="蛇身前" Group="11" End="2" Loop="-1" Fps="5" Offs_x="29" Offs_y="264"/>
+		</Act>
+	</Action>
+	<Rect Num="7">
+		<Rect Name="站立" Rect_left="-17" Rect_top="-4" Rect_right="105" Rect_bottom="77"/>
+		<Rect Name="攻击1" Rect_left="-21" Rect_top="-8" Rect_right="106" Rect_bottom="80"/>
+		<Rect Name="攻击2" Rect_left="-22" Rect_top="-4" Rect_right="106" Rect_bottom="75"/>
+		<Rect Name="攻击3" Rect_left="-24" Rect_top="-8" Rect_right="110" Rect_bottom="78"/>
+		<Rect Name="攻击4" Rect_left="-34" Rect_top="-24" Rect_right="103" Rect_bottom="77"/>
+		<Rect Name="攻击5" Rect_left="-41" Rect_top="-7" Rect_right="114" Rect_bottom="83"/>
+		<Rect Name="攻击6" Rect_left="-46" Rect_top="-8" Rect_right="107" Rect_bottom="79"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="6">
+		<Snd Id="1" File="\sound\怪物\海妖攻击1.wav"/>
+		<Snd Id="2" File="\sound\怪物\海妖攻击2.wav"/>
+		<Snd Id="3" File="\sound\怪物\海妖攻击3.wav"/>
+		<Snd Id="4" File="\sound\怪物\海妖攻击4.wav"/>
+		<Snd Id="5" File="\sound\怪物\海妖攻击5.wav"/>
+		<Snd Id="6" File="\sound\怪物\海妖死亡.wav"/>
+	</Sound>
+	<Image Num="93">
+		<Img Group="1" Pos_x="3" Size_x="23" Size_y="49" Hot_x="10" Hot_y="49"/>
+		<Img Group="1" Frame="1" Pos_x="28" Size_x="23" Size_y="49" Hot_x="10" Hot_y="49"/>
+		<Img Group="1" Frame="2" Pos_x="85" Size_x="31" Size_y="49" Hot_x="11" Hot_y="49"/>
+		<Img Group="1" Frame="3" Pos_x="118" Size_x="32" Size_y="49" Hot_x="11" Hot_y="49"/>
+		<Img Group="1" Frame="4" Pos_x="184" Size_x="56" Size_y="49" Hot_x="11" Hot_y="49"/>
+		<Img Group="1" Frame="5" Pos_x="241" Size_x="48" Size_y="49" Hot_x="11" Hot_y="49"/>
+		<Img Group="1" Frame="6" Pos_x="53" Size_x="31" Size_y="49" Hot_x="8" Hot_y="49"/>
+		<Img Group="1" Frame="7" Pos_x="151" Size_x="31" Size_y="49" Hot_x="6" Hot_y="49"/>
+		<Img Group="2" Pos_x="289" Size_x="30" Size_y="49" Hot_x="10" Hot_y="49"/>
+		<Img Group="2" Frame="1" Pos_x="319" Size_x="30" Size_y="49" Hot_x="7" Hot_y="49"/>
+		<Img Group="3" Pos_x="5" Pos_y="70" Size_x="22" Size_y="21" Hot_x="4" Hot_y="3"/>
+		<Img Group="3" Frame="1" Pos_x="27" Pos_y="70" Size_x="14" Size_y="28" Hot_x="3" Hot_y="2"/>
+		<Img Group="3" Frame="2" Pos_x="41" Pos_y="70" Size_x="17" Size_y="22" Hot_x="9" Hot_y="2"/>
+		<Img Group="3" Frame="3" Pos_x="58" Pos_y="70" Size_x="23" Size_y="22" Hot_x="20" Hot_y="2"/>
+		<Img Group="3" Frame="4" Pos_x="81" Pos_y="68" Size_x="28" Size_y="13" Hot_x="24" Hot_y="4"/>
+		<Img Group="3" Frame="5" Pos_x="41" Pos_y="70" Size_x="17" Size_y="22" Hot_x="9" Hot_y="2"/>
+		<Img Group="3" Frame="6" Pos_x="58" Pos_y="70" Size_x="23" Size_y="22" Hot_x="20" Hot_y="2"/>
+		<Img Group="3" Frame="7" Pos_x="109" Pos_y="68" Size_x="26" Size_y="21" Hot_x="22" Hot_y="5"/>
+		<Img Group="4" Pos_x="143" Pos_y="70" Size_x="24" Size_y="22" Hot_x="20" Hot_y="3"/>
+		<Img Group="4" Frame="1" Pos_x="167" Pos_y="69" Size_x="24" Size_y="11" Hot_x="20" Hot_y="4"/>
+		<Img Group="4" Frame="2" Pos_x="191" Pos_y="51" Size_x="18" Size_y="29" Hot_x="15" Hot_y="22"/>
+		<Img Group="4" Frame="3" Pos_x="209" Pos_y="67" Size_x="29" Size_y="13" Hot_x="25" Hot_y="5"/>
+		<Img Group="5" Pos_x="4" Pos_y="105" Size_x="48" Size_y="47" Hot_x="24" Hot_y="47"/>
+		<Img Group="5" Frame="1" Pos_x="52" Pos_y="105" Size_x="48" Size_y="47" Hot_x="24" Hot_y="47"/>
+		<Img Group="5" Frame="2" Pos_x="102" Pos_y="105" Size_x="57" Size_y="47" Hot_x="24" Hot_y="47"/>
+		<Img Group="5" Frame="3" Pos_x="159" Pos_y="105" Size_x="57" Size_y="47" Hot_x="24" Hot_y="47"/>
+		<Img Group="5" Frame="4" Pos_x="4" Pos_y="105" Size_x="48" Size_y="47" Hot_x="24" Hot_y="47"/>
+		<Img Group="5" Frame="5" Pos_x="216" Pos_y="95" Size_x="52" Size_y="57" Hot_x="26" Hot_y="61"/>
+		<Img Group="5" Frame="6" Pos_x="268" Pos_y="95" Size_x="41" Size_y="57" Hot_x="20" Hot_y="67"/>
+		<Img Group="5" Frame="7" Time="300" Pos_x="309" Pos_y="95" Size_x="41" Size_y="57" Hot_x="19" Hot_y="68"/>
+		<Img Group="5" Frame="8" Pos_x="216" Pos_y="95" Size_x="52" Size_y="57" Hot_x="26" Hot_y="65"/>
+		<Img Group="5" Frame="9" Pos_x="4" Pos_y="105" Size_x="48" Size_y="47" Hot_x="24" Hot_y="47"/>
+		<Img Group="5" Frame="10" Time="1200" Pos_x="102" Pos_y="105" Size_x="57" Size_y="47" Hot_x="24" Hot_y="47"/>
+		<Img Group="5" Frame="11" Pos_x="216" Pos_y="95" Size_x="52" Size_y="57" Hot_x="26" Hot_y="61"/>
+		<Img Group="5" Frame="12" Pos_x="268" Pos_y="95" Size_x="41" Size_y="57" Hot_x="20" Hot_y="67"/>
+		<Img Group="5" Frame="13" Time="300" Pos_x="309" Pos_y="95" Size_x="41" Size_y="57" Hot_x="19" Hot_y="68"/>
+		<Img Group="5" Frame="14" Pos_x="216" Pos_y="95" Size_x="52" Size_y="57" Hot_x="26" Hot_y="65"/>
+		<Img Group="5" Frame="15" Pos_x="102" Pos_y="105" Size_x="57" Size_y="47" Hot_x="24" Hot_y="47"/>
+		<Img Group="6" Pos_x="2" Pos_y="172" Size_x="56" Size_y="44" Hot_x="27" Hot_y="42"/>
+		<Img Group="6" Frame="1" Pos_x="58" Pos_y="172" Size_x="58" Size_y="44" Hot_x="28" Hot_y="42"/>
+		<Img Group="6" Frame="2" Time="500" Pos_x="2" Pos_y="172" Size_x="56" Size_y="44" Hot_x="27" Hot_y="42"/>
+		<Img Group="6" Frame="3" Pos_x="116" Pos_y="158" Size_x="53" Size_y="58" Hot_x="20" Hot_y="54"/>
+		<Img Group="6" Frame="4" Pos_x="169" Pos_y="158" Size_x="40" Size_y="58" Hot_x="13" Hot_y="59"/>
+		<Img Group="6" Frame="5" Time="300" Pos_x="209" Pos_y="158" Size_x="40" Size_y="58" Hot_x="13" Hot_y="59"/>
+		<Img Group="6" Frame="6" Pos_x="116" Pos_y="158" Size_x="53" Size_y="58" Hot_x="27" Hot_y="52"/>
+		<Img Group="6" Frame="7" Pos_x="2" Pos_y="172" Size_x="56" Size_y="44" Hot_x="27" Hot_y="42"/>
+		<Img Group="7" Pos_x="253" Pos_y="161" Size_x="55" Size_y="54" Hot_x="28" Hot_y="54"/>
+		<Img Group="7" Frame="1" Pos_x="311" Pos_y="161" Size_x="56" Size_y="54" Hot_x="28" Hot_y="54"/>
+		<Img Group="8" Pos_x="5" Pos_y="311" Size_x="163" Size_y="90" Hot_x="81" Hot_y="90" Scale="1.200"/>
+		<Img Group="8" Frame="1" Pos_x="171" Pos_y="311" Size_x="163" Size_y="90" Hot_x="81" Hot_y="90" Scale="1.200"/>
+		<Img Group="8" Frame="2" Pos_x="335" Pos_y="311" Size_x="164" Size_y="90" Hot_x="81" Hot_y="90" Scale="1.200"/>
+		<Img Group="9" Pos_x="50" Pos_y="406" Size_x="139" Size_y="61" Hot_x="70" Hot_y="61" Scale="1.200"/>
+		<Img Group="9" Frame="1" Pos_x="191" Pos_y="406" Size_x="140" Size_y="61" Hot_x="70" Hot_y="61" Scale="1.200"/>
+		<Img Group="9" Frame="2" Pos_x="333" Pos_y="406" Size_x="138" Size_y="61" Hot_x="69" Hot_y="61" Scale="1.200"/>
+		<Img Group="10" Pos_x="8" Pos_y="512" Size_x="55" Size_y="30" Hot_x="28" Hot_y="28" Flip="1" Scale="1.200"/>
+		<Img Group="10" Frame="1" Pos_x="65" Pos_y="512" Size_x="55" Size_y="30" Hot_x="28" Hot_y="28" Flip="1" Scale="1.200"/>
+		<Img Group="10" Frame="2" Pos_x="123" Pos_y="512" Size_x="54" Size_y="30" Hot_x="27" Hot_y="28" Flip="1" Scale="1.200"/>
+		<Img Group="11" Pos_x="188" Pos_y="480" Size_x="42" Size_y="86" Hot_x="24" Hot_y="86" Flip="1" Scale="1.200"/>
+		<Img Group="11" Frame="1" Pos_x="232" Pos_y="480" Size_x="39" Size_y="86" Hot_x="22" Hot_y="86" Flip="1" Scale="1.200"/>
+		<Img Group="11" Frame="2" Pos_x="274" Pos_y="480" Size_x="37" Size_y="86" Hot_x="22" Hot_y="86" Flip="1" Scale="1.200"/>
+		<Img Group="12" Pos_x="386" Pos_y="35" Size_x="18" Size_y="10" Hot_x="9" Hot_y="5"/>
+		<Img Group="12" Frame="1" Pos_x="406" Pos_y="28" Size_x="16" Size_y="18" Hot_x="8" Hot_y="13"/>
+		<Img Group="12" Frame="2" Pos_x="423" Pos_y="20" Size_x="19" Size_y="26" Hot_x="9" Hot_y="20"/>
+		<Img Group="12" Frame="3" Pos_x="443" Pos_y="12" Size_x="33" Size_y="34" Hot_x="16" Hot_y="27"/>
+		<Img Group="12" Frame="4" Pos_x="338" Pos_y="64" Size_x="18" Size_y="17" Hot_x="9" Hot_y="17"/>
+		<Img Group="12" Frame="5" Pos_x="356" Pos_y="64" Size_x="18" Size_y="17" Hot_x="9" Hot_y="17"/>
+		<Img Group="12" Frame="6" Pos_x="374" Pos_y="63" Size_x="15" Size_y="18" Hot_x="7" Hot_y="18"/>
+		<Img Group="13" Pos_x="370" Pos_y="95" Size_x="23" Size_y="23" Hot_x="11" Hot_y="12"/>
+		<Img Group="13" Frame="1" Pos_x="393" Pos_y="95" Size_x="23" Size_y="23" Hot_x="11" Hot_y="12"/>
+		<Img Group="13" Frame="2" Pos_x="416" Pos_y="95" Size_x="23" Size_y="23" Hot_x="11" Hot_y="12"/>
+		<Img Group="13" Frame="3" Pos_x="439" Pos_y="95" Size_x="22" Size_y="23" Hot_x="10" Hot_y="12"/>
+		<Img Group="13" Frame="4" Pos_x="461" Pos_y="95" Size_x="20" Size_y="23" Hot_x="9" Hot_y="12"/>
+		<Img Group="13" Frame="5" Pos_x="382" Pos_y="139" Size_x="23" Size_y="30" Hot_x="11" Hot_y="14"/>
+		<Img Group="13" Frame="6" Pos_x="408" Pos_y="139" Size_x="29" Size_y="30" Hot_x="15" Hot_y="15"/>
+		<Img Group="13" Frame="7" Pos_x="437" Pos_y="127" Size_x="46" Size_y="43" Hot_x="27" Hot_y="25"/>
+		<Img Group="14" Pos_x="379" Pos_y="173" Size_x="38" Size_y="38" Hot_x="19" Hot_y="18"/>
+		<Img Group="14" Frame="1" Pos_x="417" Pos_y="173" Size_x="33" Size_y="38" Hot_x="16" Hot_y="18"/>
+		<Img Group="14" Frame="2" Pos_x="450" Pos_y="173" Size_x="27" Size_y="38" Hot_x="13" Hot_y="18"/>
+		<Img Group="14" Frame="3" Pos_x="477" Pos_y="173" Size_x="32" Size_y="38" Hot_x="16" Hot_y="18"/>
+		<Img Group="14" Frame="4" Pos_x="387" Pos_y="218" Size_x="30" Size_y="32" Hot_x="15" Hot_y="16"/>
+		<Img Group="14" Frame="5" Pos_x="418" Pos_y="218" Size_x="30" Size_y="32" Hot_x="15" Hot_y="16"/>
+		<Img Group="14" Frame="6" Pos_x="449" Pos_y="218" Size_x="30" Size_y="32" Hot_x="15" Hot_y="16"/>
+		<Img Group="15" Pos_x="388" Pos_y="260" Size_x="31" Size_y="38" Hot_x="15" Hot_y="18"/>
+		<Img Group="15" Frame="1" Pos_x="420" Pos_y="268" Size_x="11" Size_y="11" Hot_x="6" Hot_y="5"/>
+		<Img Group="15" Frame="2" Pos_x="431" Pos_y="265" Size_x="13" Size_y="16" Hot_x="6" Hot_y="7"/>
+		<Img Group="15" Frame="3" Pos_x="420" Pos_y="284" Size_x="23" Size_y="11" Hot_x="11" Hot_y="5"/>
+		<Img Group="16" Pos_x="389" Pos_y="63" Size_x="18" Size_y="18" Hot_x="9" Hot_y="18"/>
+		<Img Group="16" Frame="1" Pos_x="407" Pos_y="63" Size_x="17" Size_y="18" Hot_x="9" Hot_y="18"/>
+		<Img Group="16" Frame="2" Pos_x="424" Pos_y="63" Size_x="17" Size_y="18" Hot_x="9" Hot_y="18"/>
+		<Img Group="16" Frame="3" Pos_x="441" Pos_y="63" Size_x="17" Size_y="18" Hot_x="9" Hot_y="18"/>
+		<Img Group="16" Frame="4" Pos_x="458" Pos_y="63" Size_x="17" Size_y="18" Hot_x="9" Hot_y="18"/>
+		<Img Group="16" Frame="5" Pos_x="475" Pos_y="63" Size_x="16" Size_y="18" Hot_x="9" Hot_y="18"/>
+		<Img Group="16" Frame="6" Pos_x="491" Pos_y="63" Size_x="17" Size_y="18" Hot_x="9" Hot_y="18"/>
+	</Image>
+</Char>

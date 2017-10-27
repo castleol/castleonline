@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\恶魔城入口\入口城门\背景.jpg" Pic_right="600" Pic_bottom="480" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Pos_x="66" Pos_y="1155" Size_x="671" Size_y="375" Pic="\Image\地图\恶魔城入口\入口断桥\背景战场.bmp" Pic_right="440" Pic_bottom="375"/>
+		<Item Pos_y="1529" Size_x="800" Size_y="71" Pic="\Image\地图\恶魔城入口\入口断桥\地面.bmp" Pic_right="40" Pic_bottom="62" Tile="1"/>
+		<Item Pos_x="702" Pos_y="626" Size_x="36" Size_y="927" Pic="\Image\地图\恶魔城入口\入口断桥\背景城堡.bmp" Tile="1" Flip="1"/>
+		<Item Pos_x="62" Pos_y="625" Size_x="36" Size_y="930" Pic="\Image\地图\恶魔城入口\入口断桥\背景城堡.bmp" Tile="1"/>
+		<Item Pos_x="1" Pos_y="1441" Size_x="80" Size_y="115" Pic="\Image\地图\恶魔城入口\入口断桥\入口石壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_y="1409" Size_x="160" Size_y="32" Pic="\Image\地图\恶魔城入口\入口断桥\入口地板.bmp" Obst="1"/>
+		<Item Pos_y="1281" Size_x="64" Size_y="128" Pic="\Image\地图\恶魔城入口\入口断桥\入口墙壁.bmp"/>
+		<Item Pos_y="320" Size_x="80" Size_y="371" Pic="\Image\地图\恶魔城入口\入口断桥\入口石壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="721" Pos_y="1441" Size_x="80" Size_y="114" Pic="\Image\地图\恶魔城入口\入口断桥\入口石壁.bmp" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="639" Pos_y="1409" Size_x="162" Size_y="32" Pic="\Image\地图\恶魔城入口\入口断桥\入口地板.bmp" Flip="1" Obst="1"/>
+		<Item Pos_x="736" Pos_y="1281" Size_x="64" Size_y="128" Pic="\Image\地图\恶魔城入口\入口断桥\入口墙壁.bmp" Flip="1"/>
+		<Item Pos_x="720" Pos_y="818" Size_x="80" Size_y="463" Pic="\Image\地图\恶魔城入口\入口断桥\入口石壁.bmp" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="80" Pos_y="1250" Size_x="40" Size_y="32" Pic="\Image\地图\恶魔城入口\入口断桥\墙垛子.bmp" Obst="1"/>
+		<Item Pos_x="680" Pos_y="1249" Size_x="40" Size_y="32" Pic="\Image\地图\恶魔城入口\入口断桥\墙垛子.bmp" Flip="1" Obst="1"/>
+		<Item Pos_x="80" Pos_y="599" Size_x="26" Size_y="26" Pic="\Image\地图\恶魔城入口\入口断桥\背景城堡顶部.bmp"/>
+		<Item Pos_x="694" Pos_y="600" Size_x="26" Size_y="26" Pic="\Image\地图\恶魔城入口\入口断桥\背景城堡顶部.bmp" Flip="1"/>
+		<Item Pos_x="80" Pos_y="320" Size_x="220" Size_y="96" Pic="\Image\地图\恶魔城入口\入口断桥\断桥左边.bmp" Pic_right="160" Pic_bottom="96"/>
+		<Item Pos_y="193" Size_x="64" Size_y="128" Pic="\Image\地图\恶魔城入口\入口断桥\断桥入口.bmp"/>
+		<Item Pos_y="1" Size_x="80" Size_y="192" Pic="\Image\地图\恶魔城入口\入口断桥\入口石壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="481" Pos_y="320" Size_x="240" Size_y="96" Pic="\Image\地图\恶魔城入口\入口断桥\断桥左边.bmp" Pic_right="160" Pic_bottom="96" Flip="1"/>
+		<Item Pos_x="736" Pos_y="192" Size_x="64" Size_y="128" Pic="\Image\地图\恶魔城入口\入口断桥\断桥入口.bmp" Flip="1"/>
+		<Item Pos_x="720" Pos_y="1" Size_x="80" Size_y="192" Pic="\Image\地图\恶魔城入口\入口断桥\入口石壁.bmp" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="123" Pos_y="260" Size_x="67" Size_y="60" Pic="\Image\地图\恶魔城入口\入口断桥\蝙蝠石像.bmp"/>
+		<Item Pos_x="597" Pos_y="258" Size_x="67" Size_y="60" Pic="\Image\地图\恶魔城入口\入口断桥\蝙蝠石像.bmp"/>
+		<Item Pos_y="817" Size_x="80" Size_y="464" Pic="\Image\地图\恶魔城入口\入口断桥\入口石壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_y="690" Size_x="64" Size_y="128" Pic="\Image\地图\恶魔城入口\入口断桥\断桥入口.bmp"/>
+		<Item Pos_x="80" Pos_y="817" Size_x="160" Size_y="96" Pic="\Image\地图\恶魔城入口\入口断桥\断桥左边.bmp" Pic_right="160" Pic_bottom="96"/>
+		<Item Pos_x="79" Pos_y="659" Size_x="40" Size_y="32" Pic="\Image\地图\恶魔城入口\入口断桥\墙垛子.bmp" Obst="1"/>
+		<Item Pos_x="560" Pos_y="818" Size_x="160" Size_y="96" Pic="\Image\地图\恶魔城入口\入口断桥\断桥左边.bmp" Pic_right="160" Pic_bottom="96" Flip="1"/>
+		<Item Pos_x="581" Pos_y="706" Size_x="72" Size_y="128" Pic="\Image\地图\恶魔城入口\入口断桥\蝙蝠雕像.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="136" Pos_y="705" Size_x="72" Size_y="128" Pic="\Image\地图\恶魔城入口\入口断桥\蝙蝠雕像.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="736" Pos_y="690" Size_x="64" Size_y="128" Pic="\Image\地图\恶魔城入口\入口断桥\断桥入口.bmp" Flip="1"/>
+		<Item Pos_x="720" Pos_y="320" Size_x="80" Size_y="371" Pic="\Image\地图\恶魔城入口\入口断桥\入口石壁.bmp" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="681" Pos_y="660" Size_x="40" Size_y="32" Pic="\Image\地图\恶魔城入口\入口断桥\墙垛子.bmp" Flip="1" Obst="1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="81" Pos_y="320" Size_x="219" Size_y="32" Obst="1"/>
+		<Item Pos_x="478" Pos_y="320" Size_x="242" Size_y="32" Obst="1"/>
+		<Item Pos_x="658" Pos_y="349" Size_x="61" Size_y="32" Obst="1"/>
+		<Item Pos_x="82" Pos_y="352" Size_x="54" Size_y="31" Obst="1"/>
+		<Item Pos_x="83" Pos_y="1544" Size_x="634" Size_y="54" Obst="1"/>
+		<Item Pos_x="79" Pos_y="817" Size_x="161" Size_y="37" Obst="1"/>
+		<Item Pos_x="560" Pos_y="818" Size_x="161" Size_y="37" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-27" Pos_y="1283" Size_x="35" Size_y="125" Id="1" Map="入口走廊2" MapPos_x="3500" MapPos_y="348"/>
+		<Item Pos_x="793" Pos_y="1290" Size_x="35" Size_y="116" Id="2" Map="入口楼梯" MapPos_y="1413"/>
+		<Item Pos_x="792" Pos_y="199" Size_x="33" Size_y="116" Id="3" Map="入口楼梯" MapPos_y="308"/>
+		<Item Pos_x="-32" Pos_y="197" Size_x="36" Size_y="120" Id="4" Map="入口终点" MapPos_x="1280" MapPos_y="1413"/>
+		<Item Pos_x="793" Pos_y="698" Size_x="40" Size_y="116" Id="5" Map="入口楼梯" MapPos_y="719"/>
+		<Item Pos_x="-33" Pos_y="694" Size_x="38" Size_y="120" Id="6" Map="入口断桥密室" MapPos_x="800" MapPos_y="439"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="368" Pos_y="1470" Size_x="43" Size_y="74" Id="1" Char="僵尸战士"/>
+	</Char>
+</Map>

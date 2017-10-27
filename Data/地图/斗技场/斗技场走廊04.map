@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2048" Size_y="974">
+	<Tile>
+		<Item Pos_x="1982" Size_x="66" Size_y="974" Color0="0xFF101010" Color1="0xFF101010" Color2="0xFF101010" Color3="0xFF101010"/>
+		<Item Pos_x="1216" Size_x="388" Size_y="128" Color0="0xFF101010" Color1="0xFF101010" Color2="0xFF101010" Color3="0xFF101010"/>
+		<Item Size_x="66" Size_y="974" Color0="0xFF101010" Color1="0xFF101010" Color2="0xFF101010" Color3="0xFF101010"/>
+		<Item Pos_x="1504" Pos_y="768" Size_x="128" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="1504" Pos_y="256" Size_x="128" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="1280" Pos_y="128" Size_x="64" Size_y="96" Pic="\Image\地图\斗技场\背景03-1.bmp" Pic_right="64" Pic_bottom="96"/>
+		<Item Pos_x="1344" Pos_y="116" Size_x="128" Size_y="32" Pic="\Image\地图\斗技场\背景03-2.bmp" Pic_right="128" Pic_bottom="32"/>
+		<Item Pos_x="1472" Pos_y="128" Size_x="64" Size_y="96" Pic="\Image\地图\斗技场\背景03-1.bmp" Pic_right="64" Pic_bottom="96" Flip="1"/>
+		<Item Pos_x="1344" Pos_y="148" Size_x="128" Size_y="814" Pic="\Image\地图\斗技场\背景03-3.bmp" Pic_right="128" Pic_bottom="128" Tile="1"/>
+		<Item Pos_x="1344" Pos_y="640" Size_x="128" Size_y="160" Pic="\Image\地图\斗技场\背景03-4.bmp" Pic_right="128" Pic_bottom="160"/>
+		<Item Pos_x="1472" Pos_y="224" Size_x="64" Size_y="750" Pic="\Image\地图\斗技场\背景03-7.bmp" Pic_right="64" Pic_bottom="96" Tile="1" Flip="1"/>
+		<Item Pos_x="1344" Pos_y="384" Size_x="128" Size_y="160" Pic="\Image\地图\斗技场\背景03-4.bmp" Pic_right="128" Pic_bottom="160"/>
+		<Item Pos_x="1280" Pos_y="224" Size_x="64" Size_y="750" Pic="\Image\地图\斗技场\背景03-7.bmp" Pic_right="64" Pic_bottom="96" Tile="1"/>
+		<Item Pos_x="128" Size_x="64" Size_y="974" Pic="\Image\地图\斗技场\背景03-7.bmp" Pic_right="64" Pic_bottom="96" Tile="1"/>
+		<Item Pos_x="352" Pos_y="256" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="320" Size_x="64" Size_y="974" Pic="\Image\地图\斗技场\背景03-7.bmp" Pic_right="64" Pic_bottom="96" Tile="1" Flip="1"/>
+		<Item Pos_x="192" Size_x="128" Size_y="974" Pic="\Image\地图\斗技场\背景03-3.bmp" Pic_right="128" Pic_bottom="128" Tile="1"/>
+		<Item Pos_x="128" Pos_y="68" Size_x="64" Size_y="32" Pic="\Image\地图\斗技场\背景03-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="2"/>
+		<Item Pos_x="320" Pos_y="66" Size_x="64" Size_y="94" Pic="\Image\地图\斗技场\背景03-5.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="192" Pos_y="128" Size_x="128" Size_y="160" Pic="\Image\地图\斗技场\背景03-4.bmp" Pic_right="128" Pic_bottom="160"/>
+		<Item Pos_x="128" Pos_y="256" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\背景03-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="2"/>
+		<Item Pos_x="320" Pos_y="322" Size_x="64" Size_y="94" Pic="\Image\地图\斗技场\背景03-5.bmp" Pic_right="64" Pic_bottom="94" Tile="1"/>
+		<Item Pos_x="128" Pos_y="512" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\背景03-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="2"/>
+		<Item Pos_x="320" Pos_y="578" Size_x="64" Size_y="94" Pic="\Image\地图\斗技场\背景03-5.bmp" Pic_right="64" Pic_bottom="94" Tile="1"/>
+		<Item Pos_x="128" Pos_y="768" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\背景03-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="192" Pos_y="384" Size_x="128" Size_y="160" Pic="\Image\地图\斗技场\背景03-4.bmp" Pic_right="128" Pic_bottom="160"/>
+		<Item Pos_x="192" Pos_y="640" Size_x="128" Size_y="160" Pic="\Image\地图\斗技场\背景03-4.bmp" Pic_right="128" Pic_bottom="160"/>
+		<Item Pos_x="320" Pos_y="834" Size_x="64" Size_y="94" Pic="\Image\地图\斗技场\背景03-5.bmp" Pic_right="64" Pic_bottom="94" Tile="1"/>
+		<Item Pos_y="192" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="32" Pos_y="128" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\背景02-3.bmp" Pic_right="64" Pic_bottom="32" Tile="1"/>
+		<Item Pos_x="96" Pos_y="128" Size_x="32" Size_y="64" Pic="\Image\地图\斗技场\背景02-1.bmp" Pic_right="32" Pic_bottom="64"/>
+		<Item Pos_x="64" Pos_y="160" Size_x="64" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="3"/>
+		<Item Pos_x="128" Pos_y="256" Size_x="64" Size_y="32" Pic="\Image\地图\斗技场\墙面02-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="256" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-16.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="64" Pos_y="320" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-15.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_y="320" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="384" Size_x="64" Size_y="192" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_y="704" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="32" Pos_y="640" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\背景02-3.bmp" Pic_right="64" Pic_bottom="32" Tile="1"/>
+		<Item Pos_x="96" Pos_y="640" Size_x="32" Size_y="64" Pic="\Image\地图\斗技场\背景02-1.bmp" Pic_right="32" Pic_bottom="64"/>
+		<Item Pos_x="64" Pos_y="672" Size_x="64" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="3"/>
+		<Item Pos_x="128" Pos_y="768" Size_x="64" Size_y="32" Pic="\Image\地图\斗技场\墙面02-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="768" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-16.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_y="832" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="832" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-15.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="896" Size_x="64" Size_y="78" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_y="384" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_y="896" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="64" Pos_y="64" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_y="128" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_y="64" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-14.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="64" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="576" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_y="576" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-14.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_y="640" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="128" Pos_y="896" Size_x="22" Size_y="78" Pic="\Image\地图\斗技场\地面01-1.bmp" Pic_right="22" Pic_bottom="78" Tile="1" Obst="1"/>
+		<Item Pos_x="150" Pos_y="896" Size_x="202" Size_y="78" Pic="\Image\地图\斗技场\地面01-2.bmp" Pic_right="128" Pic_bottom="78" Tile="1" Obst="1"/>
+		<Item Pos_x="352" Pos_y="896" Size_x="32" Size_y="78" Pic="\Image\地图\斗技场\地面01-3.bmp" Pic_right="32" Pic_bottom="78" Tile="1" Obst="1"/>
+		<Item Pos_x="384" Pos_y="896" Size_x="128" Size_y="64" Pic="\Image\地图\斗技场\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="384" Pos_y="960" Size_x="128" Size_y="14" Pic="\Image\地图\斗技场\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="416" Pos_y="768" Size_x="64" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="384" Pos_y="736" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="384" Pos_y="736" Size_x="32" Size_y="160" Pic="\Image\地图\斗技场\背景07-2.bmp" Pic_right="32" Pic_bottom="160" Tile="1"/>
+		<Item Pos_x="480" Pos_y="736" Size_x="32" Size_y="160" Pic="\Image\地图\斗技场\背景07-2.bmp" Pic_right="32" Pic_bottom="160" Tile="1" Flip="1"/>
+		<Item Pos_x="320" Pos_y="384" Size_x="64" Size_y="32" Pic="\Image\地图\斗技场\墙面02-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="384" Pos_y="384" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-8.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="448" Pos_y="384" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="448" Pos_y="448" Size_x="64" Size_y="224" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="416" Pos_y="256" Size_x="64" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="384" Pos_y="448" Size_x="64" Size_y="224" Pic="\Image\地图\斗技场\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="384" Pos_y="224" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="480" Pos_y="224" Size_x="32" Size_y="160" Pic="\Image\地图\斗技场\背景07-2.bmp" Pic_right="32" Pic_bottom="160" Tile="1" Flip="1"/>
+		<Item Pos_x="448" Pos_y="160" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="384" Pos_y="160" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-17.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="536" Size_x="576" Size_y="128" Pic="\Image\地图\斗技场\墙面04-2.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="448" Size_x="64" Size_y="160" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="384" Size_x="64" Size_y="160" Pic="\Image\地图\斗技场\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="448" Pos_y="672" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="384" Pos_y="672" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-17.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="512" Size_x="24" Size_y="128" Pic="\Image\地图\斗技场\墙面04-1.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="664" Size_x="64" Size_y="128" Pic="\Image\地图\斗技场\墙面04-3.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1112" Size_x="40" Size_y="128" Pic="\Image\地图\斗技场\墙面04-4.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="768" Pos_y="96" Size_x="128" Size_y="128" Pic="\Image\地图\斗技场\背景09-1.bmp" Pic_right="128" Pic_bottom="128" Tile="1" Obst="1"/>
+		<Item Pos_x="512" Pos_y="128" Size_x="256" Size_y="256" Pic="\Image\地图\斗技场\背景09-2.bmp" Pic_right="128" Pic_bottom="128"/>
+		<Item Pos_x="896" Pos_y="128" Size_x="256" Size_y="256" Pic="\Image\地图\斗技场\背景09-2.bmp" Pic_right="128" Pic_bottom="128" Flip="1"/>
+		<Item Pos_x="512" Pos_y="640" Size_x="256" Size_y="256" Pic="\Image\地图\斗技场\背景09-2.bmp" Pic_right="128" Pic_bottom="128"/>
+		<Item Pos_x="896" Pos_y="640" Size_x="256" Size_y="256" Pic="\Image\地图\斗技场\背景09-9.bmp" Pic_right="128" Pic_bottom="128"/>
+		<Item Pos_x="768" Pos_y="224" Size_x="128" Size_y="160" Pic="\Image\地图\斗技场\背景09-8.bmp" Pic_right="128" Pic_bottom="160" Tile="1"/>
+		<Item Pos_x="768" Pos_y="736" Size_x="128" Size_y="160" Pic="\Image\地图\斗技场\背景09-8.bmp" Pic_right="128" Pic_bottom="160" Tile="1"/>
+		<Item Pos_x="512" Pos_y="512" Size_x="24" Size_y="128" Pic="\Image\地图\斗技场\墙面04-1.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="536" Pos_y="512" Size_x="576" Size_y="128" Pic="\Image\地图\斗技场\墙面04-2.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1112" Pos_y="512" Size_x="40" Size_y="128" Pic="\Image\地图\斗技场\墙面04-4.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="512" Pos_y="384" Size_x="24" Size_y="128" Pic="\Image\地图\斗技场\墙面05-1.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="536" Pos_y="384" Size_x="576" Size_y="128" Pic="\Image\地图\斗技场\墙面05-2.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="1112" Pos_y="384" Size_x="40" Size_y="128" Pic="\Image\地图\斗技场\墙面05-3.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="768" Pos_y="608" Size_x="128" Size_y="128" Pic="\Image\地图\斗技场\背景09-1.bmp" Pic_right="128" Pic_bottom="128" Tile="1" Obst="1"/>
+		<Item Pos_x="512" Pos_y="896" Size_x="24" Size_y="78" Pic="\Image\地图\斗技场\墙面05-1.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="536" Pos_y="896" Size_x="576" Size_y="78" Pic="\Image\地图\斗技场\墙面05-2.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="600" Pos_y="512" Size_x="64" Size_y="128" Pic="\Image\地图\斗技场\墙面04-3.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1112" Pos_y="896" Size_x="40" Size_y="78" Pic="\Image\地图\斗技场\墙面05-3.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="635" Pos_y="256" Size_x="106" Size_y="96" Pic="\Image\地图\斗技场\背景09-3.bmp" Pic_right="106" Pic_bottom="96" Tile="1"/>
+		<Item Pos_x="922" Pos_y="256" Size_x="106" Size_y="96" Pic="\Image\地图\斗技场\背景09-4.bmp" Pic_right="106" Pic_bottom="96" Tile="1"/>
+		<Item Pos_x="636" Pos_y="768" Size_x="106" Size_y="96" Pic="\Image\地图\斗技场\背景09-5.bmp" Pic_right="106" Pic_bottom="96" Tile="1"/>
+		<Item Pos_x="1152" Size_x="64" Size_y="160" Pic="\Image\地图\斗技场\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1152" Pos_y="160" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-17.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1152" Pos_y="256" Size_x="128" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="1152" Pos_y="224" Size_x="32" Size_y="160" Pic="\Image\地图\斗技场\背景07-2.bmp" Pic_right="32" Pic_bottom="160" Tile="1"/>
+		<Item Pos_x="1184" Pos_y="224" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="1152" Pos_y="384" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-8.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1216" Pos_y="384" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1216" Pos_y="160" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1152" Pos_y="768" Size_x="128" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="1152" Pos_y="736" Size_x="32" Size_y="160" Pic="\Image\地图\斗技场\背景07-2.bmp" Pic_right="32" Pic_bottom="160" Tile="1"/>
+		<Item Pos_x="1184" Pos_y="736" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="1152" Pos_y="672" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-17.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1216" Pos_y="672" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1152" Pos_y="448" Size_x="64" Size_y="224" Pic="\Image\地图\斗技场\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1216" Pos_y="64" Size_x="64" Size_y="96" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1216" Pos_y="448" Size_x="64" Size_y="224" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1216" Pos_y="52" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-14.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="1280" Pos_y="52" Size_x="256" Size_y="64" Pic="\Image\地图\斗技场\墙面02-13.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1152" Pos_y="896" Size_x="128" Size_y="64" Pic="\Image\地图\斗技场\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1472" Pos_y="834" Size_x="64" Size_y="94" Pic="\Image\地图\斗技场\背景03-5.bmp" Pic_right="64" Pic_bottom="94" Tile="1"/>
+		<Item Pos_x="1152" Pos_y="960" Size_x="128" Size_y="14" Pic="\Image\地图\斗技场\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="1280" Pos_y="896" Size_x="22" Size_y="78" Pic="\Image\地图\斗技场\地面01-1.bmp" Pic_right="22" Pic_bottom="78" Tile="1" Obst="1"/>
+		<Item Pos_x="1302" Pos_y="896" Size_x="202" Size_y="78" Pic="\Image\地图\斗技场\地面01-2.bmp" Pic_right="128" Pic_bottom="78" Tile="1" Obst="1"/>
+		<Item Pos_x="1504" Pos_y="896" Size_x="32" Size_y="78" Pic="\Image\地图\斗技场\地面01-3.bmp" Pic_right="32" Pic_bottom="78" Tile="1" Obst="1"/>
+		<Item Pos_x="1536" Pos_y="384" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-8.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1600" Pos_y="384" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1600" Pos_y="448" Size_x="64" Size_y="224" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1536" Pos_y="448" Size_x="64" Size_y="224" Pic="\Image\地图\斗技场\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1600" Pos_y="672" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1536" Pos_y="672" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-17.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1472" Pos_y="384" Size_x="64" Size_y="32" Pic="\Image\地图\斗技场\墙面02-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1280" Pos_y="512" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\背景03-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="2"/>
+		<Item Pos_x="1472" Pos_y="578" Size_x="64" Size_y="94" Pic="\Image\地图\斗技场\背景03-5.bmp" Pic_right="64" Pic_bottom="94" Tile="1"/>
+		<Item Pos_x="1280" Pos_y="768" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\背景03-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="2"/>
+		<Item Pos_x="1536" Pos_y="160" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-17.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1600" Pos_y="160" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1536" Pos_y="64" Size_x="64" Size_y="96" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="1536" Pos_y="52" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-14.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Flip="1"/>
+		<Item Pos_x="1536" Pos_y="224" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="1600" Size_x="64" Size_y="160" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1632" Pos_y="224" Size_x="32" Size_y="160" Pic="\Image\地图\斗技场\背景07-2.bmp" Pic_right="32" Pic_bottom="160" Tile="1" Flip="1"/>
+		<Item Pos_x="1536" Pos_y="736" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="1632" Pos_y="736" Size_x="32" Size_y="160" Pic="\Image\地图\斗技场\背景07-2.bmp" Pic_right="32" Pic_bottom="160" Tile="1" Flip="1"/>
+		<Item Pos_x="1536" Pos_y="896" Size_x="128" Size_y="64" Pic="\Image\地图\斗技场\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1536" Pos_y="960" Size_x="128" Size_y="14" Pic="\Image\地图\斗技场\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="1664" Size_x="24" Size_y="128" Pic="\Image\地图\斗技场\墙面04-1.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1688" Size_x="192" Size_y="128" Pic="\Image\地图\斗技场\墙面04-2.bmp" Pic_right="64" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1880" Size_x="40" Size_y="128" Pic="\Image\地图\斗技场\墙面04-4.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1664" Pos_y="128" Size_x="256" Size_y="256" Pic="\Image\地图\斗技场\背景09-2.bmp" Pic_right="128" Pic_bottom="128"/>
+		<Item Pos_x="1880" Pos_y="384" Size_x="40" Size_y="128" Pic="\Image\地图\斗技场\墙面05-3.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="1688" Pos_y="384" Size_x="192" Size_y="128" Pic="\Image\地图\斗技场\墙面05-2.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="1664" Pos_y="384" Size_x="24" Size_y="128" Pic="\Image\地图\斗技场\墙面05-1.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="1664" Pos_y="512" Size_x="24" Size_y="128" Pic="\Image\地图\斗技场\墙面04-1.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1688" Pos_y="512" Size_x="192" Size_y="128" Pic="\Image\地图\斗技场\墙面04-2.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1880" Pos_y="512" Size_x="40" Size_y="128" Pic="\Image\地图\斗技场\墙面04-4.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="1664" Pos_y="640" Size_x="256" Size_y="256" Pic="\Image\地图\斗技场\背景09-2.bmp" Pic_right="128" Pic_bottom="128" Flip="1"/>
+		<Item Pos_x="1788" Pos_y="256" Size_x="106" Size_y="96" Pic="\Image\地图\斗技场\背景09-6.bmp" Pic_right="106" Pic_bottom="96" Tile="1"/>
+		<Item Pos_x="1690" Pos_y="768" Size_x="106" Size_y="96" Pic="\Image\地图\斗技场\背景09-7.bmp" Pic_right="106" Pic_bottom="96" Tile="1"/>
+		<Item Pos_x="1664" Pos_y="896" Size_x="24" Size_y="78" Pic="\Image\地图\斗技场\墙面05-1.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="1688" Pos_y="896" Size_x="192" Size_y="78" Pic="\Image\地图\斗技场\墙面05-2.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="1880" Pos_y="896" Size_x="40" Size_y="78" Pic="\Image\地图\斗技场\墙面05-3.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Obst="1"/>
+		<Item Pos_x="1984" Pos_y="320" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1920" Pos_y="320" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-3.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Flip="1"/>
+		<Item Pos_x="1984" Pos_y="384" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="1920" Pos_y="384" Size_x="64" Size_y="256" Pic="\Image\地图\斗技场\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1920" Pos_y="192" Size_x="32" Size_y="160" Pic="\Image\地图\斗技场\背景07-2.bmp" Pic_right="32" Pic_bottom="160" Tile="1"/>
+		<Item Pos_x="1952" Pos_y="192" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="3"/>
+		<Item Pos_x="1920" Pos_y="128" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-17.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1920" Size_x="64" Size_y="128" Pic="\Image\地图\斗技场\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1984" Pos_y="128" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-13.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1920" Pos_y="896" Size_x="64" Size_y="78" Pic="\Image\地图\斗技场\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1920" Pos_y="832" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-3.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Flip="1"/>
+		<Item Pos_x="1984" Pos_y="832" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1984" Pos_y="896" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-2.bmp" Pic_right="64" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="1952" Pos_y="704" Size_x="96" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="3"/>
+		<Item Pos_x="1920" Pos_y="704" Size_x="32" Size_y="160" Pic="\Image\地图\斗技场\背景07-2.bmp" Pic_right="32" Pic_bottom="160" Tile="1"/>
+		<Item Pos_x="1920" Pos_y="640" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-17.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1984" Pos_y="640" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-13.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1394" Pos_y="280" Size_x="30" Size_y="24" Pic="\Image\地图\斗技场\背景03-数字.bmp" Pic_left="60" Pic_right="90" Pic_bottom="24"/>
+		<Item Pos_x="1394" Pos_y="772" Size_x="30" Size_y="24" Pic="\Image\地图\斗技场\背景03-数字.bmp" Pic_left="90" Pic_right="120" Pic_bottom="24"/>
+		<Item Pos_x="595" Pos_y="384" Size_x="56" Size_y="14" Pic="\Image\地图\斗技场\数字.bmp" Pic_right="56" Pic_bottom="14"/>
+		<Item Pos_x="990" Pos_y="384" Size_x="56" Size_y="14" Pic="\Image\地图\斗技场\数字.bmp" Pic_top="14" Pic_right="56" Pic_bottom="28"/>
+		<Item Pos_x="1766" Pos_y="384" Size_x="56" Size_y="14" Pic="\Image\地图\斗技场\数字.bmp" Pic_top="28" Pic_right="56" Pic_bottom="42"/>
+		<Item Pos_x="608" Pos_y="896" Size_x="56" Size_y="14" Pic="\Image\地图\斗技场\数字.bmp" Pic_left="56" Pic_right="112" Pic_bottom="14"/>
+		<Item Pos_x="988" Pos_y="896" Size_x="56" Size_y="14" Pic="\Image\地图\斗技场\数字.bmp" Pic_left="56" Pic_top="14" Pic_right="112" Pic_bottom="28"/>
+		<Item Pos_x="1766" Pos_y="896" Size_x="56" Size_y="14" Pic="\Image\地图\斗技场\数字.bmp" Pic_left="56" Pic_top="28" Pic_right="112" Pic_bottom="42"/>
+		<Item Pos_x="240" Pos_y="770" Size_x="30" Size_y="24" Pic="\Image\地图\斗技场\背景03-数字.bmp" Pic_left="90" Pic_right="120" Pic_bottom="24"/>
+		<Item Pos_x="240" Pos_y="260" Size_x="30" Size_y="24" Pic="\Image\地图\斗技场\背景03-数字.bmp" Pic_left="60" Pic_right="90" Pic_bottom="24"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="806" Pos_y="257" Size_x="48" Size_y="128" Pic="\Image\地图\动画\灯柱03.bmp" Pic_right="24" Pic_bottom="64" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="1" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="806" Pos_y="770" Size_x="48" Size_y="128" Pic="\Image\地图\动画\灯柱03.bmp" Pic_right="24" Pic_bottom="64" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="2" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="1574" Pos_y="256" Size_x="48" Size_y="128" Pic="\Image\地图\动画\灯柱03.bmp" Pic_right="24" Pic_bottom="64" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="3" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="1574" Pos_y="768" Size_x="48" Size_y="128" Pic="\Image\地图\动画\灯柱03.bmp" Pic_right="24" Pic_bottom="64" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="4" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="1194" Pos_y="256" Size_x="48" Size_y="128" Pic="\Image\地图\动画\灯柱03.bmp" Pic_right="24" Pic_bottom="64" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="5" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="1194" Pos_y="768" Size_x="48" Size_y="128" Pic="\Image\地图\动画\灯柱03.bmp" Pic_right="24" Pic_bottom="64" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="6" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="768" Pos_y="-460" Size_x="32" Size_y="43" Obst="1"/>
+		<Item Pos_x="800" Pos_y="-524" Size_x="32" Size_y="80" Obst="1"/>
+		<Item Pos_x="-448" Pos_y="-236" Size_x="64" Size_y="64" Obst="4"/>
+		<Item Pos_x="63" Pos_y="256" Size_x="64" Size_y="64" Obst="5"/>
+		<Item Pos_x="320" Pos_y="128" Size_x="64" Size_y="32" Obst="2"/>
+		<Item Pos_x="63" Pos_y="768" Size_x="64" Size_y="64" Obst="5"/>
+		<Item Pos_x="1919" Pos_y="832" Size_x="64" Size_y="64" Obst="5"/>
+		<Item Pos_x="1919" Pos_y="320" Size_x="64" Size_y="64" Obst="5"/>
+		<Item Pos_x="320" Pos_y="640" Size_x="64" Size_y="32" Obst="2"/>
+		<Item Pos_x="1472" Pos_y="640" Size_x="64" Size_y="32" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="128" Pos_y="-39" Size_x="256" Size_y="46" Id="1" Map="斗技场走廊03" MapPos_x="640" MapPos_y="640"/>
+		<Item Pos_x="-50" Pos_y="704" Size_x="52" Size_y="128" Id="2" Map="斗技场房间06" MapPos_x="1200" MapPos_y="380"/>
+		<Item Pos_x="2045" Pos_y="192" Size_x="54" Size_y="128" Id="3" Map="斗技场走廊05" MapPos_y="380"/>
+		<Item Pos_x="2041" Pos_y="704" Size_x="54" Size_y="128" Id="4" Map="斗技场房间04" MapPos_y="380"/>
+		<Item Pos_x="-40" Pos_y="192" Size_x="42" Size_y="128" Id="5" Map="斗技场复活02" MapPos_x="800" MapPos_y="380"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="1744" Pos_y="269" Size_x="52" Size_y="115" Id="1" Char="斗技场斧兵" Left="1"/>
+		<Item Pos_x="643" Pos_y="269" Size_x="52" Size_y="115" Id="2" Char="斗技场剑士" Left="1"/>
+		<Item Pos_x="977" Pos_y="269" Size_x="52" Size_y="115" Id="3" Char="斗技场斧兵" Left="1"/>
+		<Item Pos_x="1000" Pos_y="781" Size_x="52" Size_y="115" Id="4" Char="骷髅巨人" Left="1"/>
+		<Item Pos_x="621" Pos_y="781" Size_x="52" Size_y="115" Id="5" Char="猫头鹰骑士" Left="1"/>
+		<Item Pos_x="1662" Pos_y="781" Size_x="52" Size_y="115" Id="6" Char="猫头鹰骑士" Left="1"/>
+		<Item Pos_x="627" Pos_y="733" Size_x="64" Size_y="64" Id="7" Char="猫头鹰" Left="1"/>
+		<Item Pos_x="1671" Pos_y="733" Size_x="64" Size_y="64" Id="8" Char="猫头鹰" Left="1"/>
+	</Char>
+</Map>

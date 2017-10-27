@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\植物\人面树妖.bmp" ColorKey="0xFF800000" Size_x="60" Size_y="160" Scale="2.000" Flip="1" HitEffect="闪光01" HurtEffect="冒血02">
+	<Action Num="4">
+		<Act Name="站立" Group="1">
+			<Act Name="树冠" Group="2" End="11" Offs_x="4" Offs_y="-65"/>
+		</Act>
+		<Act Name="转身" Next="站立" Group="1" Flip="1">
+			<Act Name="树冠" Group="2" End="11" Offs_x="4" Offs_y="-65"/>
+		</Act>
+		<Act Name="攻击" Next="站立" Effect="树妖攻击" State="4" Group="1" Time="1000" Start="-1">
+			<Act Name="树冠" Group="2" End="11" Offs_x="4" Offs_y="-65"/>
+		</Act>
+		<Act Name="死亡" Effect="树妖死亡" State="13" Group="3" Start="-1" Sound="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\sound\怪物\树妖死亡.wav"/>
+	</Sound>
+	<Image Num="22">
+		<Img Group="1" Pos_y="95" Size_x="128" Size_y="33" Hot_x="63" Hot_y="33"/>
+		<Img Group="2" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95"/>
+		<Img Group="2" Frame="1" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="0.010"/>
+		<Img Group="2" Frame="2" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="0.020"/>
+		<Img Group="2" Frame="3" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="0.030"/>
+		<Img Group="2" Frame="4" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="0.020"/>
+		<Img Group="2" Frame="5" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="0.010"/>
+		<Img Group="2" Frame="6" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95"/>
+		<Img Group="2" Frame="7" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="-0.010"/>
+		<Img Group="2" Frame="8" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="-0.020"/>
+		<Img Group="2" Frame="9" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="-0.030"/>
+		<Img Group="2" Frame="10" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="-0.020"/>
+		<Img Group="2" Frame="11" Size_x="128" Size_y="95" Hot_x="62" Hot_y="95" Angle="-0.010"/>
+		<Img Group="3" Pos_x="144" Size_x="128" Size_y="128" Hot_x="63" Hot_y="128"/>
+		<Img Group="5" Pos_x="128" Size_x="16" Size_y="16" Hot_x="7" Hot_y="10"/>
+		<Img Group="5" Frame="1" Pos_x="128" Pos_y="16" Size_x="16" Size_y="16" Hot_x="8" Hot_y="8"/>
+		<Img Group="5" Frame="2" Pos_x="128" Pos_y="32" Size_x="16" Size_y="16" Hot_x="8" Hot_y="8"/>
+		<Img Group="5" Frame="3" Pos_x="128" Pos_y="48" Size_x="16" Size_y="16" Hot_x="8" Hot_y="8"/>
+		<Img Group="5" Frame="4" Pos_x="128" Pos_y="64" Size_x="16" Size_y="16" Hot_x="8" Hot_y="8"/>
+		<Img Group="5" Frame="5" Pos_x="128" Pos_y="80" Size_x="16" Size_y="16" Hot_x="8" Hot_y="8"/>
+		<Img Group="5" Frame="6" Pos_x="128" Pos_y="96" Size_x="16" Size_y="16" Hot_x="8" Hot_y="8"/>
+		<Img Group="5" Frame="7" Pos_x="128" Pos_y="112" Size_x="16" Size_y="16" Hot_x="8" Hot_y="8"/>
+	</Image>
+</Char>

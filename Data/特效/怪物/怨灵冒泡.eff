@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="403" Pos_y="382" Size_x="64" Size_y="32" Offs_y="-32" Random="1" EmitInter="50" EmitTime="10000000" Pic="\image\怪物\鬼怪\怨灵.bmp" Pic_left="53" Pic_top="64" Pic_right="57" Pic_bottom="69" ColorKey="0xFF00FF" EndColor="0xFFFFFF" ItemSize_x="5" ItemSize_y="6" ItemHot_x="3" ItemHot_y="3" ItemLife="1000" ItemScale="1.500" MinSpeedY="-50.000" MaxSpeedY="-100.000" AddSpeedY="10.000" ScaleSpeed="-1.000" Follow="1"/>
+</Effect>

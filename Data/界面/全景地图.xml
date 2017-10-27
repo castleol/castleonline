@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<desktop>
+	<Control Name="FullMap" Class="Window" Size_x="800" Size_y="600" TextRect_right="800" TextRect_bottom="600" Pic="\image\界面\导航地图\空导航图.bmp" PicRect_right="500" PicRect_bottom="400" PicScale="1" CloseButton="Close" PopupEffect="1" CloseEffect="1" Effect_x="400" Effect_y="300" EffectTime="2000" EscClose="1">
+		<Control Name="Close" Class="Button" Pos_x="776" Size_x="24" Size_y="24" Align="8" TextRect_right="24" TextRect_bottom="24" Pic="\image\界面\标准控件\CloseBtn24.bmp" PicRect_right="24" PicRect_bottom="24" PicScale="1" PushPic="\image\界面\标准控件\CloseBtn24.bmp" PushPicRect_left="24" PushPicRect_right="48" PushPicRect_bottom="24" MovePic="\image\界面\标准控件\CloseBtn24.bmp" MovePicRect_left="48" MovePicRect_right="72" MovePicRect_bottom="24"/>
+		<Control Name="Pos" Class="Static" Size_x="32" Size_y="32" TextRect_right="32" TextRect_bottom="32" Pic="\image\界面\导航地图\玩家位置.bmp" PicRect_right="32" PicRect_bottom="32" PicColor="0xFFFFFF00"/>
+	</Control>
+</desktop>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1000">
+	<Tile>
+		<Item Size_x="2048" Size_y="960" Pic="\Image\地图\最上部\moon.jpg" Pic_right="1024" Pic_bottom="480" ColorKey="0x800000" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Pos_x="224" Pos_y="328" Size_x="576" Size_y="672" Pic="\image\地图\最上部\房间10.bmp" Pic_right="288" Pic_bottom="336" ColorKey="0xFF00FF"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="610" Pos_y="872" Size_x="190" Size_y="128" Obst="1"/>
+		<Item Pos_x="289" Pos_y="744" Size_x="190" Size_y="70" Obst="1"/>
+		<Item Pos_x="257" Pos_y="391" Size_x="32" Size_y="418" Obst="1"/>
+		<Item Pos_x="479" Pos_y="391" Size_x="34" Size_y="208" Obst="1"/>
+		<Item Pos_x="317" Pos_y="327" Size_x="132" Size_y="32" Obst="1"/>
+		<Item Pos_x="279" Pos_y="341" Size_x="38" Size_y="50" Obst="1"/>
+		<Item Pos_x="449" Pos_y="341" Size_x="38" Size_y="50" Obst="1"/>
+		<Item Pos_x="513" Pos_y="576" Size_x="38" Size_y="50" Obst="1"/>
+		<Item Pos_x="551" Pos_y="614" Size_x="38" Size_y="50" Obst="1"/>
+		<Item Pos_x="589" Pos_y="648" Size_x="38" Size_y="50" Obst="1"/>
+		<Item Pos_x="627" Pos_y="686" Size_x="38" Size_y="50" Obst="1"/>
+		<Item Pos_x="666" Pos_y="710" Size_x="134" Size_y="34" Obst="1"/>
+		<Item Pos_x="641" Pos_y="487" Size_x="158" Size_y="98" Obst="1"/>
+		<Item Pos_y="1000" Size_x="610" Size_y="40" Obst="1"/>
+		<Item Pos_x="479" Pos_y="744" Size_x="130" Size_y="128" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="793" Pos_y="744" Size_x="54" Size_y="128" Id="1" Map="最上部房间07" MapPos_y="405"/>
+	</Trap>
+	<Char/>
+</Map>

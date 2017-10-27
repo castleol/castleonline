@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="375" Pos_y="378" Size_x="40" Size_y="78" Offs_x="70" Offs_y="-50" Filter="0x0" Color="0xFF808080" EndColor="0xFF808080" ItemSize_x="16" ItemSize_y="2" ItemHot_y="1" ItemLife="1000" ItemQuality="1.000" MinSpeedX="1000.000" MaxSpeedX="1000.000" HitType="2" HitOnce="1" Rebound="1" EndEffect="爆炸01"/>
+	<Item Pos_x="375" Pos_y="378" Size_x="40" Size_y="78" Offs_x="70" Offs_y="-50" Pic="\Image\怪物\骷髅\骷髅枪手.bmp" Pic_top="64" Pic_right="32" Pic_bottom="96" ColorKey="0xFF00FF" Blend="0x1" Sound="\sound\怪物\骷髅枪手开枪.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="3" ItemFps="10" ItemScale="2.000" ItemQuality="1.000" HitType="2" HitOnce="1" Rebound="1" TrailTime="1" TrailFade="30" TrailColor="0xFF8080FF"/>
+</Effect>

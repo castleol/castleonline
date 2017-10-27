@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="373" Pos_y="424" Size_x="32" Size_y="32" Pic="\Image\怪物\魔物\鬼桌子.bmp" Pic_left="64" Pic_top="40" Pic_right="68" Pic_bottom="46" ColorKey="0xFF800000" ItemSize_x="10" ItemSize_y="14" ItemHot_x="5" ItemHot_y="80" ItemFrame="1" ItemLife="1000000" ItemQuality="1.000" MinSpeedX="60.000" MaxSpeedX="80.000" MinSpeedY="30.000" MaxSpeedY="20.000" Follow="1" Motion="1" MotionStep="4" MotionTime="270" MoveItem="1" HitType="2" Destroy="1" EndEffect="爆炸01"/>
+	<Item Pos_x="387" Pos_y="422" Size_x="32" Size_y="32" Pic="\Image\怪物\魔物\鬼桌子.bmp" Pic_left="70" Pic_top="32" Pic_right="77" Pic_bottom="46" ColorKey="0xFF800000" ItemSize_x="16" ItemSize_y="30" ItemHot_x="8" ItemHot_y="100" ItemFrame="1" ItemLife="1000000" ItemQuality="1.000" MinSpeedX="60.000" MaxSpeedX="80.000" MinSpeedY="30.000" MaxSpeedY="20.000" Follow="1" Motion="1" MotionStep="4" MotionTime="90" MoveItem="1" HitType="2" Destroy="1" EndEffect="爆炸01"/>
+</Effect>

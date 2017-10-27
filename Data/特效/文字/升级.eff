@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="361" Pos_y="317" Size_x="80" Size_y="20" Offs_y="-60" Color="0xFF20FF2F" EndColor="0x20FF20" Sound="\sound\特效\升级01.wav" ItemSize_x="1" ItemSize_y="1" ItemLife="2000" EmitInter="1" EmitTime="1" MinSpeedY="-100.000" MaxSpeedY="-100.000" Text="Level Up" Font="2" Mask="1"/>
+</Effect>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="-16" Pos_y="913" Size_x="32" Size_y="32" EmitInter="1" EmitTime="1" Pic="\image\特效\主角\大跳光柱.bmp" Pic_right="30" Pic_bottom="106" Blend="0x1" ItemSize_x="40" ItemSize_y="16" ItemHot_x="20" ItemHot_y="16" ItemSizeAdd_x="-1" ItemSizeAdd_y="10" ItemLife="1000" Follow="2" Motion="4"/>
+</Effect>

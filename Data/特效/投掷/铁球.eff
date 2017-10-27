@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="377" Pos_y="372" Size_x="40" Size_y="78" Offs_x="40" Offs_y="-80" Pic="\Image\特效\投掷\道具.bmp" Pic_left="64" Pic_right="78" Pic_bottom="14" ColorKey="0xFF00FF" Sound="\Sound\投掷\铁球.wav" BoundSound="\Sound\物件\大铁球.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="1" ItemLife="3000" ItemQuality="0.600" MinSpeedX="200.000" MaxSpeedX="200.000" MinSpeedY="-200.000" MaxSpeedY="-200.000" AddSpeedX="-50.000" AddSpeedY="1200.000" AngleSpeed="7.000" HitType="1" Rebound="1" TrailFade="10" TrailColor="0xFF8080FF" EndEffect="爆炸03"/>
+</Effect>

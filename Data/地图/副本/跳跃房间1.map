@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="6000" Size_y="2200">
+	<Tile>
+		<Item Pos_x="258" Pos_y="1447" Size_x="367" Size_y="43" Pic="\image\地图\副本\跳跃\c1.bmp" DeltaX="10.200" DeltaY="0.200"/>
+		<Item Pos_x="19" Pos_y="1761" Size_x="313" Size_y="43" Pic="\image\地图\副本\跳跃\c1.bmp"/>
+		<Item Pos_x="635" Pos_y="1593" Size_x="238" Size_y="43" Pic="\image\地图\副本\跳跃\c1.bmp"/>
+		<Item Pos_x="333" Pos_y="2128" Size_x="5587" Size_y="49" Pic="\image\地图\副本\跳跃\c1.bmp" Flip="1"/>
+		<Item Pos_x="255" Pos_y="1508" Size_x="367" Size_y="43" Pic="\image\地图\副本\跳跃\c1.bmp" Flip="2"/>
+		<Item Pos_x="782" Pos_y="1703" Size_x="34" Size_y="407" Pic="\image\地图\副本\跳跃\c2.bmp" Flip="1"/>
+		<Item Pos_x="836" Pos_y="1638" Size_x="34" Size_y="468" Pic="\image\地图\副本\跳跃\c2.bmp"/>
+		<Item Pos_x="785" Pos_y="620" Size_x="34" Size_y="827" Pic="\image\地图\副本\跳跃\c2.bmp" Flip="1"/>
+		<Item Pos_x="837" Pos_y="616" Size_x="34" Size_y="835" Pic="\image\地图\副本\跳跃\c2.bmp"/>
+		<Item Pos_x="3666" Pos_y="200" Size_x="936" Size_y="406" Pic="\image\地图\副本\跳跃\shui.bmp"/>
+		<Item Pos_x="3666" Pos_y="191" Size_x="930" Size_y="11" Pic="\image\地图\副本\跳跃\shui2.bmp" Pic_right="357" Pic_bottom="11"/>
+		<Item Pos_x="4759" Pos_y="417" Size_x="300" Size_y="300" Pic="\image\地图\副本\跳跃\chilun.bmp" Pic_right="124" Pic_bottom="124" ColorKey="0xFF00FF"/>
+		<Item Pos_x="5383" Pos_y="416" Size_x="300" Size_y="300" Pic="\image\地图\副本\跳跃\chilun.bmp" Pic_right="124" Pic_bottom="124" ColorKey="0xFF00FF"/>
+		<Item Pos_x="5005" Pos_y="935" Size_x="400" Size_y="400" Pic="\image\地图\副本\跳跃\chilun.bmp" Pic_right="124" Pic_bottom="124" ColorKey="0xFF00FF"/>
+		<Item Pos_x="4620" Pos_y="1716" Size_x="473" Size_y="43" Pic="\image\地图\副本\跳跃\c1.bmp" Flip="1"/>
+		<Item Pos_x="5349" Pos_y="1714" Size_x="533" Size_y="43" Pic="\image\地图\副本\跳跃\c1.bmp" Flip="1"/>
+		<Item Pos_x="1666" Pos_y="1811" Size_x="70" Size_y="70" Pic="\image\地图\副本\跳跃\c45.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFFFFFFFF" Flip="4"/>
+		<Item Pos_x="1707" Pos_y="1773" Size_x="70" Size_y="70" Pic="\image\地图\副本\跳跃\c45.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFFFFFFFF" Flip="4"/>
+		<Item Pos_x="1749" Pos_y="1735" Size_x="70" Size_y="70" Pic="\image\地图\副本\跳跃\c45.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFFFFFFFF" Flip="4"/>
+		<Item Pos_x="1787" Pos_y="1698" Size_x="70" Size_y="70" Pic="\image\地图\副本\跳跃\c45.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFFFFFFFF" Flip="4"/>
+		<Item Pos_x="1826" Pos_y="1658" Size_x="70" Size_y="70" Pic="\image\地图\副本\跳跃\c45.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFFFFFFFF" Flip="4"/>
+		<Item Pos_x="1868" Pos_y="1622" Size_x="70" Size_y="70" Pic="\image\地图\副本\跳跃\c45.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFFFFFFFF" Flip="4"/>
+		<Item Pos_x="1911" Pos_y="1583" Size_x="70" Size_y="70" Pic="\image\地图\副本\跳跃\c45.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFFFFFFFF" Flip="4"/>
+		<Item Pos_x="1953" Pos_y="1550" Size_x="70" Size_y="70" Pic="\image\地图\副本\跳跃\c45.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFFFFFFFF" Flip="4"/>
+		<Item Pos_x="2105" Pos_y="1499" Size_x="70" Size_y="70" Pic="\image\地图\副本\跳跃\c45.bmp" Pic_right="80" Pic_bottom="80" ColorKey="0xFFFFFFFF" Flip="4"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="1" Pos_y="2011" Size_x="307" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="1"/>
+		<Item Pos_x="312" Pos_y="2008" Size_x="21" Size_y="196" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="2"/>
+		<Item Pos_x="496" Pos_y="1852" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="1" Id="3"/>
+		<Item Pos_x="407" Pos_y="1925" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="1" Id="4"/>
+		<Item Pos_x="677" Pos_y="1789" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="1" Id="5"/>
+		<Item Pos_x="455" Pos_y="1724" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="1" Id="6"/>
+		<Item Pos_x="255" Pos_y="1661" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="1" Id="7"/>
+		<Item Pos_x="120" Pos_y="1481" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="1" Id="8"/>
+		<Item Pos_x="277" Pos_y="1382" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="1" Id="9"/>
+		<Item Pos_x="462" Pos_y="1293" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="1" Id="10"/>
+		<Item Pos_x="636" Pos_y="1196" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="1" Id="11"/>
+		<Item Pos_x="819" Pos_y="615" Size_x="20" Size_y="836" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="12"/>
+		<Item Pos_x="815" Pos_y="1637" Size_x="20" Size_y="473" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="13"/>
+		<Item Pos_x="27" Pos_y="1804" Size_x="307" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="14"/>
+		<Item Pos_x="262" Pos_y="1486" Size_x="362" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="15"/>
+		<Item Pos_x="621" Pos_y="1634" Size_x="216" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="16"/>
+		<Item Pos_x="612" Pos_y="1513" Size_x="20" Size_y="120" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="17"/>
+		<Item Pos_x="263" Pos_y="1511" Size_x="360" Size_y="36" Pic="\image\地图\副本\跳跃\c1.bmp" Flip="2" Id="18" Hide="1"/>
+		<Item Pos_x="331" Pos_y="2179" Size_x="5582" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="19"/>
+		<Item Pos_x="618" Pos_y="1660" Size_x="195" Size_y="43" Pic="\image\地图\副本\跳跃\c1.bmp" Flip="2" Id="20"/>
+		<Item Pos_x="18" Pos_y="1765" Size_x="318" Size_y="33" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="21" Type="12" Damage="10"/>
+		<Item Pos_x="258" Pos_y="1514" Size_x="349" Size_y="33" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="22" Type="12" Damage="10"/>
+		<Item Pos_x="267" Pos_y="1452" Size_x="349" Size_y="33" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="23" Type="12" Damage="10"/>
+		<Item Pos_x="636" Pos_y="1595" Size_x="241" Size_y="33" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="24" Type="12" Damage="10"/>
+		<Item Pos_x="620" Pos_y="1668" Size_x="194" Size_y="33" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="25" Type="12" Damage="10"/>
+		<Item Pos_x="334" Pos_y="2144" Size_x="5543" Size_y="33" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="26" Type="12" Damage="10"/>
+		<Item Pos_x="839" Pos_y="1644" Size_x="28" Size_y="471" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="27" Type="12" Damage="10"/>
+		<Item Pos_x="786" Pos_y="1703" Size_x="28" Size_y="408" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="28" Type="12" Damage="10"/>
+		<Item Pos_x="841" Pos_y="615" Size_x="28" Size_y="828" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="29" Type="12" Damage="10"/>
+		<Item Pos_x="790" Pos_y="632" Size_x="28" Size_y="813" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Id="30" Type="12" Damage="10"/>
+		<Item Pos_x="880" Pos_y="1715" Size_x="322" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="31"/>
+		<Item Pos_x="1237" Pos_y="873" Size_x="280" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="32"/>
+		<Item Pos_x="1523" Pos_y="620" Size_x="292" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="33"/>
+		<Item Pos_x="1830" Pos_y="267" Size_x="272" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="34"/>
+		<Item Pos_x="1215" Pos_y="868" Size_x="20" Size_y="867" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="35"/>
+		<Item Pos_x="1490" Pos_y="626" Size_x="20" Size_y="240" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="36"/>
+		<Item Pos_x="1802" Pos_y="270" Size_x="20" Size_y="358" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="37"/>
+		<Item Pos_x="2061" Pos_y="684" Size_x="272" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="38"/>
+		<Item Pos_x="1699" Pos_y="979" Size_x="339" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="39"/>
+		<Item Pos_x="1407" Pos_y="1261" Size_x="264" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="40"/>
+		<Item Pos_x="875" Pos_y="2086" Size_x="272" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="41"/>
+		<Item Pos_x="1475" Pos_y="1996" Size_x="210" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="42"/>
+		<Item Pos_x="1135" Pos_y="1928" Size_x="20" Size_y="165" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="43"/>
+		<Item Pos_x="1677" Pos_y="980" Size_x="20" Size_y="305" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="44"/>
+		<Item Pos_x="2044" Pos_y="664" Size_x="20" Size_y="355" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="45"/>
+		<Item Pos_x="1294" Pos_y="1368" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Id="46"/>
+		<Item Pos_x="1293" Pos_y="1958" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Id="47"/>
+		<Item Pos_x="1291" Pos_y="1650" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Id="48"/>
+		<Item Pos_x="1404" Pos_y="1287" Size_x="18" Size_y="700" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="49"/>
+		<Item Pos_x="1137" Pos_y="1740" Size_x="20" Size_y="112" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="50"/>
+		<Item Pos_x="957" Pos_y="2004" Size_x="68" Size_y="81" Pic="\image\地图\副本\跳跃\bx.bmp" Pic_top="36" Pic_right="36" Pic_bottom="72" Id="51"/>
+		<Item Pos_x="2336" Pos_y="9" Size_x="20" Size_y="688" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="52"/>
+		<Item Pos_x="2827" Pos_y="175" Size_x="437" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="53"/>
+		<Item Pos_x="2827" Pos_y="201" Size_x="20" Size_y="1654" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="54"/>
+		<Item Pos_x="3057" Pos_y="386" Size_x="437" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="55"/>
+		<Item Pos_x="2847" Pos_y="611" Size_x="437" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="56"/>
+		<Item Pos_x="3064" Pos_y="836" Size_x="437" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="57"/>
+		<Item Pos_x="2827" Pos_y="1109" Size_x="437" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="58"/>
+		<Item Pos_x="3060" Pos_y="1391" Size_x="437" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="59"/>
+		<Item Pos_x="2830" Pos_y="1616" Size_x="437" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="60"/>
+		<Item Pos_x="3059" Pos_y="1854" Size_x="450" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="61"/>
+		<Item Pos_x="2841" Pos_y="2074" Size_x="437" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="62"/>
+		<Item Pos_x="2824" Pos_y="1878" Size_x="20" Size_y="225" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="63"/>
+		<Item Pos_x="3634" Pos_y="1988" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Id="64" Type="7"/>
+		<Item Pos_x="3414" Pos_y="306" Size_x="80" Size_y="70" Pic="\image\地图\副本\跳跃\pao.bmp" Pic_right="80" Pic_bottom="70" Id="65"/>
+		<Item Pos_x="3418" Pos_y="755" Size_x="80" Size_y="70" Pic="\image\地图\副本\跳跃\pao.bmp" Pic_right="80" Pic_bottom="70" Id="66"/>
+		<Item Pos_x="3418" Pos_y="1321" Size_x="80" Size_y="70" Pic="\image\地图\副本\跳跃\pao.bmp" Pic_right="80" Pic_bottom="70" Id="67"/>
+		<Item Pos_x="3428" Pos_y="1780" Size_x="80" Size_y="70" Pic="\image\地图\副本\跳跃\pao.bmp" Pic_right="80" Pic_bottom="70" Id="68"/>
+		<Item Pos_x="2848" Pos_y="1032" Size_x="80" Size_y="70" Pic="\image\地图\副本\跳跃\pao.bmp" Pic_right="80" Pic_bottom="70" Flip="1" Id="69"/>
+		<Item Pos_x="2856" Pos_y="537" Size_x="80" Size_y="70" Pic="\image\地图\副本\跳跃\pao.bmp" Pic_right="80" Pic_bottom="70" Flip="1" Id="70"/>
+		<Item Pos_x="2853" Pos_y="1535" Size_x="80" Size_y="70" Pic="\image\地图\副本\跳跃\pao.bmp" Pic_right="80" Pic_bottom="70" Flip="1" Id="71"/>
+		<Item Pos_x="3772" Pos_y="1673" Size_x="20" Size_y="433" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="73"/>
+		<Item Pos_x="3528" Pos_y="1397" Size_x="437" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="74"/>
+		<Item Pos_x="3770" Pos_y="1645" Size_x="627" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="75"/>
+		<Item Pos_x="3966" Pos_y="1393" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="76"/>
+		<Item Pos_x="3830" Pos_y="1573" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Frames="20" Fps="1" Id="77" Type="7" EndPos_y="1"/>
+		<Item Pos_x="4302" Pos_y="1333" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Frames="20" Fps="1" Id="78" Type="7" EndPos_y="1"/>
+		<Item Pos_x="3990" Pos_y="1399" Size_x="247" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="79"/>
+		<Item Pos_x="3912" Pos_y="1167" Size_x="503" Size_y="22" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="80"/>
+		<Item Pos_x="3726" Pos_y="1247" Size_x="161" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="81"/>
+		<Item Pos_x="3528" Pos_y="1137" Size_x="183" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="82"/>
+		<Item Pos_x="3724" Pos_y="1015" Size_x="161" Size_y="22" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="83"/>
+		<Item Pos_x="3886" Pos_y="1013" Size_x="20" Size_y="313" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="84"/>
+		<Item Pos_x="3958" Pos_y="1085" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Frames="20" Fps="1" Id="85" Type="7" EndPos_y="1"/>
+		<Item Pos_x="4066" Pos_y="1057" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="86"/>
+		<Item Pos_x="4062" Pos_y="839" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="87"/>
+		<Item Pos_x="4208" Pos_y="947" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="88"/>
+		<Item Pos_x="4382" Pos_y="1053" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="89"/>
+		<Item Pos_x="4380" Pos_y="843" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="90"/>
+		<Item Pos_x="3536" Pos_y="817" Size_x="873" Size_y="22" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="91"/>
+		<Item Pos_x="3590" Pos_y="1079" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Id="92" Type="7"/>
+		<Item Pos_x="4476" Pos_y="1161" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Id="93" Type="7"/>
+		<Item Pos_x="4386" Pos_y="1195" Size_x="20" Size_y="485" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="94"/>
+		<Item Pos_x="4480" Pos_y="1653" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Id="95" Type="7"/>
+		<Item Pos_x="4180" Pos_y="1893" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Frames="20" Fps="1" Id="96" Type="7" EndPos_y="1"/>
+		<Item Pos_x="3506" Pos_y="15" Size_x="22" Size_y="1860" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="96"/>
+		<Item Pos_x="4600" Pos_y="177" Size_x="22" Size_y="1932" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="97"/>
+		<Item Pos_x="3796" Pos_y="2077" Size_x="799" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="98"/>
+		<Item Pos_x="4254" Pos_y="1667" Size_x="20" Size_y="183" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="99"/>
+		<Item Pos_x="4086" Pos_y="1775" Size_x="20" Size_y="301" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="100"/>
+		<Item Pos_x="3930" Pos_y="1673" Size_x="20" Size_y="255" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="101"/>
+		<Item Pos_x="3792" Pos_y="1955" Size_x="65" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="102"/>
+		<Item Pos_x="3868" Pos_y="1863" Size_x="65" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="103"/>
+		<Item Pos_x="3796" Pos_y="1775" Size_x="65" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="104"/>
+		<Item Pos_x="3798" Pos_y="1701" Size_x="68" Size_y="81" Pic="\image\地图\副本\跳跃\bx.bmp" Pic_top="36" Pic_right="36" Pic_bottom="72" Id="105"/>
+		<Item Pos_x="3640" Pos_y="607" Size_x="961" Size_y="22" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="106"/>
+		<Item Pos_x="4322" Pos_y="705" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="107"/>
+		<Item Pos_x="4196" Pos_y="623" Size_x="20" Size_y="147" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="108"/>
+		<Item Pos_x="4060" Pos_y="697" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="109"/>
+		<Item Pos_x="3914" Pos_y="621" Size_x="20" Size_y="147" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="110"/>
+		<Item Pos_x="3772" Pos_y="703" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="111"/>
+		<Item Pos_x="3638" Pos_y="631" Size_x="20" Size_y="113" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="112"/>
+		<Item Pos_x="4498" Pos_y="721" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Frames="20" Fps="1" Id="113" Type="7" EndPos_y="1"/>
+		<Item Pos_x="3644" Pos_y="171" Size_x="20" Size_y="433" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="114"/>
+		<Item Pos_x="3558" Pos_y="125" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Frames="20" Fps="1" Id="115" Type="7" Hide="1" EndPos_y="1"/>
+		<Item Pos_x="3669" Pos_y="191" Size_x="926" Size_y="409" Color0="0x0" Color1="0x0" Color2="0x0" Color3="0x0" Mask="1" Id="116" Type="11" Damage="5"/>
+		<Item Pos_x="3548" Pos_y="133" Size_x="62" Size_y="29" Pic="\image\地图\副本\跳跃\t.bmp" Obst="2" Frames="20" Fps="1" Id="117" Type="7" EndPos_y="1"/>
+		<Item Pos_x="3785" Pos_y="2" Size_x="20" Size_y="192" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="118"/>
+		<Item Pos_x="3785" Pos_y="320" Size_x="20" Size_y="192" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="119"/>
+		<Item Pos_x="3935" Pos_y="134" Size_x="20" Size_y="192" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="120"/>
+		<Item Pos_x="3937" Pos_y="419" Size_x="20" Size_y="138" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="121"/>
+		<Item Pos_x="4135" Pos_y="2" Size_x="20" Size_y="238" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="122"/>
+		<Item Pos_x="4353" Pos_y="366" Size_x="20" Size_y="192" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="123"/>
+		<Item Pos_x="4031" Pos_y="292" Size_x="240" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="124"/>
+		<Item Pos_x="4034" Pos_y="436" Size_x="240" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="125"/>
+		<Item Pos_x="4377" Pos_y="531" Size_x="145" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="126"/>
+		<Item Pos_x="4450" Pos_y="425" Size_x="145" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="127"/>
+		<Item Pos_x="4352" Pos_y="335" Size_x="145" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="128"/>
+		<Item Pos_x="4454" Pos_y="241" Size_x="145" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="129"/>
+		<Item Pos_x="4352" Pos_y="143" Size_x="20" Size_y="121" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="130"/>
+		<Item Pos_x="4599" Pos_y="150" Size_x="353" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="131"/>
+		<Item Pos_x="5571" Pos_y="153" Size_x="326" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="132"/>
+		<Item Pos_x="5900" Pos_y="162" Size_x="22" Size_y="1627" Pic="\image\地图\副本\跳跃\2.bmp" Obst="1" Id="133"/>
+		<Item Pos_x="4625" Pos_y="1761" Size_x="464" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="134"/>
+		<Item Pos_x="5351" Pos_y="1754" Size_x="544" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="135"/>
+		<Item Pos_x="4954" Pos_y="1980" Size_x="544" Size_y="24" Pic="\image\地图\副本\跳跃\1.bmp" Obst="1" Id="136"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="1690" Pos_y="764" Size_x="1111" Size_y="1111" Obst="5"/>
+		<Item Pos_x="1719" Pos_y="1876" Size_x="885" Size_y="42" Obst="1"/>
+		<Item Pos_x="3062" Pos_y="233" Size_x="430" Size_y="145" Obst="5"/>
+		<Item Pos_x="3067" Pos_y="688" Size_x="430" Size_y="145" Obst="5"/>
+		<Item Pos_x="3067" Pos_y="1238" Size_x="430" Size_y="145" Obst="5"/>
+		<Item Pos_x="2852" Pos_y="460" Size_x="430" Size_y="145" Obst="4"/>
+		<Item Pos_x="2844" Pos_y="958" Size_x="430" Size_y="145" Obst="4"/>
+		<Item Pos_x="2845" Pos_y="1460" Size_x="430" Size_y="145" Obst="4"/>
+		<Item Pos_x="3070" Pos_y="1706" Size_x="430" Size_y="145" Obst="5"/>
+	</Obst>
+	<Trap/>
+	<Char>
+		<Item Pos_x="1477" Pos_y="1538" Size_x="64" Size_y="64" Id="18" Char="骷髅幽灵"/>
+		<Item Pos_x="1481" Pos_y="1826" Size_x="64" Size_y="64" Id="2" Char="骷髅幽灵"/>
+		<Item Pos_x="1646" Pos_y="1668" Size_x="64" Size_y="64" Id="3" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="1656" Pos_y="1401" Size_x="64" Size_y="64" Id="4" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="1924" Pos_y="1396" Size_x="64" Size_y="64" Id="5" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="1793" Pos_y="1251" Size_x="64" Size_y="64" Id="6" Char="骷髅幽灵"/>
+		<Item Pos_x="1978" Pos_y="1080" Size_x="64" Size_y="64" Id="7" Char="骷髅幽灵"/>
+		<Item Pos_x="2156" Pos_y="1211" Size_x="64" Size_y="64" Id="8" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="2311" Pos_y="1053" Size_x="64" Size_y="64" Id="9" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="2136" Pos_y="910" Size_x="64" Size_y="64" Id="10" Char="骷髅幽灵"/>
+		<Item Pos_x="2326" Pos_y="828" Size_x="64" Size_y="64" Id="11" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="2633" Pos_y="694" Size_x="64" Size_y="64" Id="12" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="2394" Pos_y="542" Size_x="64" Size_y="64" Id="13" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="2631" Pos_y="444" Size_x="64" Size_y="64" Id="14" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="2394" Pos_y="257" Size_x="64" Size_y="64" Id="15" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="2639" Pos_y="130" Size_x="64" Size_y="64" Id="16" Char="骷髅幽灵" Left="1"/>
+		<Item Pos_x="5186" Pos_y="767" Size_x="80" Size_y="100" Id="17" Char="跳蚤飞鹰"/>
+		<Item Pos_x="4767" Pos_y="1111" Size_x="80" Size_y="100" Id="18" Char="跳蚤飞鹰"/>
+		<Item Pos_x="5621" Pos_y="1121" Size_x="80" Size_y="100" Id="19" Char="跳蚤飞鹰"/>
+		<Item Pos_x="4710" Pos_y="244" Size_x="80" Size_y="100" Id="20" Char="跳蚤飞鹰"/>
+		<Item Pos_x="5180" Pos_y="242" Size_x="80" Size_y="100" Id="21" Char="跳蚤飞鹰"/>
+		<Item Pos_x="5691" Pos_y="233" Size_x="80" Size_y="100" Id="22" Char="跳蚤飞鹰"/>
+		<Item Pos_x="4974" Pos_y="1512" Size_x="80" Size_y="100" Id="23" Char="跳蚤飞鹰"/>
+		<Item Pos_x="5481" Pos_y="1502" Size_x="80" Size_y="100" Id="24" Char="跳蚤飞鹰"/>
+	</Char>
+</Map>

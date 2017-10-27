@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="285" Pos_y="476" Size_x="62" Size_y="28" Random="1" EmitNum="20" EndColor="0xFFFFFF" ItemSize_x="3" ItemSize_y="3" ItemHot_x="1" ItemHot_y="1" ItemLife="500" MinSpeedX="-50.000" MaxSpeedX="-50.000" MinSpeedY="-50.000" MaxSpeedY="-100.000" AddSpeedY="300.000"/>
+	<Item Pos_x="286" Pos_y="473" Size_x="60" Size_y="30" EmitInter="1" EmitTime="1" Pic="\Image\特效\场景\水花01.bmp" Pic_right="32" Pic_bottom="80" ColorKey="0xFF000000" Blend="0x1" EndColor="0x30FFFFFF" Sound="\sound\场景\水花03.wav" ItemSize_x="60" ItemSize_y="30" ItemHot_x="30" ItemHot_y="30" ItemFrame="20" ItemFps="36" ItemLife="600"/>
+</Effect>

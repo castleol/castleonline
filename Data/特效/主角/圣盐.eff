@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="365" Pos_y="366" Size_x="40" Size_y="78" Offs_x="30" Offs_y="-75" EmitNum="16" Sound="\Sound\投掷\骨头.wav" ItemSize_x="4" ItemSize_y="4" ItemHot_x="2" ItemHot_y="2" ItemFrame="1" ItemLife="2000" ItemQuality="1.000" MinSpeedX="150.000" MaxSpeedX="300.000" MinSpeedY="-100.000" AddSpeedY="800.000" AngleSpeed="10.000" HitType="1" Rebound="1" EndEffect="圣盐落地"/>
+</Effect>

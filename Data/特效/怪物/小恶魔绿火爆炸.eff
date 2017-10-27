@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="336" Pos_y="349" Size_x="68" Size_y="59" EmitInter="1" EmitTime="1" Pic="\Image\特效\怪物\小恶魔绿火.bmp" Pic_right="48" Pic_bottom="48" ColorKey="0xFF00FF" Blend="0x1" Sound="\sound\特效\爆炸06.wav" ItemSize_x="48" ItemSize_y="48" ItemHot_x="24" ItemHot_y="48" ItemFrame="10" ItemFps="10" ItemScale="2.000" HitType="2" Magic="1"/>
+</Effect>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="365" Pos_y="457" Size_x="172" Size_y="35" Offs_x="40" Offs_y="-200" Random="1" Pic="人面树妖" Group="5" ColorKey="0xFF00" Sound="\Sound\投掷\骨头.wav" ItemSize_x="30" ItemSize_y="30" ItemHot_x="15" ItemHot_y="15" ItemFrame="1" ItemLife="3000" ItemScale="2.000" MinSpeedX="100.000" MaxSpeedX="200.000" MinSpeedY="-200.000" MaxSpeedY="-100.000" AddSpeedY="1000.000" AngleSpeed="8.000" HitType="2" Rebound="1" Destroy="1" EndEffect="爆炸03"/>
+</Effect>

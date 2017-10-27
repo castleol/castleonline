@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\失落的村庄\背景06.bmp" Pic_right="256" Pic_bottom="192" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\失落的村庄\室内04.bmp" Pic_right="232" Pic_bottom="192" ColorKey="0xFFFFFF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="266" Pos_y="261" Size_x="20" Size_y="20" Pic="\image\地图\失落的村庄\路灯01.bmp" Pic_right="16" Pic_bottom="16" Blend="0x1" Id="1" ChildId="2" Damage="1" Effect="爆炸02" Sound="\sound\物件\路灯.wav" Script="\data\脚本\破坏物品\失落的村庄.lua"/>
+		<Item Pos_x="172" Pos_y="173" Size_x="206" Size_y="196" Pic="\image\地图\失落的村庄\灯光01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="2" Type="9"/>
+		<Item Pos_x="71" Pos_y="439" Size_x="72" Size_y="64" Pic="\image\地图\动画\宝箱.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="3" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\普通宝箱.lua" Item="钱袋300" TaskId="16"/>
+	</Anim>
+	<Obst>
+		<Item Size_x="800" Size_y="100" Obst="1"/>
+		<Item Pos_x="28" Pos_y="100" Size_x="56" Size_y="401" Obst="1"/>
+		<Item Pos_x="689" Pos_y="399" Size_x="111" Size_y="101" Obst="1"/>
+		<Item Pos_x="579" Pos_y="399" Size_x="110" Size_y="101" Obst="5"/>
+		<Item Pos_x="27" Pos_y="500" Size_x="773" Size_y="99" Obst="1"/>
+		<Item Pos_x="690" Pos_y="100" Size_x="110" Size_y="101" Obst="1"/>
+		<Item Pos_x="203" Pos_y="436" Size_x="145" Size_y="64" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="787" Pos_y="201" Size_x="48" Size_y="198" Map="失落的村庄02" MapPos_y="320"/>
+	</Trap>
+	<Char/>
+</Map>

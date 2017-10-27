@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="283" Pos_y="452" Size_x="124" Size_y="80" Random="1" EmitInter="10" EmitTime="1500" Pic="\Image\特效\火焰\002.bmp" Pic_right="32" Pic_bottom="64" Filter="0x2" Blend="0x1" EndColor="0xFFFFFF" Sound="\sound\怪物\羽恶魔燃烧.wav" ItemSize_x="32" ItemSize_y="64" ItemHot_x="16" ItemHot_y="32" ItemFrame="13" ItemFps="10" ItemScale="3.000" ItemQuality="1.000" MinSpeedX="-100.000" MaxSpeedX="100.000" MinSpeedY="-300.000" MaxSpeedY="-300.000" ScaleSpeed="1.000" TrailColor="0xFF8080FF"/>
+</Effect>

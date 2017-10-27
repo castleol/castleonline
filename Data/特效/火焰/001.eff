@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="379" Pos_y="398" Size_x="35" Size_y="47" EmitInter="1" EmitTime="1" Pic="\Image\特效\火焰\001.bmp" Pic_right="16" Pic_bottom="16" Filter="0x2" Blend="0x1" ItemSize_x="16" ItemSize_y="16" ItemHot_x="8" ItemHot_y="16" ItemFrame="8" ItemFps="10" ItemScale="2.000" MinSpeedY="-30.000" MaxSpeedY="-30.000"/>
+</Effect>

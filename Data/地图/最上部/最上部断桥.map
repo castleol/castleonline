@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="900" Size_y="2100">
+	<Tile>
+		<Item Size_x="2048" Size_y="960" Pic="\Image\地图\最上部\moon.jpg" Pic_right="1024" Pic_bottom="480" Filter="0x2" ColorKey="0x800000" DeltaX="0.200" DeltaY="0.200"/>
+		<Item Pos_x="347" Pos_y="838" Size_x="280" Size_y="362" Pic="\Image\地图\最上部\断桥钟楼1.bmp" Pic_right="140" Pic_bottom="181" ColorKey="0x800000" DeltaX="0.600" DeltaY="0.700" Group="2"/>
+		<Item Pos_x="391" Pos_y="1198" Size_x="184" Size_y="692" Pic="\Image\地图\最上部\断桥钟楼2.bmp" Pic_right="184" Pic_bottom="74" ColorKey="0xFFFFFFFF" Tile="1" DeltaX="0.600" DeltaY="0.700" Group="2"/>
+		<Item Pos_x="476" Pos_y="1668" Size_x="424" Size_y="432" Pic="\image\地图\最上部\断桥1.bmp" Pic_right="212" Pic_bottom="236" ColorKey="0x800000" Group="1"/>
+		<Item Pos_x="772" Pos_y="454" Size_x="128" Size_y="575" Pic="\Image\地图\最上部\断桥墙壁.bmp" Pic_right="128" Pic_bottom="192" ColorKey="0x800000" Tile="1" Obst="1"/>
+		<Item Pos_x="772" Size_x="128" Size_y="192" Pic="\Image\地图\最上部\断桥墙壁.bmp" Pic_right="128" Pic_bottom="192" ColorKey="0x800000" Tile="1" Obst="1"/>
+		<Item Pos_x="772" Pos_y="320" Size_x="128" Size_y="192" Pic="\Image\地图\最上部\断桥墙壁.bmp" Pic_right="128" Pic_bottom="192" ColorKey="0x800000" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_y="550" Size_x="64" Size_y="640" Pic="\Image\地图\最上部\断桥石壁.bmp" Pic_right="32" Pic_bottom="320" ColorKey="0x800000" Obst="1"/>
+		<Item Pos_x="836" Pos_y="1028" Size_x="64" Size_y="640" Pic="\Image\地图\最上部\断桥石壁.bmp" Pic_right="32" Pic_bottom="320" ColorKey="0x800000" Flip="1" Obst="1"/>
+		<Item Pos_y="-25" Size_x="128" Size_y="576" Pic="\Image\地图\最上部\断桥墙壁.bmp" Pic_right="128" Pic_bottom="192" ColorKey="0x800000" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="1" Pos_y="1194" Size_x="304" Size_y="311" Pic="\image\地图\最上部\断桥2.bmp" Pic_right="152" Pic_bottom="163" ColorKey="0x800000" Group="1"/>
+		<Item Pos_x="152" Pos_y="1505" Size_x="324" Size_y="322" Pic="\image\地图\最上部\断桥3.bmp" Pic_right="162" Pic_bottom="164" ColorKey="0x800000" Group="1"/>
+		<Item Pos_x="835" Pos_y="192" Size_x="64" Size_y="128" Pic="\Image\地图\最上部\背景02-1.bmp" Pic_right="64" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="836" Pos_y="1675" Size_x="64" Size_y="128" Pic="\Image\地图\最上部\背景02-1.bmp" Pic_right="64" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="806" Pos_y="1547" Size_x="94" Size_y="128" Pic="\Image\地图\最上部\墙面02-15.bmp" Pic_right="94" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="-5" Pos_y="1190" Size_x="64" Size_y="128" Pic="\Image\地图\最上部\背景02-1.bmp" Pic_right="64" Pic_bottom="128" ColorKey="0xFF00FF" Flip="1"/>
+		<Item Pos_x="62" Pos_y="860" Size_x="64" Size_y="288" Pic="\Image\地图\最上部\断桥装饰.bmp" Pic_right="32" Pic_bottom="144" ColorKey="0xFF00FF"/>
+		<Item Pos_x="98" Pos_y="39" Size_x="90" Size_y="128" Pic="\Image\地图\最上部\断桥顶部1.bmp" Pic_right="47" Pic_bottom="64" ColorKey="0xFF00FF"/>
+		<Item Pos_x="187" Pos_y="39" Size_x="526" Size_y="64" Pic="\Image\地图\最上部\断桥顶部2.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="712" Pos_y="39" Size_x="90" Size_y="128" Pic="\Image\地图\最上部\断桥顶部1.bmp" Pic_right="47" Pic_bottom="64" ColorKey="0xFF00FF" Flip="1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="646" Pos_y="1803" Size_x="254" Size_y="202" Obst="1"/>
+		<Item Pos_y="1318" Size_x="128" Size_y="126" Obst="1"/>
+		<Item Pos_x="-20" Pos_y="1444" Size_x="20" Size_y="656" Obst="1"/>
+		<Item Pos_x="753" Pos_y="2005" Size_x="146" Size_y="94" Obst="1"/>
+		<Item Pos_x="128" Pos_y="1318" Size_x="86" Size_y="82" Obst="4"/>
+		<Item Pos_x="549" Pos_y="1729" Size_x="96" Size_y="74" Obst="4"/>
+		<Item Pos_x="485" Pos_y="1729" Size_x="64" Size_y="74" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-33" Pos_y="1190" Size_x="40" Size_y="128" Id="1" Map="最上部房间07" MapPos_x="3200" MapPos_y="405"/>
+		<Item Pos_x="893" Pos_y="1675" Size_x="40" Size_y="128" Id="2" Map="最上部房间03" MapPos_y="272"/>
+		<Item Pos_x="895" Pos_y="192" Size_x="40" Size_y="128" Id="3" Map="最上部房间06" MapPos_y="448"/>
+		<Item Pos_y="2095" Size_x="750" Size_y="62" Id="4" Map="最上部广场" MapPos_x="3277" MapPos_y="50"/>
+	</Trap>
+	<Char/>
+</Map>

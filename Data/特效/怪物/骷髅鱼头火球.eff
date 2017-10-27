@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="365" Pos_y="352" Size_x="40" Size_y="100" Offs_x="24" Offs_y="-32" Pic="骷髅鱼头" Group="7" Frame="3" ColorKey="0xFFFF00FF" Blend="0x1" Sound="\sound\怪物\骷髅鱼头火球.wav" ItemSize_x="40" ItemSize_y="16" ItemHot_x="20" ItemHot_y="8" ItemFrame="4" ItemFps="10" ItemLife="2500" ItemScale="2.000" ItemQuality="1.000" MinSpeedX="300.000" MaxSpeedX="300.000" HitType="2" HitOnce="1" Destroy="1" Flip="1" TrailTime="5" TrailFade="20" EndEffect="爆炸01"/>
+</Effect>

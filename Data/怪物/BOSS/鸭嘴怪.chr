@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\BOSS\鸭嘴怪.bmp" ColorKey="0xFF00FF00" Size_x="50" Size_y="110" Scale="2.000" HitEffect="闪光01" HurtEffect="冒血02">
+	<Action Num="11">
+		<Act Name="站立" Group="1" End="2" Fps="5"/>
+		<Act Name="转身" Next="移动" State="1" Group="1" Flip="1"/>
+		<Act Name="移动" State="1" Group="2" End="2" Fps="5" Speed_x="50"/>
+		<Act Name="攻击" Next="出枪" Group="3" End="4" Fps="20" Sound="2"/>
+		<Act Name="起跳" Next="跳跃" State="3" Group="4" End="1" Fps="5" Sound="2"/>
+		<Act Name="跳跃" State="3" Group="6" Sound="1" Speed_x="200" Speed_y="-500" AddSpeed_y="1000"/>
+		<Act Name="下落" State="3" Group="6" Speed_x="-1" AddSpeed_y="1200"/>
+		<Act Name="落地" Next="站立" Effect="\data\特效\怪物\三头犬落地.eff" State="3" Group="6" Time="300" Sound="4"/>
+		<Act Name="受伤" Next="站立" State="5" Group="5" Time="300" Sound="2" Speed_x="-200" AddSpeed_x="500"/>
+		<Act Name="死亡" Effect="鸭嘴怪死亡" State="14" Group="5" Time="1500" Sound="2"/>
+		<Act Name="出枪" Next="站立" Effect="鸭嘴怪火球" State="4" Group="7" End="2" Sound="1" Speed_x="300" AddSpeed_x="500"/>
+	</Action>
+	<Rect Num="8">
+		<Rect Name="下落" Rect_left="-13" Rect_top="-5" Rect_right="13" Rect_bottom="41"/>
+		<Rect Name="跳跃" Rect_left="-9" Rect_top="-7" Rect_right="9" Rect_bottom="41"/>
+		<Rect Name="出枪" Rect_left="24" Rect_top="-85" Rect_right="142" Rect_bottom="-51"/>
+		<Rect Name="出枪" Frame="1" Rect_left="26" Rect_top="-89" Rect_right="150" Rect_bottom="-51"/>
+		<Rect Name="出枪" Frame="2" Rect_left="24" Rect_top="-87" Rect_right="138" Rect_bottom="-55"/>
+		<Rect Name="站立" Frame="-1" Rect_left="35" Rect_top="-53" Rect_right="88" Rect_bottom="-26"/>
+		<Rect Name="攻击" Frame="-1" Rect_left="37" Rect_top="-51" Rect_right="85" Rect_bottom="-24"/>
+		<Rect Name="移动" Frame="-1" Rect_left="38" Rect_top="-53" Rect_right="88" Rect_bottom="-26"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="4">
+		<Snd Id="1" File="\sound\怪物\鸭嘴怪攻击.wav"/>
+		<Snd Id="2" File="\sound\怪物\鸭嘴怪受伤.wav"/>
+		<Snd Id="3" File="\sound\怪物\鸭嘴怪火球.wav"/>
+		<Snd Id="4" File="\sound\怪物\鸭嘴怪落地.wav"/>
+	</Sound>
+	<Image Num="18">
+		<Img Group="1" Pos_y="1" Size_x="74" Size_y="63" Hot_x="30" Hot_y="63"/>
+		<Img Group="1" Frame="1" Pos_x="74" Pos_y="1" Size_x="75" Size_y="63" Hot_x="31" Hot_y="63"/>
+		<Img Group="1" Frame="2" Pos_x="149" Pos_y="1" Size_x="75" Size_y="63" Hot_x="31" Hot_y="63"/>
+		<Img Group="2" Pos_x="255" Pos_y="2" Size_x="75" Size_y="62" Hot_x="31" Hot_y="62"/>
+		<Img Group="2" Frame="1" Pos_x="330" Pos_y="2" Size_x="68" Size_y="62" Hot_x="23" Hot_y="62"/>
+		<Img Group="2" Frame="2" Pos_x="398" Pos_y="2" Size_x="68" Size_y="62" Hot_x="26" Hot_y="62"/>
+		<Img Group="3" Pos_y="65" Size_x="75" Size_y="63" Hot_x="32" Hot_y="63"/>
+		<Img Group="3" Frame="1" Pos_x="75" Pos_y="65" Size_x="68" Size_y="63" Hot_x="26" Hot_y="63"/>
+		<Img Group="3" Frame="2" Time="400" Pos_x="143" Pos_y="65" Size_x="68" Size_y="63" Hot_x="26" Hot_y="63"/>
+		<Img Group="3" Frame="3" Pos_x="211" Pos_y="65" Size_x="68" Size_y="63" Hot_x="24" Hot_y="63"/>
+		<Img Group="3" Frame="4" Pos_x="279" Pos_y="65" Size_x="70" Size_y="63" Hot_x="22" Hot_y="63"/>
+		<Img Group="7" Pos_y="135" Size_x="96" Size_y="57" Hot_x="25" Hot_y="57"/>
+		<Img Group="7" Frame="1" Pos_x="96" Pos_y="135" Size_x="99" Size_y="57" Hot_x="25" Hot_y="57"/>
+		<Img Group="7" Frame="2" Time="500" Pos_y="135" Size_x="96" Size_y="57" Hot_x="26" Hot_y="57"/>
+		<Img Group="4" Pos_x="224" Pos_y="136" Size_x="67" Size_y="56" Hot_x="32" Hot_y="56"/>
+		<Img Group="4" Frame="1" Pos_x="291" Pos_y="136" Size_x="68" Size_y="56" Hot_x="34" Hot_y="56"/>
+		<Img Group="5" Pos_x="381" Pos_y="125" Size_x="68" Size_y="67" Hot_x="37" Hot_y="65"/>
+		<Img Group="6" Pos_x="456" Pos_y="69" Size_x="48" Size_y="81" Hot_x="24" Hot_y="59"/>
+	</Image>
+</Char>

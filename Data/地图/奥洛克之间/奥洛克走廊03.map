@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_y="254" Size_x="800" Size_y="192" Pic="\Image\地图\奥洛克之间\细墙廊\背景01-1.bmp" Pic_right="140" Pic_bottom="192" Tile="1" DeltaX="0.500" DeltaY="0.700"/>
+		<Item Pos_y="140" Size_x="800" Size_y="320" Pic="\Image\地图\奥洛克之间\细墙廊\背景05-1.bmp" Pic_right="512" Pic_bottom="320" ColorKey="0xFF00FF" Tile="1" DeltaX="0.700"/>
+		<Item Size_x="800" Size_y="140" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" Tile="1"/>
+		<Item Pos_y="68" Size_x="8" Size_y="168" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" Tile="1"/>
+		<Item Pos_y="364" Size_x="128" Size_y="236" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" Tile="1" Obst="1"/>
+		<Item Pos_x="128" Pos_y="460" Size_x="672" Size_y="140" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" Tile="1" Obst="1"/>
+		<Item Pos_x="8" Pos_y="68" Size_x="140" Size_y="168" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-4.bmp" Pic_right="140" Pic_bottom="168" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="224" Pos_y="460" Size_x="352" Size_y="4" Pic="\Image\地图\奥洛克之间\细墙廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="4" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="148" Pos_y="136" Size_x="600" Size_y="4" Pic="\Image\地图\奥洛克之间\细墙廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="4" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_y="364" Size_x="128" Size_y="4" Pic="\Image\地图\奥洛克之间\细墙廊\墙面02-1.bmp" Pic_right="64" Pic_bottom="4" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_y="316" Size_x="128" Size_y="48" Pic="\Image\地图\奥洛克之间\细墙廊\栏杆02-3.bmp" Pic_right="32" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="128" Pos_y="292" Size_x="64" Size_y="168" Pic="\Image\地图\奥洛克之间\细墙廊\栏杆02-1.bmp" Pic_right="64" Pic_bottom="168" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="192" Pos_y="364" Size_x="64" Size_y="96" Pic="\Image\地图\奥洛克之间\细墙廊\栏杆02-2.bmp" Pic_right="64" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Flip="1" Mask="1"/>
+		<Item Pos_x="792" Pos_y="140" Size_x="8" Size_y="96" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" Tile="1"/>
+		<Item Pos_x="652" Pos_y="68" Size_x="140" Size_y="168" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-5.bmp" Pic_right="140" Pic_bottom="168" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="792" Pos_y="204" Size_x="8" Size_y="32" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-6.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="204" Size_x="8" Size_y="32" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-6.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="672" Pos_y="364" Size_x="128" Size_y="236" Pic="\Image\地图\奥洛克之间\细墙廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" Tile="1" Obst="1"/>
+		<Item Pos_x="608" Pos_y="292" Size_x="64" Size_y="168" Pic="\Image\地图\奥洛克之间\细墙廊\栏杆02-1.bmp" Pic_right="64" Pic_bottom="168" ColorKey="0xFF00FF" Tile="1" Flip="1" Mask="1"/>
+		<Item Pos_x="544" Pos_y="364" Size_x="64" Size_y="96" Pic="\Image\地图\奥洛克之间\细墙廊\栏杆02-2.bmp" Pic_right="64" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="672" Pos_y="316" Size_x="128" Size_y="48" Pic="\Image\地图\奥洛克之间\细墙廊\栏杆02-3.bmp" Pic_right="32" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="379" Pos_y="356" Size_x="26" Size_y="104" Pic="\Image\地图\动画\灯柱04.bmp" Pic_right="13" Pic_bottom="52" ColorKey="0x800000" Frames="4" Fps="10" Id="1" Damage="1" Effect="灯台03" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\奥洛克之间.lua"/>
+	</Anim>
+	<Obst>
+		<Item Size_x="106" Size_y="236" Obst="1"/>
+		<Item Pos_x="106" Size_x="588" Size_y="140" Obst="1"/>
+		<Item Pos_x="575" Pos_y="364" Size_x="96" Size_y="96" Obst="5"/>
+		<Item Pos_x="128" Pos_y="364" Size_x="96" Size_y="96" Obst="4"/>
+		<Item Pos_x="694" Size_x="106" Size_y="236" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-48" Pos_y="236" Size_x="50" Size_y="128" Id="1" Map="奥洛克走廊02" MapPos_x="2048" MapPos_y="364"/>
+		<Item Pos_x="794" Pos_y="236" Size_x="50" Size_y="128" Id="2" Map="奥洛克走廊04" MapPos_y="2964"/>
+	</Trap>
+	<Char/>
+</Map>

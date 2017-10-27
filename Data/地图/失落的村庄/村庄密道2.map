@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1500" Size_y="600">
+	<Tile>
+		<Item Pos_x="186" Pos_y="99" Size_x="1127" Size_y="401" Pic="\image\地图\失落的村庄\背景08.bmp" Pic_right="416" Pic_bottom="96"/>
+		<Item Size_x="1500" Size_y="600" Pic="\image\地图\失落的村庄\密道02.bmp" Pic_right="512" Pic_bottom="192" ColorKey="0xFFFFFFFF"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="188" Size_x="1124" Size_y="100" Obst="1"/>
+		<Item Size_x="188" Size_y="200" Obst="1"/>
+		<Item Pos_x="1312" Size_x="187" Size_y="200" Obst="1"/>
+		<Item Pos_y="400" Size_x="188" Size_y="199" Obst="1"/>
+		<Item Pos_x="1312" Pos_y="400" Size_x="188" Size_y="200" Obst="1"/>
+		<Item Pos_x="188" Pos_y="500" Size_x="1124" Size_y="99" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-52" Pos_y="259" Size_x="60" Size_y="132" Map="失落的村庄密道1" MapPos_x="800" MapPos_y="1066"/>
+		<Item Pos_x="1492" Pos_y="203" Size_x="52" Size_y="196" Id="2" Map="失落的村庄密道3" MapPos_y="400"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="735" Pos_y="432" Size_x="148" Size_y="68" Id="1" Char="蝎狮" Left="1"/>
+	</Char>
+</Map>

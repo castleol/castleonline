@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\骷髅\骷髅枪手.bmp" ColorKey="0xFFFF00FF" Size_x="32" Size_y="80" Scale="2.000" Shadow="1" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="10">
+		<Act Name="站立" Group="1" End="2" Fps="5"/>
+		<Act Name="转身" Next="站立" Group="1" Flip="1"/>
+		<Act Name="前进" Next="警戒" State="1" Group="1" End="2" Time="500" Speed_x="50"/>
+		<Act Name="后退" Next="蹲下" State="1" Group="1" End="2" Time="500" Speed_x="-50"/>
+		<Act Name="死亡" Effect="骷髅枪手死亡" State="14" Time="500" Sound="2"/>
+		<Act Name="蹲下" Next="退膛" State="2" Group="2" End="1" Loop="1" Fps="5" Size_x="32" Size_y="40"/>
+		<Act Name="射击" Next="后退" Effect="骷髅子弹" State="4" Group="2" Begin="2" End="11" Loop="6" Time="3000" Start="6" Sound="1" Size_x="32" Size_y="40"/>
+		<Act Name="退膛" Next="装弹" State="2" Group="3" End="7" Fps="20" Size_x="32" Size_y="40"/>
+		<Act Name="装弹" Next="前进" State="2" Group="4" End="2" Time="500" Size_x="32" Size_y="40"/>
+		<Act Name="警戒" Next="射击" Group="2" End="1" Loop="1" Fps="5"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\骷髅枪手开枪.wav"/>
+		<Snd Id="2" File="\Sound\怪物\骷髅枪手死亡.wav"/>
+	</Sound>
+	<Image Num="26">
+		<Img Group="1" Pos_x="10" Pos_y="6" Size_x="33" Size_y="52" Hot_x="11" Hot_y="52"/>
+		<Img Group="1" Frame="1" Pos_x="52" Pos_y="6" Size_x="32" Size_y="52" Hot_x="10" Hot_y="52"/>
+		<Img Group="1" Frame="2" Pos_x="91" Pos_y="6" Size_x="31" Size_y="52" Hot_x="9" Hot_y="52"/>
+		<Img Group="2" Pos_x="133" Pos_y="13" Size_x="39" Size_y="45" Hot_x="12" Hot_y="45" Speed="1"/>
+		<Img Group="2" Frame="1" Pos_x="175" Pos_y="13" Size_x="51" Size_y="45" Hot_x="17" Hot_y="45"/>
+		<Img Group="2" Frame="2" Pos_x="231" Pos_y="13" Size_x="51" Size_y="45" Hot_x="16" Hot_y="45"/>
+		<Img Group="2" Frame="3" Pos_x="285" Pos_y="13" Size_x="52" Size_y="45" Hot_x="17" Hot_y="45"/>
+		<Img Group="2" Frame="4" Pos_x="341" Pos_y="13" Size_x="54" Size_y="45" Hot_x="18" Hot_y="45"/>
+		<Img Group="2" Frame="5" Pos_x="400" Pos_y="13" Size_x="51" Size_y="45" Hot_x="16" Hot_y="45"/>
+		<Img Group="2" Frame="6" Pos_x="453" Pos_y="13" Size_x="51" Size_y="45" Hot_x="17" Hot_y="45"/>
+		<Img Group="2" Frame="7" Time="300" Pos_x="100" Pos_y="71" Size_x="40" Size_y="33" Hot_x="16" Hot_y="33"/>
+		<Img Group="2" Frame="8" Pos_x="146" Pos_y="71" Size_x="41" Size_y="33" Hot_x="17" Hot_y="33"/>
+		<Img Group="2" Frame="9" Pos_x="193" Pos_y="71" Size_x="43" Size_y="33" Hot_x="17" Hot_y="33"/>
+		<Img Group="2" Frame="10" Pos_x="239" Pos_y="71" Size_x="43" Size_y="33" Hot_x="16" Hot_y="33"/>
+		<Img Group="2" Frame="11" Pos_x="286" Pos_y="71" Size_x="50" Size_y="33" Hot_x="16" Hot_y="33"/>
+		<Img Group="3" Pos_x="2" Pos_y="114" Size_x="38" Size_y="38" Hot_x="16" Hot_y="38"/>
+		<Img Group="3" Frame="1" Pos_x="43" Pos_y="114" Size_x="37" Size_y="38" Hot_x="16" Hot_y="38"/>
+		<Img Group="3" Frame="2" Pos_x="85" Pos_y="114" Size_x="38" Size_y="38" Hot_x="17" Hot_y="38"/>
+		<Img Group="3" Frame="3" Pos_x="129" Pos_y="114" Size_x="37" Size_y="38" Hot_x="16" Hot_y="38"/>
+		<Img Group="3" Frame="4" Pos_x="169" Pos_y="114" Size_x="39" Size_y="38" Hot_x="17" Hot_y="38"/>
+		<Img Group="3" Frame="5" Pos_x="211" Pos_y="114" Size_x="37" Size_y="38" Hot_x="16" Hot_y="38"/>
+		<Img Group="3" Frame="6" Pos_x="252" Pos_y="114" Size_x="38" Size_y="38" Hot_x="17" Hot_y="38"/>
+		<Img Group="3" Frame="7" Pos_x="295" Pos_y="114" Size_x="40" Size_y="38" Hot_x="19" Hot_y="38"/>
+		<Img Group="4" Pos_x="342" Pos_y="114" Size_x="41" Size_y="38" Hot_x="17" Hot_y="38"/>
+		<Img Group="4" Frame="1" Pos_x="388" Pos_y="114" Size_x="41" Size_y="38" Hot_x="17" Hot_y="38"/>
+		<Img Group="4" Frame="2" Pos_x="432" Pos_y="114" Size_x="43" Size_y="38" Hot_x="18" Hot_y="38"/>
+	</Image>
+</Char>

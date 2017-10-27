@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="185" Pos_y="280" Size_x="40" Size_y="100" Offs_x="20" Offs_y="-64" Pic="\Image\特效\怪物\火球.bmp" Pic_top="120" Pic_right="25" Pic_bottom="140" ColorKey="0xFFFF00FF" Blend="0x1" Sound="\sound\怪物\小恶魔绿火.wav" ItemSize_x="50" ItemSize_y="40" ItemHot_x="25" ItemHot_y="40" ItemFrame="4" ItemFps="10" ItemLife="2500" ItemQuality="1.000" MinSpeedX="300.000" MaxSpeedX="300.000" MinSpeedY="300.000" MaxSpeedY="300.000" HitType="2" Rebound="1" Magic="1" EndEffect="小恶魔绿火爆炸"/>
+</Effect>

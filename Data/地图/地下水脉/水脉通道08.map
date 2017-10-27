@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2048" Size_y="600">
+	<Tile>
+		<Item Pos_y="211" Size_x="2048" Size_y="205" Pic="\Image\地图\地下水脉\水脉背景.bmp" Pic_right="354" Pic_bottom="170" ColorKey="0xFFFF00FF" Tile="1" DeltaX="0.500"/>
+		<Item Size_x="1024" Size_y="600" Pic="\Image\地图\地下水脉\水脉通道08-1.bmp" Pic_right="512" Pic_bottom="207" ColorKey="0xFFFF00FF"/>
+		<Item Pos_x="1024" Size_x="1024" Size_y="600" Pic="\Image\地图\地下水脉\水脉通道08-2.bmp" Pic_right="512" Pic_bottom="207" ColorKey="0xFFFF00FF"/>
+		<Item Pos_x="1222" Size_x="80" Size_y="600" Pic="\Image\地图\地下水脉\水脉动画03.bmp" Pic_right="21" Pic_bottom="96" Filter="0x2" Blend="0x1" ColorKey="0x800000" Mask="1" Frames="15" Fps="40"/>
+		<Item Pos_x="609" Size_x="120" Size_y="600" Pic="\Image\地图\地下水脉\水脉动画03.bmp" Pic_right="21" Pic_bottom="96" Filter="0x2" Blend="0x1" ColorKey="0x800000" Mask="1" Frames="15" Fps="40"/>
+		<Item Pos_x="406" Size_x="80" Size_y="600" Pic="\Image\地图\地下水脉\水脉动画03.bmp" Pic_right="21" Pic_bottom="96" Filter="0x2" Blend="0x1" ColorKey="0x800000" Mask="1" Frames="15" Fps="40"/>
+		<Item Pos_x="1312" Size_x="80" Size_y="600" Pic="\Image\地图\地下水脉\水脉动画03.bmp" Pic_right="21" Pic_bottom="96" Filter="0x2" Blend="0x1" ColorKey="0x800000" Mask="1" Frames="15" Fps="40"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="1632" Pos_y="394" Size_x="320" Size_y="32" Pic="\Image\地图\地下水脉\水脉物件木板.bmp" Pic_right="160" Pic_bottom="16" ColorKey="0xFFFF00FF" Obst="1" Id="1" Damage="100" Script="\data\脚本\破坏墙壁\水脉通道08.lua" TaskId="2"/>
+		<Item Pos_x="188" Pos_y="441" Size_x="639" Size_y="160" Pic="\Image\地图\地下水脉\水脉通道08-1水.bmp" Pic_right="320" Pic_bottom="55" Color0="0x80FFFFFF" Color1="0x80FFFFFF" Color2="0x80FFFFFF" Color3="0x80FFFFFF" Mask="1" Id="2" Type="11" Damage="5"/>
+		<Item Pos_x="1086" Pos_y="441" Size_x="420" Size_y="160" Pic="\Image\地图\地下水脉\水脉通道08-2水.bmp" Pic_right="210" Pic_bottom="55" Color0="0x80FFFFFF" Color1="0x80FFFFFF" Color2="0x80FFFFFF" Color3="0x80FFFFFF" Mask="1" Id="3" Type="11" Damage="5"/>
+		<Item Pos_x="292" Pos_y="154" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="4" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="936" Pos_y="228" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="5" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="1572" Pos_y="228" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="6" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="1674" Pos_y="548" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="7" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" TaskId="2" Item="生命上限"/>
+		<Item Pos_x="1889" Pos_y="548" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="160" Pic_right="32" Pic_bottom="192" Frames="4" Fps="10" Id="8" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\红心上限.lua" TaskId="3" Item="红心上限"/>
+		<Item Pos_x="251" Pos_y="473" Size_x="32" Size_y="32" Pic="\image\图标\材料.bmp" Pic_left="64" Pic_right="96" Pic_bottom="32" Id="9" Type="7" Effect="法力上限" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\魔魂.lua" TaskId="11" Item="蓝色魔魂" Swing_y="6"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="190" Pos_y="486" Size_x="41" Size_y="47" Obst="4"/>
+		<Item Pos_y="171" Size_x="100" Size_y="57" Obst="1"/>
+		<Item Pos_x="94" Pos_y="95" Size_x="64" Size_y="102" Obst="1"/>
+		<Item Pos_x="157" Pos_y="73" Size_x="30" Size_y="90" Obst="1"/>
+		<Item Pos_x="184" Pos_y="54" Size_x="64" Size_y="50" Obst="1"/>
+		<Item Pos_x="244" Pos_y="27" Size_x="231" Size_y="62" Obst="1"/>
+		<Item Pos_x="471" Pos_y="46" Size_x="82" Size_y="72" Obst="1"/>
+		<Item Pos_x="520" Pos_y="116" Size_x="46" Size_y="42" Obst="1"/>
+		<Item Pos_x="546" Pos_y="153" Size_x="30" Size_y="95" Obst="1"/>
+		<Item Pos_x="574" Pos_y="229" Size_x="133" Size_y="42" Obst="1"/>
+		<Item Pos_x="704" Pos_y="143" Size_x="30" Size_y="111" Obst="1"/>
+		<Item Pos_x="729" Pos_y="129" Size_x="37" Size_y="76" Obst="1"/>
+		<Item Pos_x="755" Pos_y="105" Size_x="110" Size_y="79" Obst="1"/>
+		<Item Pos_x="863" Pos_y="65" Size_x="34" Size_y="97" Obst="1"/>
+		<Item Pos_x="892" Pos_y="52" Size_x="64" Size_y="60" Obst="1"/>
+		<Item Pos_x="948" Pos_y="27" Size_x="123" Size_y="60" Obst="1"/>
+		<Item Pos_x="1065" Pos_y="75" Size_x="48" Size_y="65" Obst="1"/>
+		<Item Pos_x="1106" Pos_y="127" Size_x="59" Size_y="38" Obst="1"/>
+		<Item Pos_x="1159" Pos_y="154" Size_x="50" Size_y="54" Obst="1"/>
+		<Item Pos_x="1205" Pos_y="181" Size_x="90" Size_y="41" Obst="1"/>
+		<Item Pos_x="1291" Pos_y="113" Size_x="52" Size_y="88" Obst="1"/>
+		<Item Pos_x="1340" Pos_y="81" Size_x="30" Size_y="79" Obst="1"/>
+		<Item Pos_x="1367" Pos_y="54" Size_x="67" Size_y="53" Obst="1"/>
+		<Item Pos_x="1428" Pos_y="27" Size_x="36" Size_y="45" Obst="1"/>
+		<Item Pos_x="1460" Pos_y="4" Size_x="165" Size_y="39" Obst="1"/>
+		<Item Pos_x="1620" Pos_y="33" Size_x="52" Size_y="34" Obst="1"/>
+		<Item Pos_x="1665" Pos_y="61" Size_x="38" Size_y="37" Obst="1"/>
+		<Item Pos_x="1697" Pos_y="88" Size_x="43" Size_y="32" Obst="1"/>
+		<Item Pos_x="1728" Pos_y="103" Size_x="129" Size_y="32" Obst="1"/>
+		<Item Pos_x="1851" Pos_y="127" Size_x="53" Size_y="35" Obst="1"/>
+		<Item Pos_x="1891" Pos_y="154" Size_x="43" Size_y="40" Obst="1"/>
+		<Item Pos_x="1932" Pos_y="185" Size_x="116" Size_y="38" Obst="1"/>
+		<Item Pos_x="1952" Pos_y="394" Size_x="96" Size_y="187" Obst="1"/>
+		<Item Pos_x="1857" Pos_y="580" Size_x="94" Size_y="20" Obst="1"/>
+		<Item Pos_x="1597" Pos_y="580" Size_x="163" Size_y="20" Obst="1"/>
+		<Item Pos_x="1531" Pos_y="394" Size_x="101" Size_y="187" Obst="1"/>
+		<Item Pos_x="1507" Pos_y="440" Size_x="23" Size_y="95" Obst="1"/>
+		<Item Pos_x="1406" Pos_y="509" Size_x="91" Size_y="71" Obst="5"/>
+		<Item Pos_x="1073" Pos_y="580" Size_x="451" Size_y="20" Obst="1"/>
+		<Item Pos_x="1093" Pos_y="487" Size_x="129" Size_y="93" Obst="4"/>
+		<Item Pos_x="831" Pos_y="394" Size_x="263" Size_y="187" Obst="1"/>
+		<Item Pos_x="801" Pos_y="476" Size_x="30" Size_y="77" Obst="1"/>
+		<Item Pos_x="767" Pos_y="533" Size_x="35" Size_y="32" Obst="1"/>
+		<Item Pos_x="732" Pos_y="533" Size_x="35" Size_y="47" Obst="5"/>
+		<Item Pos_x="346" Pos_y="580" Size_x="425" Size_y="20" Obst="1"/>
+		<Item Pos_x="576" Pos_y="533" Size_x="38" Size_y="47" Obst="4"/>
+		<Item Pos_x="505" Pos_y="533" Size_x="72" Size_y="32" Obst="1"/>
+		<Item Pos_x="443" Pos_y="533" Size_x="62" Size_y="47" Obst="5"/>
+		<Item Pos_x="357" Pos_y="533" Size_x="67" Size_y="47" Obst="4"/>
+		<Item Pos_x="157" Pos_y="533" Size_x="201" Size_y="32" Obst="1"/>
+		<Item Pos_x="162" Pos_y="428" Size_x="27" Size_y="104" Obst="1"/>
+		<Item Pos_x="203" Pos_y="356" Size_x="143" Size_y="38" Obst="1"/>
+		<Item Pos_x="462" Pos_y="394" Size_x="1068" Size_y="46" Obst="2"/>
+		<Item Pos_x="387" Pos_y="348" Size_x="74" Size_y="46" Obst="4"/>
+		<Item Pos_x="348" Pos_y="299" Size_x="40" Size_y="49" Obst="4"/>
+		<Item Pos_x="221" Pos_y="299" Size_x="128" Size_y="32" Obst="1"/>
+		<Item Pos_x="168" Pos_y="299" Size_x="54" Size_y="35" Obst="5"/>
+		<Item Pos_x="123" Pos_y="334" Size_x="45" Size_y="60" Obst="5"/>
+		<Item Pos_y="394" Size_x="193" Size_y="32" Obst="1"/>
+		<Item Pos_x="350" Pos_y="395" Size_x="111" Size_y="45" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="2043" Pos_y="251" Size_x="56" Size_y="140" Id="1" Map="水脉通道07" MapPos_y="339"/>
+		<Item Pos_x="-43" Pos_y="252" Size_x="49" Size_y="140" Id="2" Map="水脉房间05" MapPos_x="800" MapPos_y="394"/>
+		<Item Pos_x="1760" Pos_y="594" Size_x="96" Size_y="30" Id="3" Map="水脉房间04" MapPos_x="370" MapPos_y="50"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="1546" Pos_y="365" Size_x="32" Size_y="29" Id="1" Char="绿青蛙"/>
+		<Item Pos_x="895" Pos_y="365" Size_x="32" Size_y="29" Id="2" Char="绿青蛙"/>
+		<Item Pos_x="315" Pos_y="270" Size_x="32" Size_y="29" Id="3" Char="绿青蛙"/>
+		<Item Pos_x="740" Pos_y="308" Size_x="59" Size_y="86" Id="4" Char="炸药骷髅" Action="背桶站立"/>
+	</Char>
+</Map>

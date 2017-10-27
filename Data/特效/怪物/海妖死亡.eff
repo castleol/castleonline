@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="59" Pos_y="498" Size_x="534" Size_y="81" Random="1" EmitNum="10" EmitInter="100" EmitTime="3000" Pic="\Image\特效\火焰\004.bmp" Pic_right="32" Pic_bottom="64" Filter="0x2" Blend="0x1" EndColor="0xFFFFFF" Sound="\sound\怪物\海妖死亡.wav" ItemSize_x="32" ItemSize_y="64" ItemHot_x="16" ItemHot_y="32" ItemFrame="13" ItemFps="10" ItemLife="1500" ItemScale="3.000" ItemQuality="1.000" AddSpeedY="-100.000" Follow="3" TrailColor="0xFF8080FF"/>
+	<Item Pos_x="83" Pos_y="303" Size_x="223" Size_y="194" Random="1" EmitNum="10" EmitInter="100" EmitTime="3000" Pic="\Image\特效\火焰\004.bmp" Pic_right="32" Pic_bottom="64" Filter="0x2" Blend="0x1" EndColor="0xFFFFFF" ItemSize_x="32" ItemSize_y="64" ItemHot_x="16" ItemHot_y="32" ItemFrame="13" ItemFps="10" ItemLife="1500" ItemScale="3.000" ItemQuality="1.000" AddSpeedY="-100.000" Follow="3" TrailColor="0xFF8080FF"/>
+</Effect>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\动物\食人鱼.bmp" ColorKey="0xFFFF00FF" Size_x="100" Size_y="50" Scale="2.000" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="5">
+		<Act Name="站立" Next="移动" Group="1" End="5" Time="500" Fly="1"/>
+		<Act Name="转身" Next="移动" State="2" Group="2" End="2" Flip="1" Fly="1"/>
+		<Act Name="移动" Next="转身" State="1" Group="1" End="6" Time="4000" Speed_x="100" Fly="1"/>
+		<Act Name="死亡" Effect="食人鱼死亡" State="14" Group="3" Time="1000" Sound="2" Fly="1"/>
+		<Act Name="攻击" Next="转身" Effect="食人鱼攻击" State="4" Group="1" Begin="6" End="6" Loop="6" Time="800" Start="6" Sound="1" Speed_x="600" AddSpeed_x="800" Fly="1"/>
+	</Action>
+	<Rect Num="1">
+		<Rect Name="攻击" Frame="6" Rect_left="24" Rect_top="-30" Rect_right="64" Rect_bottom="7"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\食人鱼攻击.wav"/>
+		<Snd Id="2" File="\sound\怪物\食人鱼死亡.wav"/>
+	</Sound>
+	<Image Num="11">
+		<Img Group="1" Pos_x="5" Pos_y="2" Size_x="65" Size_y="44" Hot_x="32" Hot_y="34"/>
+		<Img Group="1" Frame="1" Pos_x="70" Pos_y="2" Size_x="67" Size_y="44" Hot_x="32" Hot_y="34"/>
+		<Img Group="1" Frame="2" Pos_x="137" Pos_y="2" Size_x="55" Size_y="44" Hot_x="21" Hot_y="34"/>
+		<Img Group="1" Frame="3" Pos_x="192" Pos_y="2" Size_x="64" Size_y="44" Hot_x="29" Hot_y="34"/>
+		<Img Group="1" Frame="4" Pos_x="256" Pos_y="2" Size_x="56" Size_y="44" Hot_x="22" Hot_y="34"/>
+		<Img Group="1" Frame="5" Pos_x="312" Pos_y="2" Size_x="68" Size_y="44" Hot_x="34" Hot_y="34"/>
+		<Img Group="1" Frame="6" Pos_x="3" Pos_y="52" Size_x="68" Size_y="42" Hot_x="34" Hot_y="33"/>
+		<Img Group="2" Pos_x="77" Pos_y="52" Size_x="54" Size_y="42" Hot_x="27" Hot_y="32"/>
+		<Img Group="2" Frame="1" Pos_x="135" Pos_y="52" Size_x="26" Size_y="42" Hot_x="12" Hot_y="32"/>
+		<Img Group="2" Frame="2" Pos_x="77" Pos_y="52" Size_x="54" Size_y="42" Hot_x="27" Hot_y="32" Flip="1"/>
+		<Img Group="3" Pos_x="175" Pos_y="58" Size_x="74" Size_y="37" Hot_x="37" Hot_y="34"/>
+	</Image>
+</Char>

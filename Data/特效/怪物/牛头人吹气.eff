@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="431" Pos_y="373" Size_x="40" Size_y="120" Offs_x="50" Offs_y="-85" EmitInter="50" EmitTime="1000" Pic="\Image\特效\火焰\002.bmp" Pic_right="32" Pic_bottom="62" Filter="0x2" Blend="0x1" EndColor="0x10FFFFFF" ItemSize_x="32" ItemSize_y="62" ItemHot_x="16" ItemHot_y="55" ItemFrame="13" ItemFps="10" ItemLife="1000" ItemQuality="1.000" MinSpeedX="200.000" MaxSpeedX="250.000" MinSpeedY="150.000" MaxSpeedY="200.000" AddSpeedX="-100.000" AddSpeedY="-100.000" ScaleSpeed="2.000" HitType="2" Magic="1"/>
+</Effect>

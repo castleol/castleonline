@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="-16" Pos_y="-90" Size_x="32" Size_y="90" Pic="\Image\特效\投掷\道具.bmp" Pic_left="96" Pic_top="16" Pic_right="106" Pic_bottom="31" ColorKey="0xFF00FF" Color="0xFFFF0000" EndColor="0xFFFF0000" Sound="\Sound\投掷\骨头.wav" ItemSize_x="16" ItemSize_y="24" ItemHot_x="8" ItemHot_y="57" ItemFrame="1" ItemLife="20000" ItemQuality="1.000" MinSpeedX="80.000" MaxSpeedX="80.000" MinSpeedY="50.000" MaxSpeedY="50.000" Follow="1" Motion="1" MotionStep="5" MotionTime="90" MoveItem="1" HitType="2" Magic="1" TrailTime="3" TrailFade="20" TrailColor="0xFF8080FF" EndEffect="爆炸01"/>
+</Effect>

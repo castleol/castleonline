@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="383" Pos_y="248" Size_x="48" Size_y="152" Offs_y="-100" EmitInter="1" EmitTime="1" Pic="\Image\怪物\怪人\天使猎人.bmp" Pic_right="16" Pic_bottom="56" ColorKey="0xFF00FF" Sound="\sound\投掷\飞刀.wav" ItemSize_x="16" ItemSize_y="56" ItemHot_x="8" ItemHot_y="28" ItemLife="1500" ItemScale="2.000" MinSpeedX="-200.000" MaxSpeedX="-100.000" MinSpeedY="-200.000" MaxSpeedY="-100.000" AddSpeedY="600.000" AngleSpeed="-10.000"/>
+</Effect>

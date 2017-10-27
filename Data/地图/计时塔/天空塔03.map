@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\计时塔\天空塔\背景01-1.bmp" Pic_right="256" Pic_bottom="492" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="272" Size_x="382" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-3.bmp" Pic_right="192" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="212" Pos_y="540" Size_x="588" Size_y="60" Pic="\Image\地图\计时塔\天空塔\墙面01-8.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="291" Pos_y="135" Size_x="188" Size_y="188" Pic="\Image\地图\计时塔\天空塔\背景02-4.bmp" Pic_right="188" Pic_bottom="188" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="62" Pos_y="235" Size_x="738" Size_y="268" Pic="\Image\地图\计时塔\天空塔\背景02-5.bmp" Pic_right="512" Pic_bottom="268" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="506" Pos_y="80" Size_x="56" Size_y="400" Pic="\Image\地图\计时塔\天空塔\背景03-2.bmp" Pic_right="56" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="506" Pos_y="48" Size_x="56" Size_y="32" Pic="\Image\地图\计时塔\天空塔\背景03-1.bmp" Pic_right="56" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="368" Pos_y="80" Size_x="56" Size_y="400" Pic="\Image\地图\计时塔\天空塔\背景03-2.bmp" Pic_right="56" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="368" Pos_y="48" Size_x="56" Size_y="32" Pic="\Image\地图\计时塔\天空塔\背景03-1.bmp" Pic_right="56" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="654" Size_x="146" Size_y="264" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="252" Size_x="144" Size_y="128" Pic="\Image\地图\计时塔\天空塔\背景02-3.bmp" Pic_right="128" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="144" Pos_y="252" Size_x="96" Size_y="128" Pic="\Image\地图\计时塔\天空塔\背景02-1.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="144" Size_x="128" Size_y="252" Pic="\Image\地图\计时塔\天空塔\墙面01-6.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Size_x="144" Size_y="252" Pic="\Image\地图\计时塔\天空塔\墙面01-8.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_y="412" Size_x="214" Size_y="188" Pic="\Image\地图\计时塔\天空塔\墙面01-8.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="208" Pos_y="380" Size_x="128" Size_y="192" Pic="\Image\地图\计时塔\天空塔\墙面02-1.bmp" Pic_right="192" Pic_bottom="192" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="380" Size_x="208" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="336" Pos_y="488" Size_x="464" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="698" Pos_y="264" Size_x="102" Size_y="224" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="635" Pos_y="424" Size_x="64" Size_y="64" Pic="\Image\地图\最上部\物件01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Obst="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="651" Pos_y="370" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_left="256" Pic_top="192" Pic_right="288" Pic_bottom="224" Id="1" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\活力宝石.lua" Item="活力宝石" Swing_y="10"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="225" Pos_y="380" Size_x="110" Size_y="108" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-56" Pos_y="252" Size_x="60" Size_y="128" Id="1" Map="天空塔02" MapPos_x="3072" MapPos_y="272"/>
+	</Trap>
+	<Char/>
+</Map>

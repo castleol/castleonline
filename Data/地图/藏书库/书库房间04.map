@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\藏书库\房间04.bmp" Pic_right="256" Pic_bottom="207"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="527" Pos_y="366" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_left="128" Pic_top="192" Pic_right="160" Pic_bottom="224" Id="1" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\疾风靴.lua" Item="疾风靴" Swing_y="10"/>
+		<Item Pos_x="503" Pos_y="422" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\藏宝石台.bmp" Obst="3" Id="2" Type="1"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="486" Size_x="800" Size_y="114" Obst="1"/>
+		<Item Pos_x="700" Size_x="100" Size_y="486" Obst="1"/>
+		<Item Size_x="150" Size_y="162" Obst="1"/>
+		<Item Pos_y="441" Size_x="150" Size_y="46" Obst="1"/>
+		<Item Pos_x="149" Size_x="552" Size_y="70" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-50" Pos_y="163" Size_x="54" Size_y="278" Id="1" Map="书库房间03" MapPos_x="800" MapPos_y="441"/>
+	</Trap>
+	<Char/>
+</Map>

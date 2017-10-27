@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2000" Size_y="500">
+	<Tile>
+		<Item Size_x="2000" Size_y="500" Pic="\image\地图\藏书库\横廊01.bmp" Pic_right="768" Pic_bottom="207"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="492" Pos_y="150" Size_x="17" Size_y="16" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="1" ChildId="2" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="442" Pos_y="133" Size_x="115" Size_y="53" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="2" Type="9" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="991" Pos_y="150" Size_x="17" Size_y="16" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="3" ChildId="4" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="942" Pos_y="133" Size_x="115" Size_y="53" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="4" Type="9" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1492" Pos_y="149" Size_x="17" Size_y="16" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="5" ChildId="6" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1442" Pos_y="132" Size_x="115" Size_y="53" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="6" Type="9" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="1874" Pos_y="58" Size_x="125" Size_y="116" Obst="1"/>
+		<Item Pos_x="1874" Pos_y="328" Size_x="125" Size_y="171" Obst="1"/>
+		<Item Pos_x="1749" Pos_y="367" Size_x="125" Size_y="131" Obst="1"/>
+		<Item Pos_x="249" Pos_y="405" Size_x="1500" Size_y="93" Obst="1"/>
+		<Item Pos_y="58" Size_x="125" Size_y="116" Obst="1"/>
+		<Item Size_x="2000" Size_y="58" Obst="1"/>
+		<Item Pos_y="328" Size_x="125" Size_y="171" Obst="1"/>
+		<Item Pos_x="125" Pos_y="367" Size_x="125" Size_y="131" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="1990" Pos_y="176" Size_x="48" Size_y="150" Id="1" Map="通往藏书库" MapPos_y="407"/>
+		<Item Pos_x="-35" Pos_y="176" Size_x="43" Size_y="150" Id="2" Map="书库横廊02" MapPos_x="800" MapPos_y="328"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="559" Pos_y="334" Size_x="50" Size_y="71" Id="1" Char="骷髅骑士"/>
+		<Item Pos_x="987" Pos_y="334" Size_x="50" Size_y="71" Id="2" Char="骷髅骑士"/>
+		<Item Pos_x="1379" Pos_y="334" Size_x="50" Size_y="71" Id="3" Char="骷髅骑士"/>
+	</Char>
+</Map>

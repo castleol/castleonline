@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="287" Pos_y="230" Size_x="32" Size_y="80" Offs_x="40" Pic="\Image\怪物\类人\半人鸟.bmp" Pic_left="144" Pic_top="78" Pic_right="157" Pic_bottom="91" ColorKey="0x800000" Blend="0x1" Sound="\sound\投掷\飞刀.wav" ItemSize_x="13" ItemSize_y="13" ItemHot_x="7" ItemHot_y="7" ItemLife="2000" ItemScale="2.000" ItemAngle="0.500" ItemQuality="1.000" MinSpeedX="400.000" MaxSpeedX="400.000" MinSpeedY="300.000" MaxSpeedY="300.000" AngleSpeed="16.000" HitType="2" HitOnce="1" EndEffect="爆炸01"/>
+</Effect>

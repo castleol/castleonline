@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="366" Pos_y="480" Size_x="88" Size_y="6" Random="1" EmitInter="20" EmitTime="500" Pic="\Image\怪物\骷髅\骷髅刀客.bmp" Pic_left="224" Pic_top="16" Pic_right="240" Pic_bottom="32" ColorKey="0x800000" Blend="0x2" Sound="\sound\角色\里希特\滑铲1.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="3" ItemFps="10" MinSpeedY="-50.000" MaxSpeedY="-50.000" Follow="1"/>
+</Effect>

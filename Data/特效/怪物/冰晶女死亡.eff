@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="353" Pos_y="373" Size_x="97" Size_y="97" Random="1" EmitInter="25" EmitTime="1500" Pic="\Image\特效\怪物\冰晶.bmp" Pic_right="9" Pic_bottom="24" Filter="0x2" Blend="0x1" EndColor="0xFFFFFF" Sound="\sound\怪物\冰晶女死亡.wav" ItemSize_x="10" ItemSize_y="10" ItemHot_x="5" ItemHot_y="5" ItemLife="1000" ItemQuality="1.000" MinSpeedY="-60.000" MaxSpeedY="-60.000" Follow="1"/>
+</Effect>

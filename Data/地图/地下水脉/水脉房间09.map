@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="500" Pic="\Image\地图\地下水脉\水脉房间09.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFFFF00FF"/>
+		<Item Pos_y="500" Size_x="800" Size_y="100" Color0="0xFF101000" Color1="0xFF101000" Color2="0xFF101000" Color3="0xFF101000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="199" Pos_y="386" Size_x="300" Size_y="78" Pic="\Image\地图\地下水脉\水脉房间09水.bmp" Pic_right="96" Pic_bottom="32" Color0="0x80FFFFFF" Color1="0x80FFFFFF" Color2="0x80FFFFFF" Color3="0x80FFFFFF" Mask="1" Id="1" Type="11" Damage="5"/>
+		<Item Pos_x="474" Pos_y="206" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="284" Pos_y="363" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_left="192" Pic_right="224" Pic_bottom="32" Id="3" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\魔导器.lua" TaskId="15" Item="人鱼之像" Swing_y="4"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="97" Pos_y="324" Size_x="102" Size_y="75" Obst="4"/>
+		<Item Pos_x="51" Pos_y="163" Size_x="49" Size_y="225" Obst="1"/>
+		<Item Pos_x="96" Pos_y="134" Size_x="52" Size_y="76" Obst="1"/>
+		<Item Pos_x="141" Pos_y="99" Size_x="96" Size_y="65" Obst="1"/>
+		<Item Pos_x="232" Pos_y="69" Size_x="50" Size_y="66" Obst="1"/>
+		<Item Pos_x="275" Pos_y="60" Size_x="56" Size_y="64" Obst="1"/>
+		<Item Pos_x="324" Pos_y="46" Size_x="284" Size_y="65" Obst="1"/>
+		<Item Pos_x="565" Pos_y="100" Size_x="98" Size_y="35" Obst="1"/>
+		<Item Pos_x="615" Pos_y="130" Size_x="47" Size_y="46" Obst="1"/>
+		<Item Pos_x="658" Pos_y="153" Size_x="143" Size_y="35" Obst="1"/>
+		<Item Pos_x="75" Pos_y="399" Size_x="125" Size_y="100" Obst="1"/>
+		<Item Pos_x="191" Pos_y="444" Size_x="292" Size_y="35" Obst="1"/>
+		<Item Pos_x="259" Pos_y="405" Size_x="82" Size_y="38" Obst="2"/>
+		<Item Pos_x="450" Pos_y="396" Size_x="41" Size_y="53" Obst="1"/>
+		<Item Pos_x="471" Pos_y="378" Size_x="133" Size_y="35" Obst="1"/>
+		<Item Pos_x="472" Pos_y="328" Size_x="117" Size_y="50" Obst="5"/>
+		<Item Pos_x="588" Pos_y="328" Size_x="212" Size_y="35" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="796" Pos_y="188" Size_x="44" Size_y="140" Id="1" Map="水脉通道10" MapPos_y="340"/>
+	</Trap>
+	<Char/>
+</Map>

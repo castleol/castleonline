@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\怪人\剪刀男.bmp" ColorKey="0xFFFF00FF" Size_x="32" Size_y="80" Scale="2.000" Flip="1" HitEffect="闪光01" HurtEffect="冒血02">
+	<Action Num="9">
+		<Act Name="站立" Next="上剪" Group="1" End="5" Time="2000"/>
+		<Act Name="转身" Next="站立" Group="1" Fps="30" Flip="1"/>
+		<Act Name="移动" State="1" Group="1" End="5" Speed_x="100"/>
+		<Act Name="死亡" Effect="影子死亡" State="14" Group="2" End="2" Loop="2" Time="1500" Sound="3"/>
+		<Act Name="上剪" Next="站立" State="4" Group="2" End="2" Time="500" Sound="2"/>
+		<Act Name="前剪" Next="站立" Effect="滑铲01" State="4" Group="3" End="2" Sound="1" Speed_x="400" AddSpeed_x="400"/>
+		<Act Name="掏剪" Next="舞剪" State="4" Group="4" End="4" Loop="3" Time="800"/>
+		<Act Name="舞剪" Next="投剪" State="4" Group="4" Begin="5" End="9" Loop="6" Time="1000"/>
+		<Act Name="投剪" Next="站立" Effect="剪刀男剪刀" State="4" Group="4" Begin="10" End="18" Time="500" Start="13"/>
+	</Action>
+	<Rect Num="36">
+		<Rect Name="下落" Frame="2" Rect_left="19" Rect_top="-45" Rect_right="68"/>
+		<Rect Name="攻击2" Frame="1" Rect_left="19" Rect_top="-54" Rect_right="55" Rect_bottom="-24"/>
+		<Rect Name="攻击3" Frame="1" Rect_left="15" Rect_top="-64" Rect_right="50" Rect_bottom="-45"/>
+		<Rect Name="上剪" Rect_left="-20" Rect_top="-141" Rect_right="13" Rect_bottom="-93"/>
+		<Rect Name="上剪" Frame="1" Rect_left="-17" Rect_top="-143" Rect_right="10" Rect_bottom="-91"/>
+		<Rect Name="上剪" Frame="2" Rect_left="-16" Rect_top="-145" Rect_right="11" Rect_bottom="-88"/>
+		<Rect Name="前剪" Rect_left="36" Rect_top="-92" Rect_right="91" Rect_bottom="-49"/>
+		<Rect Name="前剪" Frame="1" Rect_left="31" Rect_top="-71" Rect_right="109" Rect_bottom="-43"/>
+		<Rect Name="前剪" Frame="2" Rect_left="34" Rect_top="-90" Rect_right="89" Rect_bottom="-46"/>
+		<Rect Name="掏剪" Rect_left="33" Rect_top="-114" Rect_right="69" Rect_bottom="-58"/>
+		<Rect Name="掏剪" Frame="1" Rect_left="42" Rect_top="-114" Rect_right="75" Rect_bottom="-57"/>
+		<Rect Name="掏剪" Frame="2" Rect_left="42" Rect_top="-112" Rect_right="72" Rect_bottom="-55"/>
+		<Rect Name="掏剪" Frame="3" Rect_left="42" Rect_top="-111" Rect_right="72" Rect_bottom="-63"/>
+		<Rect Name="掏剪" Frame="4" Rect_left="39" Rect_top="-109" Rect_right="75" Rect_bottom="-54"/>
+		<Rect Name="舞剪" Frame="5" Rect_left="42" Rect_top="-111" Rect_right="72" Rect_bottom="-54"/>
+		<Rect Name="舞剪" Frame="6" Rect_left="40" Rect_top="-108" Rect_right="72" Rect_bottom="-54"/>
+		<Rect Name="舞剪" Frame="7" Rect_left="40" Rect_top="-105" Rect_right="74" Rect_bottom="-51"/>
+		<Rect Name="舞剪" Frame="8" Rect_left="40" Rect_top="-111" Rect_right="72" Rect_bottom="-59"/>
+		<Rect Name="舞剪" Frame="9" Rect_left="44" Rect_top="-120" Rect_right="71" Rect_bottom="-66"/>
+		<Rect Name="投剪" Frame="10" Rect_left="38" Rect_top="-107" Rect_right="74" Rect_bottom="-48"/>
+		<Rect Name="投剪" Frame="11" Rect_left="25" Rect_top="-63" Rect_right="73" Rect_bottom="-36"/>
+		<Rect Name="投剪" Frame="12" Rect_left="5" Rect_top="-121" Rect_right="38" Rect_bottom="-80"/>
+		<Rect Name="投剪" Frame="18" Rect_left="26" Rect_top="-120" Rect_right="54" Rect_bottom="-66"/>
+		<Rect Name="投剪" Frame="17" Rect_left="20" Rect_top="-99" Rect_right="50" Rect_bottom="-54"/>
+		<Rect Name="站立" Rect_left="20" Rect_top="-106" Rect_right="56" Rect_bottom="-73"/>
+		<Rect Name="站立" Frame="1" Rect_left="24" Rect_top="-116" Rect_right="53" Rect_bottom="-66"/>
+		<Rect Name="站立" Frame="2" Rect_left="23" Rect_top="-115" Rect_right="56" Rect_bottom="-70"/>
+		<Rect Name="站立" Frame="3" Rect_left="23" Rect_top="-109" Rect_right="60" Rect_bottom="-72"/>
+		<Rect Name="站立" Frame="4" Rect_left="23" Rect_top="-119" Rect_right="52" Rect_bottom="-67"/>
+		<Rect Name="站立" Frame="5" Rect_left="22" Rect_top="-114" Rect_right="52" Rect_bottom="-66"/>
+		<Rect Name="移动" Rect_left="21" Rect_top="-109" Rect_right="54" Rect_bottom="-67"/>
+		<Rect Name="移动" Frame="1" Rect_left="24" Rect_top="-116" Rect_right="55" Rect_bottom="-69"/>
+		<Rect Name="移动" Frame="2" Rect_left="22" Rect_top="-114" Rect_right="52" Rect_bottom="-67"/>
+		<Rect Name="移动" Frame="3" Rect_left="19" Rect_top="-111" Rect_right="61" Rect_bottom="-69"/>
+		<Rect Name="移动" Frame="4" Rect_left="26" Rect_top="-120" Rect_right="51" Rect_bottom="-71"/>
+		<Rect Name="移动" Frame="5" Rect_left="24" Rect_top="-116" Rect_right="51" Rect_bottom="-62"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="4">
+		<Snd Id="1" File="\Sound\怪物\守墓人攻击.wav"/>
+		<Snd Id="2" File="\sound\物品\重武器.wav"/>
+		<Snd Id="3" File="\Sound\怪物\死士死亡.wav"/>
+		<Snd Id="4" File="\sound\物品\武器.wav"/>
+	</Sound>
+	<Image Num="33">
+		<Img Group="1" Pos_x="3" Pos_y="5" Size_x="51" Size_y="59" Hot_x="30" Hot_y="59"/>
+		<Img Group="1" Frame="1" Pos_x="54" Pos_y="5" Size_x="47" Size_y="59" Hot_x="29" Hot_y="59"/>
+		<Img Group="1" Frame="2" Pos_x="101" Pos_y="5" Size_x="52" Size_y="59" Hot_x="30" Hot_y="59"/>
+		<Img Group="1" Frame="3" Pos_x="153" Pos_y="5" Size_x="52" Size_y="59" Hot_x="31" Hot_y="59"/>
+		<Img Group="1" Frame="4" Pos_x="205" Pos_y="5" Size_x="45" Size_y="59" Hot_x="29" Hot_y="59"/>
+		<Img Group="1" Frame="5" Pos_x="254" Pos_y="5" Size_x="50" Size_y="59" Hot_x="28" Hot_y="59"/>
+		<Img Group="1" Frame="6" Pos_x="307" Pos_y="3" Size_x="50" Size_y="61" Hot_x="28" Hot_y="61"/>
+		<Img Group="2" Pos_x="1" Pos_y="70" Size_x="39" Size_y="74" Hot_x="18" Hot_y="74"/>
+		<Img Group="2" Frame="1" Pos_x="40" Pos_y="70" Size_x="41" Size_y="74" Hot_x="20" Hot_y="74"/>
+		<Img Group="2" Frame="2" Pos_x="81" Pos_y="70" Size_x="41" Size_y="74" Hot_x="20" Hot_y="74"/>
+		<Img Group="3" Pos_x="205" Pos_y="99" Size_x="74" Size_y="45" Hot_x="47" Hot_y="45"/>
+		<Img Group="3" Frame="1" Time="500" Pos_x="126" Pos_y="102" Size_x="79" Size_y="42" Hot_x="55" Hot_y="42"/>
+		<Img Group="3" Frame="2" Pos_x="205" Pos_y="99" Size_x="74" Size_y="45" Hot_x="47" Hot_y="45"/>
+		<Img Group="4" Pos_x="1" Pos_y="149" Size_x="57" Size_y="59" Hot_x="37" Hot_y="59"/>
+		<Img Group="4" Frame="1" Pos_x="58" Pos_y="149" Size_x="59" Size_y="59" Hot_x="39" Hot_y="59"/>
+		<Img Group="4" Frame="2" Pos_x="117" Pos_y="149" Size_x="61" Size_y="59" Hot_x="39" Hot_y="59"/>
+		<Img Group="4" Frame="3" Pos_x="178" Pos_y="149" Size_x="61" Size_y="59" Hot_x="40" Hot_y="59"/>
+		<Img Group="4" Frame="4" Pos_x="239" Pos_y="149" Size_x="58" Size_y="59" Hot_x="38" Hot_y="59"/>
+		<Img Group="4" Frame="5" Pos_x="297" Pos_y="149" Size_x="58" Size_y="59" Hot_x="37" Hot_y="59"/>
+		<Img Group="4" Frame="6" Pos_x="2" Pos_y="213" Size_x="73" Size_y="59" Hot_x="38" Hot_y="59"/>
+		<Img Group="4" Frame="7" Pos_x="78" Pos_y="213" Size_x="78" Size_y="59" Hot_x="38" Hot_y="59"/>
+		<Img Group="4" Frame="8" Pos_x="156" Pos_y="213" Size_x="81" Size_y="59" Hot_x="40" Hot_y="59"/>
+		<Img Group="4" Frame="9" Pos_x="237" Pos_y="213" Size_x="81" Size_y="59" Hot_x="39" Hot_y="59"/>
+		<Img Group="4" Frame="10" Pos_x="318" Pos_y="213" Size_x="66" Size_y="59" Hot_x="37" Hot_y="59"/>
+		<Img Group="4" Frame="11" Pos_x="1" Pos_y="274" Size_x="59" Size_y="62" Hot_x="37" Hot_y="62"/>
+		<Img Group="4" Frame="12" Pos_x="60" Pos_y="274" Size_x="50" Size_y="62" Hot_x="25" Hot_y="62"/>
+		<Img Group="4" Frame="13" Time="400" Pos_x="110" Pos_y="274" Size_x="50" Size_y="62" Hot_x="26" Hot_y="62"/>
+		<Img Group="4" Frame="14" Pos_x="160" Pos_y="274" Size_x="41" Size_y="62" Hot_x="24" Hot_y="62"/>
+		<Img Group="4" Frame="15" Pos_x="201" Pos_y="274" Size_x="41" Size_y="62" Hot_x="30" Hot_y="62"/>
+		<Img Group="4" Frame="16" Pos_x="242" Pos_y="274" Size_x="51" Size_y="62" Hot_x="39" Hot_y="62"/>
+		<Img Group="4" Frame="17" Pos_x="293" Pos_y="274" Size_x="42" Size_y="62" Hot_x="28" Hot_y="62"/>
+		<Img Group="4" Frame="18" Pos_x="335" Pos_y="274" Size_x="41" Size_y="62" Hot_x="29" Hot_y="62"/>
+		<Img Group="5" Pos_x="301" Pos_y="105" Size_x="24" Size_y="32" Hot_x="9" Hot_y="15"/>
+	</Image>
+</Char>

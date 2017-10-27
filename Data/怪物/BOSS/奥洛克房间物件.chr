@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\特效\场景\物件01.bmp" ColorKey="0xFF00FF" Size_x="24" Size_y="56" Scale="2.000" Shadow="1" HitEffect="闪光01">
+	<Action Num="6">
+		<Act Name="站立" Group="1"/>
+		<Act Name="转身" Group="1" Next="移动1" Flip="1"/>
+		<Act Name="死亡" State="14" Time="500" Sound="1" Effect="鬼桌子死亡"/>
+		<Act Name="启动" Group="1" Next="移动1" Effect="鬼桌子物品"/>
+		<Act Name="移动1" State="1" Group="2" End="7" Fps="15" Next="移动2" Speed_x="64"/>
+		<Act Name="移动2" State="1" Group="3" End="7" Fps="15" Next="移动1" Speed_x="64" Flip="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\sound\怪物\鬼桌子死亡.wav"/>
+	</Sound>
+	<Image Num="10">
+		<Img Group="1" Pos_x="1" Size_x="18" Size_y="79" Hot_x="8" Hot_y="79"/>
+		<Img Group="1" Frame="1" Pos_x="20" Size_x="16" Size_y="29" Hot_x="8" Hot_y="15"/>
+		<Img Group="1" Frame="2" Pos_x="22" Pos_y="29" Size_x="14" Size_y="29" Hot_x="8" Hot_y="15"/>
+		<Img Group="1" Frame="3" Pos_x="19" Pos_y="58" Size_x="19" Size_y="21" Hot_x="8" Hot_y="15"/>
+		<Img Group="2" Pos_x="37" Pos_y="3" Size_x="9" Size_y="22" Hot_x="4" Hot_y="22"/>
+		<Img Group="2" Frame="1" Pos_x="49" Pos_y="6" Size_x="12" Size_y="20" Hot_x="6" Hot_y="11"/>
+		<Img Group="3" Pos_x="39" Pos_y="40" Size_x="23" Size_y="39" Hot_x="12" Hot_y="39"/>
+		<Img Group="3" Frame="1" Pos_x="64" Pos_y="62" Size_x="29" Size_y="17" Hot_x="15" Hot_y="8"/>
+		<Img Group="4" Pos_x="65" Pos_y="1" Size_x="126" Size_y="30" Hot_x="63" Hot_y="30"/>
+		<Img Group="4" Frame="1" Pos_x="65" Pos_y="32" Size_x="126" Size_y="27" Hot_x="63" Hot_y="27"/>
+	</Image>
+</Char>

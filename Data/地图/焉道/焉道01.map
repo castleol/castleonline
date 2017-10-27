@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="2925">
+	<Tile>
+		<Item Size_x="800" Size_y="621" Pic="\Image\地图\焉道\焉道01-1.bmp" Pic_right="256" Pic_bottom="207"/>
+		<Item Pos_y="621" Size_x="800" Size_y="621" Pic="\Image\地图\焉道\焉道01-2.bmp" Pic_right="256" Pic_bottom="207"/>
+		<Item Pos_y="1242" Size_x="800" Size_y="621" Pic="\Image\地图\焉道\焉道01-3.bmp" Pic_right="256" Pic_bottom="207"/>
+		<Item Pos_y="1863" Size_x="800" Size_y="621" Pic="\Image\地图\焉道\焉道01-4.bmp" Pic_right="256" Pic_bottom="207"/>
+		<Item Pos_y="2484" Size_x="800" Size_y="441" Pic="\Image\地图\焉道\焉道01-5.bmp" Pic_right="256" Pic_bottom="147"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="179" Pos_y="452" Size_x="40" Size_y="100" Pic="\Image\地图\焉道\灯柱.bmp" Pic_right="20" Pic_bottom="50" ColorKey="0x80" Frames="4" Fps="10" Id="1" ChildId="2" Damage="1" Effect="\data\地图\焉道\灯柱破裂1.eff" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\焉道.lua"/>
+		<Item Pos_x="119" Pos_y="401" Size_x="160" Size_y="160" Pic="\image\地图\焉道\灯光.bmp" Pic_right="53" Pic_bottom="53" Blend="0x1" ColorKey="0xFF000000" Frames="2" Fps="15" Id="2" Type="9"/>
+		<Item Pos_x="601" Pos_y="836" Size_x="40" Size_y="100" Pic="\Image\地图\焉道\灯柱.bmp" Pic_right="20" Pic_bottom="50" ColorKey="0x80" Frames="4" Fps="10" Id="3" ChildId="4" Damage="1" Effect="\data\地图\焉道\灯柱破裂1.eff" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\焉道.lua"/>
+		<Item Pos_x="541" Pos_y="782" Size_x="160" Size_y="160" Pic="\image\地图\焉道\灯光.bmp" Pic_right="53" Pic_bottom="53" Blend="0x1" ColorKey="0xFF000000" Frames="2" Fps="15" Id="4" Type="9"/>
+		<Item Pos_x="154" Pos_y="1220" Size_x="40" Size_y="100" Pic="\Image\地图\焉道\灯柱.bmp" Pic_right="20" Pic_bottom="50" ColorKey="0x80" Frames="4" Fps="10" Id="5" ChildId="6" Damage="1" Effect="\data\地图\焉道\灯柱破裂1.eff" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\焉道.lua"/>
+		<Item Pos_x="94" Pos_y="1166" Size_x="160" Size_y="160" Pic="\image\地图\焉道\灯光.bmp" Pic_right="53" Pic_bottom="53" Blend="0x1" ColorKey="0xFF000000" Frames="2" Fps="15" Id="6" Type="9"/>
+		<Item Pos_x="154" Pos_y="1699" Size_x="40" Size_y="100" Pic="\Image\地图\焉道\灯柱.bmp" Pic_right="20" Pic_bottom="50" ColorKey="0x80" Frames="4" Fps="10" Id="7" ChildId="8" Damage="1" Effect="\data\地图\焉道\灯柱破裂1.eff" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\焉道.lua"/>
+		<Item Pos_x="94" Pos_y="1645" Size_x="160" Size_y="160" Pic="\image\地图\焉道\灯光.bmp" Pic_right="53" Pic_bottom="53" Blend="0x1" ColorKey="0xFF000000" Frames="2" Fps="15" Id="8" Type="9"/>
+		<Item Pos_x="126" Pos_y="2179" Size_x="40" Size_y="100" Pic="\Image\地图\焉道\灯柱.bmp" Pic_right="20" Pic_bottom="50" ColorKey="0x80" Frames="4" Fps="10" Id="9" ChildId="10" Damage="1" Effect="\data\地图\焉道\灯柱破裂1.eff" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\焉道.lua"/>
+		<Item Pos_x="66" Pos_y="2125" Size_x="160" Size_y="160" Pic="\image\地图\焉道\灯光.bmp" Pic_right="53" Pic_bottom="53" Blend="0x1" ColorKey="0xFF000000" Frames="2" Fps="15" Id="10" Type="9"/>
+		<Item Pos_x="205" Pos_y="2688" Size_x="40" Size_y="120" Pic="\Image\地图\焉道\灯柱.bmp" Pic_top="50" Pic_right="20" Pic_bottom="110" ColorKey="0x80" Frames="4" Fps="10" Id="11" ChildId="12" Damage="1" Effect="\data\地图\焉道\灯柱破裂2.eff" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\焉道.lua"/>
+		<Item Pos_x="145" Pos_y="2634" Size_x="160" Size_y="160" Pic="\image\地图\焉道\灯光.bmp" Pic_right="53" Pic_bottom="53" Blend="0x1" ColorKey="0xFF000000" Frames="2" Fps="15" Id="12" Type="9"/>
+		<Item Pos_x="559" Pos_y="2688" Size_x="40" Size_y="120" Pic="\Image\地图\焉道\灯柱.bmp" Pic_top="50" Pic_right="20" Pic_bottom="110" ColorKey="0x80" Frames="4" Fps="10" Id="13" ChildId="14" Damage="1" Effect="\data\地图\焉道\灯柱破裂2.eff" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\焉道.lua"/>
+		<Item Pos_x="499" Pos_y="2634" Size_x="160" Size_y="160" Pic="\image\地图\焉道\灯光.bmp" Pic_right="53" Pic_bottom="53" Blend="0x1" ColorKey="0xFF000000" Frames="2" Fps="15" Id="14" Type="9"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="66" Size_x="663" Size_y="120" Obst="1"/>
+		<Item Pos_x="30" Pos_y="63" Size_x="70" Size_y="781" Obst="1"/>
+		<Item Pos_x="80" Pos_y="358" Size_x="70" Size_y="307" Obst="1"/>
+		<Item Pos_x="549" Pos_y="408" Size_x="251" Size_y="48" Obst="1"/>
+		<Item Pos_x="149" Pos_y="552" Size_x="102" Size_y="52" Obst="1"/>
+		<Item Pos_x="550" Pos_y="936" Size_x="150" Size_y="52" Obst="1"/>
+		<Item Pos_x="350" Pos_y="744" Size_x="102" Size_y="52" Obst="1"/>
+		<Item Pos_x="349" Pos_y="1128" Size_x="102" Size_y="52" Obst="1"/>
+		<Item Pos_x="84" Pos_y="1320" Size_x="166" Size_y="52" Obst="1"/>
+		<Item Pos_x="100" Pos_y="1800" Size_x="150" Size_y="52" Obst="1"/>
+		<Item Pos_x="44" Pos_y="2280" Size_x="206" Size_y="52" Obst="1"/>
+		<Item Pos_x="144" Pos_y="2808" Size_x="520" Size_y="52" Obst="1"/>
+		<Item Pos_x="650" Pos_y="2712" Size_x="150" Size_y="138" Obst="1"/>
+		<Item Pos_x="48" Pos_y="2664" Size_x="102" Size_y="183" Obst="1"/>
+		<Item Pos_x="100" Pos_y="2616" Size_x="49" Size_y="48" Obst="4"/>
+		<Item Pos_x="38" Pos_y="2317" Size_x="62" Size_y="347" Obst="1"/>
+		<Item Pos_y="1990" Size_x="50" Size_y="306" Obst="1"/>
+		<Item Pos_x="36" Pos_y="1174" Size_x="64" Size_y="870" Obst="1"/>
+		<Item Pos_x="48" Pos_y="1127" Size_x="52" Size_y="47" Obst="4"/>
+		<Item Pos_y="816" Size_x="50" Size_y="406" Obst="1"/>
+		<Item Pos_x="700" Pos_y="78" Size_x="100" Size_y="139" Obst="1"/>
+		<Item Pos_x="700" Pos_y="444" Size_x="79" Size_y="831" Obst="1"/>
+		<Item Pos_x="750" Pos_y="1173" Size_x="50" Size_y="376" Obst="1"/>
+		<Item Pos_x="550" Pos_y="1944" Size_x="250" Size_y="96" Obst="1"/>
+		<Item Pos_x="650" Pos_y="1999" Size_x="150" Size_y="186" Obst="1"/>
+		<Item Pos_x="700" Pos_y="2160" Size_x="100" Size_y="360" Obst="1"/>
+		<Item Pos_x="595" Pos_y="1689" Size_x="205" Size_y="63" Obst="1"/>
+		<Item Pos_x="434" Pos_y="1653" Size_x="188" Size_y="52" Obst="1"/>
+		<Item Pos_x="400" Pos_y="1603" Size_x="102" Size_y="75" Obst="1"/>
+		<Item Pos_x="400" Pos_y="1560" Size_x="51" Size_y="43" Obst="5"/>
+		<Item Pos_x="451" Pos_y="1560" Size_x="200" Size_y="52" Obst="1"/>
+		<Item Pos_x="554" Pos_y="1532" Size_x="86" Size_y="28" Obst="5"/>
+		<Item Pos_x="641" Pos_y="1512" Size_x="123" Size_y="49" Obst="1"/>
+		<Item Pos_x="349" Pos_y="2088" Size_x="102" Size_y="52" Obst="1"/>
+		<Item Pos_x="349" Pos_y="2472" Size_x="102" Size_y="52" Obst="1"/>
+		<Item Pos_x="99" Pos_y="313" Size_x="51" Size_y="45" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="792" Pos_y="231" Size_x="56" Size_y="172" Id="1" Map="通往焉道" MapPos_y="407"/>
+		<Item Pos_x="796" Pos_y="2527" Size_x="45" Size_y="181" Id="2" Map="焉道复活" MapPos_y="426"/>
+		<Item Pos_x="794" Pos_y="1762" Size_x="59" Size_y="179" Id="3" Map="焉道02" MapPos_y="394"/>
+	</Trap>
+	<Char/>
+</Map>

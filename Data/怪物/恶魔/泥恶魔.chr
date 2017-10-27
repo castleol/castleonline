@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\恶魔\泥恶魔.bmp" ColorKey="0xFFFF00FF" Size_x="32" Size_y="70" Scale="2.000" Flip="1" HitEffect="闪光01" HurtEffect="冒血02">
+	<Action Num="6">
+		<Act Name="站立" Group="3"/>
+		<Act Name="出现" Group="3" End="4" Next="移动"/>
+		<Act Name="移动" State="1" Group="2" End="5" Time="3000" Next="转身" Speed_x="50"/>
+		<Act Name="转身" Group="2" Next="移动" Flip="1"/>
+		<Act Name="攻击" State="4" Group="1" End="9" Fps="30" Sound="1" Next="移动"/>
+		<Act Name="死亡" State="14" Group="1" Begin="3" End="3" Loop="3" Time="500" Start="-1" Sound="2" Effect="爆炸06"/>
+	</Action>
+	<Rect Num="3">
+		<Rect Name="攻击" Frame="7" Rect_left="-6" Rect_top="-77" Rect_right="44" Rect_bottom="-53"/>
+		<Rect Name="攻击" Frame="8" Rect_left="-10" Rect_top="-81" Rect_right="76" Rect_bottom="-53"/>
+		<Rect Name="攻击" Frame="9" Rect_left="-8" Rect_top="-79" Rect_right="122" Rect_bottom="-51"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\泥人攻击.wav"/>
+		<Snd Id="2" File="\sound\怪物\泥人死亡.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="21">
+		<Img Group="1" Pos_x="12" Pos_y="13" Size_x="30" Size_y="44" Hot_x="20" Hot_y="44"/>
+		<Img Group="1" Frame="1" Pos_x="52" Pos_y="13" Size_x="30" Size_y="44" Hot_x="20" Hot_y="44"/>
+		<Img Group="1" Frame="2" Pos_x="93" Pos_y="13" Size_x="30" Size_y="44" Hot_x="17" Hot_y="44"/>
+		<Img Group="1" Frame="3" Pos_x="135" Pos_y="13" Size_x="23" Size_y="44" Hot_x="12" Hot_y="44"/>
+		<Img Group="1" Frame="4" Pos_x="173" Pos_y="13" Size_x="21" Size_y="44" Hot_x="10" Hot_y="44"/>
+		<Img Group="1" Frame="5" Pos_x="210" Pos_y="13" Size_x="22" Size_y="44" Hot_x="10" Hot_y="44"/>
+		<Img Group="1" Frame="6" Pos_x="244" Pos_y="13" Size_x="28" Size_y="44" Hot_x="15" Hot_y="44"/>
+		<Img Group="1" Frame="7" Pos_x="281" Pos_y="13" Size_x="37" Size_y="44" Hot_x="22" Hot_y="44"/>
+		<Img Group="1" Frame="8" Pos_x="327" Pos_y="13" Size_x="53" Size_y="44" Hot_x="38" Hot_y="44"/>
+		<Img Group="1" Frame="9" Time="300" Pos_x="384" Pos_y="13" Size_x="76" Size_y="44" Hot_x="61" Hot_y="44"/>
+		<Img Group="2" Pos_x="26" Pos_y="73" Size_x="30" Size_y="42" Hot_x="17" Hot_y="42"/>
+		<Img Group="2" Frame="1" Pos_x="56" Pos_y="73" Size_x="27" Size_y="42" Hot_x="17" Hot_y="42"/>
+		<Img Group="2" Frame="2" Pos_x="83" Pos_y="73" Size_x="27" Size_y="42" Hot_x="16" Hot_y="42"/>
+		<Img Group="2" Frame="3" Pos_x="110" Pos_y="73" Size_x="31" Size_y="42" Hot_x="17" Hot_y="42"/>
+		<Img Group="2" Frame="4" Pos_x="141" Pos_y="73" Size_x="31" Size_y="42" Hot_x="19" Hot_y="42"/>
+		<Img Group="2" Frame="5" Pos_x="177" Pos_y="73" Size_x="29" Size_y="42" Hot_x="18" Hot_y="42"/>
+		<Img Group="3" Pos_x="237" Pos_y="91" Size_x="28" Size_y="24" Hot_x="15" Hot_y="24"/>
+		<Img Group="3" Frame="1" Pos_x="265" Pos_y="91" Size_x="37" Size_y="24" Hot_x="18" Hot_y="24"/>
+		<Img Group="3" Frame="2" Pos_x="302" Pos_y="91" Size_x="37" Size_y="24" Hot_x="18" Hot_y="24"/>
+		<Img Group="3" Frame="3" Pos_x="339" Pos_y="91" Size_x="34" Size_y="24" Hot_x="15" Hot_y="24"/>
+		<Img Group="3" Frame="4" Pos_x="12" Pos_y="13" Size_x="30" Size_y="44" Hot_x="17" Hot_y="44"/>
+	</Image>
+</Char>

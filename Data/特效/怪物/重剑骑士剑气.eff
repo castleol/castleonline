@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="346" Pos_y="390" Size_x="64" Size_y="64" Offs_x="50" Pic="\Image\特效\怪物\剑气.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00" Blend="0x1" EndColor="0x80FFFFFF" BeginTime="400" EndTime="800" Sound="\sound\怪物\重剑骑士攻击3.wav" ItemSize_x="120" ItemSize_y="80" ItemHot_x="60" ItemHot_y="80" ItemLife="1200" HitType="2" FlipTime="100" Appear="1"/>
+	<Item Pos_x="346" Pos_y="390" Size_x="64" Size_y="64" Offs_x="100" EmitInter="200" EmitTime="200" Pic="\Image\特效\怪物\剑气.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00" Blend="0x1" EndColor="0x80FFFFFF" BeginTime="400" EndTime="800" ItemSize_x="120" ItemSize_y="80" ItemHot_x="60" ItemHot_y="80" ItemLife="1200" HitType="2" FlipTime="100" Appear="1"/>
+	<Item Pos_x="347" Pos_y="390" Size_x="64" Size_y="64" Offs_x="150" EmitInter="400" EmitTime="400" Pic="\Image\特效\怪物\剑气.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00" Blend="0x1" EndColor="0x80FFFFFF" BeginTime="400" EndTime="800" ItemSize_x="120" ItemSize_y="80" ItemHot_x="60" ItemHot_y="80" ItemLife="1200" HitType="2" FlipTime="100" Appear="1"/>
+	<Item Pos_x="347" Pos_y="390" Size_x="64" Size_y="64" Offs_x="200" EmitInter="600" EmitTime="600" Pic="\Image\特效\怪物\剑气.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00" Blend="0x1" EndColor="0x80FFFFFF" BeginTime="400" EndTime="800" ItemSize_x="120" ItemSize_y="80" ItemHot_x="60" ItemHot_y="80" ItemLife="1200" HitType="2" FlipTime="100" Appear="1"/>
+</Effect>

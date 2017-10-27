@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="368" Pos_y="370" Size_x="56" Size_y="82" Random="1" EmitInter="50" EmitTime="1000" Pic="\Image\特效\爆炸\002.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF000000" Filter="0x2" Blend="0x1" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="14" ItemFps="20" MinSpeedY="-50.000" MaxSpeedY="-50.000"/>
+	<Item Pos_x="380" Pos_y="396" Size_x="30" Size_y="58" Offs_y="-50" Pic="\Image\特效\粒子\Ring.bmp" Pic_right="56" Pic_bottom="56" Filter="0x2" Blend="0x1" EndColor="0x10FFFFFF" Sound="\sound\怪物\装甲骑士死亡.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemLife="1000" ItemScale="0.500" ScaleSpeed="9.000"/>
+</Effect>

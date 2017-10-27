@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_y="204" Size_x="800" Size_y="214" Pic="\Image\地图\炼金研究所\背景06.bmp" Pic_right="478" Pic_bottom="320" Tile="1"/>
+		<Item Pos_y="1" Size_x="114" Size_y="263" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="64" Pic_bottom="80" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="690" Pos_y="265" Size_x="110" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1" Group="30"/>
+		<Item Pos_x="114" Size_x="576" Size_y="183" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="64" Pic_bottom="80" Tile="1" Flip="2" Group="4"/>
+		<Item Pos_x="114" Pos_y="183" Size_x="576" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1" Group="4"/>
+		<Item Pos_x="777" Pos_y="273" Size_x="16" Size_y="14" Pic="\Image\地图\炼金研究所\地面03.bmp" Pic_right="8" Pic_bottom="14" Group="30"/>
+		<Item Pos_x="690" Size_x="110" Size_y="265" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="48" Pic_bottom="80" Tile="1" Flip="2" Obst="1" Group="30"/>
+		<Item Pos_x="277" Pos_y="191" Size_x="8" Size_y="14" Pic="\Image\地图\炼金研究所\地面03.bmp" Pic_right="8" Pic_bottom="14" Flip="1" Group="4"/>
+		<Item Pos_y="417" Size_x="800" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Obst="1"/>
+		<Item Pos_y="439" Size_x="800" Size_y="161" Pic="\Image\地图\炼金研究所\墙壁03.bmp" Pic_right="64" Pic_bottom="80" Tile="1" Obst="1"/>
+		<Item Pos_y="264" Size_x="114" Size_y="22" Pic="\Image\地图\炼金研究所\地面01.bmp" Pic_right="64" Pic_bottom="22" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_y="288" Size_x="95" Size_y="128" Pic="\Image\地图\炼金研究所\墙壁05.bmp" Pic_right="64" Pic_bottom="128" Tile="1"/>
+	</Tile>
+	<Anim/>
+	<Obst/>
+	<Trap>
+		<Item Pos_x="-55" Pos_y="292" Size_x="62" Size_y="125" Id="1" Map="炼金房间05" MapPos_x="3200" MapPos_y="1017"/>
+		<Item Pos_x="791" Pos_y="292" Size_x="62" Size_y="125" Id="2" Map="炼金竖井06" MapPos_y="1817"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="293" Pos_y="345" Size_x="38" Size_y="72" Id="1" Char="骷髅士兵" Left="1"/>
+		<Item Pos_x="515" Pos_y="345" Size_x="38" Size_y="72" Id="2" Char="骷髅士兵" Left="1"/>
+	</Char>
+</Map>

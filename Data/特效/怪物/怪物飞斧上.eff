@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="365" Pos_y="366" Size_x="40" Size_y="78" Offs_x="40" Offs_y="-90" Pic="\Image\特效\投掷\道具.bmp" Pic_top="64" Pic_right="21" Pic_bottom="85" ColorKey="0xFF00FF" Sound="\Sound\怪物\扔斧怪攻击.wav" ItemSize_x="40" ItemSize_y="40" ItemHot_x="20" ItemHot_y="20" ItemFrame="1" ItemLife="3600" MinSpeedX="300.000" MaxSpeedX="300.000" AddSpeedX="-200.000" AngleSpeed="8.000" HitType="2" Destroy="1" EndEffect="爆炸01"/>
+</Effect>

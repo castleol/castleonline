@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1600" Size_y="600">
+	<Tile>
+		<Item Size_x="1600" Size_y="600" Pic="\Image\地图\计时塔\天空塔\背景01-1.bmp" Pic_right="256" Pic_bottom="492" ColorKey="0xFF00FF" Tile="1" DeltaX="0.300"/>
+		<Item Pos_x="112" Size_x="1360" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-3.bmp" Pic_right="192" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="288" Pos_y="194" Size_x="188" Size_y="188" Pic="\Image\地图\计时塔\天空塔\背景02-4.bmp" Pic_right="188" Pic_bottom="188" ColorKey="0xFF00FF" Tile="1" DeltaX="0.300"/>
+		<Item Pos_x="62" Pos_y="268" Size_x="1474" Size_y="268" Pic="\Image\地图\计时塔\天空塔\背景02-5.bmp" Pic_right="512" Pic_bottom="268" ColorKey="0xFF00FF" Tile="1" DeltaX="0.500"/>
+		<Item Pos_x="1504" Pos_y="240" Size_x="96" Size_y="128" Pic="\Image\地图\计时塔\天空塔\背景02-1.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="558" Pos_y="58" Size_x="512" Size_y="478" Pic="\Image\地图\计时塔\红砖塔\背景04-2.bmp" Pic_right="162" Pic_bottom="155" ColorKey="0xFF00FF"/>
+		<Item Pos_x="1472" Size_x="128" Size_y="240" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="230" Size_x="96" Size_y="140" Pic="\Image\地图\计时塔\天空塔\背景02-1.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_y="368" Size_x="146" Size_y="168" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="1454" Pos_y="368" Size_x="146" Size_y="168" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="536" Size_x="1600" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="80" Pos_y="232" Size_x="26" Size_y="124" Pic="\Image\地图\计时塔\机械塔\栅栏门.bmp" Pic_right="26" Pic_bottom="124" ColorKey="0xFF00FF" Obst="1" Id="1" Type="3" Time="1600" Sound="\sound\场景\机关04.wav" EndPos_x="80" EndPos_y="108"/>
+		<Item Pos_x="180" Pos_y="522" Size_x="28" Size_y="14" Pic="\Image\地图\斗技场\大门机关.bmp" Pic_right="28" Pic_bottom="14" ColorKey="0xFF00FF" Tile="1" Obst="2" Id="2" Type="5" Time="300" Sound="\sound\场景\开关02.wav" Script="\data\脚本\地图机关\红砖塔03.lua" Item="开关" TaskId="1" EndPos_x="180" EndPos_y="536" EndSize_x="28"/>
+		<Item Size_x="128" Size_y="232" Pic="\Image\地图\计时塔\天空塔\墙面01-6.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1" Obst="1" Id="3"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="688" Pos_y="240" Size_x="252" Size_y="34" Obst="2"/>
+		<Item Pos_x="668" Pos_y="486" Size_x="290" Size_y="50" Obst="2"/>
+		<Item Pos_x="718" Pos_y="437" Size_x="190" Size_y="48" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-49" Pos_y="237" Size_x="52" Size_y="128" Id="1" Map="最上部通计时塔" MapPos_x="800" MapPos_y="407"/>
+		<Item Pos_x="1596" Pos_y="240" Size_x="52" Size_y="128" Id="2" Map="红砖塔02" MapPos_y="364"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="783" Pos_y="452" Size_x="70" Size_y="84" Id="1" Char="羽恶魔"/>
+	</Char>
+</Map>

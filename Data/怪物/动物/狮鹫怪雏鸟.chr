@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\BOSS\狮鹫怪.bmp" ColorKey="0xFF00FF" Size_x="32" Size_y="32" Scale="2.000" Flip="1" HitEffect="闪光01" HurtShader="5">
+	<Action Num="5">
+		<Act Name="站立" Next="破壳" Group="1" Time="1000"/>
+		<Act Name="破壳" Next="起飞" Group="1" End="5" Loop="4"/>
+		<Act Name="起飞" Next="消失" State="3" Group="1" Begin="4" End="5" Loop="4" Time="2000" Start="-1" Sound="1" Speed_x="400" AddSpeed_y="-150" Fly="1"/>
+		<Act Name="消失" State="14" Group="1" Begin="4" End="5" Loop="4" Time="500" Fly="1"/>
+		<Act Name="死亡" Effect="鬼桌子死亡" State="14" Time="500" Fly="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\狮鹫怪雏鸟.wav"/>
+		<Snd Id="2" File="\sound\怪物\蝙蝠死亡.wav"/>
+	</Sound>
+	<Image Num="6">
+		<Img Group="1" Pos_y="16" Size_x="16" Size_y="16" Hot_x="7" Hot_y="16"/>
+		<Img Group="1" Frame="1" Pos_x="16" Pos_y="16" Size_x="16" Size_y="16" Hot_x="7" Hot_y="16"/>
+		<Img Group="1" Frame="2" Pos_x="32" Pos_y="16" Size_x="16" Size_y="16" Hot_x="7" Hot_y="16"/>
+		<Img Group="1" Frame="3" Pos_x="48" Pos_y="16" Size_x="16" Size_y="16" Hot_x="7" Hot_y="16"/>
+		<Img Group="1" Frame="4" Pos_x="64" Pos_y="16" Size_x="16" Size_y="16" Hot_x="7" Hot_y="16"/>
+		<Img Group="1" Frame="5" Pos_x="80" Pos_y="16" Size_x="16" Size_y="16" Hot_x="7" Hot_y="16"/>
+	</Image>
+</Char>

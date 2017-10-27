@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="325" Pos_y="307" Size_x="64" Size_y="64" Offs_y="-10" Pic="奥洛克" Group="11" ColorKey="0xFF00FF" Blend="0x1" ItemSize_x="80" ItemSize_y="80" ItemHot_x="40" ItemHot_y="40" ItemFrame="4" ItemFps="10" ItemLife="4000" ItemScale="2.000" MoveItem="1" Flip="1"/>
+</Effect>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1536" Size_y="1400">
+	<Tile>
+		<Item Size_x="1536" Size_y="1400" Pic="\image\地图\诅咒监狱\房间01.bmp" Pic_right="768" Pic_bottom="700"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Size_x="95" Size_y="160" Obst="1"/>
+		<Item Pos_x="95" Size_x="1346" Size_y="64" Obst="1"/>
+		<Item Pos_x="1441" Size_x="95" Size_y="160" Obst="1"/>
+		<Item Pos_x="258" Pos_y="288" Size_x="1278" Size_y="32" Obst="1"/>
+		<Item Pos_y="544" Size_x="1278" Size_y="32" Obst="1"/>
+		<Item Pos_x="258" Pos_y="800" Size_x="1278" Size_y="32" Obst="1"/>
+		<Item Pos_y="1056" Size_x="1278" Size_y="32" Obst="1"/>
+		<Item Pos_y="1312" Size_x="1536" Size_y="88" Obst="1"/>
+		<Item Pos_y="288" Size_x="64" Size_y="256" Obst="1"/>
+		<Item Pos_y="800" Size_x="64" Size_y="256" Obst="1"/>
+		<Item Pos_x="1472" Pos_y="1056" Size_x="64" Size_y="256" Obst="1"/>
+		<Item Pos_x="1472" Pos_y="544" Size_x="64" Size_y="256" Obst="1"/>
+		<Item Pos_x="1216" Pos_y="544" Size_x="256" Size_y="256" Obst="5"/>
+		<Item Pos_x="1216" Pos_y="1056" Size_x="256" Size_y="256" Obst="5"/>
+		<Item Pos_x="63" Pos_y="288" Size_x="256" Size_y="256" Obst="4"/>
+		<Item Pos_x="63" Pos_y="800" Size_x="256" Size_y="256" Obst="4"/>
+		<Item Pos_y="1088" Size_x="32" Size_y="96" Obst="1"/>
+		<Item Pos_x="1504" Pos_y="320" Size_x="32" Size_y="224" Obst="1"/>
+		<Item Pos_x="1504" Pos_y="832" Size_x="32" Size_y="224" Obst="1"/>
+		<Item Pos_y="576" Size_x="32" Size_y="224" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-47" Pos_y="1184" Size_x="51" Size_y="128" Id="1" Map="诅咒监狱走廊01" MapPos_x="3000" MapPos_y="400"/>
+		<Item Pos_x="-49" Pos_y="160" Size_x="51" Size_y="128" Id="2" Map="诅咒监狱复活01" MapPos_x="800" MapPos_y="380"/>
+		<Item Pos_x="1533" Pos_y="160" Size_x="51" Size_y="128" Id="3" Map="通道诅咒监狱" MapPos_y="407"/>
+	</Trap>
+	<Char/>
+</Map>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1400">
+	<Tile>
+		<Item Size_x="800" Size_y="1400" Pic="\Image\地图\地下通道\通道03-1.bmp" Pic_right="256" Pic_bottom="460" ColorKey="0x800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="107" Pos_y="746" Size_x="32" Size_y="64" Pic="\Image\地图\动画\瓶子01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFFFFFFFF" Flip="1" Frames="1" Id="1" Damage="1" Effect="灯台02" Sound="\sound\物件\瓶子.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="钱袋100"/>
+		<Item Pos_x="691" Pos_y="746" Size_x="32" Size_y="64" Pic="\Image\地图\动画\瓶子01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFFFFFFFF" Flip="1" Frames="1" Id="2" Damage="1" Effect="灯台02" Sound="\sound\物件\瓶子.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="钱袋100"/>
+		<Item Pos_x="272" Pos_y="118" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="5" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="184" Pos_y="619" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="6" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="496" Pos_y="423" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="7" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="452" Pos_y="887" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="6" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="1199" Size_x="800" Size_y="200" Obst="1"/>
+		<Item Pos_x="249" Pos_y="420" Size_x="208" Size_y="205" Obst="4"/>
+		<Item Pos_x="46" Size_x="454" Size_y="30" Obst="1"/>
+		<Item Pos_x="749" Size_x="51" Size_y="810" Obst="1"/>
+		<Item Size_x="46" Size_y="810" Obst="1"/>
+		<Item Pos_x="397" Pos_y="225" Size_x="352" Size_y="49" Obst="1"/>
+		<Item Pos_x="44" Pos_y="223" Size_x="157" Size_y="49" Obst="1"/>
+		<Item Pos_x="46" Pos_y="420" Size_x="203" Size_y="49" Obst="1"/>
+		<Item Pos_x="352" Pos_y="625" Size_x="105" Size_y="39" Obst="1"/>
+		<Item Pos_x="598" Pos_y="615" Size_x="151" Size_y="48" Obst="1"/>
+		<Item Pos_x="497" Pos_y="810" Size_x="303" Size_y="49" Obst="1"/>
+		<Item Pos_y="810" Size_x="248" Size_y="49" Obst="1"/>
+		<Item Pos_x="248" Pos_y="810" Size_x="209" Size_y="203" Obst="4"/>
+		<Item Pos_x="358" Pos_y="1013" Size_x="99" Size_y="39" Obst="1"/>
+		<Item Pos_y="859" Size_x="151" Size_y="145" Obst="1"/>
+		<Item Pos_x="649" Pos_y="859" Size_x="151" Size_y="145" Obst="1"/>
+		<Item Pos_x="597" Pos_y="956" Size_x="52" Size_y="48" Obst="1"/>
+		<Item Pos_x="546" Pos_y="122" Size_x="56" Size_y="103" Obst="2"/>
+		<Item Pos_x="651" Size_x="98" Size_y="30" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="791" Pos_y="1012" Size_x="73" Size_y="180" Id="1" Map="地下通道竖井02" MapPos_y="5200"/>
+		<Item Pos_x="-65" Pos_y="1010" Size_x="73" Size_y="180" Id="2" Map="地下通道房间09" MapPos_x="800" MapPos_y="394"/>
+		<Item Pos_x="500" Pos_y="-31" Size_x="150" Size_y="34" Id="3" Map="地下通道房间12" MapPos_x="500" MapPos_y="600"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="73" Pos_y="354" Size_x="44" Size_y="66" Id="1" Char="弓箭骷髅"/>
+		<Item Pos_x="655" Pos_y="549" Size_x="44" Size_y="66" Id="2" Char="长枪守卫" Left="1"/>
+		<Item Pos_x="73" Pos_y="157" Size_x="44" Size_y="66" Id="3" Char="弓箭骷髅"/>
+		<Item Pos_x="486" Pos_y="159" Size_x="44" Size_y="66" Id="4" Char="长枪守卫" Left="1"/>
+	</Char>
+</Map>

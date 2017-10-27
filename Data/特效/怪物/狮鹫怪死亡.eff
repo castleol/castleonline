@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="368" Pos_y="370" Size_x="56" Size_y="82" Random="1" EmitInter="150" EmitTime="1500" Pic="\Image\特效\爆炸\002.bmp" Pic_right="32" Pic_bottom="32" Blend="0x1" EmitSound="\sound\特效\爆炸07.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="14" ItemFps="20" MinSpeedY="-50.000" MaxSpeedY="-50.000"/>
+	<Item Pos_x="367" Pos_y="379" Size_x="56" Size_y="76" Offs_y="-80" EmitNum="10" EmitInter="100" EmitTime="1000" EndColor="0xFFFFFF" ItemSize_x="3" ItemSize_y="3" ItemHot_x="1" ItemHot_y="1" ItemLife="1000" MinSpeedX="-200.000" MaxSpeedX="200.000" MinSpeedY="-200.000" MaxSpeedY="200.000"/>
+	<Item Pos_x="380" Pos_y="396" Size_x="30" Size_y="58" Offs_y="-80" Pic="\Image\特效\粒子\Spark.bmp" Pic_right="48" Pic_bottom="48" Filter="0x2" Blend="0x1" EndColor="0xFFFFFF" ItemSize_x="48" ItemSize_y="48" ItemHot_x="24" ItemHot_y="24" ItemLife="1500" ItemScale="0.100" AngleSpeed="4.000" ScaleSpeed="4.000"/>
+</Effect>

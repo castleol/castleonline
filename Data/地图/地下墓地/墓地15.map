@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2400" Size_y="600">
+	<Tile>
+		<Item Pos_y="479" Size_x="2400" Size_y="121" Pic="\Image\地图\地下墓地\墓地15-5.bmp" Pic_right="90" Pic_bottom="177" Filter="0x1" ColorKey="0x800000" Tile="1"/>
+		<Item Size_x="2400" Size_y="466" Pic="\Image\地图\地下墓地\墓地15-4.bmp" Pic_right="192" Pic_bottom="378" Filter="0x1" ColorKey="0x800000" Tile="1"/>
+		<Item Pos_y="203" Size_x="2400" Size_y="265" Color0="0xCC000000" Color1="0xCC000000" Color2="0x0" Color3="0x0"/>
+		<Item Size_x="2400" Size_y="204" Color0="0x0" Color1="0x0" Color2="0xCC000000" Color3="0xCC000000"/>
+		<Item Size_x="800" Size_y="487" Pic="\Image\地图\地下墓地\墓地15-1.bmp" Pic_right="256" Pic_bottom="168" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="800" Size_x="800" Size_y="487" Pic="\Image\地图\地下墓地\墓地15-2.bmp" Pic_right="256" Pic_bottom="168" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="1600" Size_x="800" Size_y="487" Pic="\Image\地图\地下墓地\墓地15-3.bmp" Pic_right="256" Pic_bottom="168" Filter="0x1" ColorKey="0x800000"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_y="92" Size_x="140" Size_y="117" Obst="1"/>
+		<Item Pos_x="114" Pos_y="133" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="156" Pos_y="106" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="205" Pos_y="86" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="245" Pos_y="71" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="303" Pos_y="60" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="358" Pos_y="49" Size_x="78" Size_y="53" Obst="1"/>
+		<Item Pos_x="431" Pos_y="37" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="480" Pos_y="17" Size_x="1014" Size_y="53" Obst="1"/>
+		<Item Pos_x="1477" Pos_y="20" Size_x="64" Size_y="40" Obst="1"/>
+		<Item Pos_x="1523" Pos_y="9" Size_x="64" Size_y="43" Obst="1"/>
+		<Item Pos_x="1578" Pos_y="4" Size_x="70" Size_y="39" Obst="1"/>
+		<Item Pos_x="1610" Size_x="410" Size_y="23" Obst="1"/>
+		<Item Pos_x="1754" Pos_y="17" Size_x="188" Size_y="29" Obst="1"/>
+		<Item Pos_x="1867" Pos_y="16" Size_x="247" Size_y="53" Obst="1"/>
+		<Item Pos_x="2089" Pos_y="45" Size_x="98" Size_y="59" Obst="1"/>
+		<Item Pos_x="2165" Pos_y="81" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="2199" Pos_y="105" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="2236" Pos_y="137" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="2260" Pos_y="157" Size_x="140" Size_y="53" Obst="1"/>
+		<Item Pos_x="1806" Pos_y="394" Size_x="594" Size_y="53" Obst="1"/>
+		<Item Pos_x="1957" Pos_y="348" Size_x="89" Size_y="53" Obst="1"/>
+		<Item Pos_x="1839" Pos_y="348" Size_x="118" Size_y="50" Obst="5"/>
+		<Item Pos_x="2045" Pos_y="348" Size_x="124" Size_y="53" Obst="4"/>
+		<Item Pos_x="1616" Pos_y="394" Size_x="191" Size_y="53" Obst="5"/>
+		<Item Pos_x="146" Pos_y="441" Size_x="1526" Size_y="53" Obst="1"/>
+		<Item Pos_x="1439" Pos_y="394" Size_x="130" Size_y="54" Obst="4"/>
+		<Item Pos_x="1056" Pos_y="394" Size_x="384" Size_y="53" Obst="1"/>
+		<Item Pos_x="852" Pos_y="394" Size_x="204" Size_y="53" Obst="5"/>
+		<Item Pos_y="394" Size_x="137" Size_y="53" Obst="1"/>
+		<Item Pos_x="134" Pos_y="394" Size_x="138" Size_y="53" Obst="4"/>
+	</Obst>
+	<Trap/>
+	<Char/>
+</Map>

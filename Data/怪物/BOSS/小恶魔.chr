@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\BOSS\小恶魔.bmp" ColorKey="0xFF00FF" Size_x="40" Size_y="90" Scale="2.000" HitEffect="闪光01" HurtEffect="冒血02">
+	<Action Num="14">
+		<Act Name="站立" Group="1" End="5"/>
+		<Act Name="转身" Next="移动" Group="1" Flip="1"/>
+		<Act Name="移动" State="1" Group="1" End="5" Speed_x="100"/>
+		<Act Name="攻击" Next="站立" State="4" Group="2" End="4" Start="3" Sound="2" Speed_x="300" AddSpeed_x="600">
+			<Act Name="光效" Group="4" End="2" Loop="2" TimeBegin="500" TimeEnd="1000" ColorEnd="0xFFFFFF" Blend="0x1"/>
+		</Act>
+		<Act Name="下落" State="3" Group="3" Begin="2" End="2" Loop="2" Start="2" AddSpeed_y="1000"/>
+		<Act Name="落地" Next="站立" Group="3" Time="200" Sound="3"/>
+		<Act Name="死亡" Next="消失" Effect="小恶魔死亡" State="13" Group="1" End="5" Fps="5" Time="2000" Start="-1" Sound="6" Shader="1" Speed_x="50" AddSpeed_y="800"/>
+		<Act Name="飞行" State="1" Group="7" End="12" Fps="25" Sound="1" Speed_x="100" Fly="1"/>
+		<Act Name="起飞" Next="飞行" State="3" Group="3" End="4" Loop="1" Time="1000" Start="1" Sound="1" Speed_y="-150" Fly="1"/>
+		<Act Name="地面火球" Next="站立" Effect="小恶魔火球" State="4" Group="2" End="4" Start="2" Sound="1">
+			<Act Name="光效" Group="4" End="2" Loop="2" TimeBegin="500" TimeEnd="1000" ColorEnd="0xFFFFFF" Blend="0x1"/>
+		</Act>
+		<Act Name="空中火球" Next="飞行" Effect="小恶魔绿火" State="6" Group="6" End="4" Fps="20" Start="3" Fly="1"/>
+		<Act Name="空中召唤" Next="飞行" Effect="小恶魔召唤" State="12" Group="5" End="1" Loop="1" Time="2000" Sound="5" Fly="1"/>
+		<Act Name="空中聚气" Next="空中火球" Effect="小恶魔聚气" State="6" Group="6" Time="500" Sound="4" Fly="1"/>
+		<Act Name="消失" State="14" Group="1" Fps="5" Time="1000"/>
+	</Action>
+	<Rect Num="3">
+		<Rect Name="攻击" Frame="2" Rect_left="3" Rect_top="-81" Rect_right="85" Rect_bottom="-29"/>
+		<Rect Name="攻击" Frame="3" Rect_left="-7" Rect_top="-83" Rect_right="89" Rect_bottom="-47"/>
+		<Rect Name="攻击" Frame="4" Rect_left="-7" Rect_top="-79" Rect_right="87" Rect_bottom="-51"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="6">
+		<Snd Id="1" File="\sound\怪物\飞飞魔飞行.wav"/>
+		<Snd Id="2" File="\sound\怪物\飞飞魔受伤.wav"/>
+		<Snd Id="3" File="\sound\怪物\小恶魔落地.wav"/>
+		<Snd Id="4" File="\sound\怪物\小恶魔聚气.wav"/>
+		<Snd Id="5" File="\sound\怪物\小恶魔召唤.wav"/>
+		<Snd Id="6" File="\sound\怪物\小恶魔死亡.wav"/>
+	</Sound>
+	<Image Num="40">
+		<Img Group="1" Pos_x="3" Pos_y="5" Size_x="48" Size_y="61" Hot_x="27" Hot_y="61"/>
+		<Img Group="1" Frame="1" Pos_x="57" Pos_y="5" Size_x="50" Size_y="61" Hot_x="27" Hot_y="61"/>
+		<Img Group="1" Frame="2" Pos_x="114" Pos_y="5" Size_x="48" Size_y="61" Hot_x="27" Hot_y="61"/>
+		<Img Group="1" Frame="3" Pos_x="170" Pos_y="5" Size_x="49" Size_y="61" Hot_x="27" Hot_y="61"/>
+		<Img Group="1" Frame="4" Pos_x="227" Pos_y="5" Size_x="50" Size_y="61" Hot_x="27" Hot_y="61"/>
+		<Img Group="1" Frame="5" Pos_x="284" Pos_y="5" Size_x="49" Size_y="61" Hot_x="27" Hot_y="61"/>
+		<Img Group="2" Pos_x="5" Pos_y="75" Size_x="48" Size_y="60" Hot_x="30" Hot_y="60" Speed="1"/>
+		<Img Group="2" Frame="1" Time="200" Pos_x="64" Pos_y="75" Size_x="55" Size_y="60" Hot_x="30" Hot_y="60"/>
+		<Img Group="2" Frame="2" Pos_x="125" Pos_y="75" Size_x="48" Size_y="60" Hot_x="28" Hot_y="60"/>
+		<Img Group="2" Frame="3" Time="300" Pos_x="181" Pos_y="75" Size_x="51" Size_y="60" Hot_x="23" Hot_y="60"/>
+		<Img Group="2" Frame="4" Pos_x="238" Pos_y="75" Size_x="45" Size_y="60" Hot_x="24" Hot_y="60"/>
+		<Img Group="3" Pos_x="6" Pos_y="146" Size_x="51" Size_y="58" Hot_x="32" Hot_y="58"/>
+		<Img Group="3" Frame="1" Pos_x="65" Pos_y="146" Size_x="56" Size_y="64" Hot_x="35" Hot_y="64"/>
+		<Img Group="3" Frame="2" Pos_x="127" Pos_y="141" Size_x="56" Size_y="86" Hot_x="33" Hot_y="86"/>
+		<Img Group="3" Frame="3" Pos_x="197" Pos_y="160" Size_x="51" Size_y="44" Hot_x="11" Hot_y="56"/>
+		<Img Group="3" Frame="4" Pos_x="257" Pos_y="157" Size_x="51" Size_y="57" Hot_x="33" Hot_y="69"/>
+		<Img Group="4" Pos_x="356" Pos_y="5" Size_x="56" Size_y="19" Hot_x="24" Hot_y="28" Scale="1.500"/>
+		<Img Group="4" Frame="1" Pos_x="356" Pos_y="36" Size_x="56" Size_y="11" Hot_x="23" Hot_y="27" Scale="1.500"/>
+		<Img Group="4" Frame="2" Pos_x="356" Pos_y="55" Size_x="56" Size_y="11" Hot_x="23" Hot_y="27" Scale="1.500"/>
+		<Img Group="4" Frame="3" Pos_x="356" Pos_y="55" Size_x="56" Size_y="11" Hot_x="23" Hot_y="27" Scale="1.500"/>
+		<Img Group="5" Pos_x="9" Pos_y="217" Size_x="55" Size_y="86" Hot_x="37" Hot_y="85"/>
+		<Img Group="5" Frame="1" Pos_x="68" Pos_y="217" Size_x="55" Size_y="86" Hot_x="37" Hot_y="85"/>
+		<Img Group="6" Pos_x="137" Pos_y="234" Size_x="55" Size_y="87" Hot_x="37" Hot_y="85" Speed="1"/>
+		<Img Group="6" Frame="1" Pos_x="199" Pos_y="234" Size_x="56" Size_y="71" Hot_x="38" Hot_y="71"/>
+		<Img Group="6" Frame="2" Pos_x="261" Pos_y="234" Size_x="55" Size_y="71" Hot_x="38" Hot_y="71"/>
+		<Img Group="6" Frame="3" Pos_x="322" Pos_y="234" Size_x="50" Size_y="71" Hot_x="33" Hot_y="77"/>
+		<Img Group="6" Frame="4" Time="200" Pos_x="385" Pos_y="234" Size_x="51" Size_y="71" Hot_x="14" Hot_y="71"/>
+		<Img Group="7" Pos_x="1" Pos_y="311" Size_x="57" Size_y="86" Hot_x="40" Hot_y="86"/>
+		<Img Group="7" Frame="1" Pos_x="65" Pos_y="311" Size_x="53" Size_y="86" Hot_x="36" Hot_y="85"/>
+		<Img Group="7" Frame="2" Pos_x="129" Pos_y="332" Size_x="59" Size_y="65" Hot_x="40" Hot_y="67"/>
+		<Img Group="7" Frame="3" Pos_x="196" Pos_y="332" Size_x="53" Size_y="65" Hot_x="35" Hot_y="63"/>
+		<Img Group="7" Frame="4" Pos_x="259" Pos_y="332" Size_x="50" Size_y="65" Hot_x="32" Hot_y="66"/>
+		<Img Group="7" Frame="5" Pos_x="318" Pos_y="332" Size_x="47" Size_y="65" Hot_x="29" Hot_y="64"/>
+		<Img Group="7" Frame="6" Pos_x="375" Pos_y="332" Size_x="51" Size_y="65" Hot_x="15" Hot_y="65"/>
+		<Img Group="7" Frame="7" Pos_x="435" Pos_y="332" Size_x="52" Size_y="65" Hot_x="9" Hot_y="67"/>
+		<Img Group="7" Frame="8" Pos_x="495" Pos_y="332" Size_x="49" Size_y="65" Hot_x="15" Hot_y="67"/>
+		<Img Group="7" Frame="9" Pos_x="318" Pos_y="332" Size_x="47" Size_y="65" Hot_x="29" Hot_y="64"/>
+		<Img Group="7" Frame="10" Pos_x="259" Pos_y="332" Size_x="50" Size_y="65" Hot_x="32" Hot_y="66"/>
+		<Img Group="7" Frame="11" Pos_x="196" Pos_y="332" Size_x="53" Size_y="65" Hot_x="35" Hot_y="63"/>
+		<Img Group="7" Frame="12" Pos_x="129" Pos_y="332" Size_x="59" Size_y="65" Hot_x="40" Hot_y="67"/>
+	</Image>
+</Char>

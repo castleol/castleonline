@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1300" Size_y="500">
+	<Tile>
+		<Item Size_x="1300" Size_y="500" Pic="\image\地图\藏书库\横廊03.bmp" Pic_right="512" Pic_bottom="207"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="439" Pos_y="150" Size_x="17" Size_y="16" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="1" ChildId="2" Damage="1" Effect="灯台02" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="391" Pos_y="133" Size_x="112" Size_y="53" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="2" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="846" Pos_y="150" Size_x="17" Size_y="16" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="3" ChildId="4" Damage="1" Effect="灯台02" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="798" Pos_y="133" Size_x="112" Size_y="53" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="4" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="1177" Pos_y="58" Size_x="122" Size_y="116" Obst="1"/>
+		<Item Pos_x="1178" Pos_y="328" Size_x="122" Size_y="171" Obst="1"/>
+		<Item Pos_x="1057" Pos_y="367" Size_x="120" Size_y="131" Obst="1"/>
+		<Item Pos_x="243" Pos_y="405" Size_x="814" Size_y="93" Obst="1"/>
+		<Item Pos_y="58" Size_x="122" Size_y="116" Obst="1"/>
+		<Item Size_x="1300" Size_y="58" Obst="1"/>
+		<Item Pos_y="328" Size_x="122" Size_y="171" Obst="1"/>
+		<Item Pos_x="122" Pos_y="367" Size_x="122" Size_y="131" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="1290" Pos_y="176" Size_x="47" Size_y="150" Id="1" Map="书库竖廊01" MapPos_y="1621"/>
+		<Item Pos_x="-30" Pos_y="176" Size_x="36" Size_y="150" Id="2" Map="书库房间01" MapPos_x="800" MapPos_y="1015"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="887" Pos_y="351" Size_x="54" Size_y="54" Id="1" Char="跳蚤男"/>
+		<Item Pos_x="709" Pos_y="351" Size_x="54" Size_y="54" Id="2" Char="跳蚤男"/>
+		<Item Pos_x="333" Pos_y="351" Size_x="54" Size_y="54" Id="3" Char="跳蚤男"/>
+		<Item Pos_x="524" Pos_y="351" Size_x="54" Size_y="54" Id="4" Char="跳蚤男"/>
+		<Item Pos_x="429" Pos_y="351" Size_x="54" Size_y="54" Id="5" Char="骷髅骑士"/>
+		<Item Pos_x="799" Pos_y="351" Size_x="54" Size_y="54" Id="6" Char="骷髅骑士"/>
+	</Char>
+</Map>

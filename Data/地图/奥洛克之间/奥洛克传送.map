@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_x="321" Pos_y="282" Size_x="162" Size_y="188" Color2="0xFFF05090" Color3="0xFFB0C848"/>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\通用\月下传送房间\房间.bmp" Pic_right="256" Pic_bottom="240" ColorKey="0xFFFFFFFF"/>
+		<Item Pos_x="650" Pos_y="230" Size_x="150" Size_y="160" Pic="\Image\地图\通用\月下传送房间\墙壁.bmp" Pic_right="48" Pic_bottom="64" Obst="1"/>
+		<Item Pos_x="331" Pos_y="110" Size_x="138" Size_y="210" Pic="\Image\地图\通用\月下传送房间\浮雕.bmp" Pic_left="88" Pic_right="132" Pic_bottom="84" ColorKey="0xFFFFFFFF"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="223" Pos_y="469" Size_x="353" Size_y="40" Obst="2"/>
+		<Item Pos_y="390" Size_x="150" Size_y="210" Obst="1"/>
+		<Item Pos_x="650" Pos_y="390" Size_x="150" Size_y="210" Obst="1"/>
+		<Item Size_x="150" Size_y="230" Obst="1"/>
+		<Item Pos_x="650" Size_x="150" Size_y="230" Obst="1"/>
+		<Item Pos_x="150" Size_x="500" Size_y="110" Obst="1"/>
+		<Item Pos_x="150" Pos_y="510" Size_x="500" Size_y="90" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-51" Pos_y="254" Size_x="58" Size_y="128" Id="1" Map="奥洛克走廊04" MapPos_x="800" MapPos_y="2964"/>
+		<Item Pos_x="359" Pos_y="445" Size_x="84" Size_y="26" Id="2" Type="3" Map="地图传送" Lua="\data\脚本\地图传送\奥洛克传送.lua" Effect="传送01"/>
+	</Trap>
+	<Char/>
+</Map>

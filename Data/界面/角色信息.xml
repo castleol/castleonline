@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<desktop>
+	<Control Name="CharInfo" Class="Static" Size_x="460" Size_y="96" Font="4" TextRect_left="120" TextRect_right="460" TextRect_bottom="96">
+		<Control Name="Hide" Class="Button" TopMost="1" Size_x="16" Size_y="16" TextRect_right="16" TextRect_bottom="16" Pic="\image\界面\导航地图\隐藏按钮.bmp" PicRect_right="16" PicRect_bottom="16" PushPic="\image\界面\导航地图\隐藏按钮.bmp" PushPicRect_left="16" PushPicRect_right="32" PushPicRect_bottom="16" PushTextColor="0xFFFFFFFF" MovePic="\image\界面\导航地图\隐藏按钮.bmp" MovePicRect_left="32" MovePicRect_right="48" MovePicRect_bottom="16"/>
+		<Control Name="Player" Class="Window" Size_x="290" Size_y="96" TextRect_right="290" TextRect_bottom="96" Pic="\image\界面\角色信息\back.bmp" PicRect_right="290" PicRect_bottom="96" PopupEffect="1" CloseEffect="1">
+			<Control Name="Head" Class="Static" Pos_x="9" Pos_y="9" Size_x="73" Size_y="72" Text="单人模式" Font="4" TextAlign="3" TextRect_right="73" TextRect_bottom="72" TextColor="0xFFFFFF00" DownColor="0xFFFF0000" Pic="\image\角色\阿鲁卡多\角色信息.bmp" PicRect_right="73" PicRect_bottom="72"/>
+			<Control Name="Hp" Class="Progress" Pos_x="91" Pos_y="45" Size_x="160" Size_y="10" Text="33/100" Font="4" TextAlign="1" TextRect_right="160" TextRect_bottom="10" DownColor="0xFFF00000" Pic="\image\界面\角色信息\hp.bmp" PicRect_right="160" PicRect_bottom="10" ForePic="\image\界面\角色信息\hp.bmp" ForePicRect_top="10" ForePicRect_right="160" ForePicRect_bottom="20" Value="33.000" TextStyle="1"/>
+			<Control Name="Mp" Class="Progress" Pos_x="91" Pos_y="61" Size_x="160" Size_y="10" Text="32/100" Font="4" TextAlign="1" TextRect_right="160" TextRect_bottom="10" DownColor="0xFF00FFFF" Pic="\image\界面\角色信息\mp.bmp" PicRect_right="160" PicRect_bottom="10" ForePic="\image\界面\角色信息\mp.bmp" ForePicRect_top="10" ForePicRect_right="160" ForePicRect_bottom="20" Value="32.000" TextStyle="1"/>
+			<Control Name="Heart" Class="Static" Pos_x="123" Pos_y="77" Size_x="60" Size_y="18" Text="9999" Font="4" TextRect_right="60" TextRect_bottom="18" TextColor="0xFFFFFF00" DownColor="0xFFFF0000"/>
+			<Control Name="Silver" Class="Static" Pos_x="207" Pos_y="77" Size_x="60" Size_y="18" Text="9999" Font="4" TextRect_right="60" TextRect_bottom="18" TextColor="0xFFFFFF00" DownColor="0xFFF00000"/>
+			<Control Name="Level" Class="Static" Pos_x="82" Pos_y="14" Size_x="32" Size_y="18" Text="100" Font="4" TextAlign="1" TextRect_right="32" TextRect_bottom="18" TextColor="0xFFFFB333" DownColor="0xFFFFFF00"/>
+			<Control Name="Name" Class="Static" Pos_x="116" Pos_y="19" Size_x="116" Size_y="19" Text="角色名称" Font="5" TextAlign="1" TextRect_right="116" TextRect_bottom="19" TextColor="0xFFE0D090" DownColor="0xFFFFFF00"/>
+		</Control>
+		<Control Name="Enemy" Class="Window" Pos_x="291" Pos_y="14" Size_x="169" Size_y="41" TextRect_right="169" TextRect_bottom="41" Pic="\image\界面\角色信息\enemy.bmp" PopupEffect="1" CloseEffect="1" Effect_x="300" Effect_y="14" CloseTime="3000">
+			<Control Name="Level" Class="Static" Pos_x="7" Pos_y="12" Size_x="30" Size_y="16" Text="Lv10" TextAlign="1" TextRect_right="30" TextRect_bottom="16" TextColor="0xFFFFFF80"/>
+			<Control Name="Name" Class="Static" Pos_x="41" Pos_y="5" Size_x="110" Size_y="18" Text="Bloody" TextAlign="1" TextRect_right="110" TextRect_bottom="18" TextColor="0xFFFFFF80"/>
+			<Control Name="Hp" Class="Progress" Pos_x="41" Pos_y="27" Size_x="115" Size_y="8" Text="50/100" Font="4" TextAlign="1" TextRect_right="115" TextRect_bottom="8" DownColor="0xFFFF0000" Pic="\image\界面\角色信息\enemyhp.bmp" PicRect_top="8" PicRect_right="115" PicRect_bottom="16" ForePic="\image\界面\角色信息\enemyhp.bmp" ForePicRect_right="115" ForePicRect_bottom="8" TextStyle="1"/>
+		</Control>
+	</Control>
+</desktop>

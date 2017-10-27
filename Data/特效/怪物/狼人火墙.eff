@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="416" Pos_y="424" Size_x="64" Size_y="64" Pic="\Image\怪物\BOSS\狼人.bmp" Pic_left="320" Pic_top="256" Pic_right="352" Pic_bottom="320" ColorKey="0xFF00" Blend="0x2" Sound="\sound\怪物\狼人火墙.wav" ItemSize_x="2" ItemSize_y="200" ItemHot_x="1" ItemHot_y="200" ItemSizeAdd_x="4" ItemSizeAdd_y="-3" ItemLife="1000" HitType="2" Magic="1" FlipTime="50"/>
+</Effect>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\通用\苍月复活房间\复活01.bmp" Pic_right="256" Pic_bottom="192"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="102" Pos_y="1" Size_x="597" Size_y="99" Obst="1"/>
+		<Item Size_x="101" Size_y="200" Obst="1"/>
+		<Item Pos_x="700" Size_x="100" Size_y="400" Obst="1"/>
+		<Item Pos_y="400" Size_x="99" Size_y="199" Obst="1"/>
+		<Item Pos_x="700" Pos_y="400" Size_x="100" Size_y="200" Obst="1"/>
+		<Item Pos_x="99" Pos_y="454" Size_x="93" Size_y="96" Obst="4"/>
+		<Item Pos_x="100" Pos_y="550" Size_x="600" Size_y="49" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-53" Pos_y="238" Size_x="60" Size_y="148" Id="1" Map="失落的村庄05" MapPos_x="800" MapPos_y="750"/>
+		<Item Pos_x="346" Pos_y="523" Size_x="107" Size_y="27" Id="2" Type="2" Map="角色存盘" Lua="\data\脚本\系统脚本\角色存盘.lua"/>
+		<Item Pos_x="13" Pos_y="338" Size_x="86" Size_y="62" Id="3" Type="1" Map="消息提示" Tips="Press @2Up@c at statue to set rebirth point"/>
+	</Trap>
+	<Char/>
+</Map>

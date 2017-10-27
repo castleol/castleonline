@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\怪人\跳蚤甲兵.bmp" ColorKey="0xFF00FF00" Size_x="48" Size_y="48" Scale="2.000" HitEffect="闪光01" HurtEffect="冒血02">
+	<Action Num="9">
+		<Act Name="站立" Group="1" End="2" Fps="5"/>
+		<Act Name="转身" State="2" Group="1" Fps="30" Next="站立" Flip="1"/>
+		<Act Name="移动" State="1" Group="2" End="2" Speed_x="100"/>
+		<Act Name="下落" State="3" Group="3" Begin="1" End="2" Loop="2" Start="1" Sound="1" Speed_x="-1" AddSpeed_y="1200"/>
+		<Act Name="落地" State="3" Group="1" Next="站立"/>
+		<Act Name="死亡" State="14" Group="1" Time="50" Effect="跳蚤甲兵死亡"/>
+		<Act Name="跳跃1" State="3" Group="3" Speed_x="100" Speed_y="-500" AddSpeed_y="2000"/>
+		<Act Name="跳跃2" State="3" Group="3" Speed_x="100" Speed_y="-700" AddSpeed_y="2000"/>
+		<Act Name="跳跃3" State="3" Group="3" Speed_x="100" Speed_y="-900" AddSpeed_y="2000"/>
+	</Action>
+	<Rect Num="5">
+		<Rect Name="跳跃1" Rect_left="-56" Rect_top="-73" Rect_right="-18" Rect_bottom="-33"/>
+		<Rect Name="跳跃2" Rect_left="-54" Rect_top="-71" Rect_right="-18" Rect_bottom="-35"/>
+		<Rect Name="跳跃3" Rect_left="-58" Rect_top="-71" Rect_right="-18" Rect_bottom="-33"/>
+		<Rect Name="下落" Frame="1" Rect_left="32" Rect_top="-103" Rect_right="82" Rect_bottom="-1"/>
+		<Rect Name="下落" Frame="2" Rect_left="16" Rect_top="-25" Rect_right="56" Rect_bottom="35"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\Sound\怪物\跳蚤甲兵攻击.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="9">
+		<Img Group="1" Pos_x="5" Pos_y="4" Size_x="34" Size_y="35" Hot_x="16" Hot_y="35"/>
+		<Img Group="1" Frame="1" Pos_x="41" Pos_y="4" Size_x="32" Size_y="35" Hot_x="15" Hot_y="35"/>
+		<Img Group="1" Frame="2" Pos_x="77" Pos_y="4" Size_x="32" Size_y="35" Hot_x="15" Hot_y="35"/>
+		<Img Group="2" Pos_x="4" Pos_y="44" Size_x="36" Size_y="39" Hot_x="18" Hot_y="39"/>
+		<Img Group="2" Frame="1" Pos_x="45" Pos_y="44" Size_x="36" Size_y="39" Hot_x="18" Hot_y="39"/>
+		<Img Group="2" Frame="2" Pos_x="85" Pos_y="44" Size_x="36" Size_y="39" Hot_x="18" Hot_y="39"/>
+		<Img Group="3" Pos_x="3" Pos_y="87" Size_x="41" Size_y="52" Hot_x="28" Hot_y="52"/>
+		<Img Group="3" Frame="1" Pos_x="49" Pos_y="87" Size_x="62" Size_y="52" Hot_x="19" Hot_y="52"/>
+		<Img Group="3" Frame="2" Pos_x="115" Pos_y="87" Size_x="40" Size_y="54" Hot_x="10" Hot_y="36"/>
+	</Image>
+</Char>

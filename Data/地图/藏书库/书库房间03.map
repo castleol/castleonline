@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\藏书库\房间03.bmp" Pic_right="256" Pic_bottom="207"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="381" Pos_y="281" Size_x="36" Size_y="90" Pic="\image\地图\藏书库\台灯02.bmp" Pic_right="15" Pic_bottom="31" ColorKey="0x800000" Frames="6" Fps="10" Id="1" Effect="灯台02" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="441" Size_x="800" Size_y="159" Obst="1"/>
+		<Item Pos_x="500" Size_x="300" Size_y="162" Obst="1"/>
+		<Item Size_x="150" Size_y="210" Obst="1"/>
+		<Item Pos_y="394" Size_x="150" Size_y="48" Obst="1"/>
+		<Item Pos_x="149" Size_x="352" Size_y="116" Obst="1"/>
+		<Item Pos_x="325" Pos_y="370" Size_x="150" Size_y="70" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-44" Pos_y="229" Size_x="54" Size_y="140" Id="1" Map="书库大厅02" MapPos_x="2888" MapPos_y="304"/>
+		<Item Pos_x="793" Pos_y="163" Size_x="54" Size_y="278" Id="2" Map="书库房间04" MapPos_y="441"/>
+		<Item Pos_x="295" Pos_y="413" Size_x="50" Size_y="28" Id="3" Type="4" Map="坐下" MapPos_x="311" MapPos_y="441"/>
+		<Item Pos_x="437" Pos_y="413" Size_x="54" Size_y="28" Id="4" Type="4" Map="坐下" MapPos_x="458" MapPos_y="441" MapDir="1"/>
+	</Trap>
+	<Char/>
+</Map>

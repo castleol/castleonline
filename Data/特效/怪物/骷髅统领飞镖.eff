@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="365" Pos_y="366" Size_x="40" Size_y="78" Offs_x="40" Offs_y="-55" Pic="骷髅统领" Group="10" Sound="\Sound\投掷\飞镖.wav" ItemSize_x="16" ItemSize_y="16" ItemHot_x="8" ItemHot_y="8" ItemLife="2000" ItemScale="2.000" MinSpeedX="900.000" MaxSpeedX="900.000" AngleSpeed="16.000" HitType="2" HitOnce="1" Destroy="1" TrailTime="2" TrailFade="25" TrailColor="0xFF0090FF" EndEffect="爆炸01"/>
+</Effect>

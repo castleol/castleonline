@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\地下墓地\墓地20.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1" ColorKey="0x800000"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="47" Pos_y="32" Size_x="104" Size_y="508" Obst="1"/>
+		<Item Pos_x="132" Pos_y="482" Size_x="462" Size_y="53" Obst="1"/>
+		<Item Pos_x="137" Pos_y="12" Size_x="483" Size_y="53" Obst="1"/>
+		<Item Pos_x="554" Pos_y="53" Size_x="104" Size_y="64" Obst="1"/>
+		<Item Pos_x="601" Pos_y="108" Size_x="104" Size_y="53" Obst="1"/>
+		<Item Pos_x="650" Pos_y="155" Size_x="104" Size_y="53" Obst="1"/>
+		<Item Pos_x="702" Pos_y="175" Size_x="98" Size_y="53" Obst="1"/>
+		<Item Pos_x="649" Pos_y="387" Size_x="151" Size_y="53" Obst="1"/>
+		<Item Pos_x="550" Pos_y="437" Size_x="130" Size_y="53" Obst="1"/>
+	</Obst>
+	<Trap/>
+	<Char/>
+</Map>

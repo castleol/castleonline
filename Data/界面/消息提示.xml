@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<desktop>
+	<Control Name="MessageBox" Class="Window" TopMost="1" ShowModal="1" Pos_x="220" Pos_y="189" Size_x="360" Size_y="222" Align="1" Text="标题" Font="5" TextAlign="2" TextRect_top="21" TextRect_right="360" TextRect_bottom="222" TextColor="0xFFD0C080" Pic="\image\界面\消息窗口.bmp" CloseButton="Cancel" PopupEffect="1" CloseEffect="1" Effect_x="180" Effect_y="111" EscClose="1">
+		<Control Name="Ok" Class="Button" Pos_x="44" Pos_y="164" Size_x="122" Size_y="32" Text="确定" Font="2" TextAlign="1" TextRect_right="122" TextRect_bottom="32" TextColor="0xFFA0A010" Pic="\image\界面\标准控件\Button122.bmp" PicRect_right="122" PicRect_bottom="32" PushPic="\image\界面\标准控件\Button122.bmp" PushPicRect_top="32" PushPicRect_right="122" PushPicRect_bottom="64" PushTextColor="0xFFA0A010" PushTextOffs_x="1" PushTextOffs_y="1" MovePic="\image\界面\标准控件\Button122.bmp" MovePicRect_top="64" MovePicRect_right="122" MovePicRect_bottom="96" MoveTextColor="0xFFC0C010"/>
+		<Control Name="Cancel" Class="Button" Pos_x="193" Pos_y="164" Size_x="122" Size_y="32" Text="取消" Font="2" TextAlign="1" TextRect_right="122" TextRect_bottom="32" TextColor="0xFFA0A010" Pic="\image\界面\标准控件\Button122.bmp" PicRect_right="122" PicRect_bottom="32" PushPic="\image\界面\标准控件\Button122.bmp" PushPicRect_top="32" PushPicRect_right="122" PushPicRect_bottom="64" PushTextColor="0xFFA0A010" PushTextOffs_x="1" PushTextOffs_y="1" MovePic="\image\界面\标准控件\Button122.bmp" MovePicRect_top="64" MovePicRect_right="122" MovePicRect_bottom="96" MoveTextColor="0xFFC0C010"/>
+		<Control Name="Msg" Class="RichText" Pos_x="32" Pos_y="62" Size_x="300" Size_y="70" Text="系统提示内容" Font="2" TextAlign="1" TextRect_right="300" TextRect_bottom="70" TextColor="0xFFEF9F3F"/>
+	</Control>
+</desktop>

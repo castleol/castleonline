@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\通用\月下复活房间\背景.bmp" Pic_right="256" Pic_bottom="192"/>
+		<Item Pos_y="26" Size_x="800" Size_y="550" Pic="\Image\地图\通用\月下复活房间\遮罩.bmp" Pic_right="256" Pic_bottom="187" ColorKey="0x800000" Mask="1"/>
+		<Item Pos_x="329" Pos_y="491" Size_x="148" Size_y="56" Pic="\Image\地图\通用\月下复活房间\地毯.bmp" Pic_right="74" Pic_bottom="28" ColorKey="0xFFFFFF"/>
+		<Item Pos_x="704" Pos_y="232" Size_x="96" Size_y="258" Pic="\Image\地图\通用\月下复活房间\墙壁.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_y="394" Size_x="96" Size_y="96" Pic="\Image\地图\通用\月下复活房间\墙壁.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Obst="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="298" Pos_y="238" Size_x="203" Size_y="181" Pic="\Image\地图\通用\月下复活房间\魔方.bmp" Pic_right="96" Pic_bottom="80" Frames="14" Fps="10" Id="1" Time="1600" Sound="\sound\物件\心跳.wav"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="490" Size_x="800" Size_y="110" Obst="1"/>
+		<Item Size_x="800" Size_y="70" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="362" Pos_y="463" Size_x="80" Size_y="27" Id="1" Type="2" Map="角色复活点" Lua="\data\脚本\系统脚本\角色存盘.lua"/>
+		<Item Pos_x="-53" Pos_y="265" Size_x="58" Size_y="125" Id="2" Map="礼拜堂高塔03" MapPos_x="1280" MapPos_y="1788"/>
+	</Trap>
+	<Char/>
+</Map>

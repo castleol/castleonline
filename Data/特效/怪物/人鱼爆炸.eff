@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="364" Pos_y="378" Size_x="60" Size_y="66" Random="1" Pic="\Image\特效\爆炸\002.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF000000" Blend="0x1" Sound="\sound\特效\爆炸01.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="14" ItemFps="20" EmitInter="50" EmitTime="1000" MinSpeedY="-50.000" MaxSpeedY="-50.000"/>
+</Effect>

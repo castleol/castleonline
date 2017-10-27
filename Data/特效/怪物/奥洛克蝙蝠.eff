@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="295" Pos_y="335" Size_x="50" Size_y="120" Random="1" EmitInter="100" EmitTime="1000" Pic="奥洛克" Group="15" ColorKey="0xFFFF00FF" Filter="0x2" Blend="0x1" Sound="\sound\怪物\奥洛克蝙蝠.wav" ItemSize_x="16" ItemSize_y="16" ItemHot_x="8" ItemHot_y="8" ItemFrame="10" ItemFps="20" ItemLife="1000" ItemScale="2.000" ItemQuality="1.000" HitType="2"/>
+	<Item Pos_x="296" Pos_y="335" Size_x="80" Size_y="140" Random="1" EmitInter="100" EmitTime="1000" Pic="奥洛克" Group="9" ColorKey="0xFFFF00FF" Filter="0x2" Color="0xFF000000" EndTime="500" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="6" ItemFps="15" ItemLife="3000" ItemScale="2.000" ItemQuality="1.000" MinSpeedX="200.000" MaxSpeedX="300.000" MinSpeedY="-50.000" MaxSpeedY="50.000" HitType="2" Destroy="1" EndEffect="骷髅头骨爆炸"/>
+</Effect>

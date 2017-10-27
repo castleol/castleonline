@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="348" Pos_y="424" Size_x="34" Size_y="30" Offs_y="-54" Pic="\data\怪物\怪人\瑟兰祭祀.chr" Group="7" ColorKey="0xFF00" Filter="0x2" Blend="0x1" ItemSize_x="80" ItemSize_y="80" ItemHot_x="40" ItemHot_y="40" ItemLife="600000" ItemScale="2.000" AngleSpeed="1.000" Follow="1" MoveItem="1" Mask="-1"/>
+</Effect>

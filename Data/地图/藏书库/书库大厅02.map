@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2888" Size_y="2200">
+	<Tile>
+		<Item Size_x="800" Size_y="1050" Pic="\image\地图\藏书库\大厅02背景.bmp" Pic_right="256" Pic_bottom="350" ColorKey="0x800000" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Size_x="2888" Size_y="2200" Pic="\image\地图\藏书库\大厅02.bmp" Pic_right="1280" Pic_bottom="985" ColorKey="0x800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="2265" Pos_y="454" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="1" ChildId="2" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="2209" Pos_y="430" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="2" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1867" Pos_y="454" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="3" ChildId="4" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1811" Pos_y="430" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="4" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1506" Pos_y="454" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="5" ChildId="6" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1450" Pos_y="430" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="6" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1506" Pos_y="775" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="7" ChildId="8" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1450" Pos_y="751" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="8" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1868" Pos_y="774" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="9" ChildId="10" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1812" Pos_y="750" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="10" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1687" Pos_y="132" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="11" ChildId="12" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1631" Pos_y="108" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="12" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1326" Pos_y="132" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="13" ChildId="14" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1270" Pos_y="108" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="14" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="2625" Pos_y="131" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="15" ChildId="16" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="2569" Pos_y="107" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="16" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="2408" Pos_y="132" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="17" ChildId="18" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="2352" Pos_y="108" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="18" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="875" Pos_y="132" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="19" ChildId="20" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="819" Pos_y="108" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="20" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="2300" Pos_y="1847" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="21" ChildId="22" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="2244" Pos_y="1823" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="22" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1001" Pos_y="1883" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="23" ChildId="24" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="945" Pos_y="1859" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="24" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="820" Pos_y="1883" Size_x="22" Size_y="22" Pic="\Image\地图\动画\灯火02.bmp" Pic_right="8" Pic_bottom="8" Blend="0x1" Frames="5" Fps="10" Id="25" ChildId="26" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="764" Pos_y="1859" Size_x="128" Size_y="80" Pic="\Image\地图\动画\灯光02.bmp" Pic_right="64" Pic_bottom="32" Blend="0x1" ColorKey="0x800000" Frames="1" Id="26" Type="9" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="1484" Pos_y="1991" Size_x="70" Size_y="100" Pic="\Image\地图\动画\雕像01.bmp" Pic_right="30" Pic_bottom="46" ColorKey="0xFFFFFF" Frames="1" Id="27" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="短剑08" TaskId="2"/>
+		<Item Pos_x="1574" Pos_y="1991" Size_x="70" Size_y="100" Pic="\Image\地图\动画\雕像01.bmp" Pic_right="30" Pic_bottom="46" ColorKey="0xFFFFFF" Frames="1" Id="28" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="戒指08" TaskId="3"/>
+		<Item Pos_x="2490" Pos_y="1986" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_left="96" Pic_top="32" Pic_right="128" Pic_bottom="64" Id="29" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\蝙蝠之魂.lua" Item="蝙蝠之魂" TaskId="1" Swing_y="10"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="652" Pos_y="590" Size_x="250" Size_y="392" Obst="1"/>
+		<Item Size_x="650" Size_y="1198" Obst="1"/>
+		<Item Pos_x="1010" Pos_y="304" Size_x="868" Size_y="72" Obst="1"/>
+		<Item Pos_x="649" Pos_y="482" Size_x="146" Size_y="106" Obst="1"/>
+		<Item Pos_x="651" Size_x="2128" Size_y="54" Obst="1"/>
+		<Item Pos_x="2780" Size_x="108" Size_y="162" Obst="1"/>
+		<Item Pos_x="939" Pos_y="339" Size_x="72" Size_y="36" Obst="1"/>
+		<Item Pos_x="1877" Pos_y="339" Size_x="72" Size_y="36" Obst="1"/>
+		<Item Pos_x="2201" Pos_y="338" Size_x="72" Size_y="38" Obst="1"/>
+		<Item Pos_x="2273" Pos_y="304" Size_x="616" Size_y="72" Obst="1"/>
+		<Item Pos_x="2780" Pos_y="382" Size_x="108" Size_y="352" Obst="1"/>
+		<Item Pos_x="2563" Pos_y="377" Size_x="210" Size_y="70" Obst="1"/>
+		<Item Pos_x="2780" Pos_y="876" Size_x="108" Size_y="644" Obst="1"/>
+		<Item Pos_x="612" Pos_y="1519" Size_x="2276" Size_y="250" Obst="1"/>
+		<Item Pos_x="2384" Pos_y="911" Size_x="396" Size_y="72" Obst="1"/>
+		<Item Pos_x="1335" Pos_y="625" Size_x="1048" Size_y="72" Obst="1"/>
+		<Item Pos_x="1263" Pos_y="661" Size_x="72" Size_y="36" Obst="1"/>
+		<Item Pos_x="903" Pos_y="590" Size_x="108" Size_y="71" Obst="1"/>
+		<Item Pos_x="1011" Pos_y="625" Size_x="72" Size_y="36" Obst="1"/>
+		<Item Pos_x="2383" Pos_y="661" Size_x="72" Size_y="36" Obst="1"/>
+		<Item Pos_x="2310" Pos_y="947" Size_x="72" Size_y="36" Obst="1"/>
+		<Item Pos_x="469" Pos_y="1199" Size_x="216" Size_y="106" Obst="1"/>
+		<Item Pos_x="685" Pos_y="983" Size_x="832" Size_y="178" Obst="1"/>
+		<Item Pos_x="1516" Pos_y="947" Size_x="578" Size_y="214" Obst="1"/>
+		<Item Pos_x="1623" Pos_y="1161" Size_x="218" Size_y="144" Obst="1"/>
+		<Item Pos_x="2305" Pos_y="1269" Size_x="186" Size_y="72" Obst="1"/>
+		<Item Pos_x="2493" Pos_y="1303" Size_x="70" Size_y="38" Obst="1"/>
+		<Item Pos_x="2094" Pos_y="947" Size_x="326" Size_y="322" Obst="4"/>
+		<Item Pos_x="1624" Pos_y="1447" Size_x="216" Size_y="72" Obst="1"/>
+		<Item Pos_x="1841" Pos_y="1483" Size_x="108" Size_y="36" Obst="1"/>
+		<Item Pos_x="470" Pos_y="1447" Size_x="216" Size_y="72" Obst="1"/>
+		<Item Pos_x="399" Pos_y="1447" Size_x="70" Size_y="72" Obst="5"/>
+		<Item Pos_x="324" Pos_y="1519" Size_x="284" Size_y="70" Obst="1"/>
+		<Item Pos_x="253" Pos_y="1554" Size_x="72" Size_y="36" Obst="1"/>
+		<Item Pos_x="-1" Pos_y="1198" Size_x="74" Size_y="286" Obst="1"/>
+		<Item Pos_x="-1" Pos_y="1484" Size_x="36" Size_y="212" Obst="1"/>
+		<Item Pos_y="1697" Size_x="142" Size_y="80" Obst="1"/>
+		<Item Pos_x="142" Pos_y="1697" Size_x="182" Size_y="180" Obst="4"/>
+		<Item Pos_x="195" Pos_y="1877" Size_x="202" Size_y="70" Obst="1"/>
+		<Item Pos_x="397" Pos_y="1912" Size_x="72" Size_y="36" Obst="1"/>
+		<Item Pos_x="1" Pos_y="1947" Size_x="324" Size_y="248" Obst="1"/>
+		<Item Pos_x="327" Pos_y="2091" Size_x="286" Size_y="104" Obst="1"/>
+		<Item Pos_x="615" Pos_y="2126" Size_x="538" Size_y="62" Obst="1"/>
+		<Item Pos_x="1155" Pos_y="2091" Size_x="576" Size_y="98" Obst="1"/>
+		<Item Pos_x="1733" Pos_y="1948" Size_x="434" Size_y="230" Obst="1"/>
+		<Item Pos_x="1733" Pos_y="1768" Size_x="32" Size_y="180" Obst="1"/>
+		<Item Pos_x="1769" Pos_y="1771" Size_x="398" Size_y="34" Obst="1"/>
+		<Item Pos_x="2563" Pos_y="1770" Size_x="316" Size_y="284" Obst="1"/>
+		<Item Pos_x="2171" Pos_y="2055" Size_x="690" Size_y="118" Obst="1"/>
+		<Item Pos_x="795" Pos_y="482" Size_x="110" Size_y="108" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="2881" Pos_y="163" Size_x="52" Size_y="140" Id="1" Map="书库房间03" MapPos_y="394"/>
+		<Item Pos_x="2883" Pos_y="735" Size_x="52" Size_y="140" Id="2" Map="书库复活01" MapPos_y="395"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="1223" Pos_y="250" Size_x="54" Size_y="54" Id="1" Char="跳蚤甲兵"/>
+		<Item Pos_x="1565" Pos_y="250" Size_x="54" Size_y="54" Id="2" Char="跳蚤甲兵"/>
+		<Item Pos_x="2499" Pos_y="250" Size_x="54" Size_y="54" Id="3" Char="跳蚤甲兵" Left="1"/>
+		<Item Pos_x="2067" Pos_y="571" Size_x="54" Size_y="54" Id="4" Char="跳蚤甲兵"/>
+		<Item Pos_x="1631" Pos_y="571" Size_x="54" Size_y="54" Id="5" Char="跳蚤甲兵"/>
+		<Item Pos_x="1737" Pos_y="893" Size_x="54" Size_y="54" Id="6" Char="跳蚤甲兵"/>
+		<Item Pos_x="1139" Pos_y="929" Size_x="54" Size_y="54" Id="7" Char="跳蚤甲兵"/>
+		<Item Pos_x="2388" Pos_y="1465" Size_x="54" Size_y="54" Id="8" Char="跳蚤甲兵"/>
+		<Item Pos_x="865" Pos_y="2072" Size_x="54" Size_y="54" Id="9" Char="跳蚤甲兵" Left="1"/>
+		<Item Pos_x="1409" Pos_y="250" Size_x="54" Size_y="54" Id="10" Char="骷髅骑士"/>
+		<Item Pos_x="1861" Pos_y="571" Size_x="54" Size_y="54" Id="11" Char="骷髅骑士"/>
+		<Item Pos_x="1323" Pos_y="929" Size_x="54" Size_y="54" Id="12" Char="骷髅骑士"/>
+		<Item Pos_x="2205" Pos_y="1465" Size_x="54" Size_y="54" Id="13" Char="骷髅骑士"/>
+		<Item Pos_x="1127" Pos_y="1413" Size_x="54" Size_y="106" Id="14" Char="小恶魔"/>
+	</Char>
+</Map>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\怪人\跳蚤男.bmp" ColorKey="0xFFFF00FF" Size_x="32" Size_y="32" Scale="2.000" Flip="1" HitEffect="闪光01" HurtEffect="冒血02">
+	<Action Num="10">
+		<Act Name="站立" Group="1" End="2"/>
+		<Act Name="转身" State="2" Group="1" Fps="30" Next="站立" Flip="1"/>
+		<Act Name="移动" State="1" Group="1" End="2" Speed_x="100"/>
+		<Act Name="下落" State="3" Group="1" Begin="4" End="4" Loop="4" Speed_x="-1" AddSpeed_y="1200"/>
+		<Act Name="落地" State="3" Group="1" Fps="30" Next="站立"/>
+		<Act Name="死亡" State="14" Group="1" Time="50" Effect="跳蚤男死亡"/>
+		<Act Name="跳跃1" State="3" Group="1" Begin="3" End="3" Loop="3" Start="3" Sound="1" Speed_x="100" Speed_y="-100" AddSpeed_y="2000"/>
+		<Act Name="跳跃2" State="3" Group="1" Begin="3" End="3" Loop="3" Start="3" Sound="1" Speed_x="100" Speed_y="-300" AddSpeed_y="2000"/>
+		<Act Name="跳跃3" State="3" Group="1" Begin="3" End="3" Loop="3" Start="3" Sound="1" Speed_x="100" Speed_y="-500" AddSpeed_y="2000"/>
+		<Act Name="跳跃4" State="3" Group="1" Begin="3" End="3" Loop="3" Start="3" Sound="1" Speed_x="100" Speed_y="-700" AddSpeed_y="2000"/>
+	</Action>
+	<Rect Num="1">
+		<Rect Name="攻击" Frame="6" Rect_left="8" Rect_top="-115" Rect_right="85" Rect_bottom="-36"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\Sound\怪物\跳蚤男.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="5">
+		<Img Group="1" Pos_y="4" Size_x="20" Size_y="19" Hot_x="10" Hot_y="19"/>
+		<Img Group="1" Frame="1" Pos_x="22" Pos_y="4" Size_x="20" Size_y="19" Hot_x="10" Hot_y="19"/>
+		<Img Group="1" Frame="2" Pos_x="42" Pos_y="4" Size_x="20" Size_y="19" Hot_x="10" Hot_y="21"/>
+		<Img Group="1" Frame="3" Pos_x="6" Pos_y="37" Size_x="20" Size_y="22" Hot_x="10" Hot_y="22"/>
+		<Img Group="1" Frame="4" Pos_x="37" Pos_y="34" Size_x="20" Size_y="26" Hot_x="10" Hot_y="24"/>
+	</Image>
+</Char>

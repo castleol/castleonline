@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="325" Pos_y="307" Size_x="64" Size_y="64" Pic="\Image\特效\怪物\火球.bmp" Pic_left="180" Pic_top="60" Pic_right="210" Pic_bottom="90" ColorKey="0xFF00FF" Blend="0x1" ItemSize_x="80" ItemSize_y="80" ItemHot_x="40" ItemHot_y="40" ItemLife="3000" MoveItem="1"/>
+</Effect>

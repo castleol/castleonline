@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\角色\阿鲁卡多\Shield.bmp" ColorKey="0xFF008000" Size_x="32" Size_y="90" Scale="2.000" TrailTime="5" TrailFade="10" TrailColor="0xFF4040FF" Shadow="1" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="4">
+		<Act Name="空中盾牌" Group="1" End="1" Loop="1" Fps="20" Start="1" Sound="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="-1" AddSpeed_y="1200"/>
+		<Act Name="蹲地盾牌" Group="1" End="1" Loop="1" Fps="30" Start="1"/>
+		<Act Name="站立盾牌" Group="1" End="3" Loop="3" Light="站立"/>
+		<Act Name="站立" Image="阿鲁卡多" Group="1" End="5"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="0"/>
+	<Image Num="5">
+		<Img Group="1" Pos_x="9" Size_x="16" Size_y="32" Hot_x="2" Hot_y="40" Depth="1"/>
+		<Img Group="1" Frame="1" Pos_x="9" Size_x="16" Size_y="32" Hot_y="41" Depth="1"/>
+		<Img Group="1" Frame="2" Pos_x="9" Size_x="16" Size_y="32" Hot_x="-2" Hot_y="43" Depth="1"/>
+		<Img Group="1" Frame="3" Pos_x="40" Size_x="16" Size_y="32" Hot_x="-4" Hot_y="45"/>
+		<Img Group="1" Frame="4" Pos_x="72" Size_x="16" Size_y="32" Hot_x="8" Hot_y="45"/>
+	</Image>
+</Char>

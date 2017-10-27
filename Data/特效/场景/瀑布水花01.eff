@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="510" Pos_y="306" Size_x="20" Size_y="42" Random="1" EmitInter="25" EmitTime="10000000" EndColor="0xFFFFFF" Sound="\sound\场景\瀑布01.wav" ItemSize_x="4" ItemSize_y="4" ItemHot_x="2" ItemHot_y="2" ItemLife="2000" MinSpeedX="-100.000" MaxSpeedX="-100.000" MinSpeedY="-50.000" AddSpeedX="20.000" AddSpeedY="100.000"/>
+</Effect>

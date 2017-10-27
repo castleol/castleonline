@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="369" Pos_y="336" Size_x="48" Size_y="152" Offs_x="150" Offs_y="-100" EmitInter="1" EmitTime="1" Pic="战锤铠兵" Group="3" ColorKey="0xFF00FF" Sound="\sound\投掷\飞刀.wav" ItemSize_x="90" ItemSize_y="43" ItemHot_x="70" ItemHot_y="20" ItemLife="1500" ItemScale="2.000" MinSpeedX="600.000" MaxSpeedX="600.000" MinSpeedY="-300.000" MaxSpeedY="-300.000" AddSpeedY="1000.000" AngleSpeed="10.000" HitType="2"/>
+</Effect>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1280" Size_y="960">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\失落的村庄\背景01.bmp" Pic_right="256" Pic_bottom="192" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Pos_y="400" Size_x="360" Size_y="560" Pic="\image\地图\失落的村庄\背景04.bmp" Pic_top="1" Pic_right="160" Pic_bottom="274" ColorKey="0xFFFFFF" DeltaX="0.800"/>
+		<Item Pos_x="833" Pos_y="400" Size_x="360" Size_y="560" Pic="\image\地图\失落的村庄\背景04.bmp" Pic_top="1" Pic_right="160" Pic_bottom="274" ColorKey="0xFFFFFF" Flip="1" DeltaX="0.800"/>
+		<Item Size_x="1280" Size_y="960" Pic="\image\地图\失落的村庄\村庄02.bmp" Pic_right="512" Pic_bottom="384" ColorKey="0xFFFFFF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="117" Pos_y="420" Size_x="72" Size_y="64" Pic="\image\地图\动画\宝箱.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="1" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\普通宝箱.lua" Item="钱袋300"/>
+		<Item Pos_x="1088" Pos_y="420" Size_x="72" Size_y="64" Pic="\image\地图\动画\宝箱.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Frames="4" Fps="10" Id="2" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\普通宝箱.lua" Item="钱袋300" TaskId="1"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="1" Pos_y="840" Size_x="1280" Size_y="120" Obst="1"/>
+		<Item Pos_x="920" Pos_y="800" Size_x="158" Size_y="40" Obst="5"/>
+		<Item Pos_x="1079" Pos_y="800" Size_x="202" Size_y="40" Obst="1"/>
+		<Item Pos_y="800" Size_x="124" Size_y="40" Obst="1"/>
+		<Item Pos_x="1080" Pos_y="480" Size_x="200" Size_y="99" Obst="1"/>
+		<Item Pos_y="480" Size_x="201" Size_y="100" Obst="1"/>
+		<Item Pos_y="320" Size_x="121" Size_y="160" Obst="1"/>
+		<Item Pos_x="124" Pos_y="800" Size_x="76" Size_y="40" Obst="4"/>
+		<Item Pos_x="1160" Size_x="120" Size_y="480" Obst="1"/>
+		<Item Pos_x="439" Pos_y="359" Size_x="401" Size_y="87" Obst="2"/>
+		<Item Size_x="120" Size_y="160" Obst="1"/>
+		<Item Pos_y="580" Size_x="127" Size_y="57" Obst="1"/>
+		<Item Pos_x="1151" Pos_y="579" Size_x="129" Size_y="60" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-36" Pos_y="640" Size_x="43" Size_y="158" Id="1" Map="失落的村庄01" MapPos_x="1600" MapPos_y="400"/>
+		<Item Pos_x="1275" Pos_y="643" Size_x="45" Size_y="154" Id="2" Map="失落的村庄03" MapPos_y="1557"/>
+		<Item Pos_x="-35" Pos_y="164" Size_x="44" Size_y="154" Id="3" Map="失落的村庄室内4" MapPos_x="800" MapPos_y="399"/>
+		<Item Pos_x="42" Pos_y="750" Size_x="82" Size_y="49" Id="4" Type="1" Map="消息提示" Tips="Press @2A@c to attack enemy"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="508" Pos_y="611" Size_x="24" Size_y="32" Id="1" Char="蝙蝠" Left="1"/>
+		<Item Pos_x="733" Pos_y="611" Size_x="24" Size_y="32" Id="2" Char="蝙蝠" Left="1"/>
+		<Item Pos_x="626" Pos_y="809" Size_x="39" Size_y="31" Id="3" Char="黑猫" Left="1"/>
+	</Char>
+</Map>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2400" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic_right="512" Pic_bottom="432" Color0="0xFF3030FF" Color1="0xFF3030FF" Color2="0xFF8080FF" Color3="0xFF8080FF" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Pos_x="96" Pos_y="238" Size_x="2114" Size_y="128" Pic="\Image\地图\礼拜堂\高塔\背景05-2.bmp" Pic_right="160" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="2210" Size_x="346" Size_y="600" Pic="\Image\地图\礼拜堂\高塔\背景05-1.bmp" Pic_right="346" Pic_bottom="600" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="2210" Pos_y="398" Size_x="96" Size_y="92" Pic="\Image\地图\礼拜堂\高塔\墙面04-3.bmp" Pic_right="96" Pic_bottom="92" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_y="206" Size_x="2191" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="366" Size_x="2210" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="160" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="2178" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="461" Pos_y="206" Size_x="96" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="781" Pos_y="206" Size_x="192" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1117" Pos_y="206" Size_x="96" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1277" Pos_y="206" Size_x="128" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1533" Pos_y="206" Size_x="160" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1837" Pos_y="206" Size_x="192" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1805" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1501" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1245" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1085" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="749" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="429" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="557" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="973" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1213" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1405" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1693" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="2029" Pos_y="206" Size_x="32" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-3.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="2339" Pos_y="94" Size_x="217" Size_y="412" Pic="\Image\地图\礼拜堂\高塔\背景05-3.bmp" Pic_right="217" Pic_bottom="412" ColorKey="0xFF00FF" Flip="1" Mask="1"/>
+		<Item Pos_y="238" Size_x="96" Size_y="128" Pic="\Image\地图\礼拜堂\高塔\背景05-4.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="226" Pos_y="238" Size_x="1567" Size_y="8" Pic="\Image\地图\礼拜堂\高塔\冰锥01-1.bmp" Pic_right="16" Pic_bottom="8" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="898" Pos_y="358" Size_x="510" Size_y="8" Pic="\Image\地图\礼拜堂\高塔\冰锥01-1.bmp" Pic_right="16" Pic_bottom="8" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="1824" Pos_y="358" Size_x="254" Size_y="8" Pic="\Image\地图\礼拜堂\高塔\冰锥01-1.bmp" Pic_right="16" Pic_bottom="8" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="1474" Pos_y="358" Size_x="254" Size_y="8" Pic="\Image\地图\礼拜堂\高塔\冰锥01-1.bmp" Pic_right="16" Pic_bottom="8" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_y="206" Size_x="160" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="226" Pos_y="358" Size_x="606" Size_y="8" Pic="\Image\地图\礼拜堂\高塔\冰锥01-1.bmp" Pic_right="16" Pic_bottom="8" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="1792" Pos_y="238" Size_x="32" Size_y="128" Pic="\Image\地图\礼拜堂\高塔\门01.bmp" Pic_right="32" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1824" Pos_y="238" Size_x="254" Size_y="8" Pic="\Image\地图\礼拜堂\高塔\冰锥01-1.bmp" Pic_right="16" Pic_bottom="8" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="224" Pos_y="238" Size_x="392" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-2.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="616" Pos_y="238" Size_x="264" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-3.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="960" Pos_y="238" Size_x="392" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-2.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="880" Pos_y="238" Size_x="80" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-4.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="1352" Pos_y="238" Size_x="441" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-2.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="1154" Pos_y="334" Size_x="256" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-3.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="224" Pos_y="334" Size_x="256" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-3.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="480" Pos_y="334" Size_x="352" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-2.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="896" Pos_y="334" Size_x="256" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-2.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1512" Pos_y="334" Size_x="217" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-2.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1473" Pos_y="334" Size_x="41" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-3.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="1823" Pos_y="238" Size_x="256" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-2.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2" Id="1" Type="12" Damage="80"/>
+		<Item Pos_x="1823" Pos_y="334" Size_x="256" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\冰锥01-3.bmp" Pic_right="216" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Id="2" Type="12" Damage="80"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="2191" Pos_y="206" Size_x="365" Size_y="32" Obst="1"/>
+		<Item Pos_x="2210" Pos_y="366" Size_x="346" Size_y="32" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="2389" Pos_y="240" Size_x="38" Size_y="125" Id="1" Map="礼拜堂高塔01" MapPos_y="1788"/>
+		<Item Pos_x="-33" Pos_y="240" Size_x="38" Size_y="125" Id="2" Map="礼拜堂房间06" MapPos_x="800" MapPos_y="364"/>
+	</Trap>
+	<Char/>
+</Map>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\骷髅\骷髅剑士.bmp" ColorKey="0xFFFF00FF" Size_x="32" Size_y="80" Scale="2.000" Flip="1" HitEffect="闪光01">
+	<Action Num="11">
+		<Act Name="站立" End="5"/>
+		<Act Name="转身" Next="站立" Flip="1"/>
+		<Act Name="移动" State="1" End="5" Speed_x="50"/>
+		<Act Name="起跳" State="3" Group="1" End="2" Next="跳跃"/>
+		<Act Name="跳跃" State="3" Group="2" Speed_x="200" Speed_y="-300" AddSpeed_y="1000"/>
+		<Act Name="下落" State="3" Group="2" Speed_x="-1" AddSpeed_y="1000"/>
+		<Act Name="落地" State="3" Group="1" End="2" Next="站立"/>
+		<Act Name="攻击" State="4" Group="2" End="7" Start="5" Sound="1" Next="站立"/>
+		<Act Name="死亡" State="14" Time="100" Effect="骷髅剑士死亡"/>
+		<Act Name="向后起跳" State="3" Group="1" End="2" Next="向后跳跃"/>
+		<Act Name="向后跳跃" State="3" Group="2" Speed_x="-200" Speed_y="-300" AddSpeed_y="1000"/>
+	</Action>
+	<Rect Num="1">
+		<Rect Name="攻击" Frame="7" Rect_left="18" Rect_top="-80" Rect_right="80"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\Sound\怪物\骷髅剑士攻击.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="17">
+		<Img Size_x="29" Size_y="45" Hot_x="14" Hot_y="43"/>
+		<Img Frame="1" Pos_x="29" Size_x="30" Size_y="45" Hot_x="15" Hot_y="43"/>
+		<Img Frame="2" Pos_x="59" Size_x="27" Size_y="45" Hot_x="15" Hot_y="43"/>
+		<Img Frame="3" Pos_x="86" Size_x="28" Size_y="45" Hot_x="15" Hot_y="43"/>
+		<Img Frame="4" Pos_x="114" Size_x="28" Size_y="45" Hot_x="15" Hot_y="43"/>
+		<Img Frame="5" Pos_x="142" Size_x="29" Size_y="45" Hot_x="15" Hot_y="42"/>
+		<Img Group="1" Pos_x="1" Pos_y="45" Size_x="34" Size_y="42" Hot_x="19" Hot_y="41"/>
+		<Img Group="1" Frame="1" Pos_x="35" Pos_y="45" Size_x="32" Size_y="42" Hot_x="17" Hot_y="41"/>
+		<Img Group="1" Frame="2" Pos_x="67" Pos_y="45" Size_x="31" Size_y="42" Hot_x="15" Hot_y="41"/>
+		<Img Group="2" Pos_x="98" Pos_y="45" Size_x="29" Size_y="42" Hot_x="17" Hot_y="41"/>
+		<Img Group="2" Frame="1" Pos_x="127" Pos_y="45" Size_x="20" Size_y="42" Hot_x="12" Hot_y="41"/>
+		<Img Group="2" Frame="2" Pos_x="147" Pos_y="45" Size_x="24" Size_y="42" Hot_x="15" Hot_y="41"/>
+		<Img Group="2" Frame="3" Pos_x="2" Pos_y="89" Size_x="41" Size_y="54" Hot_x="20" Hot_y="52"/>
+		<Img Group="2" Frame="4" Pos_x="43" Pos_y="89" Size_x="41" Size_y="54" Hot_x="20" Hot_y="52"/>
+		<Img Group="2" Frame="5" Pos_x="84" Pos_y="89" Size_x="33" Size_y="54" Hot_x="17" Hot_y="52"/>
+		<Img Group="2" Frame="6" Pos_x="118" Pos_y="90" Size_x="56" Size_y="65" Hot_x="41" Hot_y="63"/>
+		<Img Group="2" Frame="7" Time="150" Pos_x="3" Pos_y="145" Size_x="58" Size_y="42" Hot_x="42" Hot_y="40"/>
+	</Image>
+</Char>

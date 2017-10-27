@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="3200" Size_y="600">
+	<Tile>
+		<Item Size_x="3200" Size_y="600" Pic="\image\地图\最上部\房间07.bmp" Pic_right="1147" Pic_bottom="209"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="2946" Pos_y="405" Size_x="254" Size_y="194" Obst="1"/>
+		<Item Pos_x="3126" Size_x="74" Size_y="220" Obst="1"/>
+		<Item Pos_x="1519" Size_x="42" Size_y="202" Obst="1"/>
+		<Item Pos_x="804" Size_x="1738" Size_y="38" Obst="1"/>
+		<Item Pos_x="759" Size_x="46" Size_y="198" Obst="1"/>
+		<Item Size_x="178" Size_y="222" Obst="1"/>
+		<Item Pos_x="178" Size_x="580" Size_y="130" Obst="1"/>
+		<Item Pos_y="405" Size_x="178" Size_y="196" Obst="1"/>
+		<Item Pos_x="178" Pos_y="543" Size_x="2768" Size_y="58" Obst="1"/>
+		<Item Pos_x="2768" Size_x="358" Size_y="38" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-55" Pos_y="273" Size_x="66" Size_y="128" Id="1" Map="最上部房间10" MapPos_x="800" MapPos_y="872"/>
+		<Item Pos_x="3197" Pos_y="275" Size_x="50" Size_y="128" Id="2" Map="最上部断桥" MapPos_y="1318"/>
+		<Item Pos_x="2545" Pos_y="-34" Size_x="220" Size_y="44" Id="3" Map="最上部房间08" MapPos_x="1057" MapPos_y="600"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="1125" Pos_y="469" Size_x="66" Size_y="74" Id="1" Char="魔化里希特"/>
+		<Item Pos_x="2589" Pos_y="469" Size_x="66" Size_y="74" Id="2" Char="最上部斧兵"/>
+		<Item Pos_x="2215" Pos_y="469" Size_x="66" Size_y="74" Id="3" Char="最上部斧兵"/>
+		<Item Pos_x="1811" Pos_y="469" Size_x="66" Size_y="74" Id="4" Char="最上部斧兵"/>
+		<Item Pos_x="575" Pos_y="469" Size_x="66" Size_y="74" Id="5" Char="最上部斧兵"/>
+	</Char>
+</Map>

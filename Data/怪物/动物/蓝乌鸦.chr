@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\动物\蓝乌鸦.bmp" ColorKey="0xFF00FF00" Size_x="20" Size_y="24" Scale="2.000" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="5">
+		<Act Name="站立" End="1" Fps="5" Fly="1"/>
+		<Act Name="转身" Next="飞行" Flip="1" Fly="1"/>
+		<Act Name="飞行" State="1" Group="1" End="3" Fps="20" Start="-1" Sound="1" Speed_x="300" Fly="1"/>
+		<Act Name="死亡" State="14" Time="1000" Sound="2" Effect="爆炸05" Fly="1"/>
+		<Act Name="起飞" Group="1" End="3" Time="500" Start="-1" Next="飞行" AddSpeed_y="-40" Fly="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\乌鸦起飞.wav"/>
+		<Snd Id="2" File="\sound\怪物\乌鸦死亡.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="6">
+		<Img Pos_x="5" Size_x="14" Size_y="32" Hot_x="7" Hot_y="30"/>
+		<Img Frame="1" Pos_x="22" Size_x="16" Size_y="32" Hot_x="8" Hot_y="30"/>
+		<Img Group="1" Pos_x="43" Size_x="16" Size_y="32" Hot_x="7" Hot_y="31"/>
+		<Img Group="1" Frame="1" Pos_x="63" Size_x="21" Size_y="32" Hot_x="11" Hot_y="31"/>
+		<Img Group="1" Frame="2" Pos_x="87" Size_x="19" Size_y="32" Hot_x="8" Hot_y="31"/>
+		<Img Group="1" Frame="3" Pos_x="111" Size_x="16" Size_y="32" Hot_x="7" Hot_y="31"/>
+	</Image>
+</Char>

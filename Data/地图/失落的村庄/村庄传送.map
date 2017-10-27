@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\通用\苍月传送房间\传送03.bmp" Pic_right="256" Pic_bottom="192"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="102" Pos_y="1" Size_x="597" Size_y="49" Obst="1"/>
+		<Item Pos_y="400" Size_x="101" Size_y="199" Obst="1"/>
+		<Item Pos_x="700" Size_x="100" Size_y="200" Obst="1"/>
+		<Item Pos_x="700" Pos_y="400" Size_x="100" Size_y="200" Obst="1"/>
+		<Item Pos_x="100" Pos_y="400" Size_x="103" Size_y="100" Obst="4"/>
+		<Item Pos_x="100" Pos_y="500" Size_x="600" Size_y="99" Obst="1"/>
+		<Item Pos_x="596" Pos_y="400" Size_x="103" Size_y="100" Obst="5"/>
+		<Item Pos_x="102" Pos_y="163" Size_x="99" Size_y="36" Obst="1"/>
+		<Item Pos_x="600" Pos_y="161" Size_x="99" Size_y="39" Obst="1"/>
+		<Item Size_x="101" Size_y="200" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="793" Pos_y="238" Size_x="60" Size_y="148" Map="失落的村庄05" MapPos_y="750"/>
+		<Item Pos_x="701" Pos_y="338" Size_x="86" Size_y="62" Id="2" Type="1" Map="消息提示" Tips="Press @2Up@c at statue to teleport"/>
+		<Item Pos_x="-49" Pos_y="231" Size_x="60" Size_y="164" Id="3" Map="失落的村庄密道4" MapPos_x="800" MapPos_y="414"/>
+	</Trap>
+	<Char/>
+</Map>

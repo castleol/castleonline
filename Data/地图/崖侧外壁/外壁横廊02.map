@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1200">
+	<Tile>
+		<Item Size_x="800" Size_y="1200" Pic="\Image\地图\崖侧外壁\横廊02.bmp" Pic_right="256" Pic_bottom="458"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="613" Pos_y="701" Size_x="32" Size_y="96" Pic="\Image\地图\动画\灯柱01.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0x800000" Frames="4" Fps="10" Id="1" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="148" Pos_y="470" Size_x="32" Size_y="96" Pic="\Image\地图\动画\灯柱01.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0x800000" Frames="4" Fps="10" Id="2" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="459" Pos_y="344" Size_x="32" Size_y="96" Pic="\Image\地图\动画\灯柱01.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0x800000" Frames="4" Fps="10" Id="3" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="1027" Size_x="800" Size_y="172" Obst="1"/>
+		<Item Pos_x="549" Pos_y="797" Size_x="252" Size_y="64" Obst="1"/>
+		<Item Pos_x="99" Pos_y="649" Size_x="354" Size_y="44" Obst="1"/>
+		<Item Pos_x="399" Pos_y="439" Size_x="402" Size_y="44" Obst="1"/>
+		<Item Pos_y="105" Size_x="100" Size_y="754" Obst="1"/>
+		<Item Size_x="800" Size_y="106" Obst="1"/>
+		<Item Pos_x="647" Pos_y="105" Size_x="153" Size_y="84" Obst="1"/>
+		<Item Pos_x="647" Pos_y="356" Size_x="154" Size_y="84" Obst="1"/>
+		<Item Pos_x="701" Pos_y="483" Size_x="100" Size_y="314" Obst="1"/>
+		<Item Pos_x="99" Pos_y="565" Size_x="150" Size_y="84" Obst="1"/>
+		<Item Pos_x="247" Pos_y="942" Size_x="202" Size_y="86" Obst="1"/>
+		<Item Pos_x="145" Pos_y="942" Size_x="102" Size_y="85" Obst="5"/>
+		<Item Pos_x="549" Pos_y="356" Size_x="98" Size_y="83" Obst="5"/>
+		<Item Pos_x="449" Pos_y="942" Size_x="102" Size_y="85" Obst="4"/>
+		<Item Pos_x="249" Pos_y="565" Size_x="102" Size_y="84" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="791" Pos_y="865" Size_x="38" Size_y="160" Id="1" Map="外壁横廊01" MapPos_y="393"/>
+		<Item Pos_x="-35" Pos_y="863" Size_x="42" Size_y="160" Id="2" Map="外壁复活01" MapPos_x="800" MapPos_y="490"/>
+		<Item Pos_x="793" Pos_y="192" Size_x="38" Size_y="160" Id="3" Map="外壁横廊03" MapPos_y="394"/>
+		<Item Pos_x="321" Pos_y="922" Size_x="40" Size_y="20" Id="4" Type="4" Map="坐下" MapPos_x="332" MapPos_y="942"/>
+	</Trap>
+	<Char/>
+</Map>

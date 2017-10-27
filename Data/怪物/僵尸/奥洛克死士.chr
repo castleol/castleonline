@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\僵尸\僵尸战士.bmp" ColorKey="0xFFFF00FF" Palette="\data\怪物\僵尸\奥洛克死士.act" Size_x="32" Size_y="90" Scale="2.000" HitEffect="闪光01" HurtEffect="冒血02">
+	<Action Num="7">
+		<Act Name="站立" End="5"/>
+		<Act Name="转身" State="2" Next="移动" Flip="1"/>
+		<Act Name="移动" State="1" End="5" Time="3000" Next="转身" Speed_x="50"/>
+		<Act Name="追击" State="1" End="5" Fps="20" Next="追击" Speed_x="100"/>
+		<Act Name="攻击" State="4" Group="1" End="2" Sound="1" Next="站立"/>
+		<Act Name="死亡" State="13" Group="2" End="5" Loop="5" Time="800" Sound="2" Next="消失" Effect="死士喷血"/>
+		<Act Name="消失" State="14" Group="3" Time="1000" Next="消失" Effect="死士爆炸"/>
+	</Action>
+	<Rect Num="1">
+		<Rect Name="攻击" Frame="1" Rect_left="7" Rect_top="-118" Rect_right="55" Rect_bottom="-54"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\死士攻击.wav"/>
+		<Snd Id="2" File="\sound\怪物\僵尸战士死亡.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="16">
+		<Img Size_x="32" Size_y="64" Hot_x="16" Hot_y="56"/>
+		<Img Frame="1" Pos_x="32" Size_x="32" Size_y="64" Hot_x="16" Hot_y="56"/>
+		<Img Frame="2" Pos_x="64" Size_x="32" Size_y="64" Hot_x="16" Hot_y="56"/>
+		<Img Frame="3" Pos_x="96" Size_x="32" Size_y="64" Hot_x="16" Hot_y="56"/>
+		<Img Frame="4" Pos_x="128" Size_x="32" Size_y="64" Hot_x="16" Hot_y="56"/>
+		<Img Frame="5" Pos_x="160" Size_x="32" Size_y="64" Hot_x="16" Hot_y="56"/>
+		<Img Group="1" Pos_y="64" Size_x="64" Size_y="64" Hot_x="32" Hot_y="63"/>
+		<Img Group="1" Frame="1" Pos_x="64" Pos_y="64" Size_x="64" Size_y="64" Hot_x="31" Hot_y="63"/>
+		<Img Group="1" Frame="2" Time="100" Pos_x="128" Pos_y="64" Size_x="64" Size_y="64" Hot_x="31" Hot_y="63"/>
+		<Img Group="2" Pos_y="128" Size_x="32" Size_y="64" Hot_x="20" Hot_y="56"/>
+		<Img Group="2" Frame="1" Pos_x="32" Pos_y="128" Size_x="32" Size_y="64" Hot_x="20" Hot_y="56"/>
+		<Img Group="2" Frame="2" Pos_x="64" Pos_y="128" Size_x="32" Size_y="64" Hot_x="20" Hot_y="56"/>
+		<Img Group="2" Frame="3" Pos_x="96" Pos_y="128" Size_x="32" Size_y="64" Hot_x="20" Hot_y="56"/>
+		<Img Group="2" Frame="4" Pos_x="128" Pos_y="128" Size_x="32" Size_y="64" Hot_x="21" Hot_y="56"/>
+		<Img Group="2" Frame="5" Pos_x="160" Pos_y="128" Size_x="32" Size_y="64" Hot_x="21" Hot_y="56"/>
+		<Img Group="3" Pos_x="160" Pos_y="128" Size_x="32" Size_y="64" Hot_x="21" Hot_y="56"/>
+	</Image>
+</Char>

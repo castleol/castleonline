@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="373" Pos_y="424" Size_x="32" Size_y="32" Offs_y="-40" Pic="\Image\怪物\守卫\披风剑客.bmp" Pic_left="75" Pic_top="52" Pic_right="85" Pic_bottom="102" ColorKey="0xFF00" ItemSize_x="20" ItemSize_y="100" ItemHot_x="10" ItemHot_y="50" ItemFrame="1" ItemLife="1000000" ItemQuality="1.000" MinSpeedX="150.000" MaxSpeedX="100.000" MinSpeedY="100.000" MaxSpeedY="50.000" AngleSpeed="20.000" Follow="1" Motion="1" MotionStep="2" MoveItem="1" HitType="2" EndEffect="爆炸01"/>
+</Effect>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<desktop>
+	<Control Name="Top" Class="Static" TopMost="1" UnClickable="1" Size_x="800" Size_y="600" Align="1" TextRect_right="800" TextRect_bottom="600">
+		<Control Name="Fade" Class="Fade" TopMost="1" Size_x="800" Size_y="600" Align="1"/>
+		<Control Name="TopTips" Class="PopText" TopMost="1" UnClickable="1" Size_x="800" Size_y="160" Align="2" Font="3" TextAlign="1" TextRect_right="200" TextRect_bottom="100" TextColor="0xFFFFF2A4" DownColor="0xFFFFFF00"/>
+		<Control Name="CenterTips" Class="Window" Pos_x="150" Pos_y="270" Size_x="500" Size_y="60" Align="1" Text="HP Max increased by 100 points" Font="3" TextAlign="1" TextRect_right="500" TextRect_bottom="60" DownColor="0xFFFFFF00" Pic="\image\界面\中心消息.bmp" PicRect_right="32" PicRect_bottom="32" PicColor="0x80FFFFFF" PicScale="1" PopupEffect="1" CloseEffect="1" Effect_x="250" Effect_y="30" EffectTime="1500" CloseTime="1000"/>
+	</Control>
+</desktop>

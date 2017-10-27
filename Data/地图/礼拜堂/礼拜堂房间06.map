@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic_right="512" Pic_bottom="432" Color0="0xFF3030FF" Color1="0xFF3030FF" Color2="0xFF8080FF" Color3="0xFF8080FF" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Pos_y="140" Size_x="736" Size_y="320" Pic="\Image\地图\礼拜堂\高塔\背景05-5.bmp" Pic_right="368" Pic_bottom="160" ColorKey="0xFF00FF"/>
+		<Item Pos_x="736" Pos_y="236" Size_x="64" Size_y="128" Pic="\Image\地图\礼拜堂\高塔\背景05-4.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="736" Pos_y="204" Size_x="64" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="736" Pos_y="364" Size_x="64" Size_y="32" Pic="\Image\地图\礼拜堂\高塔\墙面08-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_y="172" Size_x="256" Size_y="32" Obst="1"/>
+		<Item Pos_y="396" Size_x="192" Size_y="32" Obst="1"/>
+		<Item Pos_x="2253" Pos_y="206" Size_x="282" Size_y="32" Obst="1"/>
+		<Item Pos_x="2253" Pos_y="366" Size_x="282" Size_y="32" Obst="1"/>
+		<Item Pos_y="204" Size_x="28" Size_y="192" Obst="1"/>
+		<Item Pos_x="255" Pos_y="140" Size_x="195" Size_y="32" Obst="1"/>
+		<Item Pos_x="450" Pos_y="172" Size_x="254" Size_y="32" Obst="1"/>
+		<Item Pos_x="678" Pos_y="204" Size_x="122" Size_y="31" Obst="1"/>
+		<Item Pos_x="676" Pos_y="364" Size_x="124" Size_y="32" Obst="1"/>
+		<Item Pos_x="514" Pos_y="396" Size_x="163" Size_y="32" Obst="1"/>
+		<Item Pos_x="225" Pos_y="428" Size_x="256" Size_y="32" Obst="1"/>
+		<Item Pos_x="192" Pos_y="396" Size_x="32" Size_y="32" Obst="4"/>
+		<Item Pos_x="481" Pos_y="396" Size_x="32" Size_y="32" Obst="5"/>
+		<Item Pos_x="295" Pos_y="380" Size_x="114" Size_y="48" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="795" Pos_y="237" Size_x="42" Size_y="125" Id="1" Map="礼拜堂横廊01" MapPos_y="366"/>
+		<Item Pos_x="243" Pos_y="402" Size_x="50" Size_y="26" Id="2" Type="4" Map="坐下" MapPos_x="280" MapPos_y="428"/>
+		<Item Pos_x="409" Pos_y="402" Size_x="50" Size_y="26" Id="3" Type="4" Map="坐下" MapPos_x="420" MapPos_y="428" MapDir="1"/>
+	</Trap>
+	<Char/>
+</Map>

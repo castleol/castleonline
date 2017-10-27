@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="347" Pos_y="216" Size_x="40" Size_y="80" Offs_y="-64" EmitInter="200" EmitTime="1000" Pic="魅魔" Group="12" ColorKey="0xFF00" Filter="0x0" Blend="0x1" EndColor="0x20FFFFFF" Sound="\sound\怪物\魅魔泡泡.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemLife="4000" ItemScale="2.000" MinSpeedX="-300.000" MaxSpeedX="300.000" MinSpeedY="200.000" MaxSpeedY="300.000" HitType="2" Rebound="1" Magic="1" TrailTime="5" TrailFade="25" TrailColor="0xFF8080FF"/>
+</Effect>

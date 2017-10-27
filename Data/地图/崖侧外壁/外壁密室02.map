@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\崖侧外壁\密室02.bmp" Pic_right="256" Pic_bottom="207"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="79" Pos_y="437" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="32" Pic_right="32" Pic_bottom="64" Id="1" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\使用物品\狼之魂.lua" Item="狼之魂" Swing_y="8"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="487" Size_x="600" Size_y="112" Obst="1"/>
+		<Item Pos_x="600" Pos_y="441" Size_x="50" Size_y="158" Obst="1"/>
+		<Item Pos_x="650" Pos_y="394" Size_x="150" Size_y="206" Obst="1"/>
+		<Item Pos_x="650" Size_x="150" Size_y="210" Obst="1"/>
+		<Item Pos_x="600" Size_x="50" Size_y="162" Obst="1"/>
+		<Item Size_x="600" Size_y="116" Obst="1"/>
+		<Item Pos_y="116" Size_x="50" Size_y="372" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="796" Pos_y="266" Size_x="32" Size_y="125" Id="1" Map="外壁竖塔02" MapPos_y="784"/>
+	</Trap>
+	<Char/>
+</Map>

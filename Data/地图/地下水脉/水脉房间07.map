@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_y="50" Size_x="800" Size_y="500" Pic="\Image\地图\地下水脉\水脉房间07.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFFFF00FF"/>
+		<Item Size_x="800" Size_y="50" Color0="0xFF101000" Color1="0xFF101000" Color2="0xFF101000" Color3="0xFF101000"/>
+		<Item Pos_y="550" Size_x="800" Size_y="50" Color0="0xFF101000" Color1="0xFF101000" Color2="0xFF101000" Color3="0xFF101000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="249" Pos_y="417" Size_x="377" Size_y="78" Pic="\Image\地图\地下水脉\水脉房间07水.bmp" Pic_right="120" Pic_bottom="32" Color0="0x80FFFFFF" Color1="0x80FFFFFF" Color2="0x80FFFFFF" Color3="0x80FFFFFF" Mask="1" Id="1" Type="11" Damage="10"/>
+		<Item Pos_x="485" Pos_y="423" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="2" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" Item="生命上限" TaskId="4"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="190" Size_x="76" Size_y="47" Obst="1"/>
+		<Item Pos_x="73" Pos_y="207" Size_x="47" Size_y="43" Obst="1"/>
+		<Item Pos_x="115" Pos_y="173" Size_x="55" Size_y="56" Obst="1"/>
+		<Item Pos_x="154" Pos_y="146" Size_x="41" Size_y="65" Obst="1"/>
+		<Item Pos_x="191" Pos_y="134" Size_x="41" Size_y="52" Obst="1"/>
+		<Item Pos_x="229" Pos_y="120" Size_x="41" Size_y="55" Obst="1"/>
+		<Item Pos_x="256" Pos_y="112" Size_x="41" Size_y="51" Obst="1"/>
+		<Item Pos_x="286" Pos_y="98" Size_x="88" Size_y="59" Obst="1"/>
+		<Item Pos_x="372" Pos_y="117" Size_x="30" Size_y="60" Obst="1"/>
+		<Item Pos_x="399" Pos_y="105" Size_x="83" Size_y="52" Obst="1"/>
+		<Item Pos_x="473" Pos_y="129" Size_x="36" Size_y="44" Obst="1"/>
+		<Item Pos_x="502" Pos_y="100" Size_x="40" Size_y="54" Obst="1"/>
+		<Item Pos_x="532" Pos_y="110" Size_x="41" Size_y="35" Obst="1"/>
+		<Item Pos_x="567" Pos_y="138" Size_x="33" Size_y="44" Obst="1"/>
+		<Item Pos_x="598" Pos_y="173" Size_x="41" Size_y="82" Obst="1"/>
+		<Item Pos_x="632" Pos_y="228" Size_x="41" Size_y="35" Obst="1"/>
+		<Item Pos_x="650" Pos_y="260" Size_x="41" Size_y="151" Obst="1"/>
+		<Item Pos_x="600" Pos_y="375" Size_x="50" Size_y="34" Obst="5"/>
+		<Item Pos_x="600" Pos_y="410" Size_x="69" Size_y="87" Obst="1"/>
+		<Item Pos_x="547" Pos_y="453" Size_x="53" Size_y="41" Obst="5"/>
+		<Item Pos_x="279" Pos_y="494" Size_x="319" Size_y="35" Obst="1"/>
+		<Item Pos_x="182" Pos_y="450" Size_x="119" Size_y="57" Obst="1"/>
+		<Item Pos_x="202" Pos_y="378" Size_x="99" Size_y="72" Obst="4"/>
+		<Item Pos_y="378" Size_x="203" Size_y="35" Obst="1"/>
+		<Item Pos_x="461" Pos_y="456" Size_x="79" Size_y="35" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-29" Pos_y="257" Size_x="34" Size_y="120" Id="1" Map="水脉通道09" MapPos_x="1280" MapPos_y="2832"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="409" Pos_y="256" Size_x="54" Size_y="66" Id="1" Char="冰晶女" Left="1"/>
+	</Char>
+</Map>

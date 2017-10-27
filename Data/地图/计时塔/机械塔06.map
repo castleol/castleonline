@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2000" Size_y="800">
+	<Tile>
+		<Item Size_x="1536" Size_y="636" Pic="\Image\地图\计时塔\天空塔\背景01-1.bmp" Pic_right="256" Pic_bottom="492" ColorKey="0xFF00FF" Tile="1" DeltaX="0.400"/>
+		<Item Pos_y="532" Size_x="1536" Size_y="268" Pic="\Image\地图\计时塔\天空塔\背景02-5.bmp" Pic_right="512" Pic_bottom="268" ColorKey="0xFF00FF" Tile="1" DeltaX="0.600"/>
+		<Item Pos_x="232" Pos_y="164" Size_x="1536" Size_y="636" Pic="\Image\地图\计时塔\机械塔\背景03-6.bmp" Pic_right="768" Pic_bottom="318" ColorKey="0xFF00FF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="600" Pos_y="657" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="1" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" Item="生命上限" TaskId="1"/>
+		<Item Pos_x="1369" Pos_y="657" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="160" Pic_right="32" Pic_bottom="192" Frames="4" Fps="10" Id="2" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\红心上限.lua" Item="红心上限" TaskId="2"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="326" Pos_y="786" Size_x="642" Size_y="14" Obst="1"/>
+		<Item Pos_x="1032" Pos_y="786" Size_x="642" Size_y="14" Obst="1"/>
+		<Item Pos_x="338" Pos_y="672" Size_x="86" Size_y="114" Obst="1"/>
+		<Item Pos_x="1576" Pos_y="672" Size_x="86" Size_y="114" Obst="1"/>
+		<Item Pos_x="1064" Pos_y="594" Size_x="160" Size_y="160" Obst="5"/>
+		<Item Pos_x="776" Pos_y="594" Size_x="160" Size_y="160" Obst="4"/>
+		<Item Pos_x="712" Pos_y="594" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1225" Pos_y="594" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="776" Pos_y="754" Size_x="160" Size_y="32" Obst="1"/>
+		<Item Pos_x="1065" Pos_y="754" Size_x="160" Size_y="32" Obst="1"/>
+		<Item Pos_x="584" Pos_y="690" Size_x="64" Size_y="16" Obst="2"/>
+		<Item Pos_x="840" Pos_y="498" Size_x="64" Size_y="16" Obst="2"/>
+		<Item Pos_x="968" Pos_y="434" Size_x="64" Size_y="16" Obst="2"/>
+		<Item Pos_x="1096" Pos_y="498" Size_x="64" Size_y="16" Obst="2"/>
+		<Item Pos_x="1352" Pos_y="690" Size_x="64" Size_y="16" Obst="2"/>
+		<Item Pos_x="1576" Pos_y="606" Size_x="64" Size_y="65" Obst="1"/>
+		<Item Pos_x="1549" Pos_y="571" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1531" Pos_y="535" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1501" Pos_y="495" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1466" Pos_y="456" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1424" Pos_y="418" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1377" Pos_y="380" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1311" Pos_y="343" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1244" Pos_y="309" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1176" Pos_y="276" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1108" Pos_y="242" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="1036" Pos_y="216" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="968" Pos_y="191" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="895" Pos_y="216" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="825" Pos_y="250" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="752" Pos_y="282" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="679" Pos_y="316" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="608" Pos_y="357" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="549" Pos_y="399" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="498" Pos_y="441" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="453" Pos_y="486" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="418" Pos_y="526" Size_x="64" Size_y="32" Obst="1"/>
+		<Item Pos_x="391" Pos_y="566" Size_x="40" Size_y="105" Obst="1"/>
+		<Item Pos_x="746" Pos_y="627" Size_x="29" Size_y="158" Obst="1"/>
+		<Item Pos_x="1226" Pos_y="627" Size_x="29" Size_y="158" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="968" Pos_y="796" Size_x="64" Size_y="30" Id="1" Map="机械塔05" MapPos_x="288" MapPos_y="50"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="975" Pos_y="355" Size_x="51" Size_y="77" Id="1" Char="披风剑客"/>
+	</Char>
+</Map>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\骷髅\酸水骷髅.bmp" ColorKey="0xFF00FF00" Size_x="30" Size_y="60" Scale="2.000" Flip="1" HitEffect="闪光01">
+	<Action Num="4">
+		<Act Name="站立" End="5"/>
+		<Act Name="移动" State="1" End="5" Speed_x="50"/>
+		<Act Name="转身" State="2" Next="移动" Flip="1"/>
+		<Act Name="死亡" State="14" Group="1" Effect="酸水骷髅死亡"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\Sound\怪物\扔骨骷髅攻击.wav"/>
+		<Snd Id="2" File="\Sound\怪物\骷髅兵死亡.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="6">
+		<Img Size_x="16" Size_y="32" Hot_x="7" Hot_y="30"/>
+		<Img Frame="1" Pos_x="16" Size_x="16" Size_y="32" Hot_x="7" Hot_y="30"/>
+		<Img Frame="2" Pos_x="32" Size_x="16" Size_y="32" Hot_x="7" Hot_y="30"/>
+		<Img Frame="3" Pos_x="48" Size_x="16" Size_y="32" Hot_x="7" Hot_y="30"/>
+		<Img Frame="4" Pos_x="64" Size_x="16" Size_y="32" Hot_x="7" Hot_y="30"/>
+		<Img Frame="5" Pos_x="80" Size_x="16" Size_y="32" Hot_x="7" Hot_y="30"/>
+	</Image>
+</Char>

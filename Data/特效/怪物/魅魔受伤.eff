@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="287" Pos_y="380" Size_x="38" Size_y="106" Random="1" EmitInter="20" EmitTime="200" Pic="魅魔" Group="11" Frame="1" ColorKey="0xFF00" EndColor="0x10FFFFFF" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemLife="2000" ItemScale="1.500" ItemQuality="1.000" MinSpeedX="-50.000" MaxSpeedX="50.000" MinSpeedY="-100.000" MaxSpeedY="-100.000" AddSpeedY="200.000" AngleSpeed="6.000"/>
+</Effect>

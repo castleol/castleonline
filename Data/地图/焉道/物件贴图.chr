@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\地图\焉道\物件.bmp" ColorKey="0x80" Size_x="24" Size_y="56" Scale="2.000" Shadow="1" HitEffect="闪光01" HurtShader="受伤01">
+	<Anim Num="1">
+		<Ani Name="站立" Group="1"/>
+	</Anim>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="0"/>
+	<Image Num="7">
+		<Img Group="1" Pos_x="9" Pos_y="8" Size_x="18" Size_y="10" Hot_x="8" Hot_y="4"/>
+		<Img Group="1" Frame="1" Pos_x="11" Pos_y="22" Size_x="14" Size_y="15" Hot_x="6" Hot_y="8"/>
+		<Img Group="1" Frame="2" Pos_x="8" Pos_y="40" Size_x="21" Size_y="17" Hot_x="9" Hot_y="8"/>
+		<Img Group="2" Pos_x="33" Pos_y="7" Size_x="13" Size_y="19" Hot_x="6" Hot_y="10"/>
+		<Img Group="2" Frame="1" Pos_x="34" Pos_y="33" Size_x="12" Size_y="15" Hot_x="5" Hot_y="7"/>
+		<Img Group="2" Frame="2" Pos_x="47" Pos_y="14" Size_x="9" Size_y="13" Hot_x="4" Hot_y="7"/>
+		<Img Group="2" Frame="3" Pos_x="47" Pos_y="33" Size_x="9" Size_y="17" Hot_x="4" Hot_y="9"/>
+	</Image>
+	<Frame Num="0"/>
+</Char>

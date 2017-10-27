@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="365" Pos_y="366" Size_x="40" Size_y="78" Offs_x="40" Offs_y="-90" Pic="剪刀男" Group="5" ColorKey="0xFF00FF" Sound="\Sound\怪物\牛头人扔斧.wav" ItemSize_x="40" ItemSize_y="40" ItemHot_x="20" ItemHot_y="20" ItemFrame="1" ItemLife="2000" ItemScale="2.000" MinSpeedX="600.000" MaxSpeedX="600.000" AddSpeedX="-600.000" AngleSpeed="8.000" HitType="2" Destroy="1" EndEffect="爆炸01"/>
+</Effect>

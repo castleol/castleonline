@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="500">
+	<Tile>
+		<Item Size_x="800" Size_y="500" Pic="\image\地图\藏书库\房间02.bmp" Pic_right="256" Pic_bottom="207"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="258" Pos_y="341" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\藏宝石台.bmp" Obst="3" Id="1" Type="1"/>
+		<Item Pos_x="282" Pos_y="290" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="2" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" Item="生命上限" TaskId="4" Swing_y="10"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="100" Pos_y="405" Size_x="700" Size_y="95" Obst="1"/>
+		<Item Size_x="100" Size_y="500" Obst="1"/>
+		<Item Pos_x="650" Size_x="150" Size_y="175" Obst="1"/>
+		<Item Pos_x="650" Pos_y="328" Size_x="150" Size_y="76" Obst="1"/>
+		<Item Pos_x="549" Pos_y="366" Size_x="100" Size_y="38" Obst="1"/>
+		<Item Pos_x="99" Size_x="552" Size_y="58" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="788" Pos_y="182" Size_x="54" Size_y="140" Id="1" Map="书库大厅01" MapPos_y="302"/>
+	</Trap>
+	<Char/>
+</Map>

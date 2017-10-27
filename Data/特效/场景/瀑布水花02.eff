@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="309" Pos_y="2909" Size_x="136" Size_y="64" Offs_x="45" Offs_y="-40" Random="1" EmitInter="25" EmitTime="10000000" Color="0x90909090" EndColor="0xFFFFFF" Sound="\sound\场景\瀑布01.wav" ItemSize_x="4" ItemSize_y="4" ItemHot_x="2" ItemHot_y="2" ItemLife="2000" MinSpeedY="50.000" MaxSpeedY="100.000" AddSpeedY="-200.000"/>
+	<Item Pos_x="364" Pos_y="2909" Size_x="83" Size_y="64" Offs_x="60" Offs_y="-100" Random="1" EmitInter="20" EmitTime="10000000" EndColor="0xFFFFFF" ItemSize_x="4" ItemSize_y="4" ItemHot_x="2" ItemHot_y="2" ItemLife="2000" MaxSpeedX="50.000" MinSpeedY="-200.000" MaxSpeedY="-100.000" AddSpeedY="200.000"/>
+	<Item Pos_x="348" Pos_y="2912" Size_x="85" Size_y="64" Offs_x="10" Offs_y="-100" Random="1" EmitInter="20" EmitTime="10000000" EndColor="0xFFFFFF" ItemSize_x="4" ItemSize_y="4" ItemHot_x="2" ItemHot_y="2" ItemLife="2000" MinSpeedX="-50.000" MinSpeedY="-200.000" MaxSpeedY="-100.000" AddSpeedY="200.000"/>
+</Effect>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\动物\癞蛤蟆.bmp" ColorKey="0xFFFF00FF" Size_x="32" Size_y="32" Scale="2.000" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="9">
+		<Act Name="站立" Group="1" End="1" Fps="2" Sound="1"/>
+		<Act Name="攻击" State="4" Group="2" End="8" Fps="15" Start="4" Sound="2" Next="站立"/>
+		<Act Name="转身" Group="1" Next="站立" Flip="1"/>
+		<Act Name="下落" State="3" Group="3" Begin="2" End="2" Loop="2" Start="2" Speed_x="-1" Speed_y="-1" AddSpeed_y="1000"/>
+		<Act Name="落地" State="3" Group="3" Begin="3" End="3" Loop="3" Start="3" Next="站立"/>
+		<Act Name="死亡" State="14" Group="1" Time="500" Sound="4" Effect="青蛙死亡"/>
+		<Act Name="跳跃1" State="3" Group="3" End="1" Loop="1" Sound="3" Speed_x="150" Speed_y="-150" AddSpeed_y="1000"/>
+		<Act Name="跳跃2" State="3" Group="3" End="1" Loop="1" Sound="3" Speed_x="200" Speed_y="-200" AddSpeed_y="1000"/>
+		<Act Name="跳跃3" State="3" Group="3" End="1" Loop="1" Sound="3" Speed_x="300" Speed_y="-300" AddSpeed_y="1000"/>
+	</Action>
+	<Rect Num="5">
+		<Rect Name="攻击" Frame="3" Rect_left="15" Rect_top="-31" Rect_right="43" Rect_bottom="-17"/>
+		<Rect Name="攻击" Frame="4" Rect_left="16" Rect_top="-32" Rect_right="53" Rect_bottom="-18"/>
+		<Rect Name="攻击" Frame="5" Rect_left="16" Rect_top="-33" Rect_right="68" Rect_bottom="-18"/>
+		<Rect Name="攻击" Frame="6" Rect_left="17" Rect_top="-33" Rect_right="53" Rect_bottom="-19"/>
+		<Rect Name="攻击" Frame="7" Rect_left="15" Rect_top="-32" Rect_right="44" Rect_bottom="-18"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="4">
+		<Snd Id="1" File="\Sound\怪物\蛤蟆叫.wav"/>
+		<Snd Id="2" File="\Sound\怪物\蛤蟆攻击.wav"/>
+		<Snd Id="3" File="\Sound\怪物\蛤蟆跳跃.wav"/>
+		<Snd Id="4" File="\Sound\怪物\蛤蟆死亡.wav"/>
+	</Sound>
+	<Image Num="15">
+		<Img Group="1" Pos_x="4" Pos_y="2" Size_x="25" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="1" Frame="1" Pos_x="35" Pos_y="2" Size_x="25" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="2" Pos_x="68" Pos_y="2" Size_x="26" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="2" Frame="1" Pos_x="100" Pos_y="2" Size_x="26" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="2" Frame="2" Pos_x="3" Pos_y="30" Size_x="27" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="2" Frame="3" Pos_x="35" Pos_y="30" Size_x="34" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="2" Frame="4" Pos_x="69" Pos_y="30" Size_x="39" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="2" Frame="5" Time="200" Pos_x="108" Pos_y="30" Size_x="47" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="2" Frame="6" Pos_x="69" Pos_y="30" Size_x="39" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="2" Frame="7" Pos_x="35" Pos_y="30" Size_x="34" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="2" Frame="8" Pos_x="3" Pos_y="30" Size_x="27" Size_y="21" Hot_x="12" Hot_y="21"/>
+		<Img Group="3" Pos_x="3" Pos_y="58" Size_x="27" Size_y="34" Hot_x="12" Hot_y="34"/>
+		<Img Group="3" Frame="1" Pos_x="32" Pos_y="58" Size_x="37" Size_y="37" Hot_x="13" Hot_y="37"/>
+		<Img Group="3" Frame="2" Pos_x="74" Pos_y="63" Size_x="38" Size_y="28" Hot_x="22" Hot_y="28"/>
+		<Img Group="3" Frame="3" Pos_x="116" Pos_y="70" Size_x="29" Size_y="23" Hot_x="13" Hot_y="23"/>
+	</Image>
+</Char>

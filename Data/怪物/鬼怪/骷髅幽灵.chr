@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\鬼怪\骷髅幽灵.bmp" ColorKey="0xFF00FF00" Size_x="32" Size_y="54" Scale="2.000" TrailTime="5" TrailFade="10" HitEffect="闪光01">
+	<Action Num="5">
+		<Act Name="站立" Group="1" Blend="0x1" Fly="1"/>
+		<Act Name="转身" Group="1" Blend="0x1" Next="站立" Flip="1" Fly="1"/>
+		<Act Name="飞行" State="1" Group="1" Time="1000" Blend="0x1" Next="咬牙" Speed_x="200" AddSpeed_x="100" Fly="1"/>
+		<Act Name="咬牙" State="1" Group="1" End="2" Fps="12" Time="800" Start="-1" Blend="0x1" Sound="2" Next="站立" Speed_x="-1" Speed_y="-1" AddSpeed_x="100" Fly="1"/>
+		<Act Name="死亡" State="14" Group="1" Time="1000" Blend="0x1" Sound="1" Effect="怨灵死亡" Speed_y="100" Fly="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\幽灵死亡.wav"/>
+		<Snd Id="2" File="\sound\怪物\骷髅头咬牙.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="3">
+		<Img Group="1" Size_x="20" Size_y="30" Hot_x="9" Hot_y="30"/>
+		<Img Group="1" Frame="1" Pos_y="31" Size_x="20" Size_y="30" Hot_x="9" Hot_y="30"/>
+		<Img Group="1" Frame="2" Pos_y="61" Size_x="20" Size_y="30" Hot_x="9" Hot_y="29"/>
+	</Image>
+</Char>

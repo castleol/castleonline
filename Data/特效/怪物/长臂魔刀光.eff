@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="361" Pos_y="376" Size_x="40" Size_y="78" Offs_x="50" Pic="\Image\特效\怪物\长臂魔刀光.bmp" Pic_right="48" Pic_bottom="96" ColorKey="0xFF00FF" Blend="0x1" Sound="\sound\怪物\长臂魔刀光.wav" ItemSize_x="80" ItemSize_y="160" ItemHot_x="40" ItemHot_y="160" ItemFrame="2" ItemFps="10" ItemLife="2500" MinSpeedX="400.000" MaxSpeedX="400.000" HitType="2"/>
+</Effect>

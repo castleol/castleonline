@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\焉道\焉道07.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0xFF800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="255" Pos_y="454" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="1" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" TaskId="1" Item="生命上限"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="637" Pos_y="394" Size_x="163" Size_y="107" Obst="1"/>
+		<Item Pos_x="600" Pos_y="348" Size_x="51" Size_y="46" Obst="4"/>
+		<Item Pos_x="448" Pos_y="348" Size_x="153" Size_y="32" Obst="1"/>
+		<Item Pos_x="350" Pos_y="348" Size_x="99" Size_y="89" Obst="5"/>
+		<Item Pos_x="350" Pos_y="437" Size_x="58" Size_y="87" Obst="1"/>
+		<Item Pos_x="85" Pos_y="487" Size_x="285" Size_y="32" Obst="1"/>
+		<Item Pos_x="99" Pos_y="392" Size_x="103" Size_y="95" Obst="4"/>
+		<Item Pos_x="42" Pos_y="227" Size_x="58" Size_y="173" Obst="1"/>
+		<Item Pos_x="87" Pos_y="125" Size_x="113" Size_y="149" Obst="1"/>
+		<Item Pos_x="158" Pos_y="23" Size_x="198" Size_y="139" Obst="1"/>
+		<Item Pos_x="91" Pos_y="272" Size_x="63" Size_y="50" Obst="1"/>
+		<Item Pos_x="331" Pos_y="28" Size_x="383" Size_y="42" Obst="1"/>
+		<Item Pos_x="694" Pos_y="51" Size_x="106" Size_y="158" Obst="1"/>
+		<Item Pos_x="173" Pos_y="158" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="344" Pos_y="59" Size_x="58" Size_y="76" Obst="1"/>
+		<Item Pos_x="377" Pos_y="66" Size_x="58" Size_y="32" Obst="1"/>
+		<Item Pos_x="644" Pos_y="94" Size_x="62" Size_y="88" Obst="1"/>
+		<Item Pos_x="594" Pos_y="98" Size_x="78" Size_y="37" Obst="1"/>
+		<Item Pos_x="559" Pos_y="60" Size_x="58" Size_y="44" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="794" Pos_y="216" Size_x="64" Size_y="174" Id="1" Map="焉道06" MapPos_y="1083"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="257" Pos_y="183" Size_x="84" Size_y="110" Id="1" Char="瑟兰祭祀"/>
+	</Char>
+</Map>

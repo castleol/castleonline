@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="926">
+	<Tile>
+		<Item Pos_y="664" Size_x="800" Size_y="262" Color0="0xFF000000" Color1="0xFF000000" Color2="0xFF000000" Color3="0xFF000000"/>
+		<Item Size_x="800" Size_y="664" Pic="\Image\地图\计时塔\天空塔\背景01-1.bmp" Pic_right="256" Pic_bottom="492" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="396" Size_x="800" Size_y="268" Pic="\Image\地图\计时塔\天空塔\背景02-5.bmp" Pic_right="512" Pic_bottom="268" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="436" Pos_y="80" Size_x="56" Size_y="800" Pic="\Image\地图\计时塔\天空塔\背景03-2.bmp" Pic_right="56" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="436" Pos_y="48" Size_x="56" Size_y="32" Pic="\Image\地图\计时塔\天空塔\背景03-1.bmp" Pic_right="56" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="308" Pos_y="80" Size_x="56" Size_y="704" Pic="\Image\地图\计时塔\天空塔\背景03-2.bmp" Pic_right="56" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="432" Pos_y="560" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\天空塔\背景03-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="2"/>
+		<Item Pos_x="432" Pos_y="400" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\天空塔\背景03-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="2"/>
+		<Item Pos_x="304" Pos_y="208" Size_x="64" Size_y="32" Pic="\Image\地图\计时塔\天空塔\背景03-3.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="2"/>
+		<Item Pos_x="308" Pos_y="48" Size_x="56" Size_y="32" Pic="\Image\地图\计时塔\天空塔\背景03-1.bmp" Pic_right="56" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_y="656" Size_x="112" Size_y="128" Pic="\Image\地图\计时塔\天空塔\背景02-3.bmp" Pic_right="128" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="112" Pos_y="656" Size_x="96" Size_y="128" Pic="\Image\地图\计时塔\天空塔\背景02-1.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="528" Pos_y="336" Size_x="160" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-9.bmp" Pic_right="160" Pic_bottom="64" ColorKey="0xFF00FF"/>
+		<Item Pos_x="654" Pos_y="272" Size_x="146" Size_y="416" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="624" Pos_y="256" Size_x="128" Size_y="240" Pic="\Image\地图\计时塔\天空塔\墙面01-6.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="656" Pos_y="144" Size_x="144" Size_y="128" Pic="\Image\地图\计时塔\天空塔\背景02-3.bmp" Pic_right="128" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="560" Pos_y="144" Size_x="96" Size_y="128" Pic="\Image\地图\计时塔\天空塔\背景02-2.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="144" Size_x="144" Size_y="128" Pic="\Image\地图\计时塔\天空塔\背景02-3.bmp" Pic_right="128" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="144" Pos_y="144" Size_x="96" Size_y="128" Pic="\Image\地图\计时塔\天空塔\背景02-1.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="144" Size_x="128" Size_y="144" Pic="\Image\地图\计时塔\天空塔\墙面01-6.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF"/>
+		<Item Pos_x="528" Size_x="128" Size_y="144" Pic="\Image\地图\计时塔\天空塔\墙面01-7.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF"/>
+		<Item Pos_x="272" Size_x="256" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-3.bmp" Pic_right="192" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Size_x="144" Size_y="144" Pic="\Image\地图\计时塔\天空塔\墙面01-8.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_y="336" Size_x="128" Size_y="320" Pic="\Image\地图\计时塔\天空塔\墙面01-6.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="96" Pos_y="336" Size_x="146" Size_y="127" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="64" Pos_y="528" Size_x="128" Size_y="128" Pic="\Image\地图\计时塔\天空塔\墙面01-6.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="656" Size_x="144" Size_y="144" Pic="\Image\地图\计时塔\天空塔\墙面01-8.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="463" Size_x="272" Size_y="65" Pic="\Image\地图\计时塔\天空塔\墙面01-8.bmp" Pic_right="128" Pic_bottom="144" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="496" Pos_y="272" Size_x="160" Size_y="96" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="560" Pos_y="400" Size_x="160" Size_y="96" Pic="\Image\地图\计时塔\天空塔\墙面01-5.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="560" Pos_y="496" Size_x="160" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="560" Pos_y="560" Size_x="160" Size_y="128" Pic="\Image\地图\计时塔\天空塔\墙面01-5.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="208" Pos_y="272" Size_x="192" Size_y="192" Pic="\Image\地图\计时塔\天空塔\墙面02-1.bmp" Pic_right="192" Pic_bottom="192" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="272" Size_x="208" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="80" Pos_y="592" Size_x="160" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-5.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="272" Pos_y="464" Size_x="128" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-1.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="144" Pos_y="528" Size_x="128" Size_y="96" Pic="\Image\地图\计时塔\天空塔\墙面01-1.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="784" Size_x="337" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="654" Pos_y="720" Size_x="146" Size_y="160" Pic="\Image\地图\计时塔\天空塔\墙面01-4.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="529" Pos_y="720" Size_x="160" Size_y="96" Pic="\Image\地图\计时塔\天空塔\墙面01-5.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="304" Pos_y="688" Size_x="128" Size_y="160" Pic="\Image\地图\计时塔\天空塔\墙面02-2.bmp" Pic_right="192" Pic_bottom="192" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="432" Pos_y="688" Size_x="368" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="285" Pos_y="848" Size_x="128" Size_y="32" Pic="\Image\地图\计时塔\天空塔\墙面01-1.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="848" Size_x="285" Size_y="32" Pic="\Image\地图\计时塔\天空塔\墙面01-10.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="561" Pos_y="816" Size_x="160" Size_y="64" Pic="\Image\地图\计时塔\天空塔\墙面01-5.bmp" Pic_right="160" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="880" Size_x="800" Size_y="46" Pic="\Image\地图\计时塔\天空塔\墙面01-2.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Size_x="272" Size_y="144" Obst="1"/>
+		<Item Pos_x="528" Size_x="272" Size_y="144" Obst="1"/>
+		<Item Pos_x="272" Size_x="256" Size_y="64" Obst="1"/>
+		<Item Pos_y="272" Size_x="239" Size_y="144" Obst="1"/>
+		<Item Pos_x="501" Pos_y="272" Size_x="299" Size_y="96" Obst="1"/>
+		<Item Pos_x="528" Pos_y="368" Size_x="239" Size_y="32" Obst="1"/>
+		<Item Pos_x="560" Pos_y="400" Size_x="240" Size_y="288" Obst="1"/>
+		<Item Pos_x="304" Pos_y="688" Size_x="96" Size_y="96" Obst="5"/>
+		<Item Pos_x="401" Pos_y="688" Size_x="400" Size_y="64" Obst="1"/>
+		<Item Pos_y="784" Size_x="304" Size_y="64" Obst="1"/>
+		<Item Pos_y="560" Size_x="240" Size_y="96" Obst="1"/>
+		<Item Pos_x="239" Pos_y="272" Size_x="160" Size_y="160" Obst="4"/>
+		<Item Pos_y="433" Size_x="400" Size_y="96" Obst="1"/>
+		<Item Pos_y="529" Size_x="272" Size_y="31" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="796" Pos_y="144" Size_x="60" Size_y="128" Id="1" Map="通往计时塔" MapPos_y="407"/>
+		<Item Pos_x="-60" Pos_y="144" Size_x="60" Size_y="128" Id="2" Map="天空塔02" MapPos_x="3072" MapPos_y="1808"/>
+		<Item Pos_x="-60" Pos_y="656" Size_x="60" Size_y="128" Id="3" Map="天空塔02" MapPos_x="3072" MapPos_y="2320"/>
+	</Trap>
+	<Char/>
+</Map>

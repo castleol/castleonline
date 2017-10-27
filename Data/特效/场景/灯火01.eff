@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="368" Pos_y="385" Size_x="68" Size_y="59" Offs_y="-60" EmitInter="1" EmitTime="1" Pic="\Image\特效\爆炸\004.bmp" Pic_right="32" Pic_bottom="32" Filter="0x2" Blend="0x2" Sound="\sound\物件\灯台.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="7" ItemFps="10" ItemScale="1.200" MinSpeedY="-50.000" MaxSpeedY="-50.000"/>
+</Effect>

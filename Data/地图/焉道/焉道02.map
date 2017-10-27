@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1200" Size_y="600">
+	<Tile>
+		<Item Size_x="600" Size_y="600" Pic="\Image\地图\焉道\焉道02-1.bmp" Pic_right="256" Pic_bottom="207"/>
+		<Item Pos_x="600" Size_x="600" Size_y="600" Pic="\Image\地图\焉道\焉道02-2.bmp" Pic_right="256" Pic_bottom="207"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="426" Pos_y="281" Size_x="48" Size_y="160" Pic="\Image\地图\焉道\灯柱.bmp" Pic_top="50" Pic_right="20" Pic_bottom="110" ColorKey="0x80" Frames="4" Fps="10" Id="1" ChildId="3" Damage="1" Effect="\data\地图\焉道\灯柱破裂2.eff" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\焉道.lua"/>
+		<Item Pos_x="726" Pos_y="282" Size_x="48" Size_y="160" Pic="\Image\地图\焉道\灯柱.bmp" Pic_top="50" Pic_right="20" Pic_bottom="110" ColorKey="0x80" Frames="4" Fps="10" Id="2" ChildId="4" Damage="1" Effect="\data\地图\焉道\灯柱破裂2.eff" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\焉道.lua"/>
+		<Item Pos_x="322" Pos_y="192" Size_x="256" Size_y="256" Pic="\image\地图\焉道\灯光.bmp" Pic_right="53" Pic_bottom="53" Blend="0x1" ColorKey="0xFF000000" Frames="2" Fps="15" Id="3" Type="9"/>
+		<Item Pos_x="620" Pos_y="192" Size_x="256" Size_y="256" Pic="\image\地图\焉道\灯光.bmp" Pic_right="53" Pic_bottom="53" Blend="0x1" ColorKey="0xFF000000" Frames="2" Fps="15" Id="4" Type="9"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="79" Pos_y="35" Size_x="1026" Size_y="35" Obst="1"/>
+		<Item Pos_y="55" Size_x="112" Size_y="154" Obst="1"/>
+		<Item Pos_x="1012" Pos_y="55" Size_x="187" Size_y="154" Obst="1"/>
+		<Item Pos_y="394" Size_x="150" Size_y="154" Obst="1"/>
+		<Item Pos_x="1087" Pos_y="394" Size_x="112" Size_y="154" Obst="1"/>
+		<Item Pos_x="125" Pos_y="441" Size_x="982" Size_y="103" Obst="1"/>
+		<Item Pos_x="111" Pos_y="69" Size_x="18" Size_y="16" Obst="1"/>
+		<Item Pos_x="994" Pos_y="69" Size_x="18" Size_y="16" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-38" Pos_y="215" Size_x="46" Size_y="176" Id="1" Map="焉道01" MapPos_x="800" MapPos_y="1944"/>
+		<Item Pos_x="1194" Pos_y="223" Size_x="67" Size_y="168" Id="2" Map="焉道03" MapPos_y="394"/>
+	</Trap>
+	<Char/>
+</Map>

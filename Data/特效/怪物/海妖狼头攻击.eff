@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="222" Pos_y="327" Size_x="64" Size_y="64" Offs_y="-32" EmitInter="1" EmitTime="1" Pic="海妖" Group="14" Frame="4" Filter="0x0" Blend="0x1" BeginTime="400" ItemSize_x="40" ItemSize_y="40" ItemHot_x="20" ItemHot_y="20" ItemFrame="7" ItemFps="10" ItemLife="2500" ItemScale="2.000" MinSpeedX="-300.000" MaxSpeedX="-400.000" MinSpeedY="-100.000" MaxSpeedY="100.000" Follow="3" HitType="2" HitOnce="1" Rebound="1" Destroy="1" Magic="1" TrailColor="0xFF8080FF" EndEffect="海妖水球爆炸"/>
+</Effect>

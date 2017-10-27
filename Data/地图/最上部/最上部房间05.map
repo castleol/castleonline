@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_y="518" Size_x="708" Size_y="82" Pic="\Image\地图\最上部\墙面01-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="240" Pos_y="76" Size_x="466" Size_y="390" Pic="\Image\地图\最上部\背景03-3.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="332" Size_x="208" Size_y="128" Pic="\Image\地图\最上部\背景02-3.bmp" Pic_right="64" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Size_x="144" Size_y="268" Pic="\Image\地图\最上部\墙面01-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="674" Pos_y="76" Size_x="32" Size_y="389" Pic="\Image\地图\最上部\背景03-2.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="208" Pos_y="48" Size_x="32" Size_y="64" Pic="\Image\地图\最上部\背景03-1.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="208" Pos_y="112" Size_x="32" Size_y="350" Pic="\Image\地图\最上部\背景03-2.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="642" Pos_y="400" Size_x="64" Size_y="64" Pic="\Image\地图\最上部\物件01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="144" Pos_y="460" Size_x="64" Size_y="64" Pic="\Image\地图\最上部\墙面02-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="207" Pos_y="460" Size_x="500" Size_y="64" Pic="\Image\地图\最上部\墙面02-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="460" Size_x="149" Size_y="64" Pic="\Image\地图\最上部\墙面02-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="144" Pos_y="268" Size_x="64" Size_y="64" Pic="\Image\地图\最上部\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="208" Size_x="592" Size_y="77" Pic="\Image\地图\最上部\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="144" Size_x="64" Size_y="268" Pic="\Image\地图\最上部\墙面02-10.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_y="268" Size_x="144" Size_y="64" Pic="\Image\地图\最上部\墙面02-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="706" Pos_y="77" Size_x="94" Size_y="523" Pic="\Image\地图\最上部\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="208" Pos_y="77" Size_x="498" Size_y="80" Color0="0xFF000000" Color1="0xFF000000" Color2="0x0" Color3="0x0"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="658" Pos_y="368" Size_x="32" Size_y="32" Pic="\image\图标\武器.bmp" Pic_left="32" Pic_top="96" Pic_right="64" Pic_bottom="128" Id="1" Type="7" Sound="\sound\物品\武器.wav" Script="\data\脚本\拾取物品\普通物品.lua" Item="短剑06" TaskId="7"/>
+	</Anim>
+	<Obst/>
+	<Trap>
+		<Item Pos_x="-35" Pos_y="332" Size_x="40" Size_y="128" Id="1" Map="最上部房间04" MapPos_x="800" MapPos_y="458"/>
+	</Trap>
+	<Char/>
+</Map>

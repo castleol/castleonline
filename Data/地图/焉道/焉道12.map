@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1280">
+	<Tile>
+		<Item Size_x="800" Size_y="1280" Pic="\Image\地图\焉道\焉道12-1.bmp" Pic_right="256" Pic_bottom="463" ColorKey="0xFF800000"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_y="97" Size_x="425" Size_y="101" Obst="1"/>
+		<Item Pos_x="395" Pos_y="134" Size_x="249" Size_y="154" Obst="1"/>
+		<Item Pos_x="552" Pos_y="261" Size_x="58" Size_y="231" Obst="1"/>
+		<Item Pos_x="295" Pos_y="167" Size_x="162" Size_y="77" Obst="1"/>
+		<Item Pos_y="376" Size_x="151" Size_y="141" Obst="1"/>
+		<Item Pos_x="150" Pos_y="376" Size_x="101" Size_y="86" Obst="4"/>
+		<Item Pos_x="178" Pos_y="462" Size_x="73" Size_y="51" Obst="1"/>
+		<Item Pos_x="143" Pos_y="501" Size_x="58" Size_y="159" Obst="1"/>
+		<Item Pos_x="93" Pos_y="644" Size_x="58" Size_y="144" Obst="1"/>
+		<Item Pos_x="91" Pos_y="820" Size_x="160" Size_y="43" Obst="1"/>
+		<Item Pos_y="849" Size_x="107" Size_y="60" Obst="1"/>
+		<Item Pos_x="150" Pos_y="732" Size_x="100" Size_y="87" Obst="4"/>
+		<Item Pos_x="83" Pos_y="847" Size_x="58" Size_y="43" Obst="1"/>
+		<Item Pos_y="1085" Size_x="330" Size_y="45" Obst="1"/>
+		<Item Pos_x="348" Pos_y="998" Size_x="208" Size_y="115" Obst="1"/>
+		<Item Pos_x="248" Pos_y="998" Size_x="100" Size_y="87" Obst="5"/>
+		<Item Pos_x="452" Pos_y="690" Size_x="58" Size_y="324" Obst="1"/>
+		<Item Pos_x="351" Pos_y="641" Size_x="189" Size_y="93" Obst="1"/>
+		<Item Pos_x="400" Pos_y="598" Size_x="131" Size_y="69" Obst="1"/>
+		<Item Pos_x="502" Pos_y="462" Size_x="58" Size_y="185" Obst="1"/>
+		<Item Pos_x="502" Pos_y="419" Size_x="50" Size_y="43" Obst="5"/>
+		<Item Pos_x="450" Pos_y="553" Size_x="52" Size_y="43" Obst="5"/>
+		<Item Pos_x="351" Pos_y="598" Size_x="49" Size_y="41" Obst="5"/>
+		<Item Pos_x="369" Pos_y="727" Size_x="58" Size_y="43" Obst="1"/>
+		<Item Pos_x="407" Pos_y="766" Size_x="58" Size_y="43" Obst="1"/>
+		<Item Pos_x="398" Pos_y="954" Size_x="54" Size_y="43" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-54" Pos_y="202" Size_x="61" Size_y="167" Id="1" Map="焉道10" MapPos_x="800" MapPos_y="2712"/>
+		<Item Pos_x="-53" Pos_y="911" Size_x="58" Size_y="172" Id="2" Map="焉道至墓地" MapPos_x="800" MapPos_y="407"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="357" Pos_y="364" Size_x="84" Size_y="110" Id="1" Char="瑟兰祭祀" Left="1"/>
+	</Char>
+</Map>

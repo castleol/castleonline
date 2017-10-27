@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1536" Size_y="500">
+	<Tile>
+		<Item Size_x="512" Size_y="500" Pic="\Image\地图\地下墓地\墓地08-1.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1"/>
+		<Item Pos_x="512" Size_x="512" Size_y="500" Pic="\Image\地图\地下墓地\墓地08-2.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1"/>
+		<Item Pos_x="1024" Size_x="512" Size_y="500" Pic="\Image\地图\地下墓地\墓地08-3.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1"/>
+		<Item Pos_x="224" Pos_y="48" Size_x="32" Size_y="88" Pic="\Image\地图\地下墓地\墓地08-4.bmp" Pic_right="16" Pic_bottom="36" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="256" Pos_y="11" Size_x="32" Size_y="88" Pic="\Image\地图\地下墓地\墓地08-4.bmp" Pic_right="16" Pic_bottom="36" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="290" Pos_y="19" Size_x="414" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-5.bmp" Pic_right="207" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="704" Pos_y="17" Size_x="64" Size_y="196" Pic="\Image\地图\地下墓地\墓地08-6.bmp" Pic_right="32" Pic_bottom="81" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="554" Pos_y="175" Size_x="150" Size_y="114" Pic="\Image\地图\地下墓地\墓地08-7.bmp" Pic_right="80" Pic_bottom="48" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="194" Pos_y="405" Size_x="190" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-8.bmp" Pic_right="95" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="352" Pos_y="174" Size_x="96" Size_y="234" Pic="\Image\地图\地下墓地\墓地08-9.bmp" Pic_right="48" Pic_bottom="97" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="448" Pos_y="368" Size_x="33" Size_y="40" Pic="\Image\地图\地下墓地\墓地08-10.bmp" Pic_right="16" Pic_bottom="17" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="482" Pos_y="405" Size_x="160" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-11.bmp" Pic_right="80" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="642" Pos_y="444" Size_x="286" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-12.bmp" Pic_right="143" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="928" Pos_y="404" Size_x="32" Size_y="40" Pic="\Image\地图\地下墓地\墓地08-13.bmp" Pic_right="16" Pic_bottom="17" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="960" Pos_y="370" Size_x="32" Size_y="38" Pic="\Image\地图\地下墓地\墓地08-14.bmp" Pic_right="16" Pic_bottom="17" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="992" Pos_y="249" Size_x="32" Size_y="157" Pic="\Image\地图\地下墓地\墓地08-15.bmp" Pic_right="16" Pic_bottom="65" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="961" Pos_y="175" Size_x="95" Size_y="111" Pic="\Image\地图\地下墓地\墓地08-16.bmp" Pic_right="48" Pic_bottom="47" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="1058" Pos_y="212" Size_x="62" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-17.bmp" Pic_right="31" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="1122" Pos_y="251" Size_x="158" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-18.bmp" Pic_right="79" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="1218" Pos_y="97" Size_x="62" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-19.bmp" Pic_right="31" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="1154" Pos_y="58" Size_x="62" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-19.bmp" Pic_right="31" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="898" Pos_y="19" Size_x="254" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-20.bmp" Pic_right="127" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="864" Pos_y="56" Size_x="32" Size_y="39" Pic="\Image\地图\地下墓地\墓地08-21.bmp" Pic_right="16" Pic_bottom="16" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="832" Pos_y="56" Size_x="32" Size_y="231" Pic="\Image\地图\地下墓地\墓地08-22.bmp" Pic_right="16" Pic_bottom="96" Filter="0x1" ColorKey="0x800000"/>
+		<Item Pos_x="736" Pos_y="251" Size_x="96" Size_y="78" Pic="\Image\地图\地下墓地\墓地08-23.bmp" Pic_right="48" Pic_bottom="32" Filter="0x1" ColorKey="0x800000"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_y="121" Size_x="96" Size_y="53" Obst="1"/>
+		<Item Pos_x="80" Pos_y="82" Size_x="145" Size_y="53" Obst="1"/>
+		<Item Pos_x="167" Pos_y="44" Size_x="89" Size_y="53" Obst="1"/>
+		<Item Pos_x="199" Pos_y="7" Size_x="89" Size_y="53" Obst="1"/>
+		<Item Pos_x="280" Size_x="553" Size_y="19" Obst="1"/>
+		<Item Pos_x="768" Pos_y="12" Size_x="63" Size_y="240" Obst="1"/>
+		<Item Pos_x="584" Pos_y="213" Size_x="201" Size_y="38" Obst="1"/>
+		<Item Pos_x="768" Pos_y="236" Size_x="30" Size_y="53" Obst="1"/>
+		<Item Pos_x="808" Pos_y="4" Size_x="89" Size_y="53" Obst="1"/>
+		<Item Pos_x="879" Size_x="385" Size_y="19" Obst="1"/>
+		<Item Pos_x="1154" Pos_y="6" Size_x="89" Size_y="53" Obst="1"/>
+		<Item Pos_x="1218" Pos_y="44" Size_x="89" Size_y="53" Obst="1"/>
+		<Item Pos_x="1281" Pos_y="83" Size_x="215" Size_y="53" Obst="1"/>
+		<Item Pos_x="1470" Pos_y="118" Size_x="66" Size_y="53" Obst="1"/>
+		<Item Pos_x="1452" Pos_y="102" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="1440" Pos_y="329" Size_x="96" Size_y="101" Obst="1"/>
+		<Item Pos_x="1248" Pos_y="370" Size_x="201" Size_y="53" Obst="1"/>
+		<Item Pos_x="1108" Pos_y="290" Size_x="172" Size_y="109" Obst="1"/>
+		<Item Pos_x="1049" Pos_y="251" Size_x="71" Size_y="53" Obst="1"/>
+		<Item Pos_x="992" Pos_y="213" Size_x="32" Size_y="36" Obst="1"/>
+		<Item Pos_x="1023" Pos_y="213" Size_x="33" Size_y="257" Obst="1"/>
+		<Item Pos_x="960" Pos_y="406" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="928" Pos_y="444" Size_x="64" Size_y="56" Obst="1"/>
+		<Item Pos_x="628" Pos_y="483" Size_x="306" Size_y="17" Obst="1"/>
+		<Item Pos_x="446" Pos_y="444" Size_x="194" Size_y="53" Obst="1"/>
+		<Item Pos_x="415" Pos_y="408" Size_x="64" Size_y="61" Obst="1"/>
+		<Item Pos_x="384" Pos_y="213" Size_x="32" Size_y="280" Obst="1"/>
+		<Item Pos_x="111" Pos_y="444" Size_x="296" Size_y="53" Obst="1"/>
+		<Item Pos_y="329" Size_x="98" Size_y="53" Obst="1"/>
+		<Item Pos_x="97" Pos_y="329" Size_x="63" Size_y="37" Obst="4"/>
+		<Item Pos_x="160" Pos_y="366" Size_x="32" Size_y="41" Obst="4"/>
+		<Item Pos_x="129" Pos_y="407" Size_x="64" Size_y="53" Obst="1"/>
+	</Obst>
+	<Trap/>
+	<Char/>
+</Map>

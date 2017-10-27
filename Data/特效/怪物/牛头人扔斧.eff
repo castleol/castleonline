@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="383" Pos_y="248" Size_x="48" Size_y="152" Offs_y="-100" EmitInter="1" EmitTime="1" Pic="\Image\怪物\BOSS\牛头人.bmp" Pic_left="425" Pic_right="500" Pic_bottom="42" ColorKey="0xFF00FF" Sound="\sound\怪物\牛头人扔斧.wav" ItemSize_x="75" ItemSize_y="42" ItemHot_x="38" ItemHot_y="21" ItemLife="1000" ItemScale="2.000" MinSpeedY="-700.000" MaxSpeedY="-700.000" AddSpeedY="500.000" AngleSpeed="-15.000" HitType="2"/>
+</Effect>

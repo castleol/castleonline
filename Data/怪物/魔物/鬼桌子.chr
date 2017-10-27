@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\魔物\鬼桌子.bmp" ColorKey="0xFF800000" Size_x="24" Size_y="56" Scale="2.000" HitEffect="闪光01">
+	<Action Num="6">
+		<Act Name="站立" Group="1"/>
+		<Act Name="转身" Next="移动1" Group="2" Flip="1"/>
+		<Act Name="死亡" Effect="鬼桌子死亡" State="14" Time="500" Sound="1"/>
+		<Act Name="启动" Next="移动1" Effect="鬼桌子物品" Group="1"/>
+		<Act Name="移动1" Next="移动2" State="1" Group="2" End="7" Fps="15" Speed_x="64"/>
+		<Act Name="移动2" Next="移动1" State="1" Group="3" End="7" Fps="15" Speed_x="64" Flip="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\sound\怪物\鬼桌子死亡.wav"/>
+	</Sound>
+	<Image Num="17">
+		<Img Group="2" Size_x="16" Size_y="31" Hot_x="8" Hot_y="30"/>
+		<Img Group="2" Frame="1" Pos_x="16" Size_x="19" Size_y="31" Hot_x="7" Hot_y="31"/>
+		<Img Group="2" Frame="2" Pos_x="35" Size_x="19" Size_y="31" Hot_x="7" Hot_y="31"/>
+		<Img Group="2" Frame="3" Pos_x="54" Size_x="19" Size_y="31" Hot_x="5" Hot_y="31"/>
+		<Img Group="2" Frame="4" Pos_x="73" Size_x="23" Size_y="31" Hot_x="5" Hot_y="31"/>
+		<Img Group="2" Frame="5" Pos_x="54" Size_x="19" Size_y="31" Hot_x="5" Hot_y="31"/>
+		<Img Group="2" Frame="6" Pos_x="35" Size_x="19" Size_y="31" Hot_x="7" Hot_y="31"/>
+		<Img Group="2" Frame="7" Pos_x="16" Size_x="19" Size_y="31" Hot_x="7" Hot_y="31"/>
+		<Img Group="3" Size_x="16" Size_y="31" Hot_x="8" Hot_y="30"/>
+		<Img Group="3" Frame="1" Pos_x="16" Size_x="19" Size_y="31" Hot_x="7" Hot_y="31"/>
+		<Img Group="3" Frame="2" Pos_x="35" Size_x="19" Size_y="31" Hot_x="7" Hot_y="31"/>
+		<Img Group="3" Frame="3" Pos_x="54" Size_x="19" Size_y="31" Hot_x="5" Hot_y="31"/>
+		<Img Group="3" Frame="4" Pos_x="73" Size_x="23" Size_y="31" Hot_x="5" Hot_y="31"/>
+		<Img Group="3" Frame="5" Pos_x="54" Size_x="19" Size_y="31" Hot_x="5" Hot_y="31"/>
+		<Img Group="3" Frame="6" Pos_x="35" Size_x="19" Size_y="31" Hot_x="7" Hot_y="31"/>
+		<Img Group="3" Frame="7" Pos_x="16" Size_x="19" Size_y="31" Hot_x="7" Hot_y="31"/>
+		<Img Group="1" Pos_x="105" Pos_y="15" Size_x="15" Size_y="44" Hot_x="7" Hot_y="44"/>
+	</Image>
+</Char>

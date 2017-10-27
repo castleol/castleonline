@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="517" Pos_y="347" Size_x="40" Size_y="78" Offs_x="40" Offs_y="-100" Pic="\Image\怪物\骷髅\骷髅巨人.bmp" Pic_left="245" Pic_top="419" Pic_right="260" Pic_bottom="437" ColorKey="0xFF00" BoundSound="\sound\物件\头骨反弹.wav" ItemSize_x="16" ItemSize_y="19" ItemHot_x="8" ItemHot_y="9" ItemFrame="1" ItemLife="2200" ItemScale="2.000" MinSpeedX="-200.000" MaxSpeedX="-100.000" MinSpeedY="-200.000" MaxSpeedY="-100.000" AddSpeedY="800.000" AngleSpeed="-10.000" Rebound="1" EndEffect="骷髅头骨爆炸"/>
+</Effect>

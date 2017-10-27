@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="365" Pos_y="366" Size_x="4" Size_y="4" EndColor="0xFFFFFF" ItemSize_x="4" ItemSize_y="4" ItemHot_x="2" ItemHot_y="2" ItemFrame="1" ItemLife="2000" ItemQuality="1.000" HitType="1"/>
+</Effect>

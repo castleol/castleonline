@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="329" Pos_y="308" Size_x="40" Size_y="100" Offs_x="36" Offs_y="-70" EmitInter="10" EmitTime="1000" Pic="\data\怪物\怪人\瑟兰祭祀.chr" Group="10" ColorKey="0xFFFF00FF" Filter="0x2" Blend="0x1" EndColor="0x10FFFFFF" Sound="\sound\怪物\瑟兰祭祀火球.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="14" ItemFps="12" ItemLife="1000" ItemScale="1.200" ItemQuality="1.000" MinSpeedX="200.000" MaxSpeedX="300.000" MinSpeedY="-100.000" AddSpeedY="300.000" HitType="2"/>
+</Effect>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1000" Size_y="1000">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\崖侧外壁\背景01.bmp" Pic_right="512" Pic_bottom="432" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Size_x="640" Size_y="1000" Pic="\Image\地图\崖侧外壁\竖塔04.bmp" Pic_right="272" Pic_bottom="414" ColorKey="0x800000"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_y="828" Size_x="110" Size_y="171" Obst="1"/>
+		<Item Pos_x="110" Pos_y="828" Size_x="268" Size_y="41" Obst="1"/>
+		<Item Pos_x="601" Size_x="40" Size_y="983" Obst="1"/>
+		<Item Size_x="602" Size_y="96" Obst="1"/>
+		<Item Pos_y="96" Size_x="152" Size_y="77" Obst="1"/>
+		<Item Pos_x="448" Pos_y="96" Size_x="152" Size_y="77" Obst="1"/>
+		<Item Pos_x="340" Pos_y="328" Size_x="261" Size_y="41" Obst="1"/>
+		<Item Pos_y="328" Size_x="110" Size_y="347" Obst="1"/>
+		<Item Pos_x="111" Pos_y="518" Size_x="263" Size_y="41" Obst="1"/>
+		<Item Pos_x="110" Pos_y="328" Size_x="190" Size_y="190" Obst="4"/>
+		<Item Pos_x="450" Pos_y="673" Size_x="152" Size_y="40" Obst="1"/>
+		<Item Pos_x="488" Pos_y="944" Size_x="112" Size_y="55" Obst="1"/>
+		<Item Pos_x="340" Pos_y="944" Size_x="148" Size_y="148" Obst="5"/>
+		<Item Pos_x="111" Pos_y="561" Size_x="42" Size_y="114" Obst="1"/>
+		<Item Pos_x="113" Pos_y="871" Size_x="114" Size_y="36" Obst="1"/>
+		<Item Pos_x="477" Pos_y="369" Size_x="124" Size_y="38" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-36" Pos_y="176" Size_x="42" Size_y="150" Id="1" Map="外壁复活02" MapPos_x="800" MapPos_y="360"/>
+		<Item Pos_x="-35" Pos_y="675" Size_x="42" Size_y="150" Id="2" Map="通往计时塔" MapPos_x="800" MapPos_y="407"/>
+		<Item Pos_x="150" Pos_y="999" Size_x="260" Size_y="45" Id="3" Map="外壁竖塔03" MapPos_x="600" MapPos_y="50"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="942" Pos_y="729" Size_x="37" Size_y="43" Id="1" Char="美杜莎蓝魂" Left="1" Action="飞行"/>
+		<Item Pos_x="942" Pos_y="229" Size_x="37" Size_y="43" Id="2" Char="美杜莎蓝魂" Left="1" Action="飞行"/>
+	</Char>
+</Map>

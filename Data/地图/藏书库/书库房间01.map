@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1200">
+	<Tile>
+		<Item Size_x="800" Size_y="1200" Pic="\image\地图\藏书库\房间01.bmp" Pic_right="256" Pic_bottom="463"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="227" Pos_y="288" Size_x="110" Size_y="87" Pic="\image\地图\藏书库\台灯01.bmp" Pic_right="34" Pic_bottom="34" ColorKey="0x800000" Frames="4" Fps="10" Id="1" Effect="灯台02" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\藏书库.lua"/>
+		<Item Pos_x="298" Pos_y="1034" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\藏宝石台.bmp" Obst="3" Id="2" Type="1"/>
+		<Item Pos_x="323" Pos_y="990" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_left="160" Pic_top="96" Pic_right="192" Pic_bottom="128" Frames="5" Fps="10" Id="3" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\法力上限.lua" Item="法力上限" TaskId="6" Swing_y="10"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="150" Pos_y="435" Size_x="650" Size_y="291" Obst="1"/>
+		<Item Size_x="50" Size_y="435" Obst="1"/>
+		<Item Pos_x="698" Size_x="102" Size_y="188" Obst="1"/>
+		<Item Pos_y="435" Size_x="100" Size_y="291" Obst="1"/>
+		<Item Pos_x="700" Pos_y="352" Size_x="100" Size_y="84" Obst="1"/>
+		<Item Pos_x="600" Pos_y="394" Size_x="100" Size_y="41" Obst="1"/>
+		<Item Pos_x="51" Size_x="646" Size_y="63" Obst="1"/>
+		<Item Pos_x="199" Pos_y="376" Size_x="108" Size_y="59" Obst="1"/>
+		<Item Pos_x="700" Pos_y="726" Size_x="100" Size_y="123" Obst="1"/>
+		<Item Pos_y="726" Size_x="50" Size_y="473" Obst="1"/>
+		<Item Pos_x="50" Pos_y="1098" Size_x="750" Size_y="101" Obst="1"/>
+		<Item Pos_x="600" Pos_y="1057" Size_x="100" Size_y="41" Obst="1"/>
+		<Item Pos_x="700" Pos_y="1015" Size_x="100" Size_y="84" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="798" Pos_y="196" Size_x="54" Size_y="150" Id="1" Map="书库横廊05" MapPos_y="328"/>
+		<Item Pos_x="797" Pos_y="859" Size_x="54" Size_y="150" Id="2" Map="书库横廊04" MapPos_y="328"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="99" Pos_y="351" Size_x="68" Size_y="84" Id="1" Char="图书管理员" Action="坐着"/>
+	</Char>
+</Map>

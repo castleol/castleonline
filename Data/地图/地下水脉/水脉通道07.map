@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="5760" Size_y="1156">
+	<Tile>
+		<Item Pos_y="182" Size_x="3000" Size_y="212" Pic="\Image\地图\地下水脉\水脉背景.bmp" Pic_right="354" Pic_bottom="170" ColorKey="0xFFFF00FF" Tile="1" DeltaX="0.500"/>
+		<Item Size_x="1280" Size_y="1156" Pic="\Image\地图\地下水脉\水脉通道07-1.bmp" Pic_right="512" Pic_bottom="463" ColorKey="0xFFFF00FF"/>
+		<Item Pos_x="1280" Size_x="1280" Size_y="1156" Pic="\Image\地图\地下水脉\水脉通道07-2.bmp" Pic_right="512" Pic_bottom="463" ColorKey="0xFFFF00FF"/>
+		<Item Pos_x="2560" Size_x="1280" Size_y="1156" Pic="\Image\地图\地下水脉\水脉通道07-3.bmp" Pic_right="512" Pic_bottom="463" ColorKey="0xFFFF00FF"/>
+		<Item Pos_x="3840" Size_x="1920" Size_y="1156" Pic="\Image\地图\地下水脉\水脉通道07-4.bmp" Pic_right="768" Pic_bottom="463" ColorKey="0xFFFF00FF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_y="380" Size_x="1280" Size_y="775" Pic="\Image\地图\地下水脉\水脉通道07-1水.bmp" Pic_right="512" Pic_bottom="310" Color0="0x80FFFFFF" Color1="0x80FFFFFF" Color2="0x80FFFFFF" Color3="0x80FFFFFF" Mask="1" Id="1" Type="11" Damage="5"/>
+		<Item Pos_x="1679" Pos_y="380" Size_x="882" Size_y="480" Pic="\Image\地图\地下水脉\水脉通道07-2水.bmp" Pic_right="352" Pic_bottom="192" Color0="0x80FFFFFF" Color1="0x80FFFFFF" Color2="0x80FFFFFF" Color3="0x80FFFFFF" Mask="1" Id="2" Type="11" Damage="5"/>
+		<Item Pos_x="2560" Pos_y="380" Size_x="1280" Size_y="640" Pic="\Image\地图\地下水脉\水脉通道07-3水.bmp" Pic_right="512" Pic_bottom="256" Color0="0x80FFFFFF" Color1="0x80FFFFFF" Color2="0x80FFFFFF" Color3="0x80FFFFFF" Mask="1" Id="3" Type="11" Damage="5"/>
+		<Item Pos_x="3840" Pos_y="579" Size_x="1920" Size_y="561" Pic="\Image\地图\地下水脉\水脉通道07-4水.bmp" Pic_right="768" Pic_bottom="224" Color0="0x80FFFFFF" Color1="0x80FFFFFF" Color2="0x80FFFFFF" Color3="0x80FFFFFF" Mask="1" Id="4" Type="11" Damage="5"/>
+		<Item Pos_x="217" Pos_y="200" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="5" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="1172" Pos_y="201" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="6" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="2774" Pos_y="130" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="7" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="3095" Pos_y="132" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="8" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="4532" Pos_y="71" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="9" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="4694" Pos_y="388" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="10" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="5175" Pos_y="234" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="11" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="3576" Pos_y="166" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="12" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="5345" Pos_y="587" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="13" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" Item="生命上限"/>
+		<Item Pos_x="62" Pos_y="1067" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="160" Pic_right="32" Pic_bottom="192" Frames="4" Fps="10" Id="14" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\红心上限.lua" TaskId="1" Item="红心上限" Swing_y="8"/>
+		<Item Pos_x="166" Pos_y="765" Size_x="32" Size_y="32" Pic="\image\图标\材料.bmp" Pic_left="64" Pic_right="96" Pic_bottom="32" Id="15" Type="7" Effect="法力上限" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\魔魂.lua" TaskId="9" Item="蓝色魔魂" Swing_y="6"/>
+		<Item Pos_x="5584" Pos_y="653" Size_x="32" Size_y="32" Pic="\image\图标\材料.bmp" Pic_left="64" Pic_right="96" Pic_bottom="32" Id="16" Type="7" Effect="法力上限" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\魔魂.lua" TaskId="10" Item="蓝色魔魂" Swing_y="5"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="395" Pos_y="415" Size_x="48" Size_y="44" Obst="4"/>
+		<Item Pos_y="107" Size_x="115" Size_y="88" Obst="1"/>
+		<Item Pos_x="115" Pos_y="56" Size_x="115" Size_y="77" Obst="1"/>
+		<Item Pos_x="230" Size_x="80" Size_y="88" Obst="1"/>
+		<Item Pos_x="310" Size_x="227" Size_y="36" Obst="1"/>
+		<Item Pos_y="339" Size_x="361" Size_y="88" Obst="1"/>
+		<Item Pos_x="603" Size_x="118" Size_y="74" Obst="1"/>
+		<Item Pos_x="537" Pos_y="11" Size_x="66" Size_y="39" Obst="1"/>
+		<Item Pos_x="722" Size_x="333" Size_y="38" Obst="1"/>
+		<Item Pos_x="1132" Pos_y="29" Size_x="86" Size_y="43" Obst="1"/>
+		<Item Pos_x="1055" Pos_y="9" Size_x="78" Size_y="51" Obst="1"/>
+		<Item Pos_x="1217" Pos_y="51" Size_x="66" Size_y="51" Obst="1"/>
+		<Item Pos_x="1405" Pos_y="168" Size_x="118" Size_y="54" Obst="1"/>
+		<Item Pos_x="1368" Pos_y="148" Size_x="37" Size_y="69" Obst="1"/>
+		<Item Pos_x="1331" Pos_y="106" Size_x="38" Size_y="82" Obst="1"/>
+		<Item Pos_x="1282" Pos_y="73" Size_x="50" Size_y="63" Obst="1"/>
+		<Item Pos_x="1522" Pos_y="123" Size_x="37" Size_y="89" Obst="1"/>
+		<Item Pos_x="1558" Pos_y="63" Size_x="38" Size_y="117" Obst="1"/>
+		<Item Pos_x="1596" Pos_y="38" Size_x="38" Size_y="61" Obst="1"/>
+		<Item Pos_x="1633" Pos_y="16" Size_x="207" Size_y="58" Obst="1"/>
+		<Item Pos_x="1840" Pos_y="7" Size_x="75" Size_y="46" Obst="1"/>
+		<Item Pos_x="1913" Size_x="141" Size_y="39" Obst="1"/>
+		<Item Pos_x="2088" Pos_y="21" Size_x="468" Size_y="57" Obst="1"/>
+		<Item Pos_x="2053" Pos_y="16" Size_x="36" Size_y="42" Obst="1"/>
+		<Item Pos_x="2626" Pos_y="1" Size_x="860" Size_y="39" Obst="1"/>
+		<Item Pos_x="2556" Pos_y="12" Size_x="71" Size_y="46" Obst="1"/>
+		<Item Pos_x="3486" Pos_y="19" Size_x="129" Size_y="39" Obst="1"/>
+		<Item Pos_x="3617" Pos_y="34" Size_x="166" Size_y="65" Obst="1"/>
+		<Item Pos_x="3785" Pos_y="1" Size_x="1212" Size_y="33" Obst="1"/>
+		<Item Pos_x="4960" Pos_y="35" Size_x="37" Size_y="175" Obst="1"/>
+		<Item Pos_x="4879" Pos_y="179" Size_x="81" Size_y="40" Obst="5"/>
+		<Item Pos_x="4758" Pos_y="219" Size_x="217" Size_y="39" Obst="1"/>
+		<Item Pos_x="4760" Pos_y="179" Size_x="43" Size_y="40" Obst="4"/>
+		<Item Pos_x="4668" Pos_y="179" Size_x="92" Size_y="39" Obst="1"/>
+		<Item Pos_x="4600" Pos_y="179" Size_x="70" Size_y="37" Obst="5"/>
+		<Item Pos_x="4600" Pos_y="217" Size_x="37" Size_y="79" Obst="1"/>
+		<Item Pos_x="4636" Pos_y="275" Size_x="96" Size_y="39" Obst="1"/>
+		<Item Pos_x="4730" Pos_y="297" Size_x="42" Size_y="39" Obst="1"/>
+		<Item Pos_x="4767" Pos_y="314" Size_x="185" Size_y="39" Obst="1"/>
+		<Item Pos_x="4948" Pos_y="292" Size_x="76" Size_y="34" Obst="1"/>
+		<Item Pos_x="5008" Pos_y="255" Size_x="70" Size_y="39" Obst="1"/>
+		<Item Pos_x="5072" Pos_y="234" Size_x="60" Size_y="39" Obst="1"/>
+		<Item Pos_x="5122" Pos_y="63" Size_x="37" Size_y="186" Obst="1"/>
+		<Item Pos_x="5151" Pos_y="39" Size_x="46" Size_y="98" Obst="1"/>
+		<Item Pos_x="5195" Pos_y="43" Size_x="72" Size_y="53" Obst="1"/>
+		<Item Pos_x="5257" Pos_y="27" Size_x="37" Size_y="39" Obst="1"/>
+		<Item Pos_x="5281" Pos_y="4" Size_x="37" Size_y="39" Obst="1"/>
+		<Item Pos_x="5311" Size_x="88" Size_y="19" Obst="1"/>
+		<Item Pos_x="5480" Size_x="141" Size_y="19" Obst="1"/>
+		<Item Pos_x="5600" Pos_y="16" Size_x="35" Size_y="134" Obst="1"/>
+		<Item Pos_x="5634" Pos_y="149" Size_x="126" Size_y="39" Obst="1"/>
+		<Item Pos_x="5541" Pos_y="339" Size_x="219" Size_y="39" Obst="1"/>
+		<Item Pos_x="5541" Pos_y="243" Size_x="105" Size_y="96" Obst="4"/>
+		<Item Pos_x="5481" Pos_y="219" Size_x="61" Size_y="24" Obst="4"/>
+		<Item Pos_x="5350" Pos_y="219" Size_x="132" Size_y="25" Obst="1"/>
+		<Item Pos_x="5280" Pos_y="219" Size_x="70" Size_y="76" Obst="5"/>
+		<Item Pos_x="5280" Pos_y="295" Size_x="43" Size_y="101" Obst="1"/>
+		<Item Pos_x="5175" Pos_y="338" Size_x="105" Size_y="101" Obst="5"/>
+		<Item Pos_x="5175" Pos_y="439" Size_x="99" Size_y="39" Obst="1"/>
+		<Item Pos_x="5125" Pos_y="449" Size_x="50" Size_y="11" Obst="5"/>
+		<Item Pos_x="5078" Pos_y="460" Size_x="46" Size_y="39" Obst="5"/>
+		<Item Pos_x="4990" Pos_y="499" Size_x="134" Size_y="39" Obst="1"/>
+		<Item Pos_x="4913" Pos_y="499" Size_x="76" Size_y="40" Obst="5"/>
+		<Item Pos_x="4500" Pos_y="539" Size_x="505" Size_y="39" Obst="1"/>
+		<Item Pos_x="4456" Pos_y="326" Size_x="61" Size_y="212" Obst="1"/>
+		<Item Pos_x="4478" Pos_y="300" Size_x="37" Size_y="26" Obst="4"/>
+		<Item Pos_x="4349" Pos_y="206" Size_x="129" Size_y="120" Obst="1"/>
+		<Item Pos_x="4417" Pos_y="162" Size_x="60" Size_y="44" Obst="4"/>
+		<Item Pos_x="4357" Pos_y="139" Size_x="61" Size_y="24" Obst="4"/>
+		<Item Pos_x="3950" Pos_y="139" Size_x="408" Size_y="39" Obst="1"/>
+		<Item Pos_x="3877" Pos_y="139" Size_x="73" Size_y="40" Obst="5"/>
+		<Item Pos_x="3758" Pos_y="179" Size_x="118" Size_y="120" Obst="5"/>
+		<Item Pos_x="3630" Pos_y="299" Size_x="303" Size_y="39" Obst="1"/>
+		<Item Pos_x="3615" Pos_y="309" Size_x="16" Size_y="39" Obst="1"/>
+		<Item Pos_x="3566" Pos_y="334" Size_x="53" Size_y="39" Obst="1"/>
+		<Item Pos_x="3516" Pos_y="334" Size_x="50" Size_y="45" Obst="5"/>
+		<Item Pos_x="3440" Pos_y="379" Size_x="131" Size_y="157" Obst="1"/>
+		<Item Pos_x="3482" Pos_y="535" Size_x="37" Size_y="87" Obst="1"/>
+		<Item Pos_x="3518" Pos_y="611" Size_x="66" Size_y="126" Obst="1"/>
+		<Item Pos_x="3582" Pos_y="734" Size_x="115" Size_y="59" Obst="1"/>
+		<Item Pos_x="3696" Pos_y="715" Size_x="68" Size_y="43" Obst="1"/>
+		<Item Pos_x="3761" Pos_y="680" Size_x="233" Size_y="39" Obst="1"/>
+		<Item Pos_x="3922" Pos_y="702" Size_x="105" Size_y="39" Obst="1"/>
+		<Item Pos_x="3983" Pos_y="736" Size_x="193" Size_y="52" Obst="1"/>
+		<Item Pos_x="4173" Pos_y="654" Size_x="46" Size_y="107" Obst="1"/>
+		<Item Pos_x="4206" Pos_y="631" Size_x="126" Size_y="88" Obst="1"/>
+		<Item Pos_x="4321" Pos_y="650" Size_x="71" Size_y="39" Obst="1"/>
+		<Item Pos_x="4385" Pos_y="634" Size_x="248" Size_y="39" Obst="1"/>
+		<Item Pos_x="4686" Pos_y="656" Size_x="140" Size_y="57" Obst="1"/>
+		<Item Pos_x="4626" Pos_y="659" Size_x="67" Size_y="39" Obst="1"/>
+		<Item Pos_x="4822" Pos_y="694" Size_x="148" Size_y="50" Obst="1"/>
+		<Item Pos_x="4957" Pos_y="646" Size_x="83" Size_y="73" Obst="1"/>
+		<Item Pos_x="5035" Pos_y="631" Size_x="85" Size_y="62" Obst="1"/>
+		<Item Pos_x="5115" Pos_y="506" Size_x="166" Size_y="164" Obst="1"/>
+		<Item Pos_x="5275" Pos_y="428" Size_x="37" Size_y="87" Obst="1"/>
+		<Item Pos_x="5306" Pos_y="410" Size_x="56" Size_y="71" Obst="1"/>
+		<Item Pos_x="5357" Pos_y="384" Size_x="37" Size_y="74" Obst="1"/>
+		<Item Pos_x="5391" Pos_y="382" Size_x="205" Size_y="55" Obst="1"/>
+		<Item Pos_x="5556" Pos_y="424" Size_x="90" Size_y="39" Obst="1"/>
+		<Item Pos_x="5611" Pos_y="454" Size_x="82" Size_y="39" Obst="1"/>
+		<Item Pos_x="5638" Pos_y="488" Size_x="47" Size_y="335" Obst="1"/>
+		<Item Pos_x="5440" Pos_y="59" Size_x="40" Size_y="18" Obst="2"/>
+		<Item Pos_x="5600" Pos_y="778" Size_x="39" Size_y="34" Obst="5"/>
+		<Item Pos_x="5600" Pos_y="813" Size_x="37" Size_y="218" Obst="1"/>
+		<Item Pos_x="5560" Pos_y="969" Size_x="37" Size_y="132" Obst="1"/>
+		<Item Pos_x="5560" Pos_y="937" Size_x="40" Size_y="32" Obst="5"/>
+		<Item Pos_x="5327" Pos_y="1058" Size_x="237" Size_y="39" Obst="1"/>
+		<Item Pos_x="5320" Pos_y="981" Size_x="127" Size_y="77" Obst="4"/>
+		<Item Pos_x="5111" Pos_y="818" Size_x="211" Size_y="262" Obst="1"/>
+		<Item Pos_x="5038" Pos_y="818" Size_x="73" Size_y="40" Obst="5"/>
+		<Item Pos_x="4870" Pos_y="858" Size_x="238" Size_y="79" Obst="1"/>
+		<Item Pos_x="4811" Pos_y="858" Size_x="60" Size_y="28" Obst="5"/>
+		<Item Pos_x="4758" Pos_y="886" Size_x="52" Size_y="52" Obst="5"/>
+		<Item Pos_x="4606" Pos_y="938" Size_x="279" Size_y="39" Obst="1"/>
+		<Item Pos_x="4555" Pos_y="938" Size_x="50" Size_y="40" Obst="5"/>
+		<Item Pos_x="4510" Pos_y="978" Size_x="102" Size_y="84" Obst="1"/>
+		<Item Pos_x="4436" Pos_y="978" Size_x="73" Size_y="40" Obst="5"/>
+		<Item Pos_x="4163" Pos_y="1018" Size_x="345" Size_y="39" Obst="1"/>
+		<Item Pos_x="4120" Pos_y="1018" Size_x="42" Size_y="37" Obst="5"/>
+		<Item Pos_x="4120" Pos_y="1055" Size_x="45" Size_y="78" Obst="1"/>
+		<Item Pos_x="3920" Pos_y="1098" Size_x="199" Size_y="39" Obst="1"/>
+		<Item Pos_x="3824" Pos_y="1056" Size_x="95" Size_y="56" Obst="1"/>
+		<Item Pos_x="3847" Pos_y="1018" Size_x="72" Size_y="38" Obst="4"/>
+		<Item Pos_x="3519" Pos_y="1018" Size_x="329" Size_y="39" Obst="1"/>
+		<Item Pos_x="3560" Pos_y="978" Size_x="45" Size_y="40" Obst="4"/>
+		<Item Pos_x="3387" Pos_y="978" Size_x="173" Size_y="39" Obst="1"/>
+		<Item Pos_x="3400" Pos_y="860" Size_x="123" Size_y="118" Obst="4"/>
+		<Item Pos_x="3361" Pos_y="772" Size_x="38" Size_y="205" Obst="1"/>
+		<Item Pos_x="3357" Pos_y="737" Size_x="41" Size_y="34" Obst="4"/>
+		<Item Pos_x="3307" Pos_y="612" Size_x="52" Size_y="163" Obst="1"/>
+		<Item Pos_x="3312" Pos_y="573" Size_x="46" Size_y="39" Obst="4"/>
+		<Item Pos_x="3205" Pos_y="459" Size_x="115" Size_y="139" Obst="1"/>
+		<Item Pos_x="3044" Pos_y="339" Size_x="195" Size_y="129" Obst="1"/>
+		<Item Pos_x="3046" Pos_y="299" Size_x="78" Size_y="40" Obst="4"/>
+		<Item Pos_x="2722" Pos_y="299" Size_x="325" Size_y="40" Obst="1"/>
+		<Item Pos_x="2677" Pos_y="299" Size_x="45" Size_y="40" Obst="5"/>
+		<Item Pos_x="2562" Pos_y="339" Size_x="200" Size_y="96" Obst="1"/>
+		<Item Pos_x="1845" Pos_y="344" Size_x="195" Size_y="36" Obst="2"/>
+		<Item Pos_x="2613" Pos_y="439" Size_x="178" Size_y="60" Obst="1"/>
+		<Item Pos_x="2747" Pos_y="504" Size_x="153" Size_y="46" Obst="1"/>
+		<Item Pos_x="2838" Pos_y="551" Size_x="66" Size_y="129" Obst="1"/>
+		<Item Pos_x="2800" Pos_y="657" Size_x="38" Size_y="34" Obst="5"/>
+		<Item Pos_x="2800" Pos_y="691" Size_x="37" Size_y="95" Obst="1"/>
+		<Item Pos_x="2752" Pos_y="739" Size_x="53" Size_y="39" Obst="1"/>
+		<Item Pos_x="2718" Pos_y="739" Size_x="35" Size_y="39" Obst="5"/>
+		<Item Pos_x="2550" Pos_y="778" Size_x="203" Size_y="39" Obst="1"/>
+		<Item Pos_x="2480" Pos_y="778" Size_x="71" Size_y="40" Obst="5"/>
+		<Item Pos_x="2081" Pos_y="818" Size_x="480" Size_y="49" Obst="1"/>
+		<Item Pos_x="2081" Pos_y="699" Size_x="201" Size_y="119" Obst="4"/>
+		<Item Pos_x="1962" Pos_y="699" Size_x="120" Size_y="168" Obst="1"/>
+		<Item Pos_x="1887" Pos_y="609" Size_x="112" Size_y="89" Obst="1"/>
+		<Item Pos_x="1887" Pos_y="539" Size_x="111" Size_y="69" Obst="4"/>
+		<Item Pos_x="1761" Pos_y="539" Size_x="127" Size_y="39" Obst="1"/>
+		<Item Pos_x="1639" Pos_y="491" Size_x="121" Size_y="58" Obst="1"/>
+		<Item Pos_x="1674" Pos_y="417" Size_x="85" Size_y="73" Obst="4"/>
+		<Item Pos_x="1638" Pos_y="365" Size_x="37" Size_y="126" Obst="1"/>
+		<Item Pos_x="1637" Pos_y="339" Size_x="37" Size_y="26" Obst="4"/>
+		<Item Pos_x="1282" Pos_y="339" Size_x="356" Size_y="39" Obst="1"/>
+		<Item Pos_x="1240" Pos_y="339" Size_x="42" Size_y="34" Obst="5"/>
+		<Item Pos_x="1240" Pos_y="374" Size_x="37" Size_y="132" Obst="1"/>
+		<Item Pos_x="1200" Pos_y="493" Size_x="60" Size_y="199" Obst="1"/>
+		<Item Pos_x="1200" Pos_y="459" Size_x="40" Size_y="33" Obst="5"/>
+		<Item Pos_x="1158" Pos_y="617" Size_x="41" Size_y="42" Obst="5"/>
+		<Item Pos_x="1041" Pos_y="659" Size_x="160" Size_y="39" Obst="1"/>
+		<Item Pos_x="1000" Pos_y="659" Size_x="42" Size_y="33" Obst="5"/>
+		<Item Pos_x="1000" Pos_y="692" Size_x="37" Size_y="72" Obst="1"/>
+		<Item Pos_x="843" Pos_y="739" Size_x="157" Size_y="39" Obst="1"/>
+		<Item Pos_x="758" Pos_y="739" Size_x="85" Size_y="74" Obst="5"/>
+		<Item Pos_x="723" Pos_y="813" Size_x="71" Size_y="39" Obst="1"/>
+		<Item Pos_x="680" Pos_y="813" Size_x="45" Size_y="42" Obst="5"/>
+		<Item Pos_x="680" Pos_y="856" Size_x="37" Size_y="82" Obst="1"/>
+		<Item Pos_x="605" Pos_y="898" Size_x="83" Size_y="39" Obst="1"/>
+		<Item Pos_x="560" Pos_y="898" Size_x="46" Size_y="36" Obst="5"/>
+		<Item Pos_x="560" Pos_y="935" Size_x="37" Size_y="168" Obst="1"/>
+		<Item Pos_x="520" Pos_y="1054" Size_x="40" Size_y="37" Obst="5"/>
+		<Item Pos_x="520" Pos_y="1092" Size_x="37" Size_y="54" Obst="1"/>
+		<Item Pos_x="44" Pos_y="1138" Size_x="475" Size_y="17" Obst="1"/>
+		<Item Pos_x="360" Pos_y="1098" Size_x="48" Size_y="40" Obst="4"/>
+		<Item Pos_x="231" Pos_y="1098" Size_x="130" Size_y="39" Obst="1"/>
+		<Item Pos_x="155" Pos_y="1098" Size_x="76" Size_y="40" Obst="5"/>
+		<Item Pos_x="6" Pos_y="993" Size_x="37" Size_y="153" Obst="1"/>
+		<Item Pos_x="36" Pos_y="994" Size_x="81" Size_y="28" Obst="1"/>
+		<Item Pos_x="105" Pos_y="947" Size_x="44" Size_y="47" Obst="1"/>
+		<Item Pos_x="151" Pos_y="915" Size_x="167" Size_y="39" Obst="1"/>
+		<Item Pos_x="320" Pos_y="953" Size_x="77" Size_y="34" Obst="1"/>
+		<Item Pos_x="399" Pos_y="855" Size_x="40" Size_y="103" Obst="1"/>
+		<Item Pos_x="371" Pos_y="818" Size_x="68" Size_y="37" Obst="4"/>
+		<Item Pos_x="100" Pos_y="818" Size_x="272" Size_y="39" Obst="1"/>
+		<Item Pos_x="82" Pos_y="647" Size_x="37" Size_y="176" Obst="1"/>
+		<Item Pos_x="121" Pos_y="617" Size_x="59" Size_y="36" Obst="1"/>
+		<Item Pos_x="180" Pos_y="589" Size_x="96" Size_y="36" Obst="1"/>
+		<Item Pos_x="278" Pos_y="555" Size_x="305" Size_y="31" Obst="1"/>
+		<Item Pos_x="592" Pos_y="578" Size_x="203" Size_y="48" Obst="1"/>
+		<Item Pos_x="641" Pos_y="538" Size_x="86" Size_y="40" Obst="4"/>
+		<Item Pos_x="595" Pos_y="496" Size_x="47" Size_y="42" Obst="4"/>
+		<Item Pos_x="484" Pos_y="496" Size_x="111" Size_y="39" Obst="1"/>
+		<Item Pos_x="481" Pos_y="459" Size_x="45" Size_y="37" Obst="4"/>
+		<Item Pos_x="360" Pos_y="459" Size_x="122" Size_y="39" Obst="1"/>
+		<Item Pos_x="363" Pos_y="366" Size_x="35" Size_y="51" Obst="1"/>
+		<Item Pos_x="360" Pos_y="339" Size_x="38" Size_y="27" Obst="4"/>
+		<Item Pos_x="561" Pos_y="343" Size_x="238" Size_y="38" Obst="2"/>
+		<Item Pos_x="1003" Pos_y="344" Size_x="118" Size_y="37" Obst="2"/>
+		<Item Pos_x="2203" Pos_y="344" Size_x="232" Size_y="37" Obst="2"/>
+		<Item Pos_x="5282" Pos_y="619" Size_x="158" Size_y="20" Obst="1"/>
+		<Item Pos_x="5561" Pos_y="699" Size_x="77" Size_y="20" Obst="1"/>
+		<Item Pos_x="3878" Pos_y="340" Size_x="484" Size_y="41" Obst="1"/>
+		<Item Pos_x="3881" Pos_y="182" Size_x="52" Size_y="116" Obst="1"/>
+		<Item Pos_x="47" Pos_y="1099" Size_x="62" Size_y="39" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="5755" Pos_y="197" Size_x="48" Size_y="140" Id="1" Map="水脉通道01" MapPos_y="302"/>
+		<Item Pos_x="-49" Pos_y="196" Size_x="55" Size_y="140" Id="2" Map="水脉通道08" MapPos_x="2048" MapPos_y="394"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="5027" Pos_y="470" Size_x="32" Size_y="29" Id="1" Char="癞蛤蟆"/>
+		<Item Pos_x="4543" Pos_y="510" Size_x="32" Size_y="29" Id="2" Char="癞蛤蟆"/>
+		<Item Pos_x="3633" Pos_y="270" Size_x="32" Size_y="29" Id="3" Char="癞蛤蟆"/>
+		<Item Pos_x="2888" Pos_y="270" Size_x="32" Size_y="29" Id="4" Char="癞蛤蟆"/>
+		<Item Pos_x="1421" Pos_y="310" Size_x="32" Size_y="29" Id="5" Char="癞蛤蟆"/>
+		<Item Pos_x="650" Pos_y="314" Size_x="32" Size_y="29" Id="6" Char="癞蛤蟆"/>
+		<Item Pos_x="3999" Pos_y="274" Size_x="44" Size_y="66" Id="7" Char="长枪守卫"/>
+		<Item Pos_x="4120" Pos_y="274" Size_x="44" Size_y="66" Id="8" Char="长枪守卫"/>
+		<Item Pos_x="4245" Pos_y="274" Size_x="44" Size_y="66" Id="9" Char="长枪守卫"/>
+		<Item Pos_x="640" Pos_y="431" Size_x="97" Size_y="45" Id="10" Char="食人鱼"/>
+		<Item Pos_x="2028" Pos_y="470" Size_x="97" Size_y="45" Id="11" Char="食人鱼"/>
+		<Item Pos_x="3776" Pos_y="834" Size_x="97" Size_y="45" Id="12" Char="食人鱼"/>
+		<Item Pos_x="4451" Pos_y="801" Size_x="97" Size_y="45" Id="13" Char="食人鱼" Left="1"/>
+		<Item Pos_x="1073" Pos_y="614" Size_x="49" Size_y="45" Id="14" Char="骷髅鱼头" Left="1"/>
+		<Item Pos_x="259" Pos_y="1053" Size_x="49" Size_y="45" Id="15" Char="骷髅鱼头"/>
+		<Item Pos_x="350" Pos_y="773" Size_x="49" Size_y="45" Id="16" Char="骷髅鱼头"/>
+		<Item Pos_x="2026" Pos_y="654" Size_x="49" Size_y="45" Id="17" Char="骷髅鱼头"/>
+		<Item Pos_x="2599" Pos_y="733" Size_x="49" Size_y="45" Id="18" Char="骷髅鱼头" Left="1"/>
+		<Item Pos_x="3786" Pos_y="973" Size_x="49" Size_y="45" Id="19" Char="骷髅鱼头" Left="1"/>
+		<Item Pos_x="4179" Pos_y="973" Size_x="49" Size_y="45" Id="20" Char="骷髅鱼头" Left="1"/>
+		<Item Pos_x="4613" Pos_y="893" Size_x="49" Size_y="45" Id="21" Char="骷髅鱼头" Left="1"/>
+		<Item Pos_x="5204" Pos_y="773" Size_x="49" Size_y="45" Id="22" Char="骷髅鱼头" Left="1"/>
+		<Item Pos_x="4898" Pos_y="813" Size_x="49" Size_y="45" Id="23" Char="骷髅鱼头" Left="1"/>
+	</Char>
+</Map>

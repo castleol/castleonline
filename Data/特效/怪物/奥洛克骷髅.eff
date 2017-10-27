@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="329" Pos_y="308" Size_x="32" Size_y="120" Offs_y="-160" Pic="奥洛克" Group="14" ColorKey="0xFFFF00FF" Filter="0x2" EndColor="0xFFFFFF" Sound="\sound\怪物\奥洛克骷髅.wav" ItemSize_x="16" ItemSize_y="16" ItemHot_x="8" ItemHot_y="8" ItemFrame="2" ItemLife="1500" ItemScale="0.100" ItemQuality="1.000" ScaleSpeed="2.000" HitType="2"/>
+	<Item Pos_x="295" Pos_y="335" Size_x="100" Size_y="93" Offs_y="-80" Random="1" EmitInter="100" EmitTime="1000" Pic="奥洛克" Group="15" ColorKey="0xFFFF00FF" Filter="0x2" Blend="0x1" ItemSize_x="16" ItemSize_y="16" ItemHot_x="8" ItemHot_y="8" ItemFrame="10" ItemFps="20" ItemLife="1000" ItemScale="2.000" ItemQuality="1.000" HitType="2"/>
+	<Item Pos_x="329" Pos_y="396" Size_x="32" Size_y="32" Offs_y="-160" EmitInter="100" EmitTime="1000" Pic="奥洛克" Group="10" ColorKey="0xFFFF00FF" Filter="0x2" Color="0xFF000000" EndTime="500" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="2" ItemFps="5" ItemLife="4000" ItemScale="2.000" ItemQuality="1.000" MinSpeedX="100.000" MaxSpeedX="200.000" MaxSpeedY="100.000" HitType="2" Destroy="1" Mask="1" Flip="1" AddEffect="奥洛克鬼火" EndEffect="骷髅头骨爆炸"/>
+</Effect>

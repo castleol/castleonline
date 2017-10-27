@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\骷髅\旋镖骷髅.bmp" ColorKey="0xFF800000" Size_x="32" Size_y="80" Scale="2.000" Shadow="1" HitEffect="闪光01">
+	<Action Num="9">
+		<Act Name="站立" Group="1" End="4"/>
+		<Act Name="转身" Group="1" Next="站立" Flip="1"/>
+		<Act Name="移动" State="1" Group="4" End="5" Fps="16" Speed_x="50"/>
+		<Act Name="攻击" State="4" Group="3" End="8" Loop="8" Fps="15" Start="5" Next="站立" Effect="骷髅旋镖"/>
+		<Act Name="旋镖" State="4" Group="2" End="5" Fps="20" Time="500" Next="攻击"/>
+		<Act Name="死亡" State="14" Effect="旋镖骷髅死亡"/>
+		<Act Name="蹲下" State="2" Group="5" End="4" Loop="3" Fps="15" Size_x="32" Size_y="32"/>
+		<Act Name="站起" Group="6" End="1" Next="站立" Size_x="32" Size_y="60"/>
+		<Act Name="靠墙" Group="4"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="2" File="\Sound\怪物\骷髅兵死亡.wav"/>
+	</Sound>
+	<Image Num="33">
+		<Img Group="1" Pos_x="5" Pos_y="3" Size_x="35" Size_y="51" Hot_x="20" Hot_y="51"/>
+		<Img Group="1" Frame="1" Pos_x="47" Pos_y="3" Size_x="35" Size_y="51" Hot_x="20" Hot_y="51"/>
+		<Img Group="1" Frame="2" Pos_x="94" Pos_y="3" Size_x="34" Size_y="51" Hot_x="20" Hot_y="51"/>
+		<Img Group="1" Frame="3" Pos_x="134" Pos_y="3" Size_x="35" Size_y="51" Hot_x="20" Hot_y="51"/>
+		<Img Group="1" Frame="4" Pos_x="179" Pos_y="3" Size_x="35" Size_y="51" Hot_x="21" Hot_y="51"/>
+		<Img Group="2" Pos_x="2" Pos_y="64" Size_x="49" Size_y="56" Hot_x="22" Hot_y="56"/>
+		<Img Group="2" Frame="1" Pos_x="57" Pos_y="64" Size_x="47" Size_y="56" Hot_x="21" Hot_y="56"/>
+		<Img Group="2" Frame="2" Pos_x="115" Pos_y="64" Size_x="31" Size_y="56" Hot_x="12" Hot_y="56"/>
+		<Img Group="2" Frame="3" Pos_x="160" Pos_y="64" Size_x="49" Size_y="56" Hot_x="22" Hot_y="56"/>
+		<Img Group="2" Frame="4" Pos_x="218" Pos_y="64" Size_x="27" Size_y="56" Hot_x="10" Hot_y="56"/>
+		<Img Group="2" Frame="5" Pos_x="261" Pos_y="64" Size_x="26" Size_y="56" Hot_x="10" Hot_y="56"/>
+		<Img Group="3" Pos_y="134" Size_x="35" Size_y="58" Hot_x="18" Hot_y="58"/>
+		<Img Group="3" Frame="1" Pos_x="41" Pos_y="134" Size_x="47" Size_y="58" Hot_x="29" Hot_y="58"/>
+		<Img Group="3" Frame="2" Pos_x="92" Pos_y="122" Size_x="32" Size_y="70" Hot_x="17" Hot_y="70"/>
+		<Img Group="3" Frame="3" Pos_x="125" Pos_y="132" Size_x="60" Size_y="60" Hot_x="38" Hot_y="60"/>
+		<Img Group="3" Frame="4" Pos_x="190" Pos_y="132" Size_x="33" Size_y="60" Hot_x="19" Hot_y="60"/>
+		<Img Group="3" Frame="5" Pos_x="223" Pos_y="132" Size_x="32" Size_y="60" Hot_x="17" Hot_y="60"/>
+		<Img Group="3" Frame="6" Time="300" Pos_x="255" Pos_y="132" Size_x="32" Size_y="60" Hot_x="17" Hot_y="60"/>
+		<Img Group="3" Frame="7" Pos_x="287" Pos_y="132" Size_x="28" Size_y="60" Hot_x="13" Hot_y="60"/>
+		<Img Group="3" Frame="8" Pos_x="315" Pos_y="132" Size_x="28" Size_y="60" Hot_x="15" Hot_y="60"/>
+		<Img Group="4" Pos_x="1" Pos_y="200" Size_x="29" Size_y="50" Hot_x="14" Hot_y="50"/>
+		<Img Group="4" Frame="1" Pos_x="30" Pos_y="200" Size_x="29" Size_y="50" Hot_x="13" Hot_y="50"/>
+		<Img Group="4" Frame="2" Pos_x="59" Pos_y="200" Size_x="29" Size_y="50" Hot_x="14" Hot_y="50"/>
+		<Img Group="4" Frame="3" Pos_x="88" Pos_y="200" Size_x="29" Size_y="50" Hot_x="16" Hot_y="50"/>
+		<Img Group="4" Frame="4" Pos_x="120" Pos_y="200" Size_x="31" Size_y="50" Hot_x="16" Hot_y="50"/>
+		<Img Group="4" Frame="5" Pos_x="152" Pos_y="200" Size_x="32" Size_y="50" Hot_x="17" Hot_y="50"/>
+		<Img Group="5" Pos_x="200" Pos_y="203" Size_x="39" Size_y="46" Hot_x="21" Hot_y="46"/>
+		<Img Group="5" Frame="1" Pos_x="239" Pos_y="203" Size_x="34" Size_y="46" Hot_x="20" Hot_y="46"/>
+		<Img Group="5" Frame="2" Pos_x="273" Pos_y="203" Size_x="34" Size_y="46" Hot_x="14" Hot_y="46"/>
+		<Img Group="5" Frame="3" Pos_x="307" Pos_y="203" Size_x="34" Size_y="46" Hot_x="15" Hot_y="46"/>
+		<Img Group="5" Frame="4" Pos_x="307" Pos_y="203" Size_x="34" Size_y="46" Hot_x="16" Hot_y="46"/>
+		<Img Group="6" Pos_x="307" Pos_y="203" Size_x="34" Size_y="46" Hot_x="15" Hot_y="46"/>
+		<Img Group="6" Frame="1" Pos_x="273" Pos_y="203" Size_x="34" Size_y="46" Hot_x="14" Hot_y="46"/>
+	</Image>
+</Char>

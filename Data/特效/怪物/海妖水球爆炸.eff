@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="250" Pos_y="307" Size_x="64" Size_y="64" Offs_y="-32" EmitNum="10" EmitInter="1" EmitTime="1" Pic="海妖" Group="14" Frame="4" Filter="0x0" Blend="0x1" EndColor="0xFFFFFF" ItemSize_x="40" ItemSize_y="40" ItemHot_x="20" ItemHot_y="20" ItemLife="1000" ItemScale="0.200" MinSpeedX="-300.000" MaxSpeedX="300.000" MinSpeedY="-300.000" AddSpeedY="1000.000" ScaleSpeed="1.000" HitType="2" Destroy="1" Magic="1" TrailColor="0xFF8080FF"/>
+</Effect>

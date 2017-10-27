@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1800">
+	<Tile>
+		<Item Pos_x="120" Pos_y="95" Size_x="560" Size_y="961" Pic="\image\地图\藏书库\竖廊01背景.bmp" Pic_right="160" Pic_bottom="382" ColorKey="0x800000" DeltaX="0.000" DeltaY="0.500"/>
+		<Item Size_x="800" Size_y="1800" Pic="\image\地图\藏书库\竖廊01.bmp" Pic_right="256" Pic_bottom="719" ColorKey="0x800000"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="148" Pos_y="380" Size_x="504" Size_y="81" Obst="1"/>
+		<Item Size_x="150" Size_y="180" Obst="1"/>
+		<Item Pos_x="652" Size_x="148" Size_y="180" Obst="1"/>
+		<Item Pos_y="339" Size_x="148" Size_y="481" Obst="1"/>
+		<Item Pos_x="150" Size_x="502" Size_y="25" Obst="1"/>
+		<Item Pos_x="652" Pos_y="339" Size_x="148" Size_y="481" Obst="1"/>
+		<Item Pos_y="981" Size_x="150" Size_y="481" Obst="1"/>
+		<Item Pos_x="650" Pos_y="981" Size_x="150" Size_y="481" Obst="1"/>
+		<Item Pos_x="150" Pos_y="1021" Size_x="500" Size_y="81" Obst="1"/>
+		<Item Pos_y="1701" Size_x="800" Size_y="99" Obst="1"/>
+		<Item Pos_y="1621" Size_x="150" Size_y="81" Obst="1"/>
+		<Item Pos_x="650" Pos_y="1621" Size_x="150" Size_y="81" Obst="1"/>
+		<Item Pos_x="149" Pos_y="1661" Size_x="100" Size_y="41" Obst="1"/>
+		<Item Pos_x="550" Pos_y="1661" Size_x="100" Size_y="41" Obst="1"/>
+		<Item Pos_x="148" Pos_y="339" Size_x="52" Size_y="41" Obst="4"/>
+		<Item Pos_x="598" Pos_y="339" Size_x="52" Size_y="41" Obst="5"/>
+		<Item Pos_x="150" Pos_y="981" Size_x="52" Size_y="40" Obst="4"/>
+		<Item Pos_x="596" Pos_y="981" Size_x="52" Size_y="40" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="794" Pos_y="190" Size_x="54" Size_y="140" Id="1" Map="书库大厅01" MapPos_y="872"/>
+		<Item Pos_x="-47" Pos_y="185" Size_x="54" Size_y="150" Id="2" Map="书库横廊06" MapPos_x="1300" MapPos_y="328"/>
+		<Item Pos_x="791" Pos_y="833" Size_x="54" Size_y="140" Id="3" Map="书库大厅01" MapPos_y="1442"/>
+		<Item Pos_x="-49" Pos_y="826" Size_x="54" Size_y="150" Id="4" Map="书库横廊05" MapPos_x="1300" MapPos_y="328"/>
+		<Item Pos_x="793" Pos_y="1466" Size_x="54" Size_y="150" Id="5" Map="书库横廊03" MapPos_y="328"/>
+		<Item Pos_x="-47" Pos_y="1466" Size_x="54" Size_y="150" Id="6" Map="书库横廊04" MapPos_x="1300" MapPos_y="328"/>
+	</Trap>
+	<Char/>
+</Map>

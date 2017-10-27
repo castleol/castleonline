@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="205" Pos_y="338" Size_x="40" Size_y="78" Offs_x="30" Offs_y="-75" Pic="\Image\特效\投掷\道具.bmp" Pic_right="10" Pic_bottom="8" ColorKey="0xFF00FF" Filter="0x0" Sound="\Sound\投掷\飞刀.wav" ItemSize_x="10" ItemSize_y="8" ItemHot_x="5" ItemHot_y="4" ItemFrame="1" ItemLife="700" ItemScale="1.500" ItemQuality="1.000" MinSpeedX="1000.000" MaxSpeedX="1000.000" HitType="1" HitOnce="1" Rebound="1" TrailTime="1" TrailFade="30" EndEffect="爆炸01"/>
+</Effect>

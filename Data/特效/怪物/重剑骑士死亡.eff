@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="360" Pos_y="384" Size_x="72" Size_y="72" Random="1" EmitInter="50" EmitTime="1500" Pic="\Image\特效\爆炸\004.bmp" Pic_right="32" Pic_bottom="32" Blend="0x2" Sound="\sound\怪物\重剑骑士死亡.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="7" ItemFps="15" MinSpeedY="-50.000" MaxSpeedY="-50.000"/>
+	<Item Pos_x="364" Pos_y="395" Size_x="64" Size_y="64" EmitInter="1000" EmitTime="1000" Pic="\Image\特效\怪物\剑气.bmp" Pic_top="48" Pic_right="16" Pic_bottom="96" ColorKey="0xFF00" Blend="0x1" EndColor="0xFFFFFF" Sound="\sound\怪物\重剑骑士消失.wav" ItemSize_x="120" ItemSize_y="80" ItemHot_x="60" ItemHot_y="80" ItemSizeAdd_x="-1" ItemSizeAdd_y="3" ItemLife="1500" FlipTime="50"/>
+</Effect>

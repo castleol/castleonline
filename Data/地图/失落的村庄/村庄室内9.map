@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1280" Size_y="920">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\失落的村庄\背景06.bmp" Pic_right="256" Pic_bottom="192" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Size_x="1280" Size_y="920" Pic="\image\地图\失落的村庄\室内09.bmp" Pic_right="512" Pic_bottom="384" ColorKey="0xFFFFFFFF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="332" Pos_y="394" Size_x="16" Size_y="16" Pic="\image\地图\失落的村庄\路灯01.bmp" Pic_right="16" Pic_bottom="16" Blend="0x1" Id="1" ChildId="3" Damage="1" Effect="爆炸02" Sound="\sound\物件\路灯.wav" Script="\data\脚本\破坏物品\失落的村庄.lua"/>
+		<Item Pos_x="292" Pos_y="124" Size_x="16" Size_y="16" Pic="\image\地图\失落的村庄\路灯01.bmp" Pic_right="16" Pic_bottom="16" Blend="0x1" Id="2" ChildId="4" Damage="1" Effect="爆炸02" Sound="\sound\物件\路灯.wav" Script="\data\脚本\破坏物品\失落的村庄.lua"/>
+		<Item Pos_x="235" Pos_y="306" Size_x="206" Size_y="196" Pic="\image\地图\失落的村庄\灯光01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="3" Type="9"/>
+		<Item Pos_x="197" Pos_y="34" Size_x="206" Size_y="196" Pic="\image\地图\失落的村庄\灯光01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="4" Type="9"/>
+		<Item Pos_x="332" Pos_y="660" Size_x="16" Size_y="16" Pic="\image\地图\失落的村庄\路灯01.bmp" Pic_right="16" Pic_bottom="16" Blend="0x1" Id="5" ChildId="6" Damage="1" Effect="爆炸02" Sound="\sound\物件\路灯.wav" Script="\data\脚本\破坏物品\失落的村庄.lua"/>
+		<Item Pos_x="235" Pos_y="572" Size_x="206" Size_y="196" Pic="\image\地图\失落的村庄\灯光01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="6" Type="9"/>
+		<Item Pos_x="1012" Pos_y="620" Size_x="16" Size_y="16" Pic="\image\地图\失落的村庄\路灯01.bmp" Pic_right="16" Pic_bottom="16" Blend="0x1" Id="7" ChildId="8" Damage="1" Effect="爆炸02" Sound="\sound\物件\路灯.wav" Script="\data\脚本\破坏物品\失落的村庄.lua"/>
+		<Item Pos_x="915" Pos_y="532" Size_x="206" Size_y="196" Pic="\image\地图\失落的村庄\灯光01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="8" Type="9"/>
+		<Item Pos_x="932" Pos_y="164" Size_x="16" Size_y="16" Pic="\image\地图\失落的村庄\路灯01.bmp" Pic_right="16" Pic_bottom="16" Blend="0x1" Id="9" ChildId="10" Damage="1" Effect="爆炸02" Sound="\sound\物件\路灯.wav" Script="\data\脚本\破坏物品\失落的村庄.lua"/>
+		<Item Pos_x="835" Pos_y="76" Size_x="206" Size_y="196" Pic="\image\地图\失落的村庄\灯光01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="10" Type="9"/>
+		<Item Pos_x="1165" Pos_y="783" Size_x="72" Size_y="64" Pic="\image\地图\动画\宝箱.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Frames="4" Fps="10" Id="11" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\普通宝箱.lua" Item="钱袋300" TaskId="19"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="82" Size_x="1118" Size_y="78" Obst="1"/>
+		<Item Pos_y="306" Size_x="42" Size_y="615" Obst="1"/>
+		<Item Size_x="82" Size_y="153" Obst="1"/>
+		<Item Pos_x="42" Pos_y="766" Size_x="79" Size_y="153" Obst="1"/>
+		<Item Pos_x="1240" Pos_y="537" Size_x="40" Size_y="306" Obst="1"/>
+		<Item Pos_x="121" Pos_y="766" Size_x="83" Size_y="77" Obst="4"/>
+		<Item Pos_x="121" Pos_y="843" Size_x="1158" Size_y="76" Obst="1"/>
+		<Item Pos_x="515" Pos_y="766" Size_x="85" Size_y="77" Obst="5"/>
+		<Item Pos_x="44" Pos_y="652" Size_x="75" Size_y="26" Obst="2"/>
+		<Item Pos_x="521" Pos_y="438" Size_x="77" Size_y="25" Obst="2"/>
+		<Item Pos_x="42" Pos_y="306" Size_x="479" Size_y="44" Obst="1"/>
+		<Item Pos_x="119" Pos_y="574" Size_x="481" Size_y="39" Obst="1"/>
+		<Item Pos_x="759" Pos_y="78" Size_x="41" Size_y="118" Obst="1"/>
+		<Item Pos_x="679" Pos_y="621" Size_x="80" Size_y="24" Obst="2"/>
+		<Item Pos_x="759" Pos_y="536" Size_x="42" Size_y="120" Obst="1"/>
+		<Item Pos_x="759" Pos_y="383" Size_x="522" Size_y="154" Obst="1"/>
+		<Item Pos_x="681" Pos_y="482" Size_x="78" Size_y="24" Obst="2"/>
+		<Item Pos_x="888" Pos_y="335" Size_x="104" Size_y="48" Obst="2"/>
+		<Item Pos_x="599" Pos_y="78" Size_x="82" Size_y="230" Obst="1"/>
+		<Item Pos_x="479" Pos_y="78" Size_x="42" Size_y="44" Obst="1"/>
+		<Item Pos_x="599" Pos_y="308" Size_x="42" Size_y="310" Obst="1"/>
+		<Item Pos_x="601" Pos_y="766" Size_x="80" Size_y="78" Obst="1"/>
+		<Item Pos_x="1199" Size_x="80" Size_y="154" Obst="1"/>
+		<Item Pos_x="1201" Pos_y="306" Size_x="80" Size_y="76" Obst="1"/>
+		<Item Pos_x="1115" Pos_y="306" Size_x="85" Size_y="77" Obst="5"/>
+		<Item Pos_x="967" Pos_y="795" Size_x="106" Size_y="48" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-54" Pos_y="156" Size_x="60" Size_y="146" Id="1" Map="失落的村庄04" MapPos_x="1280" MapPos_y="708"/>
+		<Item Pos_x="1271" Pos_y="157" Size_x="60" Size_y="146" Id="2" Map="失落的村庄室内8" MapPos_y="305"/>
+	</Trap>
+	<Char/>
+</Map>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2560" Size_y="500">
+	<Tile>
+		<Item Size_x="512" Size_y="500" Pic="\Image\地图\地下墓地\墓地10-1.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1"/>
+		<Item Pos_x="512" Size_x="512" Size_y="500" Pic="\Image\地图\地下墓地\墓地10-2.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1"/>
+		<Item Pos_x="1024" Size_x="512" Size_y="500" Pic="\Image\地图\地下墓地\墓地10-3.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1"/>
+		<Item Pos_x="1536" Size_x="512" Size_y="500" Pic="\Image\地图\地下墓地\墓地10-4.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1"/>
+		<Item Pos_x="2048" Size_x="512" Size_y="500" Pic="\Image\地图\地下墓地\墓地10-5.bmp" Pic_right="256" Pic_bottom="207" Filter="0x1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_y="95" Size_x="192" Size_y="93" Obst="1"/>
+		<Item Pos_x="160" Pos_y="59" Size_x="64" Size_y="73" Obst="1"/>
+		<Item Pos_x="193" Pos_y="28" Size_x="64" Size_y="69" Obst="1"/>
+		<Item Pos_x="240" Size_x="1808" Size_y="73" Obst="1"/>
+		<Item Pos_x="2242" Size_x="259" Size_y="35" Obst="1"/>
+		<Item Pos_x="2343" Pos_y="9" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="2369" Pos_y="44" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="2402" Pos_y="82" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="2432" Pos_y="121" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="2466" Pos_y="160" Size_x="64" Size_y="53" Obst="1"/>
+		<Item Pos_x="2495" Pos_y="195" Size_x="64" Size_y="166" Obst="1"/>
+		<Item Pos_y="325" Size_x="2524" Size_y="53" Obst="1"/>
+	</Obst>
+	<Trap/>
+	<Char/>
+</Map>

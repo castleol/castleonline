@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="330" Pos_y="440" Size_x="100" Size_y="50" Random="1" EmitInter="25" EmitTime="1000" EndColor="0xFFFFFF" ItemSize_x="4" ItemSize_y="4" ItemHot_x="2" ItemHot_y="2" ItemLife="1000" MinSpeedX="-150.000" MaxSpeedX="-100.000" AddSpeedY="-100.000" Follow="1" Water="1"/>
+</Effect>

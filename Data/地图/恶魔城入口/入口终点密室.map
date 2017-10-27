@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_x="117" Pos_y="439" Size_x="566" Size_y="32" Pic="\Image\地图\恶魔城入口\藏宝房间\紫色边.bmp" Tile="1"/>
+		<Item Pos_y="271" Size_x="120" Size_y="169" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁.bmp" Color0="0xFF000000" Color1="0xFF000000" Tile="1"/>
+		<Item Pos_x="118" Pos_y="64" Size_x="562" Size_y="376" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁.bmp" Color0="0xFF000000" Color1="0xFF000000" Tile="1"/>
+		<Item Pos_x="118" Pos_y="470" Size_x="563" Size_y="69" Pic="\Image\地图\恶魔城入口\藏宝房间\紫色块.bmp" Tile="1"/>
+		<Item Pos_x="110" Pos_y="512" Size_x="100" Size_y="87" Pic="\Image\地图\恶魔城入口\藏宝房间\紫色块.bmp" Color0="0xFF505050" Color1="0xFF505050" Color2="0xFF505050" Color3="0xFF505050" Tile="1"/>
+		<Item Pos_y="439" Size_x="120" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\入口平台.bmp" Obst="1"/>
+		<Item Pos_x="120" Pos_y="439" Size_x="120" Size_y="161" Pic="\Image\地图\恶魔城入口\藏宝房间\入口台阶.bmp" Flip="1"/>
+		<Item Size_x="800" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\屋顶墙壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_y="63" Size_x="120" Size_y="249" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Obst="1"/>
+		<Item Pos_x="680" Pos_y="63" Size_x="120" Size_y="537" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="240" Pos_y="536" Size_x="441" Size_y="64" Pic="\Image\地图\恶魔城入口\入口楼梯\地面.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="541" Pos_y="471" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\紫色浮雕.bmp"/>
+		<Item Pos_x="403" Pos_y="249" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_y="503" Size_x="120" Size_y="97" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="244" Pos_y="470" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\紫色浮雕.bmp"/>
+		<Item Pos_x="203" Pos_y="249" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_x="520" Pos_y="238" Size_x="160" Size_y="32" Pic="\image\地图\恶魔城入口\藏宝房间\藏宝平台.bmp" Pic_right="160" Pic_bottom="32" Flip="1" Obst="1"/>
+		<Item Pos_x="632" Pos_y="270" Size_x="48" Size_y="60" Pic="\Image\地图\恶魔城入口\入口楼梯\支脚.bmp" Flip="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="534" Pos_y="330" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="524791309" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+		<Item Pos_x="311" Pos_y="330" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="305514794" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+		<Item Pos_x="425" Pos_y="425" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="3" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" Item="生命上限" TaskId="2" Swing_y="8"/>
+		<Item Pos_x="599" Pos_y="190" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="160" Pic_right="32" Pic_bottom="192" Frames="4" Fps="10" Id="4" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\红心上限.lua" Item="红心上限" TaskId="3" Swing_y="8"/>
+		<Item Pos_x="401" Pos_y="472" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\藏宝石台.bmp" Obst="2" Id="5" Type="1"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="119" Pos_y="439" Size_x="122" Size_y="97" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-35" Pos_y="321" Size_x="44" Size_y="114" Id="1" Map="入口终点" MapPos_x="1280" MapPos_y="860"/>
+	</Trap>
+	<Char/>
+</Map>

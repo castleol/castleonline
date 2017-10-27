@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\植物\妖草乌奈.bmp" ColorKey="0xFFFF00FF" Size_x="56" Size_y="32" Scale="2.000" HitEffect="闪光01">
+	<Action Num="5">
+		<Act Name="站立" Group="1" Fly="1"/>
+		<Act Name="出现" Next="摆动" Group="1" Begin="1" End="3" Fly="1">
+			<Act Name="人面" Group="3" TimeEnd="500" ColorBegin="0xFFFFFF"/>
+		</Act>
+		<Act Name="摆动" Group="1" Begin="4" End="7" Loop="4" Fly="1">
+			<Act Name="人面" Group="5" End="3" ColorBegin="0xFFFFFF"/>
+		</Act>
+		<Act Name="攻击" Next="摆动" Effect="妖草口水" Group="1" Begin="4" End="7" Loop="4" Start="6" Fly="1">
+			<Act Name="人面" Group="2" End="3" ColorBegin="0xFFFFFF"/>
+		</Act>
+		<Act Name="死亡" Effect="妖草死亡" State="14" Group="1" Begin="7" Time="1000" Start="-1" Sound="1" Fly="1">
+			<Act Name="人面" Group="2" TimeEnd="500" ColorEnd="0xFFFFFF"/>
+		</Act>
+	</Action>
+	<Rect Num="8">
+		<Rect Name="摆动" Frame="4" Rect_left="-18" Rect_top="-203" Rect_right="30" Rect_bottom="-33"/>
+		<Rect Name="摆动" Frame="5" Rect_left="-14" Rect_top="-201" Rect_right="36" Rect_bottom="-33"/>
+		<Rect Name="摆动" Frame="6" Rect_left="-20" Rect_top="-203" Rect_right="30" Rect_bottom="-33"/>
+		<Rect Name="摆动" Frame="7" Rect_left="-16" Rect_top="-209" Rect_right="26" Rect_bottom="-33"/>
+		<Rect Name="攻击" Frame="4" Rect_left="-14" Rect_top="-205" Rect_right="34" Rect_bottom="-35"/>
+		<Rect Name="攻击" Frame="5" Rect_left="-12" Rect_top="-201" Rect_right="32" Rect_bottom="-33"/>
+		<Rect Name="攻击" Frame="6" Rect_left="-14" Rect_top="-205" Rect_right="32" Rect_bottom="-33"/>
+		<Rect Name="攻击" Frame="7" Rect_left="-14" Rect_top="-201" Rect_right="32" Rect_bottom="-33"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\sound\怪物\妖草乌奈死亡.wav"/>
+	</Sound>
+	<Image Num="21">
+		<Img Group="1" Pos_x="6" Pos_y="5" Size_x="7" Size_y="16" Hot_x="2" Hot_y="16"/>
+		<Img Group="1" Frame="1" Pos_x="13" Pos_y="5" Size_x="6" Size_y="16" Hot_x="2" Hot_y="16"/>
+		<Img Group="1" Frame="2" Pos_x="19" Pos_y="5" Size_x="10" Size_y="16" Hot_x="5" Hot_y="16"/>
+		<Img Group="1" Frame="3" Pos_x="29" Pos_y="5" Size_x="17" Size_y="16" Hot_x="8" Hot_y="16"/>
+		<Img Group="1" Frame="4" Pos_x="46" Pos_y="5" Size_x="35" Size_y="16" Hot_x="18" Hot_y="16"/>
+		<Img Group="1" Frame="5" Pos_x="82" Pos_y="5" Size_x="31" Size_y="16" Hot_x="16" Hot_y="16"/>
+		<Img Group="1" Frame="6" Pos_x="113" Pos_y="5" Size_x="32" Size_y="16" Hot_x="16" Hot_y="16"/>
+		<Img Group="1" Frame="7" Pos_x="145" Pos_y="5" Size_x="32" Size_y="16" Hot_x="17" Hot_y="16"/>
+		<Img Group="5" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104"/>
+		<Img Group="5" Frame="1" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104" Angle="0.020"/>
+		<Img Group="5" Frame="2" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104"/>
+		<Img Group="5" Frame="3" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104" Angle="-0.020"/>
+		<Img Group="2" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104"/>
+		<Img Group="2" Frame="1" Pos_x="32" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104" Angle="0.020"/>
+		<Img Group="2" Frame="2" Pos_x="64" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104" Angle="0.040"/>
+		<Img Group="2" Frame="3" Pos_x="96" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104" Angle="0.020"/>
+		<Img Group="3" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104"/>
+		<Img Group="3" Frame="1" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104"/>
+		<Img Group="3" Frame="2" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104"/>
+		<Img Group="3" Frame="3" Pos_y="24" Size_x="32" Size_y="104" Hot_x="12" Hot_y="104"/>
+		<Img Group="4" Pos_x="166" Pos_y="33" Size_x="19" Size_y="26" Hot_x="-3" Hot_y="101"/>
+	</Image>
+</Char>

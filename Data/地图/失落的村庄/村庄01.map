@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1600" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="501" Pic="\image\地图\失落的村庄\背景01.bmp" Pic_right="256" Pic_bottom="192" DeltaX="0.000"/>
+		<Item Pos_y="120" Size_x="800" Size_y="320" Pic="\image\地图\失落的村庄\背景02.bmp" Pic_top="1" Pic_right="256" Pic_bottom="112" ColorKey="0xFFFFFF" DeltaX="0.400"/>
+		<Item Pos_x="800" Pos_y="120" Size_x="800" Size_y="320" Pic="\image\地图\失落的村庄\背景02.bmp" Pic_top="1" Pic_right="256" Pic_bottom="112" ColorKey="0xFFFFFF" DeltaX="0.400"/>
+		<Item Size_x="364" Size_y="500" Pic="\image\地图\失落的村庄\背景03.bmp" Pic_right="128" Pic_bottom="176" ColorKey="0xFFFFFF" DeltaX="0.600"/>
+		<Item Pos_x="364" Size_x="364" Size_y="500" Pic="\image\地图\失落的村庄\背景03.bmp" Pic_right="128" Pic_bottom="176" ColorKey="0xFFFFFF" DeltaX="0.600"/>
+		<Item Pos_x="1091" Size_x="364" Size_y="500" Pic="\image\地图\失落的村庄\背景03.bmp" Pic_right="128" Pic_bottom="176" ColorKey="0xFFFFFF" DeltaX="0.600"/>
+		<Item Pos_x="728" Size_x="364" Size_y="500" Pic="\image\地图\失落的村庄\背景03.bmp" Pic_right="128" Pic_bottom="176" ColorKey="0xFFFFFF" DeltaX="0.600"/>
+		<Item Size_x="1600" Size_y="600" Pic="\image\地图\失落的村庄\村庄01.bmp" Pic_right="512" Pic_bottom="192" ColorKey="0xFFFFFF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="1183" Pos_y="372" Size_x="64" Size_y="128" Pic="\image\人物\村民.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFFFF00FF" Flip="1" Id="1" Type="10" Item="对话" TaskId="1"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="500" Size_x="1599" Size_y="100" Obst="1"/>
+		<Item Pos_x="1298" Pos_y="400" Size_x="198" Size_y="100" Obst="5"/>
+		<Item Pos_x="1496" Pos_y="400" Size_x="104" Size_y="101" Obst="1"/>
+		<Item Pos_x="81" Pos_y="300" Size_x="67" Size_y="200" Obst="1"/>
+		<Item Pos_x="1350" Pos_y="1" Size_x="250" Size_y="112" Obst="1"/>
+		<Item Pos_x="98" Pos_y="199" Size_x="199" Size_y="101" Obst="1"/>
+		<Item Pos_x="134" Size_x="134" Size_y="199" Obst="1"/>
+		<Item Pos_x="1450" Pos_y="112" Size_x="150" Size_y="85" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="1592" Pos_y="199" Size_x="84" Size_y="200" Map="失落的村庄02" MapPos_y="800"/>
+		<Item Pos_x="1165" Pos_y="461" Size_x="102" Size_y="40" Id="2" Type="1" Map="对话提示" Tips="Press @2Up@c to talk to character"/>
+	</Trap>
+	<Char/>
+</Map>

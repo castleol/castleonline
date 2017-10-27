@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2368" Size_y="600">
+	<Tile>
+		<Item Size_x="2368" Size_y="600" Pic="\Image\地图\大理石廊下\摆钟廊\背景01.bmp" Tile="1"/>
+		<Item Pos_y="364" Size_x="2368" Size_y="64" Pic="\Image\地图\大理石廊下\摆钟廊\背景02.bmp" Pic_right="32" Pic_bottom="64" Tile="1"/>
+		<Item Pos_x="1136" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-1.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="944" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-3.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="784" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-2.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="624" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-4.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="464" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-2.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="304" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-3.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="144" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-2.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1328" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-5.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1488" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-3.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1648" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-6.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1808" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-3.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1968" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-2.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="2128" Pos_y="204" Size_x="96" Size_y="224" Pic="\Image\地图\大理石廊下\摆钟廊\背景04-3.bmp" Pic_right="96" Pic_bottom="224" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="256" Pos_y="256" Size_x="32" Size_y="170" Pic="\Image\地图\大理石廊下\摆钟廊\背景05-1.bmp" Pic_right="32" Pic_bottom="170" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="576" Pos_y="256" Size_x="32" Size_y="170" Pic="\Image\地图\大理石廊下\摆钟廊\背景05-2.bmp" Pic_right="32" Pic_bottom="170" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="64" Pos_y="156" Size_x="92" Size_y="90" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="896" Pos_y="256" Size_x="32" Size_y="170" Pic="\Image\地图\大理石廊下\摆钟廊\背景05-1.bmp" Pic_right="32" Pic_bottom="170" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1440" Pos_y="256" Size_x="32" Size_y="170" Pic="\Image\地图\大理石廊下\摆钟廊\背景05-2.bmp" Pic_right="32" Pic_bottom="170" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="91" Pos_y="151" Size_x="79" Size_y="77" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="1760" Pos_y="256" Size_x="32" Size_y="170" Pic="\Image\地图\大理石廊下\摆钟廊\背景05-1.bmp" Pic_right="32" Pic_bottom="170" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="2080" Pos_y="256" Size_x="32" Size_y="170" Pic="\Image\地图\大理石廊下\摆钟廊\背景05-2.bmp" Pic_right="32" Pic_bottom="170" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="416" Pos_y="332" Size_x="32" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="44" Pos_y="95" Size_x="2300" Size_y="90" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="416" Pos_y="194" Size_x="32" Size_y="138" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="388" Pos_y="162" Size_x="88" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-3.bmp" Pic_right="88" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="24" Pos_y="187" Size_x="79" Size_y="77" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_y="189" Size_x="86" Size_y="92" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_y="94" Size_x="128" Size_y="142" Pic="\Image\地图\大理石廊下\摆钟廊\墙面02-1.bmp" Pic_right="128" Pic_bottom="142" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Size_x="128" Size_y="94" Pic="\Image\地图\大理石廊下\摆钟廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="94" Size_x="66" Size_y="144" Pic="\Image\地图\大理石廊下\摆钟廊\墙面02-2.bmp" Pic_right="66" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="364" Size_x="128" Size_y="142" Pic="\Image\地图\大理石廊下\摆钟廊\墙面03-1.bmp" Pic_right="128" Pic_bottom="142" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="506" Size_x="128" Size_y="94" Pic="\Image\地图\大理石廊下\摆钟廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="94" Pos_y="428" Size_x="66" Size_y="172" Pic="\Image\地图\大理石廊下\摆钟廊\墙面03-2.bmp" Pic_right="66" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="2200" Pos_y="153" Size_x="79" Size_y="77" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="2264" Pos_y="189" Size_x="79" Size_y="74" Pic="\Image\地图\大理石廊下\彩窗廊\阴影03.bmp" Pic_right="64" Pic_bottom="36"/>
+		<Item Pos_x="2282" Pos_y="189" Size_x="86" Size_y="92" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="2214" Pos_y="158" Size_x="86" Size_y="92" Pic="\Image\地图\大理石廊下\彩窗廊\阴影02.bmp" Pic_right="36" Pic_bottom="64"/>
+		<Item Pos_x="160" Pos_y="428" Size_x="2048" Size_y="172" Pic="\Image\地图\大理石廊下\摆钟廊\墙面06-2.bmp" Pic_right="256" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="2240" Pos_y="94" Size_x="128" Size_y="142" Pic="\Image\地图\大理石廊下\摆钟廊\墙面04-1.bmp" Pic_right="128" Pic_bottom="142" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="2240" Pos_y="364" Size_x="128" Size_y="142" Pic="\Image\地图\大理石廊下\摆钟廊\墙面05-1.bmp" Pic_right="128" Pic_bottom="142" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="2240" Size_x="128" Size_y="94" Pic="\Image\地图\大理石廊下\摆钟廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="2240" Pos_y="506" Size_x="128" Size_y="94" Pic="\Image\地图\大理石廊下\摆钟廊\墙面01-1.bmp" Pic_right="128" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="2208" Size_x="64" Size_y="144" Pic="\Image\地图\大理石廊下\摆钟廊\墙面04-2.bmp" Pic_right="66" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="160" Size_x="2048" Size_y="144" Pic="\Image\地图\大理石廊下\摆钟廊\墙面06-1.bmp" Pic_right="256" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="2208" Pos_y="428" Size_x="64" Size_y="172" Pic="\Image\地图\大理石廊下\摆钟廊\墙面05-2.bmp" Pic_right="66" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="736" Pos_y="333" Size_x="32" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="736" Pos_y="195" Size_x="32" Size_y="138" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="708" Pos_y="163" Size_x="88" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-3.bmp" Pic_right="88" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="2"/>
+		<Item Pos_x="1056" Pos_y="333" Size_x="32" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="3"/>
+		<Item Pos_x="1056" Pos_y="195" Size_x="32" Size_y="138" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="3"/>
+		<Item Pos_x="1028" Pos_y="163" Size_x="88" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-3.bmp" Pic_right="88" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="3"/>
+		<Item Pos_x="1280" Pos_y="332" Size_x="32" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="1280" Pos_y="194" Size_x="32" Size_y="138" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="1252" Pos_y="162" Size_x="88" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-3.bmp" Pic_right="88" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="4"/>
+		<Item Pos_x="1600" Pos_y="332" Size_x="32" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="5"/>
+		<Item Pos_x="1600" Pos_y="194" Size_x="32" Size_y="138" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="5"/>
+		<Item Pos_x="1572" Pos_y="162" Size_x="88" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-3.bmp" Pic_right="88" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="5"/>
+		<Item Pos_x="1920" Pos_y="332" Size_x="32" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1920" Pos_y="194" Size_x="32" Size_y="138" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+		<Item Pos_x="1892" Pos_y="162" Size_x="88" Size_y="32" Pic="\Image\地图\大理石廊下\摆钟廊\背景03-3.bmp" Pic_right="88" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Group="6"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="174" Pos_y="315" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆01.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Frames="10" Fps="10" Id="1" Type="9"/>
+		<Item Pos_x="494" Pos_y="316" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆01.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Frames="10" Fps="10" Id="2" Type="9"/>
+		<Item Pos_x="814" Pos_y="316" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆01.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Frames="10" Fps="10" Id="3" Type="9"/>
+		<Item Pos_x="1998" Pos_y="316" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆01.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Frames="10" Fps="10" Id="4" Type="9"/>
+		<Item Pos_x="2158" Pos_y="316" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆01.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Flip="1" Frames="10" Fps="10" Id="5" Type="9"/>
+		<Item Pos_x="1838" Pos_y="316" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆01.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Flip="1" Frames="10" Fps="10" Id="6" Type="9"/>
+		<Item Pos_x="1518" Pos_y="316" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆01.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Flip="1" Frames="10" Fps="10" Id="7" Type="9"/>
+		<Item Pos_x="974" Pos_y="316" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆01.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Flip="1" Frames="10" Fps="10" Id="8" Type="9"/>
+		<Item Pos_x="334" Pos_y="316" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆01.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Flip="1" Frames="10" Fps="10" Id="9" Type="9"/>
+		<Item Pos_x="1166" Pos_y="316" Size_x="36" Size_y="84" Pic="\Image\地图\大理石廊下\摆钟廊\钟摆02.bmp" Pic_right="18" Pic_bottom="42" Filter="0x1" ColorKey="0xFFFF00FF" Frames="10" Fps="10" Id="10" Type="9" Time="1000" Sound="\sound\物件\钟摆.wav"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="2240" Pos_y="127" Size_x="64" Size_y="77" Obst="1"/>
+		<Item Pos_x="2304" Pos_y="127" Size_x="64" Size_y="109" Obst="1"/>
+		<Item Pos_x="2304" Pos_y="364" Size_x="64" Size_y="109" Obst="1"/>
+		<Item Pos_x="2240" Pos_y="396" Size_x="64" Size_y="77" Obst="1"/>
+		<Item Pos_x="64" Pos_y="396" Size_x="64" Size_y="77" Obst="1"/>
+		<Item Pos_x="64" Pos_y="127" Size_x="64" Size_y="77" Obst="1"/>
+		<Item Pos_y="127" Size_x="64" Size_y="109" Obst="1"/>
+		<Item Pos_y="364" Size_x="64" Size_y="109" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-33" Pos_y="236" Size_x="38" Size_y="128" Id="1" Map="彩窗廊02" MapPos_x="2400" MapPos_y="364"/>
+		<Item Pos_x="2363" Pos_y="236" Size_x="40" Size_y="128" Id="2" Map="摆钟廊02" MapPos_y="364"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="425" Pos_y="396" Size_x="32" Size_y="32" Id="1" Char="跳蚤男" Left="1" Action="站立"/>
+		<Item Pos_x="1441" Pos_y="396" Size_x="32" Size_y="32" Id="2" Char="跳蚤男" Left="1" Action="站立"/>
+		<Item Pos_x="1913" Pos_y="396" Size_x="32" Size_y="32" Id="3" Char="跳蚤男" Left="1" Action="站立"/>
+		<Item Pos_x="895" Pos_y="396" Size_x="32" Size_y="32" Id="4" Char="跳蚤男" Left="1" Action="站立"/>
+	</Char>
+</Map>

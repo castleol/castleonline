@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\骷髅\飞行骷髅.bmp" ColorKey="0xFF00FF00" Size_x="32" Size_y="80" Scale="2.000" Shadow="0" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="4">
+		<Act Name="站立" Group="1" End="5" Fly="1"/>
+		<Act Name="转身" Group="1" Next="飞行" Flip="1" Fly="1"/>
+		<Act Name="飞行" State="1" Group="1" End="5" Sound="1" Speed_x="100" Swing_y="32" Fly="1" MoveType="3"/>
+		<Act Name="死亡" State="14" Time="1000" Sound="2" Effect="飞行骷髅死亡" Fly="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\飞飞魔飞行.wav"/>
+		<Snd Id="2" File="\sound\怪物\骷髅兵死亡.wav"/>
+	</Sound>
+	<Image Num="6">
+		<Img Group="1" Pos_y="25" Size_x="47" Size_y="52" Hot_x="22" Hot_y="49"/>
+		<Img Group="1" Frame="1" Pos_x="47" Pos_y="25" Size_x="47" Size_y="52" Hot_x="22" Hot_y="50"/>
+		<Img Group="1" Frame="2" Pos_y="78" Size_x="47" Size_y="47" Hot_x="23" Hot_y="46"/>
+		<Img Group="1" Frame="3" Pos_x="47" Pos_y="78" Size_x="47" Size_y="47" Hot_x="23" Hot_y="47"/>
+		<Img Group="1" Frame="4" Pos_y="78" Size_x="47" Size_y="47" Hot_x="23" Hot_y="46"/>
+		<Img Group="1" Frame="5" Pos_x="47" Pos_y="25" Size_x="47" Size_y="52" Hot_x="22" Hot_y="50"/>
+	</Image>
+</Char>

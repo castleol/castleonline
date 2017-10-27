@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2046" Size_y="600">
+	<Tile>
+		<Item Size_x="2046" Size_y="600" Color0="0xFF101010" Color1="0xFF101010" Color2="0xFF101010" Color3="0xFF101010"/>
+		<Item Pos_x="1118" Pos_y="220" Size_x="768" Size_y="160" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-3.bmp" Pic_right="192" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="928" Pos_y="220" Size_x="64" Size_y="160" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-1.bmp" Pic_right="64" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="832" Pos_y="252" Size_x="96" Size_y="128" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-4.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_y="252" Size_x="96" Size_y="128" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-4.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="352" Pos_y="220" Size_x="480" Size_y="160" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-3.bmp" Pic_right="192" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="256" Pos_y="252" Size_x="96" Size_y="128" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-4.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="960" Pos_y="252" Size_x="32" Size_y="128" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-4.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="1886" Pos_y="220" Size_x="64" Size_y="160" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-2.bmp" Pic_right="64" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1054" Pos_y="220" Size_x="64" Size_y="160" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-1.bmp" Pic_right="64" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="1950" Pos_y="252" Size_x="96" Size_y="128" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-4.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="990" Pos_y="316" Size_x="64" Size_y="72" Pic="\Image\地图\奥洛克之间\粗墙廊\柱01-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="164" Size_x="2046" Size_y="56" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面06-3.bmp" Pic_right="64" Pic_bottom="80" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1308" Pos_y="444" Size_x="2" Size_y="10" Color0="0xFF101010" Color1="0xFF101010" Color2="0xFF101010" Color3="0xFF101010"/>
+		<Item Pos_x="1054" Pos_y="380" Size_x="992" Size_y="64" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面06-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1950" Pos_y="196" Size_x="96" Size_y="40" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="1950" Pos_y="236" Size_x="96" Size_y="16" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面01-2.bmp" Pic_right="64" Pic_bottom="16" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="224" Pos_y="214" Size_x="768" Size_y="22" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="224" Pos_y="236" Size_x="768" Size_y="16" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面01-2.bmp" Pic_right="64" Pic_bottom="16" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="96" Pos_y="220" Size_x="64" Size_y="160" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-1.bmp" Pic_right="64" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="160" Pos_y="220" Size_x="64" Size_y="160" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-2.bmp" Pic_right="64" Pic_bottom="160" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="990" Pos_y="220" Size_x="64" Size_y="128" Pic="\Image\地图\奥洛克之间\粗墙廊\柱01-1.bmp" Pic_right="64" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="380" Size_x="992" Size_y="64" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面06-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="224" Pos_y="252" Size_x="32" Size_y="128" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-5.bmp" Pic_right="32" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="214" Size_x="96" Size_y="22" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面01-1.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="236" Size_x="96" Size_y="16" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面01-2.bmp" Pic_right="64" Pic_bottom="16" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="846" Pos_y="388" Size_x="224" Size_y="172" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面06-2.bmp" Pic_right="112" Pic_bottom="67" ColorKey="0xFF00FF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="873" Pos_y="478" Size_x="32" Size_y="64" Pic="\Image\地图\动画\瓶子01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFFFFFFFF" Frames="1" Id="1" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="绿色宝箱钥匙" TaskId="7"/>
+		<Item Pos_x="800" Pos_y="300" Size_x="64" Size_y="80" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面03-1.bmp" Pic_right="64" Pic_bottom="80" ColorKey="0xFF00FF" Obst="1" Id="2" Type="3" Time="1000" Sound="\sound\场景\机关02.wav" EndPos_x="800" EndPos_y="380" EndSize_x="64"/>
+		<Item Pos_x="930" Pos_y="528" Size_x="28" Size_y="14" Pic="\Image\地图\斗技场\大门机关.bmp" Pic_right="28" Pic_bottom="14" ColorKey="0xFF00FF" Tile="1" Obst="2" Id="3" Type="5" Time="500" Sound="\sound\场景\开关02.wav" Script="\data\脚本\地图机关\奥洛克走廊07.lua" TaskId="2" EndPos_x="930" EndPos_y="542" EndSize_x="28"/>
+		<Item Pos_x="990" Pos_y="380" Size_x="64" Size_y="64" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面06-1.bmp" Pic_right="64" Pic_bottom="64" Obst="1" Id="4" Damage="3" Effect="地板破坏01" Script="\data\脚本\破坏墙壁\奥洛克走廊07.lua" TaskId="8"/>
+		<Item Pos_x="1659" Pos_y="276" Size_x="26" Size_y="104" Pic="\Image\地图\动画\灯柱04.bmp" Pic_right="13" Pic_bottom="52" ColorKey="0x800000" Frames="4" Fps="10" Id="5" Damage="1" Effect="灯台03" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\奥洛克之间.lua"/>
+		<Item Pos_x="1261" Pos_y="276" Size_x="26" Size_y="104" Pic="\Image\地图\动画\灯柱04.bmp" Pic_right="13" Pic_bottom="52" ColorKey="0x800000" Frames="4" Fps="10" Id="6" Damage="1" Effect="灯台03" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\奥洛克之间.lua"/>
+		<Item Pos_x="144" Pos_y="276" Size_x="26" Size_y="104" Pic="\Image\地图\动画\灯柱04.bmp" Pic_right="13" Pic_bottom="52" ColorKey="0x800000" Frames="4" Fps="10" Id="7" Damage="1" Effect="灯台03" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\奥洛克之间.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="3294" Pos_y="2862" Size_x="106" Size_y="236" Obst="1"/>
+		<Item Pos_x="3988" Pos_y="2862" Size_x="106" Size_y="236" Obst="1"/>
+		<Item Pos_x="1054" Pos_y="444" Size_x="17" Size_y="98" Obst="1"/>
+		<Item Pos_x="846" Pos_y="443" Size_x="16" Size_y="99" Obst="1"/>
+		<Item Pos_x="846" Pos_y="542" Size_x="225" Size_y="19" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="2042" Pos_y="252" Size_x="42" Size_y="128" Id="1" Map="奥洛克广场" MapPos_y="272"/>
+		<Item Pos_x="-40" Pos_y="252" Size_x="42" Size_y="128" Id="2" Map="奥洛克房间02" MapPos_x="1200" MapPos_y="272"/>
+	</Trap>
+	<Char/>
+</Map>

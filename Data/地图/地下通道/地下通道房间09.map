@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\地下通道\房间02-1.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0x800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="523" Pos_y="281" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="1" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="223" Pos_y="282" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="384" Pos_y="393" Size_x="32" Size_y="32" Pic="\image\图标\材料.bmp" Pic_left="64" Pic_right="96" Pic_bottom="32" Id="3" Type="7" Effect="法力上限" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\魔魂.lua" Item="蓝色魔魂" TaskId="3" Swing_y="6"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="651" Pos_y="1" Size_x="149" Size_y="208" Obst="1"/>
+		<Item Pos_x="651" Pos_y="394" Size_x="149" Size_y="206" Obst="1"/>
+		<Item Pos_y="394" Size_x="149" Size_y="206" Obst="1"/>
+		<Item Size_x="149" Size_y="209" Obst="1"/>
+		<Item Pos_x="149" Pos_y="1" Size_x="502" Size_y="69" Obst="1"/>
+		<Item Pos_x="149" Pos_y="533" Size_x="502" Size_y="66" Obst="1"/>
+		<Item Pos_x="350" Pos_y="441" Size_x="100" Size_y="92" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="796" Pos_y="212" Size_x="47" Size_y="180" Id="1" Map="地下通道竖井03" MapPos_y="1199"/>
+		<Item Pos_x="-43" Pos_y="263" Size_x="47" Size_y="128" Id="2" Map="地下通道房间10" MapPos_x="1600" MapPos_y="288"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="384" Pos_y="178" Size_x="44" Size_y="66" Id="1" Char="鬼魂" Action="隐藏"/>
+	</Char>
+</Map>

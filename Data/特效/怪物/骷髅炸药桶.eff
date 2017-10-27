@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="354" Pos_y="229" Size_x="40" Size_y="90" Offs_x="-17" Offs_y="-102" Pic="\data\怪物\骷髅\炸药骷髅.chr" Group="7" ColorKey="0xFF00" Sound="\Sound\投掷\骨头.wav" ItemSize_x="30" ItemSize_y="30" ItemHot_x="15" ItemHot_y="15" ItemFrame="4" ItemFps="10" ItemLife="2500" ItemScale="2.000" MinSpeedX="300.000" MaxSpeedX="300.000" MinSpeedY="-300.000" MaxSpeedY="-300.000" AddSpeedX="-100.000" AddSpeedY="1000.000" AngleSpeed="8.000" HitType="2" Rebound="1" Destroy="1" EndEffect="\data\特效\爆炸\炸药桶爆炸.eff"/>
+</Effect>

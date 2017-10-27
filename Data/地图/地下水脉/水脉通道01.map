@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1600">
+	<Tile>
+		<Item Size_x="800" Size_y="1600" Pic="\Image\地图\地下水脉\水脉通道01.bmp" Pic_right="256" Pic_bottom="719"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="199" Pos_y="1548" Size_x="110" Size_y="52" Pic="\Image\地图\地下水脉\水脉通道01-2.bmp" Pic_right="35" Pic_bottom="23" Obst="1" Id="1" Damage="3" Effect="地板破坏01"/>
+		<Item Pos_x="482" Pos_y="172" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="272" Pos_y="168" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="3" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="475" Pos_y="593" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="4" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="286" Pos_y="1023" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="5" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+		<Item Pos_x="466" Pos_y="1328" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="6" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下水脉.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="700" Pos_y="378" Size_x="100" Size_y="236" Obst="1"/>
+		<Item Pos_x="200" Pos_y="302" Size_x="50" Size_y="15" Obst="2"/>
+		<Item Pos_x="200" Pos_y="554" Size_x="44" Size_y="24" Obst="4"/>
+		<Item Size_x="250" Size_y="160" Obst="1"/>
+		<Item Pos_x="600" Size_x="200" Size_y="161" Obst="1"/>
+		<Item Pos_x="143" Pos_y="914" Size_x="58" Size_y="250" Obst="1"/>
+		<Item Pos_x="200" Pos_y="1150" Size_x="51" Size_y="62" Obst="1"/>
+		<Item Pos_x="600" Pos_y="302" Size_x="200" Size_y="74" Obst="1"/>
+		<Item Pos_x="400" Pos_y="302" Size_x="200" Size_y="15" Obst="2"/>
+		<Item Pos_y="302" Size_x="200" Size_y="320" Obst="1"/>
+		<Item Pos_x="200" Pos_y="579" Size_x="44" Size_y="89" Obst="1"/>
+		<Item Pos_x="650" Pos_y="615" Size_x="150" Size_y="45" Obst="1"/>
+		<Item Pos_x="171" Pos_y="800" Size_x="129" Size_y="114" Obst="1"/>
+		<Item Pos_x="246" Pos_y="687" Size_x="99" Size_y="112" Obst="1"/>
+		<Item Pos_x="200" Pos_y="445" Size_x="50" Size_y="15" Obst="2"/>
+		<Item Pos_x="244" Pos_y="615" Size_x="101" Size_y="71" Obst="4"/>
+		<Item Pos_x="345" Pos_y="729" Size_x="55" Size_y="15" Obst="2"/>
+		<Item Pos_x="650" Pos_y="586" Size_x="49" Size_y="28" Obst="5"/>
+		<Item Pos_x="600" Pos_y="659" Size_x="49" Size_y="28" Obst="5"/>
+		<Item Pos_x="600" Pos_y="689" Size_x="150" Size_y="179" Obst="1"/>
+		<Item Pos_x="500" Pos_y="835" Size_x="49" Size_y="28" Obst="5"/>
+		<Item Pos_x="550" Pos_y="832" Size_x="50" Size_y="33" Obst="1"/>
+		<Item Pos_x="500" Pos_y="865" Size_x="50" Size_y="82" Obst="1"/>
+		<Item Pos_x="450" Pos_y="944" Size_x="49" Size_y="28" Obst="5"/>
+		<Item Pos_x="450" Pos_y="974" Size_x="94" Size_y="114" Obst="1"/>
+		<Item Pos_x="400" Pos_y="1014" Size_x="50" Size_y="15" Obst="2"/>
+		<Item Pos_x="502" Pos_y="1089" Size_x="85" Size_y="102" Obst="1"/>
+		<Item Pos_x="549" Pos_y="1191" Size_x="251" Size_y="109" Obst="1"/>
+		<Item Pos_x="600" Pos_y="1442" Size_x="200" Size_y="82" Obst="1"/>
+		<Item Pos_x="550" Pos_y="1442" Size_x="50" Size_y="16" Obst="2"/>
+		<Item Pos_x="308" Pos_y="1548" Size_x="309" Size_y="51" Obst="1"/>
+		<Item Pos_x="550" Pos_y="1512" Size_x="49" Size_y="35" Obst="5"/>
+		<Item Pos_x="109" Pos_y="1334" Size_x="91" Size_y="267" Obst="1"/>
+		<Item Pos_x="199" Pos_y="1257" Size_x="150" Size_y="95" Obst="1"/>
+		<Item Pos_x="349" Pos_y="1299" Size_x="51" Size_y="15" Obst="2"/>
+		<Item Pos_x="251" Pos_y="1191" Size_x="98" Size_y="64" Obst="4"/>
+		<Item Pos_x="200" Pos_y="1122" Size_x="50" Size_y="26" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="796" Pos_y="161" Size_x="34" Size_y="140" Id="1" Map="通往地下水脉" MapPos_y="407"/>
+		<Item Pos_x="-43" Pos_y="161" Size_x="46" Size_y="140" Id="2" Map="水脉通道07" MapPos_x="5760" MapPos_y="339"/>
+		<Item Pos_x="796" Pos_y="1301" Size_x="41" Size_y="140" Id="3" Map="水脉复活01" MapPos_y="426"/>
+		<Item Pos_x="200" Pos_y="1595" Size_x="100" Size_y="40" Id="4" Map="水脉通道04" MapPos_x="200" MapPos_y="50"/>
+	</Trap>
+	<Char/>
+</Map>

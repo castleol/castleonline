@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\动物\猫头鹰.bmp" ColorKey="0xFF800000" Size_x="32" Size_y="32" Scale="2.000" Flip="1" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="9">
+		<Act Name="站立" Group="1" End="2" Fps="5" Fly="1"/>
+		<Act Name="转身" Group="2" Next="盘旋" Flip="1" Fly="1"/>
+		<Act Name="飞行" State="1" Group="2" End="3" Time="1000" Sound="1" Next="盘旋" Speed_x="100" Speed_y="-150" Fly="1"/>
+		<Act Name="俯冲" State="1" Group="3" End="3" Fps="15" Time="1000" Sound="1" Next="飞行" Speed_x="300" Speed_y="150" AddSpeed_x="50" Fly="1"/>
+		<Act Name="死亡" State="13" Group="4" Time="1000" Sound="2" Next="尸体" AddSpeed_y="1200"/>
+		<Act Name="尸体" State="14" Group="5" Time="2000"/>
+		<Act Name="起飞" State="1" Group="2" End="3" Time="1000" Sound="1" Next="俯冲" Speed_x="20" Speed_y="-50" Fly="1"/>
+		<Act Name="返回" State="1" Group="2" End="3" Time="2000" Sound="1" Next="俯冲" Speed_x="-200" Speed_y="-100" Fly="1"/>
+		<Act Name="盘旋" Group="2" End="3" Time="1000" Sound="1" Fly="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\猫头鹰飞行.wav"/>
+		<Snd Id="2" File="\sound\怪物\猫头鹰死亡.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="13">
+		<Img Group="1" Pos_x="4" Pos_y="20" Size_x="22" Size_y="40" Hot_x="12" Hot_y="29"/>
+		<Img Group="1" Frame="1" Pos_x="32" Pos_y="20" Size_x="22" Size_y="40" Hot_x="12" Hot_y="29"/>
+		<Img Group="1" Frame="2" Pos_x="60" Pos_y="20" Size_x="23" Size_y="40" Hot_x="13" Hot_y="29"/>
+		<Img Group="2" Pos_x="108" Pos_y="2" Size_x="40" Size_y="56" Hot_x="21" Hot_y="51"/>
+		<Img Group="2" Frame="1" Pos_x="157" Pos_y="2" Size_x="35" Size_y="56" Hot_x="17" Hot_y="51"/>
+		<Img Group="2" Frame="2" Pos_x="201" Pos_y="2" Size_x="36" Size_y="56" Hot_x="20" Hot_y="52"/>
+		<Img Group="2" Frame="3" Pos_x="246" Pos_y="2" Size_x="33" Size_y="56" Hot_x="16" Hot_y="51"/>
+		<Img Group="3" Pos_x="111" Pos_y="66" Size_x="39" Size_y="57" Hot_x="15" Hot_y="46"/>
+		<Img Group="3" Frame="1" Pos_x="155" Pos_y="66" Size_x="40" Size_y="57" Hot_x="16" Hot_y="47"/>
+		<Img Group="3" Frame="2" Pos_x="201" Pos_y="66" Size_x="39" Size_y="57" Hot_x="16" Hot_y="48"/>
+		<Img Group="3" Frame="3" Pos_x="246" Pos_y="66" Size_x="39" Size_y="57" Hot_x="16" Hot_y="47"/>
+		<Img Group="4" Pos_x="6" Pos_y="76" Size_x="18" Size_y="37" Hot_x="9" Hot_y="37"/>
+		<Img Group="5" Pos_x="52" Pos_y="99" Size_x="41" Size_y="15" Hot_x="18" Hot_y="15"/>
+	</Image>
+</Char>

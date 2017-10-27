@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="365" Pos_y="323" Size_x="80" Size_y="24" EmitInter="1" EmitTime="1" Color="0xFFFFFF00" EndColor="0x20FFFF00" ItemSize_x="80" ItemSize_y="20" ItemHot_x="40" ItemHot_y="10" ItemLife="1500" MinSpeedX="-100.000" MaxSpeedX="100.000" MinSpeedY="-400.000" MaxSpeedY="-400.000" AddSpeedY="500.000" Text="暴击100" Font="2"/>
+</Effect>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\僵尸\蓝僵尸.bmp" ColorKey="0xFFFFFFFF" Size_x="32" Size_y="90" Scale="2.000" HurtEffect="冒血02">
+	<Action Num="5">
+		<Act Name="站立"/>
+		<Act Name="出现" State="2" Group="1" End="2" Next="移动"/>
+		<Act Name="转身" State="2" Group="6" Next="移动" Flip="1"/>
+		<Act Name="移动" State="1" Group="6" End="3" Fps="5" Speed_x="50"/>
+		<Act Name="死亡" State="14" Group="6" Time="1" Sound="1" Effect="蓝僵尸死亡"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\sound\怪物\僵尸死亡.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="7">
+		<Img Group="6" Size_x="32" Size_y="48" Hot_x="18" Hot_y="47"/>
+		<Img Group="6" Frame="1" Pos_x="32" Size_x="32" Size_y="48" Hot_x="18" Hot_y="47"/>
+		<Img Group="6" Frame="2" Pos_x="64" Size_x="32" Size_y="48" Hot_x="18" Hot_y="47"/>
+		<Img Group="6" Frame="3" Pos_x="96" Size_x="32" Size_y="48" Hot_x="18" Hot_y="47"/>
+		<Img Group="1" Pos_x="192" Size_x="32" Size_y="48" Hot_x="18" Hot_y="47"/>
+		<Img Group="1" Frame="1" Pos_x="160" Size_x="32" Size_y="48" Hot_x="18" Hot_y="47"/>
+		<Img Group="1" Frame="2" Pos_x="128" Size_x="32" Size_y="48" Hot_x="18" Hot_y="47"/>
+	</Image>
+</Char>

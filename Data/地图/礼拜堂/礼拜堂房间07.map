@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1280" Size_y="720">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic_right="512" Pic_bottom="432" Color0="0xFF3030FF" Color1="0xFF3030FF" Color2="0xFF8080FF" Color3="0xFF8080FF" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Pos_y="129" Size_x="1280" Size_y="460" Pic="\Image\地图\礼拜堂\高塔\背景05-6.bmp" Pic_right="512" Pic_bottom="192" ColorKey="0xFF00FF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="336" Pos_y="350" Size_x="24" Size_y="48" Pic="\Image\地图\动画\灯火03.bmp" Pic_right="12" Pic_bottom="24" ColorKey="0x800000" Frames="5" Fps="10" Id="1" Damage="1" Effect="灯台01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\礼拜堂.lua"/>
+		<Item Pos_x="918" Pos_y="350" Size_x="24" Size_y="48" Pic="\Image\地图\动画\灯火03.bmp" Pic_right="12" Pic_bottom="24" ColorKey="0x800000" Frames="5" Fps="10" Id="2" Damage="1" Effect="灯台01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\礼拜堂.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="2816" Pos_y="247" Size_x="352" Size_y="38" Obst="1"/>
+		<Item Pos_x="2816" Pos_y="439" Size_x="352" Size_y="38" Obst="1"/>
+		<Item Pos_y="436" Size_x="200" Size_y="115" Obst="1"/>
+		<Item Pos_x="200" Pos_y="129" Size_x="80" Size_y="78" Obst="1"/>
+		<Item Pos_x="280" Pos_y="129" Size_x="720" Size_y="38" Obst="1"/>
+		<Item Pos_x="200" Pos_y="550" Size_x="880" Size_y="40" Obst="1"/>
+		<Item Pos_y="168" Size_x="200" Size_y="115" Obst="1"/>
+		<Item Pos_x="200" Pos_y="473" Size_x="80" Size_y="78" Obst="1"/>
+		<Item Pos_x="1000" Pos_y="129" Size_x="80" Size_y="78" Obst="1"/>
+		<Item Pos_x="1000" Pos_y="473" Size_x="80" Size_y="78" Obst="1"/>
+		<Item Pos_x="1080" Pos_y="436" Size_x="200" Size_y="115" Obst="1"/>
+		<Item Pos_x="1080" Pos_y="168" Size_x="200" Size_y="115" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-33" Pos_y="299" Size_x="38" Size_y="125" Id="1" Map="礼拜堂横廊03" MapPos_x="1610" MapPos_y="366"/>
+		<Item Pos_x="1273" Pos_y="302" Size_x="38" Size_y="125" Id="2" Map="礼拜堂横廊04" MapPos_y="366"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="591" Pos_y="450" Size_x="160" Size_y="100" Id="1" Char="狮鹫怪" Left="1"/>
+	</Char>
+</Map>

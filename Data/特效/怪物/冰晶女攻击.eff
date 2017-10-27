@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="431" Pos_y="373" Size_x="40" Size_y="120" Offs_x="25" Offs_y="-76" EmitInter="50" EmitTime="2000" Pic="\Image\特效\怪物\冰晶.bmp" Pic_right="9" Pic_bottom="24" Filter="0x2" Blend="0x1" EndColor="0xFFFFFF" Sound="\sound\怪物\冰晶女攻击.wav" ItemSize_x="10" ItemSize_y="20" ItemHot_x="5" ItemHot_y="10" ItemLife="1000" ItemScale="0.500" ItemQuality="1.000" MinSpeedX="100.000" MaxSpeedX="200.000" MinSpeedY="-60.000" MaxSpeedY="60.000" ScaleSpeed="2.000" Follow="1" HitType="2" Destroy="1"/>
+</Effect>

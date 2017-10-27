@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_x="335" Pos_y="496" Size_x="372" Size_y="104" Pic="\Image\地图\最上部\墙面01-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="240" Pos_y="76" Size_x="466" Size_y="390" Pic="\Image\地图\最上部\背景03-3.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="144" Size_x="208" Size_y="128" Pic="\Image\地图\最上部\背景02-3.bmp" Pic_right="64" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Size_x="144" Size_y="80" Pic="\Image\地图\最上部\墙面01-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="674" Pos_y="76" Size_x="32" Size_y="389" Pic="\Image\地图\最上部\背景03-2.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="208" Pos_y="48" Size_x="32" Size_y="64" Pic="\Image\地图\最上部\背景03-1.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="208" Pos_y="112" Size_x="32" Size_y="258" Pic="\Image\地图\最上部\背景03-2.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="336" Size_x="208" Size_y="264" Pic="\Image\地图\最上部\墙面01-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="208" Pos_y="272" Size_x="64" Size_y="98" Pic="\Image\地图\最上部\墙面02-11.bmp" Pic_right="96" Pic_bottom="98" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="642" Pos_y="400" Size_x="64" Size_y="64" Pic="\Image\地图\最上部\物件01-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="144" Pos_y="272" Size_x="64" Size_y="64" Pic="\Image\地图\最上部\墙面02-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="389" Pos_y="464" Size_x="318" Size_y="64" Pic="\Image\地图\最上部\墙面02-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="272" Size_x="149" Size_y="64" Pic="\Image\地图\最上部\墙面02-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="144" Pos_y="80" Size_x="64" Size_y="64" Pic="\Image\地图\最上部\墙面02-5.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="208" Size_x="592" Size_y="77" Pic="\Image\地图\最上部\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="144" Size_x="64" Size_y="80" Pic="\Image\地图\最上部\墙面02-10.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_y="80" Size_x="144" Size_y="64" Pic="\Image\地图\最上部\墙面02-3.bmp" Pic_right="128" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="706" Pos_y="77" Size_x="94" Size_y="523" Pic="\Image\地图\最上部\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="271" Pos_y="336" Size_x="64" Size_y="98" Pic="\Image\地图\最上部\墙面02-11.bmp" Pic_right="96" Pic_bottom="98" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="333" Pos_y="400" Size_x="86" Size_y="98" Pic="\Image\地图\最上部\墙面02-11.bmp" Pic_right="96" Pic_bottom="98" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="208" Pos_y="368" Size_x="64" Size_y="232" Pic="\Image\地图\最上部\墙面01-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="271" Pos_y="432" Size_x="64" Size_y="168" Pic="\Image\地图\最上部\墙面01-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="208" Pos_y="77" Size_x="498" Size_y="80" Color0="0xFF000000" Color1="0xFF000000" Color2="0x0" Color3="0x0"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="660" Pos_y="368" Size_x="32" Size_y="32" Pic="\image\图标\武器.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Id="1" Type="7" Sound="\sound\物品\武器.wav" Script="\data\脚本\拾取物品\普通物品.lua" Item="短剑05" TaskId="6"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="208" Pos_y="272" Size_x="188" Size_y="192" Obst="4"/>
+		<Item Pos_x="1" Pos_y="465" Size_x="388" Size_y="134" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-33" Pos_y="144" Size_x="40" Size_y="128" Id="1" Map="最上部房间01" MapPos_x="800" MapPos_y="272"/>
+	</Trap>
+	<Char/>
+</Map>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\类人\类人鸟.bmp" ColorKey="0xFF800000" Size_x="32" Size_y="80" Scale="2.000" Flip="1" HurtEffect="冒血02" IgnoreObst="1">
+	<Action Num="4">
+		<Act Name="站立" Group="2" End="5" Time="1000" Sound="1" Fly="1"/>
+		<Act Name="转身" Group="2" Next="移动" Flip="1" Fly="1"/>
+		<Act Name="移动" State="1" Group="2" End="5" Fps="15" Time="3000" Sound="1" Next="转身" Speed_x="100" Fly="1"/>
+		<Act Name="死亡" State="14" Time="1000" Effect="跳蚤男死亡" Fly="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\sound\怪物\飞飞魔飞行.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="12">
+		<Img Group="1" Size_x="40" Size_y="56" Hot_x="25" Hot_y="47"/>
+		<Img Group="1" Frame="1" Pos_x="40" Size_x="38" Size_y="56" Hot_x="23" Hot_y="46"/>
+		<Img Group="1" Frame="2" Pos_x="78" Size_x="41" Size_y="56" Hot_x="12" Hot_y="47"/>
+		<Img Group="1" Frame="3" Pos_x="119" Size_x="37" Size_y="56" Hot_x="12" Hot_y="57"/>
+		<Img Group="1" Frame="4" Pos_x="78" Size_x="41" Size_y="56" Hot_x="12" Hot_y="47"/>
+		<Img Group="1" Frame="5" Pos_x="40" Size_x="38" Size_y="56" Hot_x="23" Hot_y="46"/>
+		<Img Group="2" Pos_y="66" Size_x="40" Size_y="58" Hot_x="24" Hot_y="49"/>
+		<Img Group="2" Frame="1" Pos_x="40" Pos_y="66" Size_x="40" Size_y="58" Hot_x="22" Hot_y="48"/>
+		<Img Group="2" Frame="2" Pos_x="80" Pos_y="66" Size_x="40" Size_y="58" Hot_x="9" Hot_y="49"/>
+		<Img Group="2" Frame="3" Pos_x="120" Pos_y="66" Size_x="40" Size_y="58" Hot_x="10" Hot_y="58"/>
+		<Img Group="2" Frame="4" Pos_x="80" Pos_y="66" Size_x="40" Size_y="58" Hot_x="9" Hot_y="48"/>
+		<Img Group="2" Frame="5" Pos_x="40" Pos_y="66" Size_x="40" Size_y="58" Hot_x="22" Hot_y="47"/>
+	</Image>
+</Char>

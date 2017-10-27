@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="-80" Pos_y="440" Size_x="160" Size_y="160" EmitInter="1" EmitTime="1" EndColor="0xFFFF00" Sound="\sound\场景\传送01.wav" ItemSize_x="4" ItemSize_y="600" ItemHot_x="2" ItemHot_y="600" ItemSizeAdd_x="2" ItemLife="1000" Follow="2"/>
+</Effect>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="332" Pos_y="388" Size_x="60" Size_y="58" Color="0xFFF00000" EndColor="0x800000" Sound="\sound\特效\伤害02.wav" ItemSize_x="8" ItemSize_y="8" ItemLife="1000" EmitNum="25" EmitInter="1" EmitTime="1" MinSpeedX="100.000" MaxSpeedX="200.000" MinSpeedY="-100.000" MaxSpeedY="-20.000" AddSpeedX="50.000" AddSpeedY="200.000" ScaleSpeed="-0.500"/>
+</Effect>

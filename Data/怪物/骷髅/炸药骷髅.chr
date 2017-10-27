@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\骷髅\炸药骷髅.bmp" ColorKey="0xFF00FF00" Size_x="40" Size_y="90" Scale="2.000" HitEffect="闪光01">
+	<Action Num="14">
+		<Act Name="站立" Group="1"/>
+		<Act Name="转身" Next="站立" Group="1" Flip="1"/>
+		<Act Name="移动" State="1" Group="1" End="5" Loop="-1" Sound="2" Speed_x="30"/>
+		<Act Name="攻击" Next="收招" State="4" Group="2" End="5" Start="3" Sound="1" Speed_x="200" AddSpeed_x="300"/>
+		<Act Name="投掷" Next="收招" Effect="骷髅骨头" State="4" Group="2" End="5" Start="3"/>
+		<Act Name="死亡" Next="消失" Effect="花妖死亡" State="13" Group="6" End="8" Loop="8" Fps="15" Time="1000"/>
+		<Act Name="消失" State="14" Group="6" Begin="8" End="8" Loop="8" Fps="15" Time="1000" Start="8"/>
+		<Act Name="收招" Next="站立" Group="2" Begin="4" End="2"/>
+		<Act Name="跳跃" State="3" Group="3" End="1" Loop="1" Start="1" Speed_x="200" Speed_y="-400" AddSpeed_y="1000"/>
+		<Act Name="落地" Next="站立" Group="3"/>
+		<Act Name="扔桶" Next="落地" Effect="\data\特效\怪物\骷髅炸药桶.eff" Group="5" End="3"/>
+		<Act Name="背桶移动" State="1" Speed_x="30">
+			<Act Name="木桶" Group="7" Offs_x="-11" Offs_y="-105"/>
+			<Act Name="身体" Group="4" Begin="5" Loop="-1" Sound="2"/>
+		</Act>
+		<Act Name="背桶站立">
+			<Act Name="木桶" Group="7" Offs_x="-11" Offs_y="-105"/>
+			<Act Name="身体" Group="4"/>
+		</Act>
+		<Act Name="背桶转身" Next="背桶站立" Flip="1">
+			<Act Name="木桶" Group="7" Offs_x="-11" Offs_y="-105"/>
+			<Act Name="身体" Group="4"/>
+		</Act>
+	</Action>
+	<Rect Num="3">
+		<Rect Name="攻击" Frame="3" Rect_left="33" Rect_top="-66" Rect_right="58" Rect_bottom="-22"/>
+		<Rect Name="攻击" Frame="4" Rect_left="32" Rect_top="-52" Rect_right="64" Rect_bottom="-5"/>
+		<Rect Name="攻击" Frame="5" Rect_left="30" Rect_top="-46" Rect_right="64" Rect_bottom="-1"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\Sound\怪物\骷髅巨人攻击.wav"/>
+		<Snd Id="2" File="\Sound\怪物\骷髅巨人脚步.wav"/>
+	</Sound>
+	<Image Num="41">
+		<Img Group="1" Pos_y="7" Size_x="33" Size_y="50" Hot_x="14" Hot_y="49"/>
+		<Img Group="1" Frame="1" Pos_x="33" Pos_y="7" Size_x="33" Size_y="50" Hot_x="14" Hot_y="49"/>
+		<Img Group="1" Frame="2" Pos_x="66" Pos_y="7" Size_x="31" Size_y="50" Hot_x="13" Hot_y="49"/>
+		<Img Group="1" Frame="3" Pos_x="99" Pos_y="7" Size_x="29" Size_y="50" Hot_x="11" Hot_y="49"/>
+		<Img Group="1" Frame="4" Pos_x="128" Pos_y="7" Size_x="33" Size_y="50" Hot_x="15" Hot_y="49"/>
+		<Img Group="1" Frame="5" Pos_x="166" Pos_y="7" Size_x="35" Size_y="50" Hot_x="16" Hot_y="49"/>
+		<Img Group="2" Pos_x="1" Pos_y="67" Size_x="38" Size_y="54" Hot_x="19" Hot_y="53" Speed="1"/>
+		<Img Group="2" Frame="1" Time="300" Pos_x="39" Pos_y="67" Size_x="48" Size_y="54" Hot_x="28" Hot_y="53"/>
+		<Img Group="2" Frame="2" Pos_x="88" Pos_y="67" Size_x="40" Size_y="54" Hot_x="19" Hot_y="53"/>
+		<Img Group="2" Frame="3" Pos_x="131" Pos_y="67" Size_x="45" Size_y="54" Hot_x="16" Hot_y="53"/>
+		<Img Group="2" Frame="4" Pos_x="180" Pos_y="67" Size_x="49" Size_y="54" Hot_x="16" Hot_y="53"/>
+		<Img Group="2" Frame="5" Time="500" Pos_x="235" Pos_y="67" Size_x="50" Size_y="54" Hot_x="17" Hot_y="53"/>
+		<Img Group="3" Pos_x="210" Pos_y="10" Size_x="30" Size_y="47" Hot_x="16" Hot_y="46"/>
+		<Img Group="3" Frame="1" Pos_x="243" Pos_y="6" Size_x="66" Size_y="56" Hot_x="32" Hot_y="55"/>
+		<Img Group="4" Pos_y="135" Size_x="32" Size_y="58" Hot_x="13" Hot_y="57"/>
+		<Img Group="4" Frame="1" Pos_x="32" Pos_y="135" Size_x="32" Size_y="58" Hot_x="13" Hot_y="57"/>
+		<Img Group="4" Frame="2" Pos_x="64" Pos_y="135" Size_x="32" Size_y="58" Hot_x="12" Hot_y="57"/>
+		<Img Group="4" Frame="3" Pos_x="96" Pos_y="135" Size_x="32" Size_y="58" Hot_x="12" Hot_y="57"/>
+		<Img Group="4" Frame="4" Pos_x="128" Pos_y="135" Size_x="33" Size_y="58" Hot_x="12" Hot_y="57"/>
+		<Img Group="4" Frame="5" Pos_x="166" Pos_y="135" Size_x="35" Size_y="58" Hot_x="13" Hot_y="57"/>
+		<Img Group="5" Pos_y="200" Size_x="36" Size_y="65" Hot_x="14" Hot_y="64"/>
+		<Img Group="5" Frame="1" Pos_x="47" Pos_y="200" Size_x="47" Size_y="65" Hot_x="15" Hot_y="64"/>
+		<Img Group="5" Frame="2" Pos_x="101" Pos_y="200" Size_x="43" Size_y="65" Hot_x="16" Hot_y="64"/>
+		<Img Group="5" Frame="3" Time="200" Pos_x="148" Pos_y="200" Size_x="43" Size_y="65" Hot_x="25" Hot_y="64"/>
+		<Img Group="6" Pos_x="68" Pos_y="274" Size_x="28" Size_y="46" Hot_x="14" Hot_y="46"/>
+		<Img Group="6" Frame="1" Pos_x="100" Pos_y="274" Size_x="27" Size_y="46" Hot_x="14" Hot_y="46"/>
+		<Img Group="6" Frame="2" Pos_x="132" Pos_y="274" Size_x="27" Size_y="46" Hot_x="14" Hot_y="46"/>
+		<Img Group="6" Frame="3" Pos_x="164" Pos_y="274" Size_x="27" Size_y="46" Hot_x="14" Hot_y="46"/>
+		<Img Group="6" Frame="4" Pos_x="196" Pos_y="274" Size_x="27" Size_y="46" Hot_x="14" Hot_y="46"/>
+		<Img Group="6" Frame="5" Pos_x="228" Pos_y="290" Size_x="28" Size_y="30" Hot_x="14" Hot_y="30"/>
+		<Img Group="6" Frame="6" Pos_x="260" Pos_y="290" Size_x="27" Size_y="30" Hot_x="14" Hot_y="30"/>
+		<Img Group="6" Frame="7" Pos_x="292" Pos_y="290" Size_x="27" Size_y="30" Hot_x="14" Hot_y="30"/>
+		<Img Group="6" Frame="8" Pos_x="323" Pos_y="290" Size_x="29" Size_y="30" Hot_x="15" Hot_y="30"/>
+		<Img Group="7" Pos_x="200" Pos_y="210" Size_x="30" Size_y="30" Hot_x="15" Hot_y="15"/>
+		<Img Group="7" Frame="1" Pos_x="232" Pos_y="210" Size_x="30" Size_y="30" Hot_x="15" Hot_y="15"/>
+		<Img Group="7" Frame="2" Pos_x="264" Pos_y="210" Size_x="30" Size_y="30" Hot_x="15" Hot_y="15"/>
+		<Img Group="7" Frame="3" Pos_x="232" Pos_y="210" Size_x="30" Size_y="30" Hot_x="15" Hot_y="15"/>
+		<Img Group="8" Pos_x="204" Pos_y="250" Size_x="13" Size_y="16" Hot_x="6" Hot_y="7"/>
+		<Img Group="8" Frame="1" Pos_x="235" Pos_y="248" Size_x="26" Size_y="33" Hot_x="12" Hot_y="16"/>
+		<Img Group="8" Frame="2" Pos_x="273" Pos_y="248" Size_x="27" Size_y="24" Hot_x="12" Hot_y="12"/>
+		<Img Group="8" Frame="3" Pos_x="314" Pos_y="248" Size_x="11" Size_y="22" Hot_x="5" Hot_y="11"/>
+	</Image>
+</Char>

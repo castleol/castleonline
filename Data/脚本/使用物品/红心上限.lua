@@ -1,0 +1,6 @@
+AddTask("加成","红心",5)
+UpdateState()
+AddHeart(500)
+AddMapEffect("角色升级")
+AddShaderEffect(3,1000)
+CenterTip("红心上限增加@15@c点",2000)

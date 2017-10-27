@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<desktop>
+	<Control Name="Register" Class="Window" ShowModal="1" Pos_x="275" Pos_y="140" Size_x="250" Size_y="320" Align="1" Text="注册" Font="2" TextAlign="2" TextRect_top="5" TextRect_right="250" TextRect_bottom="320" TextColor="0xFFD0C080" Pic="\image\界面\选项窗口.bmp" PicRect_right="250" PicRect_bottom="320" CloseButton="Cancel" PopupEffect="1" CloseEffect="1" Effect_x="125" Effect_y="160" EscClose="1">
+		<Control Name="Ok" Class="Button" Pos_x="50" Pos_y="255" Size_x="64" Size_y="24" Text="确定" Font="1" TextAlign="1" TextRect_right="64" TextRect_bottom="24" Pic="\image\界面\标准控件\Button64.bmp" PicRect_right="64" PicRect_bottom="24" PushPic="\image\界面\标准控件\Button64.bmp" PushPicRect_top="24" PushPicRect_right="64" PushPicRect_bottom="48" PushTextColor="0xFFFFFFFF" PushTextOffs_x="1" PushTextOffs_y="1" MovePic="\image\界面\标准控件\Button64.bmp" MovePicRect_top="48" MovePicRect_right="64" MovePicRect_bottom="72" MoveTextColor="0xFFC0C010"/>
+		<Control Name="Cancel" Class="Button" Pos_x="133" Pos_y="255" Size_x="64" Size_y="24" Text="取消" Font="1" TextAlign="1" TextRect_right="64" TextRect_bottom="24" Pic="\image\界面\标准控件\Button64.bmp" PicRect_right="64" PicRect_bottom="24" PushPic="\image\界面\标准控件\Button64.bmp" PushPicRect_top="24" PushPicRect_right="64" PushPicRect_bottom="48" PushTextColor="0xFFFFFFFF" PushTextOffs_x="1" PushTextOffs_y="1" MovePic="\image\界面\标准控件\Button64.bmp" MovePicRect_top="48" MovePicRect_right="64" MovePicRect_bottom="72" MoveTextColor="0xFFC0C010"/>
+		<Control Name="Account" Class="EditBox" Pos_x="25" Pos_y="76" Size_x="200" Size_y="35" Align="10" Font="1" TextAlign="4" TextRect_left="12" TextRect_top="6" TextRect_right="190" TextRect_bottom="22" TextColor="0xFFFFF2A4" Pic="\image\界面\标准控件\Input200.bmp" TabNext="Password">
+			<Control Name="Lable" Class="Static" Pos_x="50" Pos_y="-22" Size_x="100" Size_y="22" Align="12" Text="账号" Font="2" TextAlign="1" TextRect_right="100" TextRect_bottom="22" TextColor="0xFFFFF2A4"/>
+		</Control>
+		<Control Name="Password" Class="EditBox" Pos_x="25" Pos_y="136" Size_x="200" Size_y="35" Align="10" Font="1" TextAlign="4" TextRect_left="12" TextRect_top="6" TextRect_right="190" TextRect_bottom="22" TextColor="0xFFFFF2A4" Pic="\image\界面\标准控件\Input200.bmp" TabNext="Comfirm">
+			<Control Name="Lable" Class="Static" Pos_x="50" Pos_y="-22" Size_x="100" Size_y="22" Align="12" Text="密码" Font="2" TextAlign="1" TextRect_right="100" TextRect_bottom="22" TextColor="0xFFFFF2A4"/>
+		</Control>
+		<Control Name="Comfirm" Class="EditBox" Pos_x="25" Pos_y="202" Size_x="200" Size_y="35" Align="10" Font="1" TextAlign="4" TextRect_left="12" TextRect_top="6" TextRect_right="190" TextRect_bottom="22" TextColor="0xFFFFF2A4" Pic="\image\界面\标准控件\Input200.bmp" TabNext="Account">
+			<Control Name="Lable" Class="Static" Pos_x="50" Pos_y="-22" Size_x="100" Size_y="22" Align="12" Text="确认密码" Font="2" TextAlign="1" TextRect_right="100" TextRect_bottom="22" TextColor="0xFFFFF2A4"/>
+		</Control>
+	</Control>
+</desktop>

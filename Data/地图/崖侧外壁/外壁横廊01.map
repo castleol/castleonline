@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2400" Size_y="600">
+	<Tile>
+		<Item Size_x="2400" Size_y="600" Pic="\Image\地图\崖侧外壁\横廊01.bmp" Pic_right="757" Pic_bottom="207"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="537" Pos_y="280" Size_x="22" Size_y="36" Pic="\Image\地图\动画\蜡烛02.bmp" Pic_right="11" Pic_bottom="18" ColorKey="0xFF00" Frames="3" Fps="10" Id="1" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="1046" Pos_y="280" Size_x="22" Size_y="36" Pic="\Image\地图\动画\蜡烛02.bmp" Pic_right="11" Pic_bottom="18" ColorKey="0xFF00" Frames="3" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="1553" Pos_y="280" Size_x="22" Size_y="36" Pic="\Image\地图\动画\蜡烛02.bmp" Pic_right="11" Pic_bottom="18" ColorKey="0xFF00" Frames="3" Fps="10" Id="3" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="2060" Pos_y="280" Size_x="22" Size_y="36" Pic="\Image\地图\动画\蜡烛02.bmp" Pic_right="11" Pic_bottom="18" ColorKey="0xFF00" Frames="3" Fps="10" Id="4" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="116" Pos_y="393" Size_x="103" Size_y="93" Obst="4"/>
+		<Item Pos_y="393" Size_x="115" Size_y="206" Obst="1"/>
+		<Item Size_x="117" Size_y="210" Obst="1"/>
+		<Item Pos_x="116" Size_x="2284" Size_y="116" Obst="1"/>
+		<Item Pos_x="116" Pos_y="486" Size_x="2282" Size_y="114" Obst="1"/>
+		<Item Pos_x="2246" Pos_y="394" Size_x="153" Size_y="92" Obst="1"/>
+		<Item Pos_x="2246" Pos_y="116" Size_x="153" Size_y="94" Obst="1"/>
+		<Item Pos_x="2142" Pos_y="394" Size_x="103" Size_y="92" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-49" Pos_y="228" Size_x="57" Size_y="160" Id="1" Map="外壁横廊02" MapPos_x="800" MapPos_y="1027"/>
+		<Item Pos_x="2391" Pos_y="266" Size_x="38" Size_y="125" Id="2" Map="外壁竖塔01" MapPos_y="272"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="630" Pos_y="394" Size_x="60" Size_y="92" Id="1" Char="装甲骑士" Action="站立"/>
+		<Item Pos_x="1155" Pos_y="394" Size_x="60" Size_y="92" Id="2" Char="装甲骑士" Action="站立"/>
+		<Item Pos_x="1635" Pos_y="394" Size_x="60" Size_y="92" Id="3" Char="装甲骑士" Action="站立"/>
+	</Char>
+</Map>

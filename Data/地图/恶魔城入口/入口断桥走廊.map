@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="2560" Size_y="600">
+	<Tile>
+		<Item Pos_x="799" Pos_y="383" Size_x="1642" Size_y="32" Pic="\Image\地图\恶魔城入口\入口终点\紫色边.bmp" Tile="1"/>
+		<Item Pos_x="798" Pos_y="415" Size_x="1644" Size_y="94" Pic="\Image\地图\恶魔城入口\入口终点\紫色墙.bmp" Color2="0xFF000000" Color3="0xFF000000" Tile="1"/>
+		<Item Pos_x="797" Pos_y="251" Size_x="1763" Size_y="132" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁.bmp" Tile="1"/>
+		<Item Pos_x="2440" Pos_y="442" Size_x="120" Size_y="97" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp"/>
+		<Item Pos_x="119" Pos_y="121" Size_x="2325" Size_y="130" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁.bmp" Color0="0xFF000000" Color1="0xFF000000" Tile="1"/>
+		<Item Pos_y="250" Size_x="799" Size_y="259" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁.bmp" Color2="0xFF555555" Color3="0xFF555555" Tile="1"/>
+		<Item Pos_x="118" Pos_y="508" Size_x="442" Size_y="32" Pic="\Image\地图\恶魔城入口\入口楼梯\地面薄.bmp" Tile="1"/>
+		<Item Pos_x="452" Pos_y="187" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_x="151" Pos_y="183" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_x="478" Pos_y="314" Size_x="80" Size_y="124" Pic="\Image\地图\恶魔城入口\入口楼梯\台阶.bmp" Pic_right="80" Pic_bottom="124"/>
+		<Item Pos_y="379" Size_x="120" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\入口平台.bmp" Obst="1"/>
+		<Item Size_x="2560" Size_y="125" Pic="\Image\地图\恶魔城入口\藏宝房间\屋顶墙壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_y="124" Size_x="120" Size_y="127" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Obst="1"/>
+		<Item Pos_x="558" Pos_y="442" Size_x="240" Size_y="97" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Tile="1"/>
+		<Item Pos_y="443" Size_x="120" Size_y="97" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Tile="1"/>
+		<Item Pos_x="200" Pos_y="314" Size_x="279" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\入口平台.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="276" Pos_y="379" Size_x="134" Size_y="128" Pic="\Image\地图\恶魔城入口\入口终点\柱子.bmp" Tile="1"/>
+		<Item Pos_x="2440" Pos_y="379" Size_x="120" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\入口平台.bmp" Obst="1"/>
+		<Item Pos_x="1147" Pos_y="414" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\入口终点\紫色浮雕.bmp" Color2="0xFF555555" Color3="0xFF555555"/>
+		<Item Pos_x="1588" Pos_y="415" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\入口终点\紫色浮雕.bmp" Color2="0xFF555555" Color3="0xFF555555"/>
+		<Item Pos_x="2031" Pos_y="415" Size_x="80" Size_y="64" Pic="\Image\地图\恶魔城入口\入口终点\紫色浮雕.bmp" Color2="0xFF555555" Color3="0xFF555555"/>
+		<Item Pos_x="918" Pos_y="475" Size_x="1406" Size_y="64" Pic="\Image\地图\恶魔城入口\入口楼梯\地面.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="558" Pos_y="379" Size_x="240" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\入口平台.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="798" Pos_y="379" Size_x="120" Size_y="160" Pic="\Image\地图\恶魔城入口\藏宝房间\入口台阶.bmp" Flip="1"/>
+		<Item Pos_x="558" Pos_y="124" Size_x="240" Size_y="112" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="2440" Pos_y="124" Size_x="120" Size_y="128" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Obst="1"/>
+		<Item Pos_x="899" Pos_y="184" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_x="1196" Pos_y="184" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_x="1533" Pos_y="187" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_x="1854" Pos_y="185" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_x="2237" Pos_y="183" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_x="2322" Pos_y="379" Size_x="120" Size_y="160" Pic="\Image\地图\恶魔城入口\藏宝房间\入口台阶.bmp" Pic_right="120" Pic_bottom="160"/>
+		<Item Pos_y="539" Size_x="2560" Size_y="61" Pic="\Image\地图\恶魔城入口\藏宝房间\屋顶墙壁.bmp" Tile="1"/>
+		<Item Pos_x="120" Pos_y="314" Size_x="80" Size_y="124" Pic="\Image\地图\恶魔城入口\入口楼梯\台阶.bmp" Pic_right="80" Pic_bottom="124" Flip="1"/>
+		<Item Size_x="2559" Size_y="64" Color0="0xFF000000" Color1="0xFF000000" Color2="0x0" Color3="0x0"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="311" Pos_y="202" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="6" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+		<Item Pos_x="651" Pos_y="260" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="5" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+		<Item Pos_x="1063" Pos_y="242" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="4" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+		<Item Pos_x="1379" Pos_y="244" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="3" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+		<Item Pos_x="1713" Pos_y="243" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+		<Item Pos_x="2056" Pos_y="243" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="1" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="2323" Pos_y="379" Size_x="117" Size_y="96" Obst="5"/>
+		<Item Pos_x="797" Pos_y="379" Size_x="122" Size_y="96" Obst="4"/>
+		<Item Pos_x="117" Pos_y="314" Size_x="83" Size_y="65" Obst="5"/>
+		<Item Pos_x="478" Pos_y="314" Size_x="81" Size_y="65" Obst="4"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-31" Pos_y="251" Size_x="39" Size_y="128" Id="1" Map="入口断桥楼梯" MapPos_x="800" MapPos_y="1056"/>
+		<Item Pos_x="2553" Pos_y="256" Size_x="47" Size_y="120" Id="2" Map="入口断桥密室" MapPos_y="440"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="1709" Pos_y="395" Size_x="50" Size_y="80" Id="1" Char="绿僵尸"/>
+		<Item Pos_x="1437" Pos_y="395" Size_x="50" Size_y="80" Id="2" Char="扔斧绿怪"/>
+		<Item Pos_x="1139" Pos_y="395" Size_x="50" Size_y="80" Id="3" Char="绿僵尸"/>
+		<Item Pos_x="1959" Pos_y="395" Size_x="50" Size_y="80" Id="4" Char="扔斧绿怪"/>
+		<Item Pos_x="319" Pos_y="125" Size_x="26" Size_y="40" Id="5" Char="蝙蝠" Left="1"/>
+	</Char>
+</Map>

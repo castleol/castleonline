@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\人物\图书管理员.bmp" ColorKey="0x800000" Size_x="64" Size_y="64" Scale="2.200" HitEffect="闪光01" HurtEffect="冒血01" DialogNpc="1">
+	<Action Num="5">
+		<Act Name="坐着" Group="1"/>
+		<Act Name="欠身" Group="1" End="3" Loop="3"/>
+		<Act Name="站起" Group="1" Begin="3" End="5" Loop="5"/>
+		<Act Name="坐下" Group="2" End="1" Next="坐着"/>
+		<Act Name="站立" Group="1" Begin="5" End="5" Loop="5"/>
+	</Action>
+	<Rect Num="1">
+		<Rect Name="攻击" Frame="6" Rect_left="8" Rect_top="-115" Rect_right="85" Rect_bottom="-36"/>
+	</Rect>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\Sound\怪物\红骷髅复活.wav"/>
+		<Snd Id="2" File="\Sound\怪物\红骷髅死亡.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="8">
+		<Img Group="1" Pos_x="4" Pos_y="12" Size_x="39" Size_y="41" Hot_x="21" Hot_y="41"/>
+		<Img Group="1" Frame="1" Pos_x="49" Pos_y="12" Size_x="39" Size_y="41" Hot_x="21" Hot_y="41"/>
+		<Img Group="1" Frame="2" Pos_x="94" Pos_y="12" Size_x="37" Size_y="41" Hot_x="21" Hot_y="41"/>
+		<Img Group="1" Frame="3" Pos_x="137" Pos_y="12" Size_x="37" Size_y="41" Hot_x="21" Hot_y="41"/>
+		<Img Group="1" Frame="4" Pos_x="181" Pos_y="12" Size_x="42" Size_y="41" Hot_x="21" Hot_y="41"/>
+		<Img Group="1" Frame="5" Pos_x="233" Pos_y="5" Size_x="49" Size_y="48" Hot_x="21" Hot_y="48"/>
+		<Img Group="2" Pos_x="181" Pos_y="12" Size_x="42" Size_y="41" Hot_x="21" Hot_y="41"/>
+		<Img Group="2" Frame="1" Pos_x="137" Pos_y="12" Size_x="37" Size_y="41" Hot_x="21" Hot_y="41"/>
+	</Image>
+</Char>

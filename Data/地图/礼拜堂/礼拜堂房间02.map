@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1400">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\image\地图\崖侧外壁\背景01.bmp" Pic_right="512" Pic_bottom="432" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Pos_y="422" Size_x="390" Size_y="609" Pic="\Image\地图\礼拜堂\大厅\背景07-1.bmp" Pic_right="295" Pic_bottom="549" ColorKey="0x800000" Tile="1" DeltaX="0.500" DeltaY="0.500"/>
+		<Item Pos_y="1282" Size_x="800" Size_y="118" Color0="0xFF403031" Color1="0xFF403031" Color2="0xFF403031" Color3="0xFF403031" Obst="1"/>
+		<Item Pos_x="4" Pos_y="800" Size_x="204" Size_y="360" Pic="\Image\地图\礼拜堂\大厅\背景01-2.bmp" Pic_right="384" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="208" Pos_y="200" Size_x="401" Size_y="960" Pic="\Image\地图\礼拜堂\大厅\背景01-1.bmp" Pic_right="384" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="236" Pos_y="208" Size_x="325" Size_y="118" Pic_right="64" Pic_bottom="64" Color0="0xFF000000" Color1="0xFF000000" Color2="0x0" Color3="0x0"/>
+		<Item Pos_y="1032" Size_x="192" Size_y="128" Pic="\Image\地图\礼拜堂\大厅\背景01-3.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="608" Pos_y="520" Size_x="192" Size_y="640" Pic="\Image\地图\礼拜堂\大厅\背景01-3.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="48" Pos_y="1160" Size_x="704" Size_y="64" Pic="\Image\地图\礼拜堂\大厅\背景01-4.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="528" Pos_y="1160" Size_x="64" Size_y="184" Pic="\Image\地图\礼拜堂\大厅\阶梯01-3.bmp" Pic_right="64" Pic_bottom="184" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="1160" Size_x="208" Size_y="122" Pic="\Image\地图\礼拜堂\大厅\阶梯01-4.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="208" Pos_y="1160" Size_x="64" Size_y="184" Pic="\Image\地图\礼拜堂\大厅\阶梯01-3.bmp" Pic_right="64" Pic_bottom="184" ColorKey="0xFF00FF" Tile="1" Flip="1"/>
+		<Item Pos_x="272" Pos_y="1224" Size_x="256" Size_y="122" Pic="\Image\地图\礼拜堂\大厅\阶梯01-2.bmp" Pic_right="64" Pic_bottom="122" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="592" Pos_y="1160" Size_x="208" Size_y="122" Pic="\Image\地图\礼拜堂\大厅\阶梯01-2.bmp" Pic_right="64" Pic_bottom="122" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="208" Pos_y="1000" Size_x="30" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面02-1.bmp" Pic_right="30" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="592" Pos_y="1000" Size_x="30" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面02-3.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_y="752" Size_x="208" Size_y="248" Pic="\Image\地图\礼拜堂\大厅\墙面02-6.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_x="342" Pos_y="270" Size_x="116" Size_y="116" Pic="\Image\地图\礼拜堂\大厅\背景08.bmp" Pic_right="116" Pic_bottom="116" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="622" Pos_y="648" Size_x="178" Size_y="352" Pic="\Image\地图\礼拜堂\大厅\墙面02-8.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_y="1000" Size_x="208" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面02-2.bmp" Pic_right="30" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="208" Pos_y="264" Size_x="30" Size_y="736" Pic="\Image\地图\礼拜堂\大厅\墙面02-5.bmp" Pic_right="30" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="206" Pos_y="936" Size_x="96" Size_y="64" Pic="\Image\地图\礼拜堂\大厅\墙面03-3.bmp" Pic_right="96" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="622" Pos_y="1000" Size_x="178" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面02-4.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="592" Pos_y="648" Size_x="30" Size_y="352" Pic="\Image\地图\礼拜堂\大厅\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_y="744" Size_x="208" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面03-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="176" Pos_y="200" Size_x="32" Size_y="544" Pic="\Image\地图\礼拜堂\大厅\墙面03-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="590" Pos_y="456" Size_x="210" Size_y="64" Pic="\Image\地图\礼拜堂\大厅\墙面02-8.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_x="420" Pos_y="362" Size_x="234" Size_y="158" Pic="\Image\地图\礼拜堂\大厅\木台01-3.bmp" Pic_right="234" Pic_bottom="158" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="206" Pos_y="168" Size_x="192" Size_y="96" Pic="\Image\地图\礼拜堂\大厅\墙面04-1.bmp" Pic_right="192" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="590" Pos_y="424" Size_x="208" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面03-1.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="560" Pos_y="264" Size_x="30" Size_y="224" Pic="\Image\地图\礼拜堂\大厅\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="644" Pos_y="488" Size_x="156" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\木台01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="590" Pos_y="200" Size_x="32" Size_y="224" Pic="\Image\地图\礼拜堂\大厅\墙面03-2.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_x="398" Pos_y="168" Size_x="192" Size_y="96" Pic="\Image\地图\礼拜堂\大厅\墙面04-2.bmp" Pic_right="192" Pic_bottom="96" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="432" Pos_y="648" Size_x="224" Size_y="256" Pic="\Image\地图\礼拜堂\大厅\木台01-1.bmp" Pic_right="224" Pic_bottom="256" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="656" Pos_y="648" Size_x="144" Size_y="256" Pic="\Image\地图\礼拜堂\大厅\木台01-5.bmp" Pic_right="224" Pic_bottom="256" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="432" Pos_y="600" Size_x="144" Size_y="48" Pic="\Image\地图\礼拜堂\大厅\木台01-2.bmp" Pic_right="144" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="576" Pos_y="600" Size_x="160" Size_y="48" Pic="\Image\地图\礼拜堂\大厅\木台01-6.bmp" Pic_right="32" Pic_bottom="48" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="736" Pos_y="590" Size_x="36" Size_y="58" Pic="\Image\地图\礼拜堂\大厅\木台01-7.bmp" Pic_right="36" Pic_bottom="58" ColorKey="0xFF00FF" Tile="1" Mask="1"/>
+		<Item Pos_x="208" Pos_y="520" Size_x="96" Size_y="64" Pic="\Image\地图\礼拜堂\大厅\墙面03-3.bmp" Pic_right="96" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="272" Pos_y="1224" Size_x="64" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面05.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="80" Pos_y="1160" Size_x="64" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面05.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="400" Pos_y="1224" Size_x="64" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面05.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="656" Pos_y="1160" Size_x="64" Size_y="32" Pic="\Image\地图\礼拜堂\大厅\墙面05.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="396" Pos_y="1016" Size_x="24" Size_y="48" Pic="\Image\地图\动画\灯火03.bmp" Pic_right="12" Pic_bottom="24" ColorKey="0x800000" Frames="5" Fps="10" Id="1" Damage="1" Effect="灯台01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\礼拜堂.lua"/>
+		<Item Pos_x="396" Pos_y="802" Size_x="24" Size_y="48" Pic="\Image\地图\动画\灯火03.bmp" Pic_right="12" Pic_bottom="24" ColorKey="0x800000" Frames="5" Fps="10" Id="2" Damage="1" Effect="灯台01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\礼拜堂.lua"/>
+		<Item Pos_x="396" Pos_y="560" Size_x="24" Size_y="48" Pic="\Image\地图\动画\灯火03.bmp" Pic_right="12" Pic_bottom="24" ColorKey="0x800000" Frames="5" Fps="10" Id="3" Damage="1" Effect="灯台01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\礼拜堂.lua"/>
+		<Item Pos_x="490" Pos_y="360" Size_x="32" Size_y="64" Pic="\Image\地图\动画\瓶子01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFFFFFFFF" Frames="1" Id="4" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="钱袋100" TaskId="18"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="208" Pos_y="1160" Size_x="64" Size_y="64" Obst="4"/>
+		<Item Pos_x="527" Pos_y="1160" Size_x="64" Size_y="64" Obst="5"/>
+		<Item Pos_x="464" Pos_y="424" Size_x="126" Size_y="96" Obst="1"/>
+		<Item Pos_x="427" Pos_y="424" Size_x="36" Size_y="32" Obst="5"/>
+		<Item Pos_x="420" Pos_y="456" Size_x="45" Size_y="64" Obst="1"/>
+		<Item Pos_x="433" Pos_y="648" Size_x="158" Size_y="66" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-37" Pos_y="1034" Size_x="42" Size_y="125" Id="1" Map="礼拜堂大厅01" MapPos_x="4096" MapPos_y="638"/>
+		<Item Pos_x="795" Pos_y="1034" Size_x="42" Size_y="125" Id="2" Map="礼拜堂大厅02" MapPos_y="768"/>
+		<Item Pos_x="795" Pos_y="522" Size_x="42" Size_y="125" Id="3" Map="礼拜堂大厅02" MapPos_y="256"/>
+	</Trap>
+	<Char/>
+</Map>

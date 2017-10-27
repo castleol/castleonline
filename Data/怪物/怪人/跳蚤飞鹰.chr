@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\怪人\跳蚤飞鹰.bmp" ColorKey="0xFFFF00FF" Size_x="32" Size_y="64" Scale="2.000" Flip="1" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="8">
+		<Act Name="站立" Group="1" End="5" Time="1000" Next="飞行1" Fly="1"/>
+		<Act Name="转身" Group="1" Next="飞行" Flip="1" Fly="1"/>
+		<Act Name="飞行" State="1" Group="1" End="5" Fps="15" Time="3000" Sound="1" Next="转身" Speed_x="100" Fly="1"/>
+		<Act Name="死亡" State="14" Group="2" Time="1000" Sound="2" Effect="跳蚤飞鹰死亡" Speed_y="200" Fly="1"/>
+		<Act Name="飞行1" State="1" Group="1" End="5" Fps="15" Time="1000" Start="-1" Sound="1" Next="飞行2" Speed_x="200" Speed_y="200" AddSpeed_x="50" AddSpeed_y="-300" Fly="1"/>
+		<Act Name="飞行2" State="1" Group="1" End="5" Fps="15" Time="1000" Start="-1" Sound="1" Next="飞行1" Speed_x="-200" Speed_y="-200" AddSpeed_x="50" AddSpeed_y="300" Fly="1"/>
+		<Act Name="飞行3" State="1" Group="1" End="5" Fps="15" Time="500" Sound="1" Next="飞行4" Speed_x="-200" Speed_y="-200" AddSpeed_y="200" Fly="1"/>
+		<Act Name="飞行4" State="1" Group="1" End="5" Fps="15" Time="500" Sound="1" Next="站立" Speed_x="-200" Speed_y="200" AddSpeed_y="-200" Fly="1"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="2">
+		<Snd Id="1" File="\sound\怪物\飞飞魔飞行.wav"/>
+		<Snd Id="2" File="\sound\怪物\跳蚤飞鹰死亡.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="7">
+		<Img Group="1" Size_x="36" Size_y="64" Hot_x="16" Hot_y="63"/>
+		<Img Group="1" Frame="1" Pos_x="36" Size_x="62" Size_y="64" Hot_x="28" Hot_y="64"/>
+		<Img Group="1" Frame="2" Pos_x="98" Size_x="34" Size_y="64" Hot_x="17" Hot_y="65"/>
+		<Img Group="1" Frame="3" Pos_x="132" Size_x="40" Size_y="64" Hot_x="21" Hot_y="58"/>
+		<Img Group="1" Frame="4" Pos_x="98" Size_x="34" Size_y="64" Hot_x="17" Hot_y="65"/>
+		<Img Group="1" Frame="5" Pos_x="36" Size_x="62" Size_y="64" Hot_x="28" Hot_y="64"/>
+		<Img Group="2" Pos_x="172" Size_x="28" Size_y="64" Hot_x="14" Hot_y="62"/>
+	</Image>
+</Char>

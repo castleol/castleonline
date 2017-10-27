@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_y="445" Size_x="800" Size_y="155" Color0="0xFF000000" Color1="0xFF000000" Color2="0xFF000000" Color3="0xFF000000"/>
+		<Item Size_x="800" Size_y="217" Color0="0xFF000000" Color1="0xFF000000" Color2="0xFF000000" Color3="0xFF000000" Mask="1"/>
+		<Item Pos_y="238" Size_x="800" Size_y="213" Pic="\Image\地图\通用\月下过渡房间\背景.bmp" Pic_right="640" Pic_bottom="170"/>
+		<Item Pos_y="150" Size_x="800" Size_y="300" Pic="\Image\地图\通用\月下过渡房间\遮罩.bmp" Pic_right="640" Pic_bottom="240" Mask="1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_y="407" Size_x="800" Size_y="194" Obst="1"/>
+		<Item Size_x="800" Size_y="206" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-42" Pos_y="266" Size_x="49" Size_y="140" Id="1" Map="水脉通道01" MapPos_x="800" MapPos_y="302"/>
+		<Item Pos_x="793" Pos_y="225" Size_x="49" Size_y="180" Id="2" Map="地下通道房间08" MapPos_y="394"/>
+	</Trap>
+	<Char/>
+</Map>

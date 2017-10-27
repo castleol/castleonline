@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="384" Pos_y="381" Size_x="54" Size_y="53" Offs_y="-40" EmitInter="100" EmitTime="500" Pic="\Image\怪物\动物\黑乌鸦.bmp" Pic_left="25" Pic_top="63" Pic_right="36" Pic_bottom="67" ColorKey="0xFF00FF00" EndColor="0x0" ItemSize_x="11" ItemSize_y="5" ItemHot_x="5" ItemHot_y="3" ItemLife="1500" ItemScale="2.000" MinSpeedX="-30.000" MaxSpeedX="30.000" MinSpeedY="50.000" MaxSpeedY="100.000" AngleSpeed="5.000" Rebound="1"/>
+	<Item Pos_x="384" Pos_y="381" Size_x="42" Size_y="44" Offs_y="-30" EmitNum="6" EmitInter="20" EmitTime="200" Color="0xFFFF0000" EndColor="0x800000" ItemSize_x="5" ItemSize_y="5" ItemLife="600" MinSpeedX="-200.000" MaxSpeedX="60.000" MinSpeedY="50.000" MaxSpeedY="100.000" ScaleSpeed="-0.100" Follow="1"/>
+</Effect>

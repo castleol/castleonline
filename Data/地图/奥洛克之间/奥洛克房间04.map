@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1024" Size_y="600">
+	<Tile>
+		<Item Pos_x="96" Pos_y="172" Size_x="384" Size_y="256" Pic="\Image\地图\奥洛克之间\粗墙廊\背景01-5.bmp" Pic_right="192" Pic_bottom="128" ColorKey="0xFF00FF"/>
+		<Item Pos_x="544" Pos_y="172" Size_x="384" Size_y="256" Pic="\Image\地图\奥洛克之间\粗墙廊\背景01-5.bmp" Pic_right="192" Pic_bottom="128" ColorKey="0xFF00FF"/>
+		<Item Pos_x="96" Pos_y="156" Size_x="832" Size_y="16" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面07-1.bmp" Pic_right="48" Pic_bottom="16" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="96" Size_x="832" Size_y="157" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面07-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Size_x="96" Size_y="600" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面07-6.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="96" Pos_y="428" Size_x="832" Size_y="16" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面07-1.bmp" Pic_right="48" Pic_bottom="16" ColorKey="0xFF00FF" Tile="1" Group="1"/>
+		<Item Pos_x="96" Pos_y="436" Size_x="832" Size_y="2" Color0="0xFF101010" Color1="0xFF101010" Color2="0xFF101010" Color3="0xFF101010" Group="1"/>
+		<Item Pos_x="96" Pos_y="444" Size_x="832" Size_y="156" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面07-2.bmp" Pic_right="64" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="928" Size_x="96" Size_y="600" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面07-6.bmp" Pic_right="96" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_x="480" Pos_y="172" Size_x="64" Size_y="256" Pic="\Image\地图\奥洛克之间\粗墙廊\背景01-6.bmp" Pic_right="32" Pic_bottom="128" ColorKey="0xFF00FF"/>
+		<Item Pos_x="192" Pos_y="522" Size_x="128" Size_y="78" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面07-8.bmp" Pic_right="64" Pic_bottom="39" ColorKey="0xFF00FF"/>
+		<Item Pos_x="192" Pos_y="460" Size_x="128" Size_y="78" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面07-8.bmp" Pic_right="64" Pic_bottom="39" ColorKey="0xFF00FF" Flip="1"/>
+		<Item Pos_x="192" Pos_y="428" Size_x="128" Size_y="78" Pic="\Image\地图\奥洛克之间\粗墙廊\墙面07-8.bmp" Pic_right="64" Pic_bottom="39" ColorKey="0xFF00FF"/>
+		<Item Pos_x="714" Pos_y="306" Size_x="44" Size_y="50" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-6.bmp" Pic_right="22" Pic_bottom="25" ColorKey="0xFF00FF"/>
+		<Item Pos_x="704" Pos_y="364" Size_x="122" Size_y="64" Pic="\Image\地图\奥洛克之间\粗墙廊\背景05-7.bmp" Pic_right="61" Pic_bottom="32" ColorKey="0xFF00FF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="484" Pos_y="306" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="1" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\奥洛克之间.lua"/>
+		<Item Pos_x="720" Pos_y="315" Size_x="32" Size_y="32" Pic="\image\图标\材料.bmp" Pic_left="64" Pic_right="96" Pic_bottom="32" Id="2" Type="7" Effect="法力上限" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\魔魂.lua" Item="蓝色魔魂" TaskId="3" Swing_y="6"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="2272" Pos_y="2862" Size_x="106" Size_y="236" Obst="1"/>
+		<Item Pos_x="2966" Pos_y="2862" Size_x="106" Size_y="236" Obst="1"/>
+		<Item Pos_x="96" Pos_y="428" Size_x="128" Size_y="172" Obst="1"/>
+		<Item Pos_x="288" Pos_y="428" Size_x="640" Size_y="172" Obst="1"/>
+		<Item Pos_x="448" Pos_y="172" Size_x="128" Size_y="64" Obst="1"/>
+		<Item Pos_x="96" Pos_y="172" Size_x="33" Size_y="64" Obst="1"/>
+		<Item Pos_x="895" Pos_y="172" Size_x="33" Size_y="64" Obst="1"/>
+		<Item Pos_x="129" Pos_y="172" Size_x="50" Size_y="30" Obst="1"/>
+		<Item Pos_x="845" Pos_y="172" Size_x="50" Size_y="30" Obst="1"/>
+		<Item Pos_x="398" Pos_y="172" Size_x="50" Size_y="30" Obst="1"/>
+		<Item Pos_x="576" Pos_y="172" Size_x="50" Size_y="30" Obst="1"/>
+		<Item Pos_x="704" Pos_y="364" Size_x="66" Size_y="64" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="224" Pos_y="596" Size_x="64" Size_y="36" Id="1" Map="奥洛克走廊08" MapPos_x="736" MapPos_y="50"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="551" Pos_y="338" Size_x="49" Size_y="90" Id="1" Char="天使猎人" Left="1"/>
+	</Char>
+</Map>

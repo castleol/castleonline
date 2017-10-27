@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="1600">
+	<Tile>
+		<Item Pos_x="400" Pos_y="1200" Size_x="400" Size_y="400" Pic="\Image\地图\计时塔\机械塔\背景01-1.bmp" Pic_right="128" Pic_bottom="128" Frames="3" Fps="10"/>
+		<Item Pos_y="1200" Size_x="400" Size_y="400" Pic="\Image\地图\计时塔\机械塔\背景01-1.bmp" Pic_right="128" Pic_bottom="128" Frames="3" Fps="10"/>
+		<Item Pos_x="400" Pos_y="800" Size_x="400" Size_y="400" Pic="\Image\地图\计时塔\机械塔\背景01-1.bmp" Pic_right="128" Pic_bottom="128" Frames="3" Fps="10"/>
+		<Item Pos_y="800" Size_x="400" Size_y="400" Pic="\Image\地图\计时塔\机械塔\背景01-1.bmp" Pic_right="128" Pic_bottom="128" Frames="3" Fps="10"/>
+		<Item Pos_x="400" Pos_y="400" Size_x="400" Size_y="400" Pic="\Image\地图\计时塔\机械塔\背景01-1.bmp" Pic_right="128" Pic_bottom="128" Frames="3" Fps="10"/>
+		<Item Pos_y="400" Size_x="400" Size_y="400" Pic="\Image\地图\计时塔\机械塔\背景01-1.bmp" Pic_right="128" Pic_bottom="128" Frames="3" Fps="10"/>
+		<Item Pos_x="400" Size_x="400" Size_y="400" Pic="\Image\地图\计时塔\机械塔\背景01-1.bmp" Pic_right="128" Pic_bottom="128" Frames="3" Fps="10"/>
+		<Item Size_x="400" Size_y="400" Pic="\Image\地图\计时塔\机械塔\背景01-1.bmp" Pic_right="128" Pic_bottom="128" Frames="3" Fps="10"/>
+		<Item Pos_y="144" Size_x="130" Size_y="128" Pic="\Image\地图\计时塔\机械塔\背景02-1.bmp" Pic_right="64" Pic_bottom="128" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="672" Pos_y="1202" Size_x="128" Size_y="128" Pic="\Image\地图\计时塔\机械塔\背景02-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_y="304" Size_x="100" Size_y="1296" Pic="\Image\地图\计时塔\机械塔\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" Tile="1"/>
+		<Item Pos_x="672" Pos_y="144" Size_x="128" Size_y="128" Pic="\Image\地图\计时塔\机械塔\背景02-1.bmp" Pic_right="64" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="100" Pos_y="304" Size_x="64" Size_y="1296" Pic="\Image\地图\计时塔\机械塔\墙面01-1.bmp" Pic_right="64" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_y="272" Size_x="164" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-5.bmp" Pic_right="64" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_y="16" Size_x="636" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-4.bmp" Pic_right="64" Pic_bottom="32" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="636" Size_x="64" Size_y="112" Pic="\Image\地图\计时塔\机械塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_x="636" Pos_y="78" Size_x="42" Size_y="34" Pic="\Image\地图\计时塔\机械塔\墙面01-7.bmp" Pic_right="42" Pic_bottom="92" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="668" Pos_y="112" Size_x="132" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-5.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="636" Pos_y="112" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-6.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="636" Size_x="42" Size_y="74" Pic="\Image\地图\计时塔\机械塔\墙面01-8.bmp" Pic_right="42" Pic_bottom="92" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="700" Size_x="100" Size_y="112" Pic="\Image\地图\计时塔\机械塔\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" Tile="1"/>
+		<Item Pos_x="636" Pos_y="272" Size_x="164" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-5.bmp" Pic_right="64" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_x="130" Pos_y="112" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-6.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_y="112" Size_x="130" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-5.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Flip="2" Obst="1"/>
+		<Item Pos_x="130" Pos_y="48" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-6.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_y="48" Size_x="130" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-5.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Flip="2"/>
+		<Item Pos_y="80" Size_x="162" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-11.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Size_x="636" Size_y="16" Pic="\Image\地图\计时塔\机械塔\墙面01-11.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1"/>
+		<Item Pos_x="636" Pos_y="304" Size_x="64" Size_y="898" Pic="\Image\地图\计时塔\机械塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_x="636" Pos_y="304" Size_x="42" Size_y="26" Pic="\Image\地图\计时塔\机械塔\墙面01-8.bmp" Pic_right="42" Pic_bottom="92" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="700" Pos_y="304" Size_x="100" Size_y="898" Pic="\Image\地图\计时塔\机械塔\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_x="612" Pos_y="304" Size_x="24" Size_y="16" Pic="\Image\地图\计时塔\机械塔\墙面01-9.bmp" Pic_top="64" Pic_right="24" Pic_bottom="80" ColorKey="0xFF00FF"/>
+		<Item Pos_x="604" Pos_y="272" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-6.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="121" Pos_y="304" Size_x="42" Size_y="26" Pic="\Image\地图\计时塔\机械塔\墙面01-8.bmp" Pic_right="42" Pic_bottom="92" ColorKey="0xFF00FF" Tile="1" Flip="3"/>
+		<Item Pos_x="530" Pos_y="618" Size_x="136" Size_y="94" Pic="\Image\地图\计时塔\机械塔\墙面03-3.bmp" Pic_right="68" Pic_bottom="47" ColorKey="0xFF00FF"/>
+		<Item Pos_x="142" Pos_y="944" Size_x="94" Size_y="64" Pic="\Image\地图\计时塔\机械塔\墙面03-4.bmp" Pic_right="47" Pic_bottom="32" ColorKey="0xFF00FF"/>
+		<Item Pos_x="636" Pos_y="422" Size_x="42" Size_y="92" Pic="\Image\地图\计时塔\机械塔\墙面01-8.bmp" Pic_right="42" Pic_bottom="92" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="122" Pos_y="748" Size_x="42" Size_y="92" Pic="\Image\地图\计时塔\机械塔\墙面01-8.bmp" Pic_right="42" Pic_bottom="92" ColorKey="0xFF00FF" Tile="1" Flip="3"/>
+		<Item Pos_x="636" Pos_y="1004" Size_x="42" Size_y="92" Pic="\Image\地图\计时塔\机械塔\墙面01-8.bmp" Pic_right="42" Pic_bottom="92" ColorKey="0xFF00FF" Tile="1" Flip="2"/>
+		<Item Pos_x="636" Pos_y="1330" Size_x="164" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-4.bmp" Pic_right="64" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_x="636" Pos_y="1362" Size_x="64" Size_y="236" Pic="\Image\地图\计时塔\机械塔\墙面01-2.bmp" Pic_right="64" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_x="700" Pos_y="1362" Size_x="100" Size_y="238" Pic="\Image\地图\计时塔\机械塔\墙面01-3.bmp" Pic_right="32" Pic_bottom="32" Tile="1"/>
+		<Item Pos_x="637" Pos_y="1472" Size_x="64" Size_y="96" Pic="\Image\地图\计时塔\机械塔\墙面05-1.bmp" Pic_right="32" Pic_bottom="48"/>
+		<Item Pos_x="100" Pos_y="1472" Size_x="64" Size_y="96" Pic="\Image\地图\计时塔\机械塔\墙面05-1.bmp" Pic_right="32" Pic_bottom="48" Flip="1"/>
+		<Item Pos_x="132" Pos_y="1568" Size_x="538" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-4.bmp" Pic_right="32" Pic_bottom="32" Tile="1" Obst="1"/>
+		<Item Pos_x="320" Pos_y="1472" Size_x="96" Size_y="96" Pic="\Image\地图\计时塔\机械塔\墙面05-3.bmp" Pic_right="48" Pic_bottom="48" Obst="1"/>
+		<Item Pos_x="164" Pos_y="1504" Size_x="156" Size_y="64" Pic="\Image\地图\计时塔\机械塔\墙面05-2.bmp" Pic_right="64" Pic_bottom="64" Color0="0xCCFFFFFF" Color1="0xCCFFFFFF" Color2="0xCCFFFFFF" Color3="0xCCFFFFFF" Tile="1"/>
+		<Item Pos_x="196" Pos_y="240" Size_x="28" Size_y="128" Pic="\Image\地图\计时塔\机械塔\齿轮01-1.bmp" Pic_right="14" Pic_bottom="64" ColorKey="0xFF00FF" Obst="1" Frames="3" Fps="10"/>
+		<Item Pos_x="260" Pos_y="240" Size_x="28" Size_y="128" Pic="\Image\地图\计时塔\机械塔\齿轮01-1.bmp" Pic_right="14" Pic_bottom="64" ColorKey="0xFF00FF" Obst="1" Frames="3" Fps="10"/>
+		<Item Pos_x="164" Pos_y="272" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\机械塔\墙面03-1.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="288" Pos_y="272" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\机械塔\墙面03-1.bmp" Pic_right="32" Pic_bottom="64" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="224" Pos_y="294" Size_x="36" Size_y="20" Pic="\Image\地图\计时塔\机械塔\墙面03-2.bmp" Pic_right="16" Pic_bottom="20" ColorKey="0xFF00FF" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="320" Pos_y="272" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\机械塔\楼梯01-2.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="508" Pos_y="452" Size_x="128" Size_y="32" Pic="\Image\地图\计时塔\机械塔\平台01-1.bmp" Pic_right="64" Pic_bottom="16" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="331" Pos_y="452" Size_x="192" Size_y="224" Pic="\Image\地图\计时塔\机械塔\楼梯01-1.bmp" Pic_right="96" Pic_bottom="112" ColorKey="0xFF00FF"/>
+		<Item Pos_x="480" Pos_y="388" Size_x="64" Size_y="64" Pic="\Image\地图\计时塔\机械塔\平台01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF"/>
+		<Item Pos_x="164" Pos_y="777" Size_x="128" Size_y="32" Pic="\Image\地图\计时塔\机械塔\平台01-1.bmp" Pic_right="64" Pic_bottom="16" ColorKey="0xFF00FF" Flip="1" Obst="1"/>
+		<Item Pos_x="383" Pos_y="436" Size_x="32" Size_y="96" Pic="\Image\地图\计时塔\机械塔\平台01-2.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00FF"/>
+		<Item Pos_x="352" Pos_y="272" Size_x="32" Size_y="96" Pic="\Image\地图\计时塔\机械塔\楼梯01-4.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="252" Pos_y="713" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\机械塔\平台01-3.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFF00FF"/>
+		<Item Pos_x="277" Pos_y="777" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\机械塔\楼梯01-2.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="375" Pos_y="845" Size_x="32" Size_y="96" Pic="\Image\地图\计时塔\机械塔\楼梯01-4.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00FF"/>
+		<Item Pos_x="309" Pos_y="777" Size_x="32" Size_y="96" Pic="\Image\地图\计时塔\机械塔\楼梯01-3.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00FF"/>
+		<Item Pos_x="336" Pos_y="716" Size_x="32" Size_y="96" Pic="\Image\地图\计时塔\机械塔\平台01-2.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00FF"/>
+		<Item Pos_x="612" Pos_y="419" Size_x="24" Size_y="92" Pic="\Image\地图\计时塔\机械塔\墙面01-9.bmp" Pic_right="24" Pic_bottom="92" ColorKey="0xFF00FF"/>
+		<Item Pos_x="164" Pos_y="744" Size_x="24" Size_y="92" Pic="\Image\地图\计时塔\机械塔\墙面01-9.bmp" Pic_right="24" Pic_bottom="92" ColorKey="0xFF00FF" Flip="1"/>
+		<Item Pos_x="508" Pos_y="1038" Size_x="128" Size_y="32" Pic="\Image\地图\计时塔\机械塔\平台01-1.bmp" Pic_right="64" Pic_bottom="16" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="612" Pos_y="975" Size_x="24" Size_y="92" Pic="\Image\地图\计时塔\机械塔\墙面01-9.bmp" Pic_right="24" Pic_bottom="92" ColorKey="0xFF00FF"/>
+		<Item Pos_x="334" Pos_y="1038" Size_x="192" Size_y="224" Pic="\Image\地图\计时塔\机械塔\楼梯01-1.bmp" Pic_right="96" Pic_bottom="112" ColorKey="0xFF00FF"/>
+		<Item Pos_x="288" Pos_y="1440" Size_x="128" Size_y="32" Pic="\Image\地图\计时塔\机械塔\平台01-1.bmp" Pic_right="64" Pic_bottom="16" ColorKey="0xFF00FF" Flip="1" Obst="1"/>
+		<Item Pos_x="164" Pos_y="1440" Size_x="124" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="122" Pos_y="1410" Size_x="42" Size_y="92" Pic="\Image\地图\计时塔\机械塔\墙面01-8.bmp" Pic_right="42" Pic_bottom="92" ColorKey="0xFF00FF" Tile="1" Flip="3"/>
+		<Item Pos_x="510" Pos_y="1440" Size_x="128" Size_y="32" Pic="\Image\地图\计时塔\机械塔\平台01-1.bmp" Pic_right="64" Pic_bottom="16" ColorKey="0xFF00FF" Obst="1"/>
+		<Item Pos_x="604" Pos_y="1330" Size_x="32" Size_y="32" Pic="\Image\地图\计时塔\机械塔\墙面01-6.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF" Tile="1" Obst="1"/>
+		<Item Pos_x="222" Pos_y="1376" Size_x="64" Size_y="64" Pic="\Image\地图\计时塔\机械塔\平台01-4.bmp" Pic_right="32" Pic_bottom="32" ColorKey="0xFF00FF"/>
+		<Item Pos_x="613" Pos_y="1406" Size_x="24" Size_y="92" Pic="\Image\地图\计时塔\机械塔\墙面01-9.bmp" Pic_right="24" Pic_bottom="92" ColorKey="0xFF00FF"/>
+		<Item Pos_x="164" Pos_y="1407" Size_x="24" Size_y="92" Pic="\Image\地图\计时塔\机械塔\墙面01-9.bmp" Pic_right="24" Pic_bottom="92" ColorKey="0xFF00FF" Flip="1"/>
+		<Item Pos_x="372" Pos_y="1038" Size_x="32" Size_y="96" Pic="\Image\地图\计时塔\机械塔\平台01-2.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00FF"/>
+		<Item Pos_x="518" Pos_y="974" Size_x="32" Size_y="64" Pic="\Image\地图\计时塔\机械塔\平台01-3.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFF00FF"/>
+		<Item Pos_x="342" Pos_y="812" Size_x="32" Size_y="96" Pic="\Image\地图\计时塔\机械塔\楼梯01-3.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0xFF00FF"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="356" Pos_y="1336" Size_x="26" Size_y="104" Pic="\Image\地图\动画\灯柱04.bmp" Pic_right="13" Pic_bottom="52" ColorKey="0x800000" Frames="4" Fps="10" Id="1" Damage="1" Effect="灯台03" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\计时塔.lua"/>
+		<Item Pos_x="578" Pos_y="934" Size_x="26" Size_y="104" Pic="\Image\地图\动画\灯柱04.bmp" Pic_right="13" Pic_bottom="52" ColorKey="0x800000" Frames="4" Fps="10" Id="2" Damage="1" Effect="灯台03" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\计时塔.lua"/>
+		<Item Pos_x="198" Pos_y="673" Size_x="26" Size_y="104" Pic="\Image\地图\动画\灯柱04.bmp" Pic_right="13" Pic_bottom="52" ColorKey="0x800000" Frames="4" Fps="10" Id="3" Damage="1" Effect="灯台03" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\计时塔.lua"/>
+		<Item Pos_x="570" Pos_y="348" Size_x="26" Size_y="104" Pic="\Image\地图\动画\灯柱04.bmp" Pic_right="13" Pic_bottom="52" ColorKey="0x800000" Frames="4" Fps="10" Id="4" Damage="1" Effect="灯台03" Sound="\sound\物件\灯台.wav" Script="\data\脚本\破坏物品\计时塔.lua"/>
+		<Item Pos_x="416" Pos_y="1504" Size_x="222" Size_y="64" Pic="\Image\地图\计时塔\机械塔\墙面05-2.bmp" Pic_right="64" Pic_bottom="64" Color0="0xCCFFFFFF" Color1="0xCCFFFFFF" Color2="0xCCFFFFFF" Color3="0xCCFFFFFF" Tile="1" Mask="1" Id="5" Type="11" Damage="5"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="480" Pos_y="387" Size_x="64" Size_y="16" Obst="2"/>
+		<Item Pos_x="333" Pos_y="452" Size_x="160" Size_y="160" Obst="5"/>
+		<Item Pos_x="252" Pos_y="713" Size_x="32" Size_y="16" Obst="2"/>
+		<Item Pos_x="309" Pos_y="777" Size_x="100" Size_y="100" Obst="4"/>
+		<Item Pos_x="336" Pos_y="1038" Size_x="160" Size_y="160" Obst="5"/>
+		<Item Pos_x="222" Pos_y="1376" Size_x="64" Size_y="16" Obst="2"/>
+		<Item Pos_x="518" Pos_y="974" Size_x="32" Size_y="16" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-50" Pos_y="144" Size_x="52" Size_y="128" Id="1" Map="机械塔02" MapPos_x="800" MapPos_y="272"/>
+		<Item Pos_x="796" Pos_y="144" Size_x="52" Size_y="128" Id="2" Map="天空塔02" MapPos_y="784"/>
+		<Item Pos_x="798" Pos_y="1202" Size_x="52" Size_y="128" Id="3" Map="天空塔02" MapPos_y="1808"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="239" Pos_y="1029" Size_x="58" Size_y="100" Id="1" Char="半人鸟"/>
+		<Item Pos_x="227" Pos_y="463" Size_x="46" Size_y="82" Id="2" Char="半人鸟"/>
+		<Item Pos_x="-43" Pos_y="688" Size_x="46" Size_y="50" Id="3" Char="计时塔蓝魂" Action="飞行"/>
+		<Item Pos_x="795" Pos_y="942" Size_x="46" Size_y="50" Id="4" Char="计时塔蓝魂" Left="1" Action="飞行"/>
+		<Item Pos_x="799" Pos_y="350" Size_x="46" Size_y="50" Id="5" Char="计时塔黄魂" Left="1" Action="飞行"/>
+		<Item Pos_x="-33" Pos_y="1324" Size_x="34" Size_y="38" Id="6" Char="计时塔蓝魂" Action="飞行"/>
+	</Char>
+</Map>

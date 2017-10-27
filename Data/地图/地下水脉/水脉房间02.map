@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\地下水脉\水脉房间02.bmp" Pic_right="256" Pic_bottom="207"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="384" Pos_y="408" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="96" Pic_right="32" Pic_bottom="128" Frames="5" Fps="10" Id="1" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" TaskId="14" Item="生命上限"/>
+	</Anim>
+	<Obst>
+		<Item Size_x="94" Size_y="487" Obst="1"/>
+		<Item Pos_x="233" Size_x="238" Size_y="91" Obst="1"/>
+		<Item Pos_x="550" Pos_y="431" Size_x="55" Size_y="56" Obst="1"/>
+		<Item Pos_x="94" Pos_y="394" Size_x="156" Size_y="93" Obst="4"/>
+		<Item Pos_x="70" Pos_y="487" Size_x="630" Size_y="98" Obst="1"/>
+		<Item Pos_x="589" Pos_y="392" Size_x="211" Size_y="39" Obst="1"/>
+		<Item Pos_x="166" Pos_y="35" Size_x="67" Size_y="71" Obst="1"/>
+		<Item Pos_x="143" Pos_y="54" Size_x="23" Size_y="65" Obst="1"/>
+		<Item Pos_x="94" Pos_y="86" Size_x="49" Size_y="57" Obst="1"/>
+		<Item Pos_x="471" Pos_y="67" Size_x="54" Size_y="39" Obst="1"/>
+		<Item Pos_x="525" Pos_y="84" Size_x="31" Size_y="33" Obst="1"/>
+		<Item Pos_x="556" Pos_y="107" Size_x="51" Size_y="55" Obst="1"/>
+		<Item Pos_x="607" Pos_y="146" Size_x="47" Size_y="65" Obst="1"/>
+		<Item Pos_x="654" Pos_y="190" Size_x="146" Size_y="36" Obst="1"/>
+		<Item Pos_x="556" Pos_y="392" Size_x="33" Size_y="39" Obst="5"/>
+		<Item Pos_x="362" Pos_y="441" Size_x="76" Size_y="46" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="794" Pos_y="230" Size_x="47" Size_y="160" Id="1" Map="水脉通道03" MapPos_y="394"/>
+	</Trap>
+	<Char/>
+</Map>

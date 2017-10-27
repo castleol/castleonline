@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1400" Size_y="4510">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\崖侧外壁\背景01.bmp" Pic_right="512" Pic_bottom="432" DeltaX="0.000" DeltaY="0.000"/>
+		<Item Size_x="1056" Size_y="1610" Pic="\Image\地图\崖侧外壁\竖塔03-1.bmp" Pic_right="529" Pic_bottom="805" ColorKey="0x800000"/>
+		<Item Pos_y="1610" Size_x="800" Size_y="1540" Pic="\Image\地图\崖侧外壁\竖塔03-2.bmp" Pic_right="400" Pic_bottom="769"/>
+		<Item Pos_y="3150" Size_x="800" Size_y="1360" Pic="\Image\地图\崖侧外壁\竖塔03-3.bmp" Pic_right="400" Pic_bottom="680"/>
+		<Item Pos_x="800" Pos_y="1610" Size_x="160" Size_y="160" Pic="\Image\地图\崖侧外壁\竖塔03-4.bmp" Pic_right="80" Pic_bottom="79" ColorKey="0x800000"/>
+		<Item Pos_x="799" Pos_y="4368" Size_x="210" Size_y="142" Pic="\Image\地图\崖侧外壁\竖塔03-5.bmp" Pic_right="105" Pic_bottom="71" ColorKey="0x800000"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="704" Pos_y="4368" Size_x="32" Size_y="64" Pic="\Image\地图\动画\瓶子01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFFFFFFFF" Frames="1" Id="1" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="戒指04" TaskId="3"/>
+		<Item Pos_x="565" Pos_y="1516" Size_x="32" Size_y="96" Pic="\Image\地图\动画\灯柱01.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0x800000" Frames="4" Fps="10" Id="2" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="575" Pos_y="3056" Size_x="32" Size_y="96" Pic="\Image\地图\动画\灯柱01.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0x800000" Frames="4" Fps="10" Id="3" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="113" Pos_y="3760" Size_x="32" Size_y="96" Pic="\Image\地图\动画\灯柱01.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0x800000" Frames="4" Fps="10" Id="4" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="567" Pos_y="4080" Size_x="32" Size_y="96" Pic="\Image\地图\动画\灯柱01.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0x800000" Frames="4" Fps="10" Id="5" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="863" Pos_y="1136" Size_x="32" Size_y="96" Pic="\Image\地图\动画\灯柱01.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0x800000" Frames="4" Fps="10" Id="6" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="429" Pos_y="880" Size_x="32" Size_y="96" Pic="\Image\地图\动画\灯柱01.bmp" Pic_right="16" Pic_bottom="48" ColorKey="0x800000" Frames="4" Fps="10" Id="7" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+		<Item Pos_x="301" Pos_y="143" Size_x="32" Size_y="64" Pic="\Image\地图\动画\瓶子01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFFFFFFFF" Frames="1" Id="8" Damage="1" Effect="灯台02" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\崖侧外壁.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_y="208" Size_x="96" Size_y="964" Obst="1"/>
+		<Item Size_x="256" Size_y="208" Obst="1"/>
+		<Item Pos_x="224" Size_x="326" Size_y="80" Obst="1"/>
+		<Item Pos_x="96" Pos_y="976" Size_x="448" Size_y="196" Obst="1"/>
+		<Item Pos_x="668" Pos_y="112" Size_x="320" Size_y="32" Obst="1"/>
+		<Item Pos_x="669" Pos_y="463" Size_x="224" Size_y="34" Obst="1"/>
+		<Item Pos_x="449" Pos_y="592" Size_x="158" Size_y="96" Obst="1"/>
+		<Item Pos_x="96" Pos_y="1296" Size_x="446" Size_y="192" Obst="1"/>
+		<Item Pos_x="96" Pos_y="336" Size_x="126" Size_y="96" Obst="1"/>
+		<Item Pos_y="1296" Size_x="96" Size_y="1920" Obst="1"/>
+		<Item Pos_x="798" Pos_y="848" Size_x="256" Size_y="96" Obst="1"/>
+		<Item Pos_x="544" Pos_y="1104" Size_x="196" Size_y="34" Obst="1"/>
+		<Item Pos_x="989" Size_x="34" Size_y="368" Obst="1"/>
+		<Item Pos_x="638" Pos_y="240" Size_x="32" Size_y="32" Obst="4"/>
+		<Item Pos_x="607" Pos_y="592" Size_x="128" Size_y="128" Obst="4"/>
+		<Item Pos_x="766" Pos_y="336" Size_x="126" Size_y="127" Obst="5"/>
+		<Item Pos_x="222" Pos_y="336" Size_x="256" Size_y="256" Obst="4"/>
+		<Item Pos_x="542" Pos_y="1296" Size_x="196" Size_y="34" Obst="1"/>
+		<Item Pos_x="956" Pos_y="336" Size_x="34" Size_y="320" Obst="1"/>
+		<Item Pos_x="925" Pos_y="848" Size_x="34" Size_y="762" Obst="1"/>
+		<Item Pos_x="479" Pos_y="240" Size_x="158" Size_y="98" Obst="1"/>
+		<Item Pos_x="637" Pos_y="272" Size_x="132" Size_y="34" Obst="1"/>
+		<Item Pos_x="894" Pos_y="336" Size_x="62" Size_y="160" Obst="1"/>
+		<Item Pos_x="991" Pos_y="624" Size_x="62" Size_y="32" Obst="1"/>
+		<Item Pos_x="1021" Pos_y="656" Size_x="32" Size_y="192" Obst="1"/>
+		<Item Pos_x="635" Pos_y="720" Size_x="198" Size_y="32" Obst="1"/>
+		<Item Pos_x="640" Pos_y="912" Size_x="158" Size_y="32" Obst="1"/>
+		<Item Pos_x="735" Pos_y="848" Size_x="62" Size_y="64" Obst="5"/>
+		<Item Pos_x="831" Pos_y="1232" Size_x="94" Size_y="32" Obst="1"/>
+		<Item Pos_x="801" Pos_y="1423" Size_x="124" Size_y="188" Obst="1"/>
+		<Item Pos_x="639" Pos_y="1487" Size_x="162" Size_y="34" Obst="1"/>
+		<Item Pos_x="733" Pos_y="1455" Size_x="68" Size_y="32" Obst="1"/>
+		<Item Pos_x="767" Pos_y="1423" Size_x="32" Size_y="32" Obst="5"/>
+		<Item Pos_x="700" Pos_y="1455" Size_x="32" Size_y="32" Obst="5"/>
+		<Item Pos_x="767" Pos_y="1612" Size_x="34" Size_y="2898" Obst="1"/>
+		<Item Pos_y="4368" Size_x="156" Size_y="142" Obst="1"/>
+		<Item Pos_x="159" Pos_y="4432" Size_x="416" Size_y="78" Obst="1"/>
+		<Item Pos_x="157" Pos_y="4368" Size_x="66" Size_y="64" Obst="4"/>
+		<Item Pos_x="671" Pos_y="4432" Size_x="96" Size_y="78" Obst="1"/>
+		<Item Pos_x="513" Pos_y="1612" Size_x="158" Size_y="96" Obst="1"/>
+		<Item Pos_x="672" Pos_y="1612" Size_x="32" Size_y="1442" Obst="1"/>
+		<Item Pos_x="286" Pos_y="1740" Size_x="196" Size_y="32" Obst="1"/>
+		<Item Pos_x="384" Pos_y="1612" Size_x="128" Size_y="128" Obst="5"/>
+		<Item Pos_x="514" Pos_y="2124" Size_x="158" Size_y="96" Group="2" Obst="1"/>
+		<Item Pos_x="290" Pos_y="2252" Size_x="196" Size_y="32" Group="2" Obst="1"/>
+		<Item Pos_x="384" Pos_y="2124" Size_x="128" Size_y="128" Group="2" Obst="5"/>
+		<Item Pos_x="513" Pos_y="2637" Size_x="158" Size_y="96" Group="3" Obst="1"/>
+		<Item Pos_x="288" Pos_y="2765" Size_x="196" Size_y="32" Group="3" Obst="1"/>
+		<Item Pos_x="383" Pos_y="2637" Size_x="128" Size_y="128" Group="3" Obst="5"/>
+		<Item Pos_x="513" Pos_y="4176" Size_x="254" Size_y="96" Obst="1"/>
+		<Item Pos_x="288" Pos_y="4304" Size_x="196" Size_y="32" Obst="1"/>
+		<Item Pos_x="384" Pos_y="4176" Size_x="128" Size_y="128" Obst="5"/>
+		<Item Pos_x="513" Pos_y="3664" Size_x="158" Size_y="96" Group="4" Obst="1"/>
+		<Item Pos_x="288" Pos_y="3792" Size_x="196" Size_y="32" Group="4" Obst="1"/>
+		<Item Pos_x="384" Pos_y="3664" Size_x="128" Size_y="128" Group="4" Obst="5"/>
+		<Item Pos_x="513" Pos_y="3152" Size_x="158" Size_y="96" Group="5" Obst="1"/>
+		<Item Pos_x="288" Pos_y="3280" Size_x="196" Size_y="32" Group="5" Obst="1"/>
+		<Item Pos_x="383" Pos_y="3152" Size_x="128" Size_y="128" Group="5" Obst="5"/>
+		<Item Pos_x="672" Pos_y="3152" Size_x="32" Size_y="928" Obst="1"/>
+		<Item Pos_y="3856" Size_x="160" Size_y="384" Obst="1"/>
+		<Item Pos_x="160" Pos_y="3856" Size_x="192" Size_y="192" Obst="4"/>
+		<Item Pos_x="159" Pos_y="4048" Size_x="292" Size_y="34" Obst="1"/>
+		<Item Pos_y="3344" Size_x="160" Size_y="384" Obst="1"/>
+		<Item Pos_x="160" Pos_y="3344" Size_x="192" Size_y="192" Obst="4"/>
+		<Item Pos_x="159" Pos_y="3536" Size_x="292" Size_y="32" Obst="1"/>
+		<Item Pos_y="3729" Size_x="96" Size_y="128" Obst="1"/>
+		<Item Pos_x="96" Pos_y="1868" Size_x="128" Size_y="96" Obst="1"/>
+		<Item Pos_x="253" Pos_y="1996" Size_x="196" Size_y="32" Obst="1"/>
+		<Item Pos_x="224" Pos_y="1868" Size_x="128" Size_y="128" Obst="4"/>
+		<Item Pos_x="96" Pos_y="2381" Size_x="128" Size_y="96" Obst="1"/>
+		<Item Pos_x="224" Pos_y="2381" Size_x="128" Size_y="128" Obst="4"/>
+		<Item Pos_x="252" Pos_y="2509" Size_x="196" Size_y="32" Obst="1"/>
+		<Item Pos_x="222" Pos_y="3022" Size_x="224" Size_y="32" Obst="1"/>
+		<Item Pos_x="96" Pos_y="2894" Size_x="128" Size_y="254" Obst="1"/>
+		<Item Pos_x="96" Pos_y="3148" Size_x="66" Size_y="68" Obst="1"/>
+		<Item Pos_x="224" Pos_y="2894" Size_x="128" Size_y="128" Obst="4"/>
+		<Item Pos_x="95" Pos_y="207" Size_x="292" Size_y="34" Obst="1"/>
+		<Item Pos_x="766" Pos_y="-81" Size_x="194" Size_y="193" Obst="5"/>
+		<Item Pos_x="1009" Pos_y="4473" Size_x="18" Size_y="36" Obst="1"/>
+		<Item Pos_x="801" Pos_y="4496" Size_x="208" Size_y="14" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-30" Pos_y="1172" Size_x="36" Size_y="124" Id="1" Map="外壁传送" MapPos_x="800" MapPos_y="390"/>
+		<Item Pos_x="-30" Pos_y="3218" Size_x="34" Size_y="125" Id="2" Map="通往藏书库" MapPos_x="800" MapPos_y="407"/>
+		<Item Pos_x="-30" Pos_y="4242" Size_x="34" Size_y="125" Id="3" Map="外壁横廊04" MapPos_x="800" MapPos_y="394"/>
+		<Item Pos_x="576" Pos_y="4502" Size_x="94" Size_y="28" Id="4" Map="外壁竖塔01" MapPos_x="577" MapPos_y="50"/>
+		<Item Pos_x="600" Size_x="260" Size_y="45" Id="5" Map="外壁竖塔04" MapPos_x="150" MapPos_y="1040"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="227" Pos_y="884" Size_x="60" Size_y="92" Id="1" Char="重剑骑士" Action="站立"/>
+		<Item Pos_x="1201" Pos_y="188" Size_x="32" Size_y="36" Id="2" Char="美杜莎蓝魂" Left="1" Action="飞行"/>
+		<Item Pos_x="1201" Pos_y="774" Size_x="32" Size_y="36" Id="3" Char="美杜莎黄魂" Left="1" Action="飞行"/>
+		<Item Pos_x="-33" Pos_y="472" Size_x="32" Size_y="36" Id="4" Char="美杜莎蓝魂" Action="飞行"/>
+		<Item Pos_x="-33" Pos_y="1536" Size_x="32" Size_y="36" Id="5" Char="美杜莎蓝魂" Action="飞行"/>
+		<Item Pos_x="1199" Pos_y="1218" Size_x="32" Size_y="36" Id="6" Char="美杜莎蓝魂" Left="1" Action="飞行"/>
+		<Item Pos_x="1201" Pos_y="2018" Size_x="32" Size_y="36" Id="7" Char="美杜莎蓝魂" Left="1" Action="飞行"/>
+		<Item Pos_x="-33" Pos_y="2558" Size_x="32" Size_y="36" Id="8" Char="美杜莎蓝魂" Action="飞行"/>
+		<Item Pos_x="1199" Pos_y="2852" Size_x="32" Size_y="36" Id="9" Char="美杜莎蓝魂" Left="1" Action="飞行"/>
+		<Item Pos_x="-33" Pos_y="3770" Size_x="32" Size_y="36" Id="10" Char="美杜莎蓝魂" Action="飞行"/>
+		<Item Pos_x="1201" Pos_y="3456" Size_x="32" Size_y="36" Id="11" Char="美杜莎蓝魂" Left="1" Action="飞行"/>
+		<Item Pos_x="1201" Pos_y="4332" Size_x="32" Size_y="36" Id="12" Char="美杜莎蓝魂" Left="1" Action="飞行"/>
+		<Item Pos_x="595" Pos_y="3604" Size_x="40" Size_y="60" Id="13" Char="扔骨骷髅" Left="1" Action="站立"/>
+		<Item Pos_x="611" Pos_y="2577" Size_x="40" Size_y="60" Id="14" Char="骷髅弓手" Left="1" Action="站立"/>
+		<Item Pos_x="959" Pos_y="788" Size_x="40" Size_y="60" Id="15" Char="骷髅弓手" Left="1" Action="站立"/>
+		<Item Pos_x="123" Pos_y="2834" Size_x="40" Size_y="60" Id="16" Char="装甲骑士" Action="站立"/>
+		<Item Pos_x="601" Pos_y="2064" Size_x="40" Size_y="60" Id="17" Char="骷髅弓手" Left="1" Action="站立"/>
+		<Item Pos_x="192" Pos_y="1808" Size_x="40" Size_y="60" Id="18" Char="骷髅枪手" Action="射击"/>
+		<Item Pos_x="156" Pos_y="1808" Size_x="40" Size_y="60" Id="19" Char="骷髅枪手" Action="站立"/>
+		<Item Pos_x="102" Pos_y="1808" Size_x="40" Size_y="60" Id="20" Char="骷髅枪手" Action="装弹"/>
+		<Item Pos_x="183" Pos_y="2321" Size_x="40" Size_y="60" Id="21" Char="骷髅枪手" Action="站立"/>
+	</Char>
+</Map>

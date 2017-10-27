@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="470" Pos_y="223" Size_x="32" Size_y="32" EmitInter="1" EmitTime="1" Pic="海妖" Group="16" Frame="6" Filter="0x0" Blend="0x1" Sound="\sound\怪物\海妖攻击3.wav" ItemSize_x="32" ItemSize_y="32" ItemHot_x="16" ItemHot_y="16" ItemFrame="7" ItemFps="10" ItemLife="3000" ItemScale="2.000" AddSpeedX="300.000" AddSpeedY="100.000" Follow="4" HitType="2" Destroy="1" Magic="1" TrailColor="0xFF8080FF"/>
+</Effect>

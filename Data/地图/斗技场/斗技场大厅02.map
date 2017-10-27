@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1500" Size_y="600">
+	<Tile>
+		<Item Size_x="1500" Size_y="600" Pic="\Image\地图\斗技场\大厅02.bmp" Pic_right="512" Pic_bottom="255"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="215" Pos_y="100" Size_x="32" Size_y="80" Pic="\Image\地图\动画\灯火08.bmp" Pic_right="16" Pic_bottom="40" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="1" Effect="灯台01" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="1258" Pos_y="100" Size_x="32" Size_y="80" Pic="\Image\地图\动画\灯火08.bmp" Pic_right="16" Pic_bottom="40" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="2" Effect="灯台01" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="408" Pos_y="140" Size_x="24" Size_y="64" Pic="\Image\地图\动画\灯火08.bmp" Pic_right="16" Pic_bottom="40" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="3" Effect="灯台01" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="1073" Pos_y="140" Size_x="24" Size_y="64" Pic="\Image\地图\动画\灯火08.bmp" Pic_right="16" Pic_bottom="40" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="4" Effect="灯台01" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="584" Pos_y="173" Size_x="16" Size_y="40" Pic="\Image\地图\动画\灯火08.bmp" Pic_right="16" Pic_bottom="40" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="5" Effect="灯台01" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="900" Pos_y="173" Size_x="16" Size_y="40" Pic="\Image\地图\动画\灯火08.bmp" Pic_right="16" Pic_bottom="40" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="6" Effect="灯台01" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+	</Anim>
+	<Obst>
+		<Item Size_x="1500" Size_y="73" Obst="1"/>
+		<Item Pos_y="376" Size_x="92" Size_y="224" Obst="1"/>
+		<Item Pos_x="92" Pos_y="376" Size_x="96" Size_y="76" Obst="4"/>
+		<Item Pos_x="1409" Pos_y="376" Size_x="91" Size_y="224" Obst="1"/>
+		<Item Pos_x="232" Pos_y="488" Size_x="1038" Size_y="112" Obst="1"/>
+		<Item Pos_x="1312" Pos_y="376" Size_x="96" Size_y="76" Obst="5"/>
+		<Item Pos_x="1269" Pos_y="452" Size_x="140" Size_y="148" Obst="1"/>
+		<Item Pos_x="187" Pos_y="265" Size_x="47" Size_y="34" Obst="1"/>
+		<Item Pos_x="1269" Pos_y="226" Size_x="91" Size_y="36" Obst="1"/>
+		<Item Pos_y="73" Size_x="138" Size_y="152" Obst="1"/>
+		<Item Pos_x="1360" Pos_y="73" Size_x="140" Size_y="152" Obst="1"/>
+		<Item Pos_x="138" Pos_y="223" Size_x="50" Size_y="42" Obst="4"/>
+		<Item Pos_x="92" Pos_y="452" Size_x="140" Size_y="148" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-32" Pos_y="245" Size_x="37" Size_y="128" Id="1" Map="斗技场走廊03" MapPos_x="2560" MapPos_y="364"/>
+		<Item Pos_x="1495" Pos_y="244" Size_x="43" Size_y="128" Id="2" Map="斗技场走廊01" MapPos_y="364"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="724" Pos_y="413" Size_x="55" Size_y="75" Id="1" Char="狼人" Left="1"/>
+		<Item Pos_x="848" Pos_y="413" Size_x="55" Size_y="75" Id="2" Char="牛头人" Left="1"/>
+	</Char>
+</Map>

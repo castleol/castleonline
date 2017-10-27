@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Effect>
+	<Item Pos_x="291" Pos_y="496" Size_x="63" Size_y="40" Random="1" EmitInter="10" EmitTime="1000" Pic="魅魔" Group="11" Filter="0x2" Blend="0x1" EndColor="0xFFFFFF" Sound="\sound\怪物\羽恶魔燃烧.wav" ItemSize_x="12" ItemSize_y="12" ItemHot_x="6" ItemHot_y="6" ItemLife="1000" ItemScale="2.000" ItemQuality="1.000" MinSpeedX="-500.000" MaxSpeedX="500.000" MinSpeedY="-300.000" MaxSpeedY="-300.000" AngleSpeed="8.000" ScaleSpeed="2.000" TrailColor="0xFF8080FF"/>
+</Effect>

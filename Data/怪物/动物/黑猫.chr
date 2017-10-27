@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Char Pic="\image\怪物\动物\黑猫.bmp" ColorKey="0xFFFF00FF" Size_x="50" Size_y="30" Scale="1.200" Flip="1" HitEffect="闪光01" HurtEffect="冒血01">
+	<Action Num="4">
+		<Act Name="站立"/>
+		<Act Name="转身" State="2" Group="1" Next="移动" Flip="1"/>
+		<Act Name="移动" State="1" Group="1" End="3" Start="-1" Sound="1" Speed_x="200"/>
+		<Act Name="死亡" State="14" Group="2" End="4" Time="800" Start="-1" Sound="1" Effect="爆炸02" Speed_x="-100"/>
+	</Action>
+	<Rect Num="0"/>
+	<Hits Num="0"/>
+	<Sound Num="1">
+		<Snd Id="1" File="\sound\怪物\黑猫.wav"/>
+	</Sound>
+	<Effect Num="0"/>
+	<Image Num="10">
+		<Img Pos_y="46" Size_x="64" Size_y="18" Hot_x="28" Hot_y="17"/>
+		<Img Group="1" Size_x="64" Size_y="32" Hot_x="24" Hot_y="33"/>
+		<Img Group="1" Frame="1" Pos_x="64" Size_x="64" Size_y="32" Hot_x="27" Hot_y="36"/>
+		<Img Group="1" Frame="2" Pos_x="128" Size_x="64" Size_y="32" Hot_x="28" Hot_y="32"/>
+		<Img Group="1" Frame="3" Pos_x="192" Size_x="64" Size_y="32" Hot_x="29" Hot_y="33"/>
+		<Img Group="2" Pos_x="64" Pos_y="32" Size_x="32" Size_y="32" Hot_x="17" Hot_y="31"/>
+		<Img Group="2" Frame="1" Pos_x="96" Pos_y="32" Size_x="32" Size_y="32" Hot_x="18" Hot_y="31"/>
+		<Img Group="2" Frame="2" Pos_x="128" Pos_y="32" Size_x="32" Size_y="32" Hot_x="16" Hot_y="31"/>
+		<Img Group="2" Frame="3" Pos_x="160" Pos_y="32" Size_x="32" Size_y="32" Hot_x="16" Hot_y="30"/>
+		<Img Group="2" Frame="4" Pos_x="192" Pos_y="32" Size_x="32" Size_y="32" Hot_x="14" Hot_y="31"/>
+	</Image>
+</Char>

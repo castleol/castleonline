@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="1200" Size_y="600">
+	<Tile>
+		<Item Pos_x="63" Pos_y="132" Size_x="1074" Size_y="312" Pic="\Image\地图\斗技场\背景14-1.bmp" Pic_right="416" Pic_bottom="110" ColorKey="0xFF00FF" Flip="1"/>
+		<Item Pos_x="1136" Pos_y="252" Size_x="64" Size_y="128" Pic="\Image\地图\斗技场\背景07-1.bmp" Pic_right="96" Pic_bottom="128" Tile="1" Flip="2"/>
+		<Item Pos_x="1136" Pos_y="188" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-12.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Flip="1" Obst="1"/>
+		<Item Size_x="64" Size_y="600" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+		<Item Pos_x="1080" Size_x="56" Size_y="132" Pic="\Image\地图\斗技场\墙面04-1.bmp" Pic_right="24" Pic_bottom="190" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_x="104" Size_x="976" Size_y="132" Pic="\Image\地图\斗技场\墙面04-2.bmp" Pic_right="64" Pic_bottom="190" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_x="1136" Size_x="64" Size_y="188" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="824" Size_x="64" Size_y="132" Pic="\Image\地图\斗技场\墙面04-3.bmp" Pic_right="64" Pic_bottom="190" Tile="1" Flip="3"/>
+		<Item Pos_x="568" Size_x="64" Size_y="132" Pic="\Image\地图\斗技场\墙面04-3.bmp" Pic_right="64" Pic_bottom="190" Tile="1" Flip="3"/>
+		<Item Pos_x="64" Size_x="40" Size_y="132" Pic="\Image\地图\斗技场\墙面04-4.bmp" Pic_right="40" Pic_bottom="190" Tile="1" Flip="3" Obst="1"/>
+		<Item Pos_x="1080" Pos_y="444" Size_x="56" Size_y="156" Pic="\Image\地图\斗技场\墙面05-1.bmp" Pic_right="24" Pic_bottom="192" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="444" Size_x="1016" Size_y="156" Pic="\Image\地图\斗技场\墙面05-2.bmp" Pic_right="64" Pic_bottom="192" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="1136" Pos_y="380" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-6.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="317" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\台子01.bmp" Pic_right="32" Pic_bottom="28" ColorKey="0x800000" Flip="1"/>
+		<Item Pos_x="1136" Pos_y="444" Size_x="64" Size_y="156" Pic="\Image\地图\斗技场\墙面02-7.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Flip="1" Obst="1"/>
+		<Item Pos_x="64" Pos_y="381" Size_x="64" Size_y="64" Pic="\Image\地图\斗技场\墙面02-1.bmp" Pic_right="64" Pic_bottom="64" Tile="1" Obst="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="334" Pos_y="318" Size_x="48" Size_y="128" Pic="\Image\地图\动画\灯柱03.bmp" Pic_right="24" Pic_bottom="64" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="1" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="746" Pos_y="318" Size_x="48" Size_y="128" Pic="\Image\地图\动画\灯柱03.bmp" Pic_right="24" Pic_bottom="64" ColorKey="0xFF00FF" Frames="5" Fps="10" Id="2" Damage="1" Effect="灯台02" Sound="\sound\物件\壁灯.wav" Script="\data\脚本\破坏物品\斗技场.lua"/>
+		<Item Pos_x="80" Pos_y="294" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_left="160" Pic_top="96" Pic_right="192" Pic_bottom="128" Frames="5" Fps="10" Id="3" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\生命上限.lua" Item="生命上限" TaskId="3"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="64" Pos_y="326" Size_x="64" Size_y="20" Obst="2"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="1196" Pos_y="253" Size_x="48" Size_y="126" Id="1" Map="斗技场走廊04" MapPos_y="832"/>
+	</Trap>
+	<Char>
+		<Item Pos_x="874" Pos_y="373" Size_x="52" Size_y="71" Id="1" Char="双刀骷髅"/>
+		<Item Pos_x="961" Pos_y="373" Size_x="52" Size_y="71" Id="2" Char="双刀骷髅"/>
+		<Item Pos_x="790" Pos_y="373" Size_x="52" Size_y="71" Id="3" Char="双刀骷髅"/>
+		<Item Pos_x="697" Pos_y="373" Size_x="52" Size_y="71" Id="4" Char="斗技场剑士"/>
+		<Item Pos_x="598" Pos_y="373" Size_x="52" Size_y="71" Id="5" Char="骷髅枪手"/>
+		<Item Pos_x="532" Pos_y="373" Size_x="52" Size_y="71" Id="6" Char="骷髅枪手"/>
+		<Item Pos_x="451" Pos_y="373" Size_x="52" Size_y="71" Id="7" Char="骷髅枪手"/>
+		<Item Pos_x="350" Pos_y="373" Size_x="52" Size_y="71" Id="8" Char="斗技场剑士"/>
+		<Item Pos_x="257" Pos_y="373" Size_x="52" Size_y="71" Id="9" Char="双刀骷髅"/>
+		<Item Pos_x="168" Pos_y="373" Size_x="52" Size_y="71" Id="10" Char="双刀骷髅"/>
+	</Char>
+</Map>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Size_x="800" Size_y="600" Pic="\Image\地图\地下通道\房间04-1.bmp" Pic_right="256" Pic_bottom="207" ColorKey="0x800000" Flip="1"/>
+	</Tile>
+	<Anim/>
+	<Obst>
+		<Item Pos_x="652" Size_x="148" Size_y="210" Obst="1"/>
+		<Item Size_x="150" Size_y="210" Obst="1"/>
+		<Item Pos_x="151" Pos_y="117" Size_x="100" Size_y="45" Obst="1"/>
+		<Item Pos_x="350" Size_x="302" Size_y="24" Obst="1"/>
+		<Item Pos_x="502" Pos_y="161" Size_x="149" Size_y="48" Obst="1"/>
+		<Item Pos_x="252" Pos_y="161" Size_x="250" Size_y="233" Obst="5"/>
+		<Item Pos_y="394" Size_x="800" Size_y="207" Obst="1"/>
+		<Item Pos_x="753" Pos_y="211" Size_x="46" Size_y="182" Obst="1"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="165" Pos_y="-24" Size_x="170" Size_y="29" Id="1" Map="地下通道房间07" MapPos_x="835" MapPos_y="600"/>
+		<Item Pos_x="-46" Pos_y="213" Size_x="51" Size_y="180" Id="2" Map="通往地下水脉" MapPos_x="800" MapPos_y="407"/>
+	</Trap>
+	<Char/>
+</Map>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Map Size_x="800" Size_y="600">
+	<Tile>
+		<Item Pos_x="117" Pos_y="320" Size_x="683" Size_y="280" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁.bmp" Color2="0xFF3050FF" Color3="0xFF3050FF" Tile="1"/>
+		<Item Pos_y="62" Size_x="800" Size_y="261" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁.bmp" Color0="0xFF000000" Color1="0xFF000000" Tile="1"/>
+		<Item Pos_y="319" Size_x="120" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\入口平台.bmp" Obst="1"/>
+		<Item Size_x="800" Size_y="64" Pic="\Image\地图\恶魔城入口\藏宝房间\屋顶墙壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_y="63" Size_x="120" Size_y="128" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Obst="1"/>
+		<Item Pos_x="680" Pos_y="63" Size_x="120" Size_y="209" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="185" Pos_y="131" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_x="360" Pos_y="131" Size_x="80" Size_y="148" Pic="\Image\地图\恶魔城入口\藏宝房间\墙壁窗户.bmp"/>
+		<Item Pos_y="382" Size_x="120" Size_y="218" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="119" Pos_y="568" Size_x="121" Size_y="32" Pic="\Image\地图\恶魔城入口\入口楼梯\地面薄.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="607" Pos_y="409" Size_x="193" Size_y="46" Pic="\Image\地图\恶魔城入口\藏宝房间\入口平台.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="209" Pos_y="319" Size_x="40" Size_y="32" Pic="\Image\地图\恶魔城入口\入口终点\平台边缘.bmp" Obst="1"/>
+		<Item Pos_x="120" Pos_y="319" Size_x="90" Size_y="32" Pic="\Image\地图\恶魔城入口\入口终点\平台中端.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="405" Pos_y="409" Size_x="240" Size_y="192" Pic="\Image\地图\恶魔城入口\入口楼梯\楼梯.bmp" Pic_right="240" Pic_bottom="192"/>
+		<Item Pos_x="680" Pos_y="454" Size_x="120" Size_y="146" Pic="\Image\地图\恶魔城入口\藏宝房间\侧面墙壁.bmp" Tile="1" Obst="1"/>
+		<Item Pos_x="320" Pos_y="568" Size_x="361" Size_y="32" Pic="\Image\地图\恶魔城入口\入口楼梯\地面薄.bmp" Tile="1" Obst="1"/>
+	</Tile>
+	<Anim>
+		<Item Pos_x="542" Pos_y="204" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="1" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+		<Item Pos_x="379" Pos_y="381" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="2" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\恶魔城入口.lua"/>
+	</Anim>
+	<Obst>
+		<Item Pos_x="406" Pos_y="409" Size_x="201" Size_y="159" Obst="5"/>
+	</Obst>
+	<Trap>
+		<Item Pos_x="-49" Pos_y="191" Size_x="55" Size_y="128" Id="1" Map="入口神秘走廊" MapPos_x="2560" MapPos_y="379"/>
+		<Item Pos_x="240" Pos_y="594" Size_x="80" Size_y="20" Id="2" Map="入口水道" MapPos_x="236" MapPos_y="50"/>
+		<Item Pos_x="795" Pos_y="288" Size_x="44" Size_y="120" Id="3" Map="入口断桥连接" MapPos_y="440"/>
+	</Trap>
+	<Char/>
+</Map>
