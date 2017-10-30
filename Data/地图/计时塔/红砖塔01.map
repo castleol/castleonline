@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="GB2312" ?>
 <Map Size_x="3600" Size_y="926">
 	<Tile>
-		<Item Size_x="1800" Size_y="926" Pic="\Image\地图\计时塔\红砖塔\背景01-1.bmp" Pic_right="256" Pic_bottom="512" ColorKey="0xFF00FF" Tile="1" DeltaX="0.500" DeltaY="0.500"/>
+		<Item Size_x="2280" Size_y="926" Pic="\Image\地图\计时塔\红砖塔\背景01-1.bmp" Pic_right="256" Pic_bottom="512" ColorKey="0xFF00FF" Tile="1" DeltaX="0.500" DeltaY="0.500"/>
 		<Item Size_x="610" Size_y="440" Color0="0xFF000000" Color1="0xFF000000" Color2="0xFF000000" Color3="0xFF000000"/>
 		<Item Pos_x="576" Pos_y="16" Size_x="1184" Size_y="608" Pic="\Image\地图\计时塔\红砖塔\背景03-3.bmp" Pic_right="592" Pic_bottom="304" ColorKey="0xFF00FF"/>
 		<Item Pos_x="288" Pos_y="528" Size_x="128" Size_y="96" Pic="\Image\地图\计时塔\红砖塔\背景03-2.bmp" Pic_right="64" Pic_bottom="48" ColorKey="0xFF00FF"/>
@@ -232,7 +232,7 @@
 		<Item Pos_x="3281" Pos_y="718" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="37" Type="9" Damage="1"/>
 		<Item Pos_x="2160" Pos_y="264" Size_x="32" Size_y="40" Pic="\Image\地图\炼金研究所\动画04.bmp" Pic_right="16" Pic_bottom="20" Blend="0x1" ColorKey="0xFF000000" Frames="4" Fps="10" Id="38" ChildId="39" Damage="1" Effect="爆炸04" Sound="\sound\特效\火焰02.wav" Script="\data\脚本\破坏物品\计时塔.lua"/>
 		<Item Pos_x="2127" Pos_y="236" Size_x="96" Size_y="64" Pic="\Image\地图\炼金研究所\灯光03.bmp" Pic_right="48" Pic_bottom="32" Blend="0x1" Frames="1" Id="39" Type="9" Damage="1"/>
-		<Item Pos_x="3104" Pos_y="150" Size_x="68" Size_y="61" Pic="\image\地图\动画\宝箱.bmp" Pic_top="36" Pic_right="36" Pic_bottom="72" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="40" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\绿色宝箱.lua" Item="护手10" ItemStar="7" TaskId="7"/>
+		<Item Pos_x="3104" Pos_y="150" Size_x="68" Size_y="61" Pic="\image\地图\动画\宝箱.bmp" Pic_top="36" Pic_right="36" Pic_bottom="72" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="40" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\绿色宝箱.lua" TaskId="7" Item="护手10" ItemStar="7"/>
 	</Anim>
 	<Obst>
 		<Item Pos_x="160" Pos_y="848" Size_x="96" Size_y="32" Obst="1"/>

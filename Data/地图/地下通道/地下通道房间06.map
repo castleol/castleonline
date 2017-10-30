@@ -15,7 +15,7 @@
 		<Item Size_x="800" Size_y="70" Obst="1"/>
 	</Obst>
 	<Trap>
-		<Item Pos_x="362" Pos_y="463" Size_x="80" Size_y="27" Id="1" Type="3" Map="梦魇传送" Lua="\data\脚本\地图传送\梦魇传送.lua" Effect="传送02"/>
+		<Item Pos_x="362" Pos_y="463" Size_x="80" Size_y="27" Id="1" Type="2" Map="梦魇传送" Lua="\data\脚本\地图传送\梦魇传送.lua" Effect="传送02"/>
 		<Item Pos_x="-38" Pos_y="238" Size_x="42" Size_y="150" Id="3" Map="地下通道竖井05" MapPos_x="800" MapPos_y="1198"/>
 	</Trap>
 	<Char/>

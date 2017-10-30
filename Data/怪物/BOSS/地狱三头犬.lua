@@ -15,8 +15,8 @@ do return end
 end
 
 if y<100 then
-local Act={"ÆğÌø","»ğÇò1","»ğÇò2","»ğÇò3"}
-SetAction(Act[math.random(2)])
+local Act={"ÆğÌø","Ç°³å","»ğÇò1","»ğÇò2","»ğÇò3"}
+SetAction(Act[math.random(3)])
 do return end
 end
 

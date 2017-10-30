@@ -9,3 +9,8 @@ end
 if GetTaskBit("拾取物品","地下水脉",11)~=0 then
 HideAnimItem(9,1)
 end
+
+local x,y=GetMapPos()
+if x>=1769 and y>=500 then
+HideAnimItem(1,1)
+end

@@ -36,10 +36,10 @@
 		<Item Pos_x="2046" Pos_y="312" Size_x="47" Size_y="128" Id="2" Map="地下庭院房间01" MapPos_y="432"/>
 	</Trap>
 	<Char>
-		<Item Pos_x="355" Pos_y="504" Size_x="32" Size_y="32" Id="1" Char="地下乌奈"/>
-		<Item Pos_x="782" Pos_y="504" Size_x="32" Size_y="32" Id="2" Char="地下乌奈"/>
-		<Item Pos_x="1236" Pos_y="504" Size_x="32" Size_y="32" Id="3" Char="地下乌奈"/>
-		<Item Pos_x="1633" Pos_y="504" Size_x="32" Size_y="32" Id="4" Char="地下乌奈"/>
+		<Item Pos_x="355" Pos_y="504" Size_x="32" Size_y="32" Id="1" Char="妖草乌奈"/>
+		<Item Pos_x="782" Pos_y="504" Size_x="32" Size_y="32" Id="2" Char="妖草乌奈"/>
+		<Item Pos_x="1236" Pos_y="504" Size_x="32" Size_y="32" Id="3" Char="妖草乌奈"/>
+		<Item Pos_x="1633" Pos_y="504" Size_x="32" Size_y="32" Id="4" Char="妖草乌奈"/>
 		<Item Pos_x="554" Pos_y="455" Size_x="78" Size_y="81" Id="5" Char="食人花" Left="1"/>
 		<Item Pos_x="1428" Pos_y="455" Size_x="78" Size_y="81" Id="6" Char="食人花" Left="1"/>
 		<Item Pos_x="982" Pos_y="455" Size_x="78" Size_y="81" Id="7" Char="食人花" Left="1"/>

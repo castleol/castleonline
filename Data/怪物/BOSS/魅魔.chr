@@ -2,23 +2,23 @@
 <Char Pic="\image\¹ÖÎï\BOSS\÷ÈÄ§.bmp" ColorKey="0xFF00" Size_x="32" Size_y="90" Scale="2.000" HitEffect="ÉÁ¹â01" HurtShader="5">
 	<Action Num="18">
 		<Act Name="Õ¾Á¢" Group="1" Begin="9" End="9" Loop="9"/>
-		<Act Name="×ªÉí" Group="3" End="1" Next="²àÁ¢" Flip="1" Fly="1"/>
-		<Act Name="Õ¹³á" State="3" Group="2" Begin="10" End="13" Loop="13" Start="10" Sound="4" Next="·ÉÐÐ" Effect="÷ÈÄ§Éä¼ý" Fly="1"/>
-		<Act Name="Æð·É" State="3" Group="2" End="9" Time="1000" Start="3" Sound="2" Next="Õ¹³á" Speed_y="-600" AddSpeed_y="800" Fly="1"/>
+		<Act Name="×ªÉí" Next="²àÁ¢" Group="3" End="1" Flip="1" Fly="1"/>
+		<Act Name="Õ¹³á" Next="·ÉÐÐ" Effect="÷ÈÄ§Éä¼ý" State="3" Group="2" Begin="10" End="13" Loop="13" Start="10" Sound="4" Fly="1"/>
+		<Act Name="Æð·É" Next="Õ¹³á" State="3" Group="2" End="9" Time="1000" Start="3" Sound="2" Speed_y="-700" AddSpeed_y="800" Fly="1"/>
 		<Act Name="·ÉÐÐ" Group="6" End="6" Sound="1" Fly="1"/>
 		<Act Name="ÏÂÂä" State="3" Group="3" AddSpeed_y="1200"/>
-		<Act Name="ÂäµØ" Group="5" End="3" Sound="3" Next="Æð·É" Effect="ÂäµØ01"/>
-		<Act Name="ËÀÍö" State="13" Group="9" End="5" Loop="5" Time="1000" Start="1" Sound="8" Next="ÏûÊ§" Shader="2" Speed_x="-300" AddSpeed_x="300" AddSpeed_y="1200"/>
-		<Act Name="ÏûÊ§" State="14" Group="9" Begin="5" End="5" Loop="5" Time="1000" Start="5" Effect="÷ÈÄ§ËÀÍö"/>
-		<Act Name="ÊÜÉË" State="10" Group="13" Time="500" Sound="9" Next="ÏÂÂä" Effect="÷ÈÄ§ÊÜÉË" Speed_x="-200" AddSpeed_x="300" Fly="1"/>
-		<Act Name="ÌôÐÆ" State="10" Group="1" End="9" Fps="5" Start="2" Sound="10" Next="Æð·É"/>
+		<Act Name="ÂäµØ" Next="Æð·É" Effect="ÂäµØ01" Group="5" End="3" Sound="3"/>
+		<Act Name="ËÀÍö" Next="ÏûÊ§" State="13" Group="9" End="5" Loop="5" Time="1000" Start="1" Sound="8" Shader="2" Speed_x="-300" AddSpeed_x="300" AddSpeed_y="1200"/>
+		<Act Name="ÏûÊ§" Effect="÷ÈÄ§ËÀÍö" State="14" Group="9" Begin="5" End="5" Loop="5" Time="1000" Start="5"/>
+		<Act Name="ÊÜÉË" Next="ÏÂÂä" Effect="÷ÈÄ§ÊÜÉË" State="10" Group="13" Time="500" Sound="9" Speed_x="-200" AddSpeed_x="300" Fly="1"/>
+		<Act Name="ÌôÐÆ" Next="Æð·É" State="10" Group="1" End="9" Fps="5" Start="2" Sound="10"/>
 		<Act Name="ÒÆ¶¯" State="1" Group="4" End="6" Sound="1" Speed_x="100" Fly="1"/>
-		<Act Name="Éä¼ý" State="4" Group="7" End="8" Loop="8" Fps="15" Time="1500" Start="8" Sound="5" Next="·ÉÐÐ" Effect="÷ÈÄ§Éä¼ý" Fly="1"/>
-		<Act Name="·É»¨" State="4" Group="8" End="3" Loop="3" Time="1500" Start="3" Next="²àÁ¢" Effect="÷ÈÄ§·É»¨" Speed_x="-200" AddSpeed_x="200" Fly="1"/>
-		<Act Name="ÅÝÅÝ" State="4" Group="7" End="8" Loop="8" Fps="15" Time="1500" Start="8" Next="·ÉÐÐ" Effect="÷ÈÄ§ÅÝÅÝ" Fly="1"/>
-		<Act Name="·ÖÉí" State="4" Group="7" End="8" Loop="8" Time="1500" Start="6" Sound="4" Next="·ÉÐÐ" Fly="1"/>
+		<Act Name="Éä¼ý" Next="·ÉÐÐ" Effect="÷ÈÄ§Éä¼ý" State="4" Group="7" End="8" Loop="8" Fps="15" Time="1500" Start="8" Sound="5" Fly="1"/>
+		<Act Name="·É»¨" Next="²àÁ¢" Effect="÷ÈÄ§·É»¨" State="4" Group="8" End="3" Loop="3" Time="1500" Start="3" Speed_x="-200" AddSpeed_x="200" Fly="1"/>
+		<Act Name="ÅÝÅÝ" Next="·ÉÐÐ" Effect="÷ÈÄ§ÅÝÅÝ" State="4" Group="7" End="8" Loop="8" Fps="15" Time="1500" Start="8" Fly="1"/>
+		<Act Name="·ÖÉí" Next="·ÉÐÐ" State="4" Group="7" End="8" Loop="8" Time="1500" Start="6" Sound="4" Fly="1"/>
 		<Act Name="²àÁ¢" Group="4" End="6" Sound="1" Fly="1"/>
-		<Act Name="Æ½ÒÆ" State="4" Group="6" End="6" Time="800" Sound="1" Next="·ÉÐÐ" Speed_x="100" Fly="1"/>
+		<Act Name="Æ½ÒÆ" Next="·ÉÐÐ" State="4" Group="6" End="6" Time="800" Sound="1" Speed_x="100" Fly="1"/>
 	</Action>
 	<Rect Num="0"/>
 	<Hits Num="0"/>

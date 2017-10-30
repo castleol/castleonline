@@ -10,6 +10,11 @@ local star=Random(0,math.random(3))
 y=y-90
 AddMapItem(item[i],x,y,star,1)
 
+if GetItem("滑铲靴")==0 then
+x=x+32
+AddMapItem("滑铲靴",x,y,0,1)
+end
+
 if math.random(100)<=(10+GetLuck()) and GetTaskBit("掉落物品","月下BOSS",1)==0 then
 x=x+32
 AddDropItem("生命上限",x,y,1,"掉落物品","月下BOSS")

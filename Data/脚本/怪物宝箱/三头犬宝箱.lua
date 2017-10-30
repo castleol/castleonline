@@ -10,20 +10,20 @@ local star=Random(0,math.random(3))
 y=y-90
 AddMapItem(item[i],x,y,star,1)
 
-if math.random(150)<=(10+GetLuck()) and GetTaskBit("掉落物品","月下BOSS",14)==0 then
+if math.random(150)<=(10+GetLuck()) and GetTaskBit("掉落物品","月下BOSS",15)==0 then
 x=x+32
-AddDropItem("生命上限",x,y,14,"掉落物品","月下BOSS")
+AddDropItem("生命上限",x,y,15,"掉落物品","月下BOSS")
 do return end
 end
 
-if math.random(100)<=(50+GetLuck()) and GetTaskBit("魔魂","BOSS",14)==0 and GetMultiplayer()>0 then
+if math.random(100)<=(50+GetLuck()) and GetTaskBit("魔魂","BOSS",15)==0 and GetMultiplayer()>0 then
 x=x+32
-AddDropItem("一阶魔魂",x,y,14,"魔魂","BOSS")
+AddDropItem("一阶魔魂",x,y,15,"魔魂","BOSS")
 do return end
 end
 
-if math.random(100)<=(50+GetLuck()) and GetTaskBit("掉落物品","幸运宝石",14)==0 then
+if math.random(100)<=(50+GetLuck()) and GetTaskBit("掉落物品","幸运宝石",15)==0 then
 x=x+32
-AddDropItem("幸运宝石",x,y,14,"掉落物品","幸运宝石")
+AddDropItem("幸运宝石",x,y,15,"掉落物品","幸运宝石")
 do return end
 end

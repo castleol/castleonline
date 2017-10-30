@@ -127,7 +127,7 @@
 		<Item Pos_x="970" Pos_y="-190" Size_x="82" Size_y="255" Pic="\Image\地图\恶魔城入口\入口终点\石锁链子.bmp" Pic_right="82" Pic_bottom="224" Id="42" Type="3" Time="3000" Item="机关" EndPos_x="970" EndPos_y="64"/>
 		<Item Pos_x="900" Pos_y="64" Size_x="68" Size_y="256" Pic="\Image\地图\恶魔城入口\入口终点\大门机关.bmp" Obst="1" Id="43" Type="3" Time="3000" Sound="\sound\场景\机关01.wav" Item="机关" EndPos_x="900" EndPos_y="-200"/>
 		<Item Pos_x="690" Pos_y="214" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_right="32" Pic_bottom="32" Id="19" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\神奇魔方.lua" TaskId="4" Item="神奇魔方" Swing_y="8"/>
-		<Item Pos_x="1105" Pos_y="264" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_left="128" Pic_top="192" Pic_right="160" Pic_bottom="228" Fps="10" Id="20" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\滑铲靴.lua" TaskId="7" Item="滑铲靴" Swing_y="8"/>
+		<Item Pos_x="1105" Pos_y="264" Size_x="32" Size_y="32" Pic="\image\图标\物件.bmp" Pic_top="160" Pic_right="32" Pic_bottom="192" Frames="4" Fps="10" Id="20" Type="7" Effect="魔导器" Sound="\sound\物品\魔导器.wav" Script="\data\脚本\拾取物品\红心上限.lua" TaskId="7" Item="红心上限" Swing_y="8"/>
 	</Anim>
 	<Obst>
 		<Item Pos_x="960" Pos_y="1284" Size_x="159" Size_y="129" Obst="4"/>

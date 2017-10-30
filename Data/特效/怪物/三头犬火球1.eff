@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="GB2312" ?>
 <Effect>
-	<Item Pos_x="384" Pos_y="454" Size_x="40" Size_y="78" Offs_x="80" Offs_y="-70" Pic="\data\怪物\BOSS\地狱三头犬.chr" Group="5" ColorKey="0xFF00FF00" Blend="0x1" Sound="\sound\怪物\人鱼火球.wav" ItemSize_x="32" ItemSize_y="16" ItemHot_x="16" ItemHot_y="8" ItemFrame="4" ItemFps="10" ItemLife="2500" ItemScale="1.500" ItemQuality="1.000" MinSpeedX="600.000" MaxSpeedX="600.000" HitType="2" HitOnce="1" Rebound="1" Destroy="1" Magic="1" Flip="1" EndEffect="爆炸03"/>
+	<Item Pos_x="384" Pos_y="454" Size_x="40" Size_y="78" Offs_x="80" Offs_y="-70" Pic="\data\怪物\BOSS\地狱三头犬.chr" Group="5" ColorKey="0xFF00FF00" Blend="0x1" Sound="\sound\怪物\人鱼火球.wav" ItemSize_x="32" ItemSize_y="16" ItemHot_x="16" ItemHot_y="8" ItemFrame="4" ItemFps="10" ItemLife="2500" ItemScale="1.500" ItemQuality="1.000" MinSpeedX="600.000" MaxSpeedX="600.000" HitType="2" HitOnce="1" Rebound="1" Destroy="1" Magic="1" Flip="1" TrailTime="2" TrailFade="20" EndEffect="爆炸03"/>
 </Effect>

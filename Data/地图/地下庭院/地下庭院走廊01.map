@@ -39,10 +39,10 @@
 		<Item Pos_x="2044" Pos_y="312" Size_x="47" Size_y="128" Id="2" Map="µØÏÂÍ¥Ôº×ßÀÈ02" MapPos_y="440"/>
 	</Trap>
 	<Char>
-		<Item Pos_x="331" Pos_y="504" Size_x="32" Size_y="32" Id="1" Char="µØÏÂÑý²Ý"/>
-		<Item Pos_x="729" Pos_y="504" Size_x="32" Size_y="32" Id="2" Char="µØÏÂÑý²Ý"/>
-		<Item Pos_x="1298" Pos_y="504" Size_x="32" Size_y="32" Id="3" Char="µØÏÂÑý²Ý"/>
-		<Item Pos_x="1664" Pos_y="504" Size_x="32" Size_y="32" Id="4" Char="µØÏÂÑý²Ý"/>
+		<Item Pos_x="331" Pos_y="504" Size_x="32" Size_y="32" Id="1" Char="Ñý²Ý"/>
+		<Item Pos_x="729" Pos_y="504" Size_x="32" Size_y="32" Id="2" Char="Ñý²Ý"/>
+		<Item Pos_x="1298" Pos_y="504" Size_x="32" Size_y="32" Id="3" Char="Ñý²Ý"/>
+		<Item Pos_x="1664" Pos_y="504" Size_x="32" Size_y="32" Id="4" Char="Ñý²Ý"/>
 		<Item Pos_x="515" Pos_y="463" Size_x="54" Size_y="73" Id="5" Char="¼ôµ¶ÄÐ" Left="1"/>
 		<Item Pos_x="1492" Pos_y="463" Size_x="54" Size_y="73" Id="6" Char="¼ôµ¶ÄÐ" Left="1"/>
 	</Char>
