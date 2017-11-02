@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="GB2312" ?>
 <Char Pic="\image\角色\阿鲁卡多\Alucard.bmp" ColorKey="0xFF800000" Size_x="32" Size_y="90" Scale="2.000" TrailTime="5" TrailFade="10" TrailColor="0xFF4040FF" Shadow="1" HitEffect="闪光01" HurtEffect="冒血01">
-	<Action Num="53">
+	<Action Num="52">
 		<Act Name="站立" Next="对话站立" Group="1" End="5" Time="3000"/>
 		<Act Name="休闲站立" Next="站立" Group="2" End="3" Loop="3" Time="5000"/>
 		<Act Name="转身" Next="站立" State="1" Group="4" End="9" Loop="3" Fps="30" Speed_x="200" Flip="1"/>
@@ -67,11 +67,10 @@
 		<Act Name="空中侧踢" State="6" Group="27" Time="500" Sound="9" Speed_x="500" Speed_y="600" AddSpeed_y="1200"/>
 		<Act Name="空中下踢" State="6" Group="27" Time="500" Sound="9" Speed_y="600" AddSpeed_y="1200"/>
 		<Act Name="空中斜踢" State="6" Group="27" Begin="1" End="1" Loop="1" Time="500" Start="1" Sound="9" Speed_x="700" Speed_y="500" AddSpeed_y="1200"/>
-		<Act Name="三倍跳跃" Effect="大跳光柱" State="3" Group="8" End="5" Loop="5" Fps="15" Sound="4" Speed_y="-1100" AddSpeed_y="1200"/>
-		<Act Name="五倍跳跃" Effect="大跳光柱" State="3" Group="8" End="5" Loop="5" Fps="15" Sound="4" Speed_y="-1200" AddSpeed_y="1200"/>
+		<Act Name="三倍跳跃" Effect="大跳光柱" State="3" Group="8" End="5" Loop="5" Fps="15" Sound="4" MpUse="5" Speed_y="-1100" AddSpeed_y="1200"/>
 		<Act Name="飞踢跳跃" Next="下落" State="3" Group="27" Begin="2" End="3" Loop="3" Time="500" Start="2" Speed_x="-400" Speed_y="-500" AddSpeed_x="500" AddSpeed_y="1200"/>
 		<Act Name="高空落地" Effect="落地01" State="2" Group="5" End="13" Loop="13" Fps="30" Sound="7" Speed_x="-1" AddSpeed_x="2000" Size_x="32" Size_y="50"/>
-		<Act Name="地狱火" Next="对话站立" Effect="地狱火" State="4" Group="33" End="16" Fps="20" Start="9"/>
+		<Act Name="地狱火" Next="对话站立" Effect="地狱火" State="4" Group="33" End="16" Fps="20" Start="9" MpUse="5"/>
 	</Action>
 	<Rect Num="20">
 		<Rect Name="蹲地攻击" Frame="1" Rect_left="19" Rect_top="-57" Rect_right="119" Rect_bottom="-37"/>

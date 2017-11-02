@@ -10,8 +10,5 @@ AddShaderEffect(1,1000)
 
 --登录提示
 local name=GetName()
-SendChatMsgToAll("提示", "玩家@2"..name.."@c上线了")
-
---在线人数
 local num=GetOnlineNum()
-SendChatMsg("提示", "当前共有@2"..num.."@c名玩家在线")
+SendChatMsgToAll("提示", "玩家@2"..name.."@c上线了，当前在线人数：@2"..num)

@@ -8,6 +8,7 @@
 	<Anim/>
 	<Obst>
 		<Item Pos_y="444" Size_x="1200" Size_y="56" Obst="1"/>
+		<Item Pos_x="1199" Pos_y="3" Size_x="13" Size_y="441" Obst="1"/>
 	</Obst>
 	<Trap>
 		<Item Pos_x="-37" Pos_y="292" Size_x="42" Size_y="150" Id="1" Map="地下通道房间06" MapPos_x="400" MapPos_y="490"/>

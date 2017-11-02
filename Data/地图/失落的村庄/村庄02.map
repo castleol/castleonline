@@ -8,7 +8,7 @@
 	</Tile>
 	<Anim>
 		<Item Pos_x="117" Pos_y="420" Size_x="72" Size_y="64" Pic="\image\µØÍ¼\¶¯»­\±¦Ïä.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="1" Type="8" Effect="´ò¿ª±¦Ïä" Sound="\sound\³¡¾°\±¦Ïä01.wav" Script="\data\½Å±¾\¿ªÆô±¦Ïä\ÆÕÍ¨±¦Ïä.lua" Item="Ç®´ü300"/>
-		<Item Pos_x="1088" Pos_y="420" Size_x="72" Size_y="64" Pic="\image\µØÍ¼\¶¯»­\±¦Ïä.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Frames="4" Fps="10" Id="2" Type="8" Effect="´ò¿ª±¦Ïä" Sound="\sound\³¡¾°\±¦Ïä01.wav" Script="\data\½Å±¾\¿ªÆô±¦Ïä\ÆÕÍ¨±¦Ïä.lua" Item="Ç®´ü300" TaskId="1"/>
+		<Item Pos_x="1088" Pos_y="420" Size_x="72" Size_y="64" Pic="\image\µØÍ¼\¶¯»­\±¦Ïä.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Frames="4" Fps="10" Id="2" Type="8" Effect="´ò¿ª±¦Ïä" Sound="\sound\³¡¾°\±¦Ïä01.wav" Script="\data\½Å±¾\¿ªÆô±¦Ïä\ÆÕÍ¨±¦Ïä.lua" TaskId="1" Item="Ç®´ü300"/>
 	</Anim>
 	<Obst>
 		<Item Pos_x="1" Pos_y="840" Size_x="1280" Size_y="120" Obst="1"/>

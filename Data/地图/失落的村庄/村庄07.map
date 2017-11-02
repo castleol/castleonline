@@ -6,7 +6,7 @@
 		<Item Pos_x="200" Pos_y="526" Size_x="996" Size_y="274" Pic="\image\µØÍ¼\Ê§ÂäµÄ´å×¯\´å×¯07ÇÅ.bmp" Pic_top="1" Pic_right="340" Pic_bottom="100" ColorKey="0xFFFFFF" Mask="1"/>
 	</Tile>
 	<Anim>
-		<Item Pos_x="91" Pos_y="285" Size_x="80" Size_y="72" Pic="\image\µØÍ¼\¶¯»­\±¦Ïä.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="1" Type="8" Effect="´ò¿ª±¦Ïä" Sound="\sound\³¡¾°\±¦Ïä01.wav" Script="\data\½Å±¾\¿ªÆô±¦Ïä\ÆÕÍ¨±¦Ïä.lua" Item="Ç®´ü300" TaskId="8"/>
+		<Item Pos_x="91" Pos_y="285" Size_x="80" Size_y="72" Pic="\image\µØÍ¼\¶¯»­\±¦Ïä.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="1" Type="8" Effect="´ò¿ª±¦Ïä" Sound="\sound\³¡¾°\±¦Ïä01.wav" Script="\data\½Å±¾\¿ªÆô±¦Ïä\ÆÕÍ¨±¦Ïä.lua" TaskId="8" Item="Ç®´ü300"/>
 	</Anim>
 	<Obst>
 		<Item Pos_y="706" Size_x="1500" Size_y="94" Obst="1"/>

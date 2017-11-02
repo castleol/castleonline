@@ -15,7 +15,7 @@
 		<Item Pos_x="915" Pos_y="532" Size_x="206" Size_y="196" Pic="\image\µØÍ¼\Ê§ÂäµÄ´å×¯\µÆ¹â01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="8" Type="9"/>
 		<Item Pos_x="932" Pos_y="164" Size_x="16" Size_y="16" Pic="\image\µØÍ¼\Ê§ÂäµÄ´å×¯\Â·µÆ01.bmp" Pic_right="16" Pic_bottom="16" Blend="0x1" Id="9" ChildId="10" Damage="1" Effect="±¬Õ¨02" Sound="\sound\Îï¼þ\Â·µÆ.wav" Script="\data\½Å±¾\ÆÆ»µÎïÆ·\Ê§ÂäµÄ´å×¯.lua"/>
 		<Item Pos_x="835" Pos_y="76" Size_x="206" Size_y="196" Pic="\image\µØÍ¼\Ê§ÂäµÄ´å×¯\µÆ¹â01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="10" Type="9"/>
-		<Item Pos_x="1165" Pos_y="783" Size_x="72" Size_y="64" Pic="\image\µØÍ¼\¶¯»­\±¦Ïä.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Frames="4" Fps="10" Id="11" Type="8" Effect="´ò¿ª±¦Ïä" Sound="\sound\³¡¾°\±¦Ïä01.wav" Script="\data\½Å±¾\¿ªÆô±¦Ïä\ÆÕÍ¨±¦Ïä.lua" Item="Ç®´ü300" TaskId="19"/>
+		<Item Pos_x="1165" Pos_y="783" Size_x="72" Size_y="64" Pic="\image\µØÍ¼\¶¯»­\±¦Ïä.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Frames="4" Fps="10" Id="11" Type="8" Effect="´ò¿ª±¦Ïä" Sound="\sound\³¡¾°\±¦Ïä01.wav" Script="\data\½Å±¾\¿ªÆô±¦Ïä\ÆÕÍ¨±¦Ïä.lua" TaskId="19" Item="Ç®´ü300"/>
 	</Anim>
 	<Obst>
 		<Item Pos_x="82" Size_x="1118" Size_y="78" Obst="1"/>

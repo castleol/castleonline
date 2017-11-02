@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="GB2312" ?>
 <Char Pic="\image\角色\玛丽亚\maria.bmp" ColorKey="0xFF" Size_x="32" Size_y="90" Scale="2.000" TrailTime="5" TrailFade="10" TrailColor="0xFF4040FF" Shadow="1" HitEffect="闪光01" HurtEffect="冒血01">
-	<Action Num="45">
+	<Action Num="44">
 		<Act Name="站立" Next="休闲站立" Group="4" End="9" Time="3000"/>
 		<Act Name="休闲站立" Group="4" End="9"/>
 		<Act Name="转身" Next="站立" Group="1" Flip="1"/>
@@ -43,8 +43,7 @@
 		<Act Name="消失" State="14" Group="20" Begin="2" End="2" Loop="2" Time="1000" Start="2"/>
 		<Act Name="空中下踢" State="6" Group="17" Fps="20" Time="500" Sound="3" Speed_y="600" AddSpeed_y="1200"/>
 		<Act Name="空中侧踢" State="6" Group="17" Fps="20" Time="500" Sound="3" Speed_x="300" Speed_y="600" AddSpeed_y="1200"/>
-		<Act Name="三倍跳跃" Effect="大跳光柱" State="3" Group="7" End="2" Loop="2" Fps="15" Speed_y="-1000" AddSpeed_y="1200"/>
-		<Act Name="五倍跳跃" State="3" Group="7" End="2" Loop="2" Fps="15" Speed_y="-1400" AddSpeed_y="1200"/>
+		<Act Name="三倍跳跃" Effect="大跳光柱" State="3" Group="7" End="2" Loop="2" Fps="15" MpUse="5" Speed_y="-1000" AddSpeed_y="1200"/>
 		<Act Name="蹲地斜下攻击" Next="蹲地" Effect="玛丽亚火球" State="5" Group="12" End="2" Start="1" Sound="3" Size_x="32" Size_y="50"/>
 	</Action>
 	<Rect Num="2">

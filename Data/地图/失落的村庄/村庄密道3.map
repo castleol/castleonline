@@ -17,7 +17,7 @@
 		<Item Size_x="101" Size_y="200" Obst="1"/>
 	</Obst>
 	<Trap>
-		<Item Pos_x="793" Pos_y="204" Size_x="60" Size_y="192" Map="失落的村庄密道4" MapPos_y="1015"/>
+		<Item Pos_x="793" Pos_y="204" Size_x="60" Size_y="192" Id="1" Map="失落的村庄密道4" MapPos_y="1015"/>
 		<Item Pos_x="-55" Pos_y="202" Size_x="60" Size_y="196" Id="2" Map="失落的村庄密道2" MapPos_x="1500" MapPos_y="400"/>
 	</Trap>
 	<Char/>

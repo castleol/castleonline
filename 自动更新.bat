@@ -1,2 +1,2 @@
 cd bin
-start launcher.exe
+start update.exe

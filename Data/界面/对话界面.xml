@@ -2,7 +2,7 @@
 <desktop>
 	<Control Name="Dialog" Class="Window" TopMost="1" Pos_x="80" Pos_y="300" Size_x="640" Size_y="150" Align="10" TextRect_right="640" TextRect_bottom="150" Pic="\image\界面\人物对话.bmp" PicRect_right="36" PicRect_bottom="60" PicColor="0x90FFFFFF" PicScale="1" PopupEffect="2" CloseEffect="2" Effect_x="150" Effect_y="320" EffectTime="2000">
 		<Control Name="Text" Class="Static" Pos_x="143" Pos_y="36" Size_x="490" Size_y="108" Text="Well com to the demon castle@nGood luck to you@nBrave stranger@nGood Bye" Font="3" TextRect_right="490" TextRect_bottom="108" DownColor="0xFFFFFF00"/>
-		<Control Name="Head" Class="Static" Pos_x="7" Pos_y="5" Size_x="128" Size_y="140" TextRect_right="100" TextRect_bottom="100" Pic="\image\头像\alucard.bmp" PicRect_right="100" PicRect_bottom="100" PicScale="1"/>
+		<Control Name="Head" Class="Static" Pos_x="7" Pos_y="5" Size_x="128" Size_y="140" TextRect_right="100" TextRect_bottom="100" Pic="\image\头像\阿鲁卡多.bmp" PicRect_right="100" PicRect_bottom="100" PicScale="1"/>
 		<Control Name="Name" Class="Static" Pos_x="143" Pos_y="6" Size_x="136" Size_y="26" Text="Alucard" Font="3" TextRect_right="136" TextRect_bottom="26" DownColor="0xFF00FFFF"/>
 	</Control>
 </desktop>

@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="GB2312" ?>
 <Char Pic="\image\角色\里希特\Richter.bmp" ColorKey="0xFF008000" Size_x="32" Size_y="85" Scale="2.000" TrailTime="5" TrailFade="10" TrailColor="0xFF4040FF" Shadow="1" HitEffect="闪光01" HurtEffect="冒血01">
-	<Action Num="49">
-		<Act Name="站立" End="3" Time="3000" Next="休闲站立"/>
+	<Action Num="48">
+		<Act Name="站立" Next="休闲站立" End="3" Time="3000"/>
 		<Act Name="休闲站立" Group="1" End="1" Loop="1"/>
-		<Act Name="转身" Group="1" Fps="30" Next="站立" Flip="1"/>
-		<Act Name="蹲下" State="2" Group="2" End="2" Fps="20" Next="蹲地" Size_x="32" Size_y="50"/>
-		<Act Name="站起" Group="2" Begin="2" End="4" Fps="20" Start="2" Next="站立" Size_x="32" Size_y="50"/>
+		<Act Name="转身" Next="站立" Group="1" Fps="30" Flip="1"/>
+		<Act Name="蹲下" Next="蹲地" State="2" Group="2" End="2" Fps="20" Size_x="32" Size_y="50"/>
+		<Act Name="站起" Next="站立" Group="2" Begin="2" End="4" Fps="20" Start="2" Size_x="32" Size_y="50"/>
 		<Act Name="蹲地" State="2" Group="2" Begin="2" End="2" Loop="2" Start="2" Size_x="32" Size_y="50"/>
-		<Act Name="蹲地转身" State="2" Group="2" Begin="2" End="2" Loop="2" Fps="20" Start="2" Next="蹲地" Size_x="32" Size_y="50" Flip="1"/>
+		<Act Name="蹲地转身" Next="蹲地" State="2" Group="2" Begin="2" End="2" Loop="2" Fps="20" Start="2" Size_x="32" Size_y="50" Flip="1"/>
 		<Act Name="缓移" State="1" Group="3" End="7" Fps="15" Speed_x="100"/>
 		<Act Name="移动" State="1" Group="4" End="7" Fps="18" Speed_x="200"/>
-		<Act Name="急停" State="1" Group="5" End="1" Loop="1" Next="站立" Speed_x="300" AddSpeed_x="1200"/>
-		<Act Name="后退" State="3" Group="10" End="7" Loop="7" Fps="20" Sound="3" Next="下落" Speed_x="-400" Speed_y="-400" AddSpeed_x="400" AddSpeed_y="1200"/>
-		<Act Name="起跳" Group="2" Fps="20" Next="跳跃" Speed_x="-1" Speed_y="-1"/>
+		<Act Name="急停" Next="站立" State="1" Group="5" End="1" Loop="1" Speed_x="300" AddSpeed_x="1200"/>
+		<Act Name="后退" Next="下落" State="3" Group="10" End="7" Loop="7" Fps="20" Sound="3" Speed_x="-400" Speed_y="-400" AddSpeed_x="400" AddSpeed_y="1200"/>
+		<Act Name="起跳" Next="跳跃" Group="2" Fps="20" Speed_x="-1" Speed_y="-1"/>
 		<Act Name="跳跃" State="3" Group="6" Speed_x="-1" Speed_y="-600" AddSpeed_x="1000" AddSpeed_y="1200"/>
 		<Act Name="下落" State="3" Group="6" Begin="2" End="2" Loop="2" Time="1000" Start="2" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
-		<Act Name="落地" Group="2" Fps="20" Sound="5" Next="站立" Size_x="32" Size_y="50"/>
+		<Act Name="落地" Next="站立" Group="2" Fps="20" Sound="5" Size_x="32" Size_y="50"/>
 		<Act Name="向前跳跃" State="3" Group="6" Begin="1" End="1" Loop="1" Start="1" Speed_x="-1" Speed_y="-1" AddSpeed_x="500" AddSpeed_y="1200"/>
-		<Act Name="向前下落" State="3" Group="6" Begin="3" End="3" Loop="3" Time="1000" Start="3" Next="落地" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
+		<Act Name="向前下落" Next="落地" State="3" Group="6" Begin="3" End="3" Loop="3" Time="1000" Start="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
 		<Act Name="空中跳跃" State="3" Group="6" End="1" Loop="1" Speed_x="-1" Speed_y="-500" AddSpeed_x="-1" AddSpeed_y="1200"/>
-		<Act Name="受伤落地" State="12" Group="2" End="2" Loop="2" Fps="20" Time="300" Sound="5" Next="站起"/>
-		<Act Name="站立攻击" State="4" Group="7" End="7" Fps="30" Sound="3" Next="站立" Speed_x="-1" AddSpeed_x="1200">
+		<Act Name="受伤落地" Next="站起" State="12" Group="2" End="2" Loop="2" Fps="20" Time="300" Sound="5"/>
+		<Act Name="站立攻击" Next="站立" State="4" Group="7" End="7" Fps="30" Sound="3" Speed_x="-1" AddSpeed_x="1200">
 			<Act Name="鞭子" Image="里希特武器" Group="20" End="9" Loop="9" Fps="30" Sound="2"/>
 		</Act>
-		<Act Name="蹲地攻击" State="5" Group="8" End="6" Fps="30" Sound="3" Next="蹲地" Size_x="32" Size_y="50">
+		<Act Name="蹲地攻击" Next="蹲地" State="5" Group="8" End="6" Fps="30" Sound="3" Size_x="32" Size_y="50">
 			<Act Name="鞭子" Image="里希特武器" Group="20" End="9" Loop="9" Fps="30" Sound="2" Offs_y="32"/>
 		</Act>
-		<Act Name="空中攻击" State="6" Group="9" End="7" Fps="30" Sound="3" Next="下落" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200">
+		<Act Name="空中攻击" Next="下落" State="6" Group="9" End="7" Fps="30" Sound="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200">
 			<Act Name="鞭子" Image="里希特武器" Group="20" End="9" Loop="9" Fps="30" Sound="2" Offs_y="-4"/>
 		</Act>
-		<Act Name="空中下落攻击" State="6" Group="9" End="7" Fps="30" Sound="3" Next="下落" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200">
+		<Act Name="空中下落攻击" Next="下落" State="6" Group="9" End="7" Fps="30" Sound="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200">
 			<Act Name="鞭子" Image="里希特武器" Group="20" End="9" Loop="9" Fps="30" Sound="2" Offs_y="-4"/>
 		</Act>
-		<Act Name="空中斜下攻击" State="6" Group="9" End="7" Fps="30" Sound="3" Next="下落" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200">
+		<Act Name="空中斜下攻击" Next="下落" State="6" Group="9" End="7" Fps="30" Sound="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200">
 			<Act Name="鞭子" Image="里希特武器" Group="20" End="9" Loop="9" Fps="30" Sound="2" Offs_y="-3"/>
 		</Act>
-		<Act Name="蹲地斜下攻击" State="5" Group="8" End="6" Fps="30" Sound="3" Next="蹲地" Size_x="32" Size_y="50">
+		<Act Name="蹲地斜下攻击" Next="蹲地" State="5" Group="8" End="6" Fps="30" Sound="3" Size_x="32" Size_y="50">
 			<Act Name="鞭子" Image="里希特武器" Group="20" End="9" Loop="9" Fps="30" Sound="2" Offs_y="32"/>
 		</Act>
 		<Act Name="站立防守" State="7" Group="18" End="2" Fps="15" Speed_x="-1" AddSpeed_x="1000">
@@ -47,25 +47,24 @@
 		<Act Name="空中防守" State="9" Group="20" End="2" Fps="15" Speed_x="-1" Speed_y="-1" AddSpeed_x="500" AddSpeed_y="1200">
 			<Act Name="鞭子" Image="里希特武器" Group="21" End="5" Fps="20" Sound="9" Blend="0x2" Offs_x="30" Offs_y="-64"/>
 		</Act>
-		<Act Name="站立投掷" State="4" Group="7" End="7" Fps="30" Start="4" Sound="3" Next="站立" Speed_x="-1" AddSpeed_x="1200"/>
-		<Act Name="蹲地投掷" State="5" Group="8" End="6" Fps="30" Start="4" Sound="3" Next="蹲地" Size_x="32" Size_y="50"/>
-		<Act Name="空中投掷" State="6" Group="9" End="7" Fps="30" Start="4" Sound="3" Next="下落" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
-		<Act Name="站立受伤前" State="10" Group="13" Time="500" Sound="1" Next="站立" Speed_x="-400" AddSpeed_x="1000"/>
-		<Act Name="站立受伤后" State="10" Group="13" Time="500" Sound="1" Next="站立" Speed_x="400" AddSpeed_x="1000"/>
-		<Act Name="蹲地受伤前" State="11" Group="13" Begin="1" End="1" Loop="1" Time="500" Start="1" Sound="1" Next="蹲地" Speed_x="-400" AddSpeed_x="1000" Size_x="32" Size_y="50"/>
-		<Act Name="蹲地受伤后" State="11" Group="13" Begin="1" End="1" Loop="1" Time="500" Start="1" Sound="1" Next="蹲地" Speed_x="400" AddSpeed_x="1000" Size_x="32" Size_y="50"/>
+		<Act Name="站立投掷" Next="站立" State="4" Group="7" End="7" Fps="30" Start="4" Sound="3" Speed_x="-1" AddSpeed_x="1200"/>
+		<Act Name="蹲地投掷" Next="蹲地" State="5" Group="8" End="6" Fps="30" Start="4" Sound="3" Size_x="32" Size_y="50"/>
+		<Act Name="空中投掷" Next="下落" State="6" Group="9" End="7" Fps="30" Start="4" Sound="3" Speed_x="-1" Speed_y="-1" AddSpeed_x="1000" AddSpeed_y="1200"/>
+		<Act Name="站立受伤前" Next="站立" State="10" Group="13" Time="500" Sound="1" Speed_x="-400" AddSpeed_x="1000"/>
+		<Act Name="站立受伤后" Next="站立" State="10" Group="13" Time="500" Sound="1" Speed_x="400" AddSpeed_x="1000"/>
+		<Act Name="蹲地受伤前" Next="蹲地" State="11" Group="13" Begin="1" End="1" Loop="1" Time="500" Start="1" Sound="1" Speed_x="-400" AddSpeed_x="1000" Size_x="32" Size_y="50"/>
+		<Act Name="蹲地受伤后" Next="蹲地" State="11" Group="13" Begin="1" End="1" Loop="1" Time="500" Start="1" Sound="1" Speed_x="400" AddSpeed_x="1000" Size_x="32" Size_y="50"/>
 		<Act Name="空中受伤前" State="12" Group="13" Begin="3" End="3" Loop="3" Time="500" Start="3" Sound="1" Speed_x="-400" Speed_y="-400" AddSpeed_x="400" AddSpeed_y="1200"/>
 		<Act Name="空中受伤后" State="12" Group="13" Begin="2" End="2" Loop="2" Time="500" Start="2" Sound="1" Speed_x="400" Speed_y="-400" AddSpeed_x="400" AddSpeed_y="1200"/>
-		<Act Name="死亡" State="13" Group="10" End="2" Loop="2" Time="1000" Sound="6" Next="消失" Effect="里希特死亡" Speed_x="-500" Speed_y="-500" AddSpeed_x="500" AddSpeed_y="1200"/>
+		<Act Name="死亡" Next="消失" Effect="里希特死亡" State="13" Group="10" End="2" Loop="2" Time="1000" Sound="6" Speed_x="-500" Speed_y="-500" AddSpeed_x="500" AddSpeed_y="1200"/>
 		<Act Name="消失" State="14" Group="10" Begin="2" End="2" Loop="2" Fps="20" Time="1000" Start="2"/>
-		<Act Name="滑铲" State="5" Group="11" End="5" Loop="5" Fps="20" Time="500" Next="蹲地" Effect="滑铲01" Speed_x="500" AddSpeed_x="500" Size_x="32" Size_y="50"/>
+		<Act Name="滑铲" Next="蹲地" Effect="滑铲01" State="5" Group="11" End="5" Loop="5" Fps="20" Time="500" Speed_x="500" AddSpeed_x="500" Size_x="32" Size_y="50"/>
 		<Act Name="滑铲飞踢" State="6" Group="12" End="5" Loop="5" Fps="20" Time="500" Sound="3" Speed_x="500" Speed_y="-400" AddSpeed_x="300" AddSpeed_y="1200"/>
-		<Act Name="升龙拳" State="6" Group="14" End="5" Loop="5" Fps="20" Time="700" Start="2" Sound="3" Next="向前下落" Speed_x="200" Speed_y="-800" AddSpeed_y="1200"/>
-		<Act Name="空中急冲" State="6" Group="16" End="6" Loop="3" Fps="25" Time="600" Sound="3" Next="下落" Speed_x="600" AddSpeed_x="500"/>
-		<Act Name="空中旋踢" State="6" Group="17" End="6" Loop="1" Fps="25" Time="600" Sound="3" Next="下落" Speed_x="400" Speed_y="-400" AddSpeed_x="400" AddSpeed_y="1200"/>
-		<Act Name="高空落地" State="2" Group="2" End="2" Loop="2" Fps="20" Time="200" Sound="7" Effect="落地01" Speed_x="-1" AddSpeed_x="1200" Size_x="32" Size_y="50"/>
-		<Act Name="三倍跳跃" State="3" Group="6" Effect="大跳光柱" Speed_y="-1000" AddSpeed_y="1200"/>
-		<Act Name="五倍跳跃" State="3" Group="6" Speed_y="-1400" AddSpeed_y="1200"/>
+		<Act Name="升龙拳" Next="向前下落" State="6" Group="14" End="5" Loop="5" Fps="20" Time="700" Start="2" Sound="3" MpUse="5" Speed_x="200" Speed_y="-800" AddSpeed_y="1200"/>
+		<Act Name="空中急冲" Next="下落" State="6" Group="16" End="6" Loop="3" Fps="25" Time="600" Sound="3" Speed_x="600" AddSpeed_x="500"/>
+		<Act Name="空中旋踢" Next="下落" State="6" Group="17" End="6" Loop="1" Fps="25" Time="600" Sound="3" Speed_x="400" Speed_y="-400" AddSpeed_x="400" AddSpeed_y="1200"/>
+		<Act Name="高空落地" Effect="落地01" State="2" Group="2" End="2" Loop="2" Fps="20" Time="200" Sound="7" Speed_x="-1" AddSpeed_x="1200" Size_x="32" Size_y="50"/>
+		<Act Name="三倍跳跃" Effect="大跳光柱" State="3" Group="6" MpUse="5" Speed_y="-1000" AddSpeed_y="1200"/>
 		<Act Name="空中下踢" State="6" Group="21" End="1" Loop="1" Fps="15" Time="500" Sound="3" Speed_y="500" AddSpeed_y="1200"/>
 		<Act Name="空中侧踢" State="6" Group="21" End="1" Loop="1" Fps="15" Time="500" Sound="3" Speed_x="500" Speed_y="500" AddSpeed_y="1200"/>
 	</Action>

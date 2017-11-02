@@ -13,9 +13,9 @@
 		<Item Pos_x="20" Pos_y="40" Size_x="206" Size_y="180" Pic="\image\地图\失落的村庄\灯光01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="6" Type="9"/>
 		<Item Pos_x="222" Pos_y="77" Size_x="206" Size_y="180" Pic="\image\地图\失落的村庄\灯光01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="7" Type="9"/>
 		<Item Pos_x="372" Pos_y="77" Size_x="206" Size_y="180" Pic="\image\地图\失落的村庄\灯光01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="8" Type="9"/>
-		<Item Pos_x="369" Pos_y="321" Size_x="80" Size_y="66" Pic="\image\地图\动画\宝箱.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Frames="4" Fps="10" Id="9" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\普通宝箱.lua" Item="钱袋200" TaskId="11"/>
-		<Item Pos_x="293" Pos_y="715" Size_x="64" Size_y="128" Pic="\image\人物\村民.bmp" Pic_left="32" Pic_right="64" Pic_bottom="64" ColorKey="0xFFFF00FF" Flip="1" Id="10" Type="10" Item="对话" TaskId="2"/>
-		<Item Pos_x="209" Pos_y="255" Size_x="64" Size_y="128" Pic="\image\人物\村民.bmp" Pic_left="96" Pic_right="128" Pic_bottom="64" ColorKey="0xFFFF00FF" Flip="1" Id="11" Type="10" Item="对话" TaskId="3"/>
+		<Item Pos_x="369" Pos_y="321" Size_x="80" Size_y="66" Pic="\image\地图\动画\宝箱.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Frames="4" Fps="10" Id="9" Type="8" Effect="打开宝箱" Sound="\sound\场景\宝箱01.wav" Script="\data\脚本\开启宝箱\普通宝箱.lua" TaskId="11" Item="钱袋200"/>
+		<Item Pos_x="293" Pos_y="715" Size_x="64" Size_y="128" Pic="\image\人物\村民.bmp" Pic_left="32" Pic_right="64" Pic_bottom="64" ColorKey="0xFFFF00FF" Flip="1" Id="10" Type="10" TaskId="2" Item="对话"/>
+		<Item Pos_x="209" Pos_y="255" Size_x="64" Size_y="128" Pic="\image\人物\村民.bmp" Pic_left="96" Pic_right="128" Pic_bottom="64" ColorKey="0xFFFF00FF" Flip="1" Id="11" Type="10" TaskId="3" Item="对话"/>
 	</Anim>
 	<Obst>
 		<Item Pos_x="50" Size_x="650" Size_y="75" Obst="1"/>

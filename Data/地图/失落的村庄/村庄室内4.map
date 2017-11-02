@@ -7,7 +7,7 @@
 	<Anim>
 		<Item Pos_x="266" Pos_y="261" Size_x="20" Size_y="20" Pic="\image\µØÍ¼\Ê§ÂäµÄ´å×¯\Â·µÆ01.bmp" Pic_right="16" Pic_bottom="16" Blend="0x1" Id="1" ChildId="2" Damage="1" Effect="±¬Õ¨02" Sound="\sound\Îï¼þ\Â·µÆ.wav" Script="\data\½Å±¾\ÆÆ»µÎïÆ·\Ê§ÂäµÄ´å×¯.lua"/>
 		<Item Pos_x="172" Pos_y="173" Size_x="206" Size_y="196" Pic="\image\µØÍ¼\Ê§ÂäµÄ´å×¯\µÆ¹â01.bmp" Pic_right="64" Pic_bottom="64" Blend="0x3" Color0="0xFFFFFF00" Color1="0xFFFFFF00" Color2="0xFFFFFF00" Color3="0xFFFFFF00" Mask="1" Id="2" Type="9"/>
-		<Item Pos_x="71" Pos_y="439" Size_x="72" Size_y="64" Pic="\image\µØÍ¼\¶¯»­\±¦Ïä.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="3" Type="8" Effect="´ò¿ª±¦Ïä" Sound="\sound\³¡¾°\±¦Ïä01.wav" Script="\data\½Å±¾\¿ªÆô±¦Ïä\ÆÕÍ¨±¦Ïä.lua" Item="Ç®´ü300" TaskId="16"/>
+		<Item Pos_x="71" Pos_y="439" Size_x="72" Size_y="64" Pic="\image\µØÍ¼\¶¯»­\±¦Ïä.bmp" Pic_right="36" Pic_bottom="36" ColorKey="0x546D8E" Flip="1" Frames="4" Fps="10" Id="3" Type="8" Effect="´ò¿ª±¦Ïä" Sound="\sound\³¡¾°\±¦Ïä01.wav" Script="\data\½Å±¾\¿ªÆô±¦Ïä\ÆÕÍ¨±¦Ïä.lua" TaskId="16" Item="Ç®´ü300"/>
 	</Anim>
 	<Obst>
 		<Item Size_x="800" Size_y="100" Obst="1"/>
@@ -19,7 +19,7 @@
 		<Item Pos_x="203" Pos_y="436" Size_x="145" Size_y="64" Obst="2"/>
 	</Obst>
 	<Trap>
-		<Item Pos_x="787" Pos_y="201" Size_x="48" Size_y="198" Map="Ê§ÂäµÄ´å×¯02" MapPos_y="320"/>
+		<Item Pos_x="787" Pos_y="201" Size_x="48" Size_y="198" Id="1" Map="Ê§ÂäµÄ´å×¯02" MapPos_y="320"/>
 	</Trap>
 	<Char/>
 </Map>

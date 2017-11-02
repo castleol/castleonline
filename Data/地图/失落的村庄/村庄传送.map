@@ -17,9 +17,10 @@
 		<Item Size_x="101" Size_y="200" Obst="1"/>
 	</Obst>
 	<Trap>
-		<Item Pos_x="793" Pos_y="238" Size_x="60" Size_y="148" Map="失落的村庄05" MapPos_y="750"/>
+		<Item Pos_x="793" Pos_y="238" Size_x="60" Size_y="148" Id="1" Map="失落的村庄05" MapPos_y="750"/>
 		<Item Pos_x="701" Pos_y="338" Size_x="86" Size_y="62" Id="2" Type="1" Map="消息提示" Tips="Press @2Up@c at statue to teleport"/>
 		<Item Pos_x="-49" Pos_y="231" Size_x="60" Size_y="164" Id="3" Map="失落的村庄密道4" MapPos_x="800" MapPos_y="414"/>
+		<Item Pos_x="333" Pos_y="472" Size_x="133" Size_y="30" Id="4" Type="3" Map="村庄传送" Effect="传送01"/>
 	</Trap>
 	<Char/>
 </Map>
