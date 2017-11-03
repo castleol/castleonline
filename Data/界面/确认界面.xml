@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<desktop>
+	<Control Name="MakeSure0" Class="Window" Movable="1" Pos_x="201" Pos_y="216" Size_x="320" Size_y="185" Align="1" Text="确认界面" Font="5" TextAlign="2" TextRect_top="5" TextRect_right="320" TextRect_bottom="185" TextColor="0xFFD0C080" Pic="\image\界面\确认界面.bmp" PicRect_right="320" PicRect_bottom="185" CloseButton="Cancel" PopupEffect="1" CloseEffect="1" Effect_x="160" Effect_y="90" EscClose="1">
+		<Control Name="Cancel" Class="Button" Pos_x="171" Pos_y="122" Size_x="116" Size_y="29" Text="取消" Font="1" TextAlign="1" TextRect_right="116" TextRect_bottom="29" TextColor="0xFFC0C0C0" Pic="\image\界面\标准控件\Button116.bmp" PicRect_right="116" PicRect_bottom="29" PushPic="\image\界面\标准控件\Button116.bmp" PushPicRect_top="29" PushPicRect_right="116" PushPicRect_bottom="58" PushTextColor="0xFFFFFF00" PushTextOffs_x="1" PushTextOffs_y="1" MovePic="\image\界面\标准控件\Button116.bmp" MovePicRect_top="58" MovePicRect_right="116" MovePicRect_bottom="87" MoveTextColor="0xFFD0D000"/>
+		<Control Name="Ok" Class="Button" Pos_x="32" Pos_y="122" Size_x="116" Size_y="29" Text="确定" Font="1" TextAlign="1" TextRect_right="116" TextRect_bottom="29" TextColor="0xFFC0C0C0" Pic="\image\界面\标准控件\Button116.bmp" PicRect_right="116" PicRect_bottom="29" PushPic="\image\界面\标准控件\Button116.bmp" PushPicRect_top="29" PushPicRect_right="116" PushPicRect_bottom="58" PushTextColor="0xFFFFFF00" PushTextOffs_x="1" PushTextOffs_y="1" MovePic="\image\界面\标准控件\Button116.bmp" MovePicRect_top="58" MovePicRect_right="116" MovePicRect_bottom="87" MoveTextColor="0xFFD0D000"/>
+		<Control Name="Text" Class="Static" Pos_x="33" Pos_y="49" Size_x="252" Size_y="62" Text="是否要把这里设置为复活地点？" Font="2" TextRect_right="253" TextRect_bottom="62"/>
+	</Control>
+</desktop>

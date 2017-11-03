@@ -7,7 +7,7 @@ local x,y = GetPlayerDist()
 SetDir(x)
 x=math.abs(x)
 y=math.abs(y)
-if x>300 or y>150 then
+if x>400 or y>150 then
 do return end
 end
 

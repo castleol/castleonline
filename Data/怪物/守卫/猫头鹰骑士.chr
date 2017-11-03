@@ -2,18 +2,18 @@
 <Char Pic="\image\¹ÖÎï\ÊØÎÀ\Ã¨Í·Ó¥ÆïÊ¿.bmp" ColorKey="0xFF800000" Size_x="40" Size_y="100" Scale="2.000" Flip="1" HitEffect="ÉÁ¹â01" HurtEffect="Ã°Ñª01">
 	<Action Num="13">
 		<Act Name="Õ¾Á¢" Group="2" End="1" Fps="3"/>
-		<Act Name="×ªÉí" Group="1" Next="ÒÆ¶¯" Flip="1"/>
-		<Act Name="ÒÆ¶¯" State="1" Group="1" End="4" Loop="1" Time="1000" Next="Õ¾Á¢" Speed_x="60"/>
-		<Act Name="°Î½£" State="4" Group="4" End="5" Start="4" Sound="2" Next="ÄÃ½£ºóÍË" Speed_x="400" AddSpeed_x="800"/>
+		<Act Name="×ªÉí" Next="ÒÆ¶¯" Group="1" Flip="1"/>
+		<Act Name="ÒÆ¶¯" Next="Õ¾Á¢" State="1" Group="1" End="4" Loop="1" Time="1000" Speed_x="60"/>
+		<Act Name="°Î½£" Next="ÄÃ½£ºóÍË" State="4" Group="4" End="5" Start="4" Sound="2" Speed_x="400" AddSpeed_x="800"/>
 		<Act Name="ÄÃ½£Õ¾Á¢" Group="6" End="1" Fps="3"/>
-		<Act Name="ÄÃ½£ÒÆ¶¯" State="1" Group="5" End="4" Loop="1" Time="1000" Next="ÄÃ½£Õ¾Á¢" Speed_x="60"/>
-		<Act Name="ÄÃ½£×ªÉí" Group="6" Next="ÄÃ½£ÒÆ¶¯" Flip="1"/>
-		<Act Name="¹¥»÷1" State="4" Group="3" End="3" Next="Õ¾Á¢"/>
-		<Act Name="¹¥»÷2" State="4" Group="7" End="7" Start="5" Sound="1" Next="ÄÃ½£ºóÍË" Speed_x="500" AddSpeed_x="800"/>
-		<Act Name="¹¥»÷3" State="4" Group="8" End="7" Start="3" Sound="2" Next="ÄÃ½£ºóÍË" Speed_x="500" AddSpeed_x="800"/>
-		<Act Name="ËÀÍö" State="13" Group="9" End="2" Loop="2" Time="1000" Sound="3" Next="ÏûÊ§" Effect="Ã¨Í·Ó¥ÆïÊ¿ËÀÍö"/>
+		<Act Name="ÄÃ½£ÒÆ¶¯" Next="ÄÃ½£Õ¾Á¢" State="1" Group="5" End="4" Loop="1" Time="1000" Speed_x="60"/>
+		<Act Name="ÄÃ½£×ªÉí" Next="ÄÃ½£ÒÆ¶¯" Group="6" Flip="1"/>
+		<Act Name="¹¥»÷1" Next="Õ¾Á¢" State="4" Group="3" End="3"/>
+		<Act Name="¹¥»÷2" Next="ÄÃ½£ºóÍË" State="4" Group="7" End="7" Start="5" Sound="1" Speed_x="500" AddSpeed_x="800"/>
+		<Act Name="¹¥»÷3" Next="ÄÃ½£ºóÍË" State="4" Group="8" End="7" Start="3" Sound="2" Speed_x="500" AddSpeed_x="800"/>
+		<Act Name="ËÀÍö" Next="ÏûÊ§" Effect="Ã¨Í·Ó¥ÆïÊ¿ËÀÍö" State="13" Group="9" End="2" Loop="2" Time="1000" Sound="3"/>
 		<Act Name="ÏûÊ§" State="14" Group="9" Begin="2" End="2" Loop="2" Time="500" Start="2"/>
-		<Act Name="ÄÃ½£ºóÍË" State="1" Group="5" End="4" Loop="1" Time="1000" Next="ÄÃ½£Õ¾Á¢" Speed_x="-100"/>
+		<Act Name="ÄÃ½£ºóÍË" Next="ÄÃ½£Õ¾Á¢" State="1" Group="5" End="4" Loop="1" Time="500" Speed_x="-100"/>
 	</Action>
 	<Rect Num="4">
 		<Rect Name="¹¥»÷2" Frame="5" Rect_left="15" Rect_top="-79" Rect_right="117" Rect_bottom="-49"/>
@@ -27,7 +27,6 @@
 		<Snd Id="2" File="\Sound\¹ÖÎï\Ã¨Í·Ó¥ÆïÊ¿¹¥»÷.wav"/>
 		<Snd Id="3" File="\Sound\¹ÖÎï\Ã¨Í·Ó¥ÆïÊ¿ËÀÍö.wav"/>
 	</Sound>
-	<Effect Num="0"/>
 	<Image Num="46">
 		<Img Group="1" Pos_x="5" Pos_y="1" Size_x="35" Size_y="68" Hot_x="16" Hot_y="68"/>
 		<Img Group="1" Frame="1" Pos_x="53" Pos_y="1" Size_x="34" Size_y="68" Hot_x="16" Hot_y="68"/>
