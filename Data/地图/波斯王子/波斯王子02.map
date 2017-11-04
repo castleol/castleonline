@@ -308,8 +308,8 @@
 		<Item Pos_x="4269" Pos_y="929" Size_x="170" Size_y="22" Obst="1"/>
 	</Obst>
 	<Trap>
-		<Item Pos_x="6906" Pos_y="1358" Size_x="96" Size_y="42" Id="1" Type="3" Map="离开副本" Lua="\data\脚本\系统脚本\离开副本.lua"/>
-		<Item Pos_x="6748" Pos_y="735" Size_x="92" Size_y="38" Id="2" Type="3" Map="过关传送" Lua="\data\脚本\个人副本\波斯王子01.lua"/>
+		<Item Pos_x="6906" Pos_y="1358" Size_x="96" Size_y="42" Id="1" Map="离开副本" Lua="\data\脚本\系统脚本\离开副本.lua"/>
+		<Item Pos_x="6748" Pos_y="735" Size_x="92" Size_y="38" Id="2" Map="过关传送" Lua="\data\脚本\个人副本\波斯王子01.lua"/>
 	</Trap>
 	<Char>
 		<Item Pos_x="5952" Pos_y="1183" Size_x="47" Size_y="61" Id="1" Char="波斯士兵"/>

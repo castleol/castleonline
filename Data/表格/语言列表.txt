@@ -1,0 +1,243 @@
+英文	中文
+File	文件
+New	新建
+Open	打开
+Save	保存
+Save As	另存为
+Quit	退出
+Edit	编辑
+Undo	撤销
+Redo	重复
+Copy	拷贝
+Paste	粘贴
+Cut	剪切
+Delete	删除
+Flip Up	上移一层
+Flip Down	下移一层
+Flip Top	移到顶端
+Flip Bottom	移到底部
+Window	窗口
+Help Window	帮助窗口
+List Window	列表窗口
+Edit Window	编辑窗口
+About Window	关于窗口
+FileList	文件列表
+FileName	文件名
+FileSize	文件大小
+FileDate	文件日期
+Open File	打开文件
+Save File	保存文件
+Name	名称
+Value	数值
+View	显示
+Tile Layer	背景层
+Anim Layer	物件层
+Obst Layer	障碍层
+Trap Layer	陷阱层
+Char Layer	角色层
+Show Rect	显示矩形
+Show Anim	显示动画
+Update Image	刷新贴图
+Delta Move	差速移动
+Default Size	缺省大小
+Zoom In	放大
+Zoom Out	缩小
+Zoom Home	缺省大小
+Zoom End	实际大小
+Item List	物件列表
+Group	组号
+Frame	帧号
+Pic	贴图
+Item List	物件列表
+Item Editor	物件编辑
+Map Editor	地图编辑
+Width	宽度
+Height	高度
+Change Map Size	改变地图大小
+Resize All Item	改变物件大小
+Reset Item Id	重设物件ID
+Reset Item Size	重设物件大小
+X Offset	X轴偏移
+Y Offset	Y轴偏移
+Move All Item	移动全部物件
+Item Pic	物件贴图
+Obst Type	障碍类型
+Set All Obst	设置物件障碍
+Up Down Flip	上下反转地图
+Left Right Flip	左右反转地图
+Pos_x	X坐标
+Pos_y	Y坐标
+Size_x	宽度
+Size_y	高度
+Pic_left	贴图坐标[左]
+Pic_right	贴图坐标[右]
+Pic_top	贴图坐标[上]
+Pic_bottom	贴图坐标[下]
+Filter	贴图过滤
+Blend	混合模式
+ColorKey	透明色
+Color0	顶点颜色0
+Color1	顶点颜色1
+Color2	顶点颜色2
+Color3	顶点颜色3
+Tile	平铺贴图
+Flip	反转贴图
+Mask	遮挡角色
+Obst	障碍类型
+Frames	动画总帧数
+Fps	动画帧速率
+DeltaX	X轴移动速度
+DeltaY	Y轴移动速度
+Show Collide	显示碰撞
+Show Texture	显示贴图
+Show Animate	显示动画
+Next Frame	向后一帧
+Prev Frame	向前一帧
+Action List	动作列表
+Add##Action	添加##动作
+Delete##Action	删除##动作
+Copy##Action	拷贝##动作
+Paste##Action	粘贴##动作
+Action	动作
+State/Group/Begin/End/Loop/Fps	状态/组号/开始/结束/循环/速率
+Patch List	拼图列表
+Add##Patch	添加##拼图
+Delete##Patch	删除##拼图
+Copy##Patch	拷贝##拼图
+Paste##Patch	粘贴##拼图
+FlipUp##Patch	上移##拼图
+FlipDown##Patch	下移##拼图
+Begin	开始帧
+End	结束帧
+Loop	循环帧
+Texture List	贴图列表
+Sort##Tex	排序##贴图
+Update##Tex	刷新##贴图
+Delete##Tex	删除##贴图
+Clear##Tex	清空##贴图
+Id	ID
+Time	动画时间
+Rect List	碰撞列表
+Sort##Rect	排序##碰撞
+Delete##Rect	删除##碰撞
+Rect	矩形
+Sound List	音效列表
+Add##Snd	添加##音效
+Delete##Snd	删除##音效
+Num	编号
+Char Editor	属性编辑
+Misc Editor	对象编辑
+Background Color	背景颜色
+Color	颜色值
+Palette	调色板
+Scale	缩放
+TrailTime	残影时间
+TrailFade	残影淡出
+TrailColor	残影颜色
+Shadow	阴影
+ShadowColor	阴影颜色
+Effect	特效
+HitEffect	打击特效
+HurtEffect	受伤特效
+HurtShader	受伤变色
+Next	后续动作
+Image	贴图文件
+State	角色状态
+Start	播放特效帧
+ColorBegin	起始颜色值
+ColorEnd	结束颜色值
+Sound	音效ID
+Shader	变色ID
+MpUse	魔法消耗
+Speed_x	X轴速度
+Speed_y	Y轴速度
+AddSpeed_x	X轴加速度
+AddSpeed_y	Y轴加速度
+Swing_x	X轴摆动
+Swing_y	Y轴摆动
+Fly	飞行模式
+MoveType	运动类型
+MoveSpeed	运动速度
+TimeBegin	开始时间
+TimeEnd	结束时间
+Offs_x	X轴偏移
+Offs_y	Y轴偏移
+Speed	速度
+Motion	运动模式
+Body	身体
+Hot_x	重心X坐标
+Hot_y	重心Y坐标
+Move_x	X轴偏移
+Move_y	Y轴偏移
+Angle	旋转角度
+Rect_left	矩形坐标[左]
+Rect_right	矩形坐标[右]
+Rect_top	矩形坐标[上]
+Rect_bottom	矩形坐标[下]
+Emit Effect	发射全部
+Emit Select	发射选择
+Update Image	刷新贴图
+Set Center Pos	设置重心
+Effect List	特效列表
+Effect Editor	特效编辑
+Pos	位置
+Size	大小
+Random	随机发射
+EmitNum	发射数量
+EmitInter	发射间隔
+EmitTime	发射时间
+EmitSpeed_x	发射速度X轴
+EmitSpeed_y	发射速度Y轴
+EndColor	结束颜色值
+BeginTime	起始时间
+EndTime	结束时间
+EmitSound	发射音效
+BoundSound	反弹音效
+SetSize	设置大小
+ItemSize_x	粒子大小X
+ItemSize_y	粒子大小Y
+ItemHot_x	粒子重心X
+ItemHot_y	粒子重心Y
+ItemSizeAdd_x	粒子大小变化X
+ItemSizeAdd_y	粒子大小变化Y
+ItemFrame	粒子帧数
+ItemFps	粒子帧速率
+ItemLife	粒子生命
+ItemScale	粒子缩放
+ItemAngle	粒子旋转
+ItemQuality	粒子质量
+MinSpeedX	X轴最小速度
+MaxSpeedX	X轴最大速度
+MinSpeedY	Y轴最小速度
+MaxSpeedY	Y轴最大速度
+AddSpeedX	X轴加速度
+AddSpeedY	Y轴加速度
+AngleSpeed	旋转速度
+ScaleSpeed	缩放速度
+Follow	跟随类型
+MotionStep	运动步长
+MotionTime	运动时间
+MoveItem	跟随发射器
+HitType	伤害类型
+HitOnce	碰撞消失
+Rebound	是否反弹
+Destroy	可以打掉
+Magic	主角魔法
+Water	水下特效
+Text	文字
+Font	字体
+FlipTime	反转时间
+Appear	逐渐出现
+AddEffect	附加特效
+EndEffect	结束特效
+Align	对齐
+Center	居中
+Top	上侧居中
+Bottom	下侧居中
+Left	左侧居中
+Right	右侧居中
+Horizon	左右居中
+Vertical	上下居中
+Size To Pic	缺省大小
+Ctrl Tree	控件列表
+Ctrl Editor	控件编辑

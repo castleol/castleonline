@@ -10,6 +10,7 @@ SetAnimImage(1,"\\image\\地图\\炼金研究所\\墙壁破裂.bmp",64,0,32,64);
 end
 if damage==0 then
 AddAnimEffect(1,"墙壁破裂04")
+HideAnimItem(1,1)
 SetTaskBit("破坏物品","炼金研究所",id)
 end
 end
@@ -23,6 +24,7 @@ SetAnimImage(14,"\\image\\地图\\炼金研究所\\地面破裂.bmp",64,0,32,16);
 end
 if damage==0 then
 AddAnimEffect(14,"墙壁破裂04")
+HideAnimItem(14,1)
 SetTaskBit("破坏物品","炼金研究所",id)
 end
 end
