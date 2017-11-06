@@ -146,8 +146,8 @@ State	角色状态
 Start	播放特效帧
 ColorBegin	起始颜色值
 ColorEnd	结束颜色值
-Sound	音效ID
-Shader	变色ID
+Sound	音效
+Shader	变色
 MpUse	魔法消耗
 Speed_x	X轴速度
 Speed_y	Y轴速度
@@ -241,3 +241,23 @@ Vertical	上下居中
 Size To Pic	缺省大小
 Ctrl Tree	控件列表
 Ctrl Editor	控件编辑
+Type	类型
+ChildId	子物件ID
+Damage	破坏次数
+CloseSound	关闭音效
+Script	LUA脚本
+TaskId	任务ID
+Item	物品名称
+ItemStar	物品合成
+EndPos_x	结束位置X
+EndPos_y	结束位置Y
+EndSize_x	结束大小X
+EndSize_y	结束大小Y
+Map	地图名称
+MapPos_x	地图X坐标
+MapPos_y	地图Y坐标
+MapDir	角色方向
+Lua	LUA脚本
+Tips	提示消息
+Char	角色名称
+Hide	隐藏

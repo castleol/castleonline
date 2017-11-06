@@ -6,9 +6,9 @@
 	<Anim>
 		<Item Pos_x="107" Pos_y="746" Size_x="32" Size_y="64" Pic="\Image\地图\动画\瓶子01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFFFFFFFF" Flip="1" Frames="1" Id="1" Damage="1" Effect="灯台02" Sound="\sound\物件\瓶子.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="钱袋100"/>
 		<Item Pos_x="691" Pos_y="746" Size_x="32" Size_y="64" Pic="\Image\地图\动画\瓶子01.bmp" Pic_right="16" Pic_bottom="32" ColorKey="0xFFFFFFFF" Flip="1" Frames="1" Id="2" Damage="1" Effect="灯台02" Sound="\sound\物件\瓶子.wav" Script="\data\脚本\破坏物品\一次性物品.lua" Item="钱袋100"/>
-		<Item Pos_x="272" Pos_y="118" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="5" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
-		<Item Pos_x="184" Pos_y="619" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="6" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
-		<Item Pos_x="496" Pos_y="423" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="7" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="272" Pos_y="118" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="3" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="184" Pos_y="619" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="4" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
+		<Item Pos_x="496" Pos_y="423" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="5" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
 		<Item Pos_x="452" Pos_y="887" Size_x="52" Size_y="42" Pic="\Image\地图\动画\蜡烛01.bmp" Pic_right="52" Pic_bottom="42" Frames="2" Fps="10" Id="6" Damage="1" Effect="火焰01" Sound="\sound\物件\蜡烛.wav" Script="\data\脚本\破坏物品\地下通道.lua"/>
 	</Anim>
 	<Obst>
